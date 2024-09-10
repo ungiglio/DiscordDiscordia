@@ -1,234 +1,104 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>iBin</title>
-    <link rel="stylesheet" type="text/css" href="index.css?v=1.1.5">
-    <link rel="icon" href="media/favicon/i-icon.png" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lande della Discordia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #dcddde;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #36393f; /* Discord dark theme background */
+        }
+        header {
+            background-color: #2f3136; /* Discord darker gray */
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        h1 {
+            margin-bottom: 0;
+            font-family: 'Pirata One', cursive;
+            font-size: 2.5em;
+        }
+        .theme-preview {
+            background-color: #b266ff; /* The specific purple color */
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .button {
+            display: inline-block;
+            background-color: #7289da;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #5b6eae;
+        }
+        section {
+            background-color: #2f3136; /* Discord darker gray */
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+    </style>
 </head>
-
 <body>
-    <header class="col-container">
-        <div id="Hdiv1">
-            <h2 id="Hh2"><i class="fa fa-trash-o"></i> iBin</h2>
-        </div>
+    <header>
+        <h1>Lande della Discordia</h1>
+        <p>A custom purple theme to enhance your Discord experience</p>
     </header>
 
-    <div class="parallax"></div>
+    <main>
+        <section class="theme-preview">
+            <h2>Theme Preview</h2>
+            <p>Experience Discord in a whole new light with our "Lande della Discordia" purple-themed customization.</p>
+        </section>
 
-    <!--<div class="parallaxDiv divTabs">
-        <h2>TABS</h2>
-        <a style="color: black;" href="/dashboard">
-            <div class="card">
-                <i style="font-size: 150px;" class="fa fa-pie-chart"></i>
-                <h5>DASHBOARD</h5>
-            </div>
-        </a>
-        <a style="color: black;" href="/diario">
-            <div class="card">
-                <i style="font-size: 150px;" class="fa fa-book"></i>
-                <h5>DIARIO</h5>
-            </div>
-        </a>
-        <a style="color: black;" href="/contatti">
-            <div class="card">
-                <i style="font-size: 150px;" class="fa fa-envelope"></i>
-                <h5>CONTATTI</h5>
-            </div>
-        </a>
-        <a style="color: black;" href="/form">
-            <div class="card">
-                <i style="color: black;font-size: 150px;" class="fa fa-th-list"></i>
-                <h5>FORM</h5>
-            </div>
-        </a>
-    </div>
+        <section>
+            <h2>About the Theme</h2>
+            <p>This purple theme, called "Lande della Discordia", was created by <a style="text-decoration: none;color: #00A6F6;" href="https://discord.com/users/769144538107215872">@ungiglio</a> to customize his own Discord client. Now, he's sharing it with everyone who wants to add a touch of elegance to their Discord interface.</p>
+            <p>The theme features a beautiful purple shade (#b266ff) that transforms your Discord experience into something truly unique.</p>
+        </section>
 
-    <div class="parallax2"></div>-->
+        <section>
+            <h2>Installation <span style="font-size: small;">[<a style="text-decoration: none;color: #00A6F6;" href="https://vencord.dev">vencord.dev</a> version]</span></h2>
+            <p>To install the "Lande della Discordia" theme, follow these steps:</p>
+            <ol>
+                <li>Download the theme files from our GitHub repository</li>
+                <li>Open your Discord client</li>
+                <li>Navigate to Vencord > Themes</li>
+                <li>Under "Local Themes", select "Open Themes Folder" and upload the downloaded files named "Discordia.theme.css"</li>
+                <li>Click "Load Missing Themes" and check the toggle near "Lande della Discordia" card</li>
+            </ol>
+            <a href="https://github.com/ungiglio/DiscordDiscordia" class="button">Download Theme</a>
+        </section>
 
-    <div class="parallaxDiv divPres">
-        <h2>PRESENTAZIONE DEL PROGETTO</h2>
-        <p>
-            <mbold>iBin</mbold> è un cestino intelligente in grado di comunicare con questo sito attraverso il mondo
-            dell'<mbold>IoT</mbold> (Internet of Things). Il motivo della sua creazione risiede nella consegna affidata
-            a noi dai nostri prof: trovare e risolvere le <mbold>problematiche ambientali</mbold> causate dalla nostra
-            scuola, e per fare ciò abbiamo avuto a disposizione tutto ciò che abbiamo imparato in questi cinque anni di
-            liceo scienze applicate.
-        </p>
-        <p>Il cestino è infatti pensato per buttarci dentro esclusivamente i pennarelli delle lavagne che i prof
-            utilizzano ogni giorno, così da avere un'idea di quanta plastica venisse ogni anno utilizzata.</p>
-        <p>Grazie ai dati che il cestino ha rilevato, abbiamo potuto procedere con un'analisi dei dati per capire se, a
-            lungo andare, avesse senso o meno comprare delle <mbold>lavagne digitali</mbold>. Grazie alle lavagne
-            digitali infatti calerebbe notevolmente lo spreco di plastica nella scuola, però in gioco ci sono anche
-            fattori economici piuttosto elevati.</p>
-        <h2>RISULTATI</h2>
-        <p>Il tempo per realizzare il progetto è stata la causa maggiore del nostro non riuscire a realizzare
-            completamente l'idea di partenza del progetto.</p>
-        <p>Siamo riusciti a programmare:</p>
-        <ul>
-            <li>Il display in modo tale che mostrasse il numero di volte che il cestino è stato aperto;</li>
-            <li>L'Ultrasonic Range (Sensore che rileva la distanza) in modo tale che possa rilevare la distanza di un
-                oggetto per attivare il servomotore nel caso in cui l'oggetto sia vicino;</li>
-            <li>Il servomotore che possa aprire il coperchio del cestino;</li>
-            <li>Il Particle che possa collegarsi al sito e inviargli i dati che rileva;</li>
-            <li>Parte della dashboard riuscendo a mostrare il numero di pennarelli all'interno del cestino, lo spazio
-                all'interno dell' iBin disponibile e occupato e l'obiettivo, ovvero la percentuale dei soldi guadagnati
-                sui soldi necessari per una lavagna digitale;</li>
-            <li>Il sito con le diverse sezioni al suo interno, tra cui: la sezione per la dashboard, per il diario del
-                progetto, la home per la presentazione del progetto e il form da compilare per specificare la materia
-                del professore che ha buttato il pennarello.</li>
-        </ul>
-        <p>Non siamo riusciti a programmare:</p>
-        <ul>
-            <li>Il sensore di peso perchè, ordinandolo online, non sarebbe arrivato in tempo;</li>
-            <li>Parte della dashboard che, in base al progetto iniziale che avevamo pensato per la dashboard, non è
-                completa;</li>
-            <li>La sezione contatti.</li>
-        </ul>
-        <p>Nella parte di progettazione 3D su Sketchup siamo riusciti a completare e stampare:</p>
-        <ul>
-            <li>Il box che contiene il circuito con le componenti;</li>
-            <li>Il contenitore del servomotore attaccato a una base quadrata da fissare al cestino;</li>
-            <li>Il coperchio del cestino.</li>
-        </ul>
-
-        <h2>SVILUPPI FUTURI</h2>
-        <ul>
-            <li>Ordinare il sensore di peso e collegarlo a particle programmandolo in modo tale che sia capace di
-                rilevare il peso totale degli oggetti all'interno del cestino e inviare questi valori a Particle;</li>
-            <li>Dai dati ricevuti, dividere il peso totale per il peso medio dei pennarelli, così da ottenere il numero
-                di pennarelli presenti all'interno del cestino;</li>
-            <li>Mostrare sul display tale numero, sostituendolo quindi con il numero di volte che il coperchio è stato
-                aperto;</li>
-            <li>Programmare la sezione contatti;</li>
-            <li>Completare la dashboard aggiungendo i grafici</li>
+        <section>
+            <h2>Reporting Bugs</h2>
+            <p>If you encounter any issues or have suggestions for improving "Lande della Discordia", please report them through one of these channels:</p>
             <ul>
-                <li>
-                    <mbold>Stacked Bar Chart</mbold> per mostrare il numero di pennarelli buttati (asse delle ordinate)
-                    ogni settimana (asse delle ascisse). Il numero di pennarelli deve essere inoltre diviso per colore
-                    in base alle materie. I colori seguono un determinato gradiente di colore in base all'area di cui
-                    fanno parte (umanistica o scientifica - sono specificate nel form);
-                </li>
-                <li>
-                    <mbold>Stacked Bar Chart</mbold> per mostrare il numero di pennarelli buttati (asse delle ordinate)
-                    per materia (asse delle ascisse). Il numero di pennarelli deve essere inoltre diviso per colore in
-                    base ai prof per ogni materia (i professori di ogni materia sono specificati nel form);
-                </li>
-                <li>
-                    <mbold>Doughnut</mbold> per mostrare la percentuale dei pennarelli buttati divisi per ogni materia,
-                    ciascuna delle quali avrà quindi un colore diverso (stessa questione del gradiente del colore che
-                    segue l'area a cui la materia appartiene). Al centro mostrare invece il numero totale dei pennarelli
-                    buttati fino a quel momento;
-                </li>
-                <li>
-                    <mbold>Classifica</mbold> che riporti i prof meno eco-sostenibili (quelli che buttano più
-                    pennarelli);
-                </li>
-                <li>
-                    <mbold>Riquadro</mbold> circolare che riporti il numero di pennarelli presenti in quel momento nel
-                    cestino (in base quindi al peso che il sensore di peso sta rilevando).
-                </li>
+                <li>Join our Discord server and report in the #bug-reports channel</li>
+                <li>Open an issue on our GitHub repository</li>
             </ul>
-            <li>Finire il montaggio del circuito inserendolo nel box e assemblando il tutto su un cestino;</li>
-            <li>Analizzare e valutare, dopo aver ottenuto una presa dati consistente, la possibilità di comprare delle
-                lavagne digitali (anche tenendo conto del costo) per diminuire l'impatto ambientale della nostra scuola.
-            </li>
-        </ul>
-    </div>
+            <!--<a href="https://discord.gg/ungiglio-theme" class="button">Join Discord Server</a>-->
+            <a href="https://github.com/ungiglio/DiscordDiscordia/issues" class="button">Report on GitHub</a>
+        </section>
+    </main>
 
-    <div class="parallax2"></div>
-
-    <div class="parallaxDiv">
-        <h2>TEAM</h2>
-        <div class="card">
-            <img src="media/images/pfp/jacky.png" alt="Giacomo" width="200" height="200">
-            <h5>GIACOMO NORDIO</h5>
-            <h6>MANAGER</h6>
-        </div>
-        <div class="card">
-            <img src="media/images/pfp/momo.png" alt="Alberto" width="200" height="200">
-            <h5>ALBERTO MORETTI</h5>
-            <h6>SKETCHUP MODELER</h6>
-        </div>
-        <div class="card">
-            <img src="media/images/pfp/mister.png" alt="Stefano" width="200" height="200">
-            <h5>STEFANO SCARCELLA</h5>
-            <h6>3D MODELER</h6>
-        </div>
-        <div class="card">
-            <img src="media/images/pfp/giulio.png" alt="Giulio" width="200" height="200">
-            <h5>GIULIO RENDA</h5>
-            <h6>DEVELOPER</h6>
-        </div>
-    </div>
-
-    <div class="parallax3"></div>
-
-    <!--Codice qui-->
-    <div class="icon-bar">
-        <a href="/dashboard"><i class="fa fa-pie-chart"></i>
-            <p>Dashboard</p>
-        </a>
-        <a href="/diario"><i class="fa fa-book"></i>
-            <p>Diario</p>
-        </a>
-        <a onclick="audioStart()" href="#"><i class="fa fa-home active"></i>
-            <p class="active">Home</p>
-        </a>
-        <a href="/contatti"><i class="fa fa-envelope"></i>
-            <p>Contatti</p>
-        </a>
-        <a href="/form"><i class="fa fa-th-list"></i>
-            <p>Form</p>
-        </a>
-        <h2 class="ilogo"><i class="fa fa-trash-o"></i> iBin</h2>
-    </div>
-
-    <div class="gg" style="background-color: #5865F2; height: 100px;">
-    </div>
-
-    <script>
-        function CustomAlert() {
-            this.alert = function (message, title, footer) {
-                document.body.innerHTML = document.body.innerHTML + '<div id="dialogoverlay"></div><div id="dialogbox" class="slit-in-vertical"><div><div id="dialogboxhead"></div><div id="dialogboxbody"></div><div id="dialogboxfoot"></div></div></div>';
-
-                let dialogoverlay = document.getElementById('dialogoverlay');
-                let dialogbox = document.getElementById('dialogbox');
-
-                let winH = window.innerHeight;
-                dialogoverlay.style.height = winH + "px";
-
-                dialogbox.style.top = "100px";
-
-                dialogoverlay.style.display = "block";
-                dialogbox.style.display = "block";
-
-                document.getElementById('dialogboxhead').style.display = 'block';
-
-                if (typeof title === 'undefined') {
-                    document.getElementById('dialogboxhead').style.display = 'none';
-                } else {
-                    document.getElementById('dialogboxhead').innerHTML = '<i class="fa fa-exclamation-circle" aria-hidden="true"></i> ' + title;
-                }
-                document.getElementById('dialogboxbody').innerHTML = message;
-                if (typeof footer === 'undefined') {
-                    document.getElementById('dialogboxfoot').innerHTML = '<button class="pure-material-button-contained active" onclick="customAlert.ok()">OK</button>';
-
-                } else {
-                    document.getElementById('dialogboxfoot').innerHTML = '<p style="color:white;margin:0;margin-left:10px;margin-top:15px;float:left;">' + footer + '</p><button class="pure-material-button-contained active" onclick="customAlert.ok()">OK</button>';
-
-                }
-            }
-
-            this.ok = function () {
-                document.getElementById('dialogbox').style.display = "none";
-                document.getElementById('dialogoverlay').style.display = "none";
-            }
-        }
-
-        let customAlert = new CustomAlert();
-    </script>
+    <footer>
+        <p>&copy; 2024 Ungiglio. All rights reserved.</p>
+    </footer>
 </body>
-
 </html>
