@@ -13,23 +13,23 @@
 
 /* CUSTOMIZATION CONTROL CENTER */
 :root {
-  --rgb-highlight: 178, 102, 255;         /*4, 217, 255; /* The main highlight color */
-  --rgb-text: 197, 200, 198;              /* The main text color */
-  --rgb-close-button: 212, 18, 39;        /* The main "close this" or "deny" color */
-  --rgb-online-color: 31, 147, 80;        /* The color used in the "online" user status symbol */
-  --rgb-afk-color: 220, 163, 46;          /* The color used in the "idle" user status symbol */
-  --rgb-dnd-color: 224, 58, 62;             /* The color used in the "do not disturb" user status symbol */
-  --rgb-streaming-color: 188, 19, 254;    /* The color used in the "streaming X" user status symbol */
+  --rgb-highlight: 178, 102, 255;                 /*4, 217, 255; /* The main highlight color */
+  --rgb-text: 197, 200, 198;                      /* The main text color */
+  --rgb-close-button: 224, 58, 62;                /* The main "close this" or "deny" color */
+  --rgb-online-color: 31, 147, 80;                /* The color used in the "online" user status symbol */
+  --rgb-afk-color: 220, 163, 46;                  /* The color used in the "idle" user status symbol */
+  --rgb-dnd-color: 224, 58, 62;                   /* The color used in the "do not disturb" user status symbol */
+  --rgb-streaming-color: 188, 19, 254;            /* The color used in the "streaming X" user status symbol */
 
-  --transition-time: .3s;                 /* How fast animations added by the theme happen. Default is 0.3 seconds */
+  --transition-time: .3s;                         /* How fast animations added by the theme happen. Default is 0.3 seconds */
 
-  --show-original-title: 0;               /* Whether you want to show discords original title (0 means no, 1 means yes) */
-  --show-custom-title: 1;                 /* Whether you want to show a custom title (0 means no, 1 means yes) */
-  --custom-title-text: "Lande della Discordia"; /* The custom text you want to display */
-  --custom-title-font-size: 18px;         /* The size in pixels of the custom title text */
-  --custom-title-font-weight: normal;     /* The font "weight" of the custom title text. For reference: https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
-  --custom-title-margin-top: 0px;         /* The distance from the top of the window to the custom title text */
-  --custom-title-margin-left: 10px;        /* The distance from the left side of the window to the custom title text */
+  --show-original-title: 0;                       /* Whether you want to show discords original title (0 means no, 1 means yes) */
+  --show-custom-title: 1;                         /* Whether you want to show a custom title (0 means no, 1 means yes) */
+  --custom-title-text: "Lande della Discordia";   /* The custom text you want to display */
+  --custom-title-font-size: 18px;                 /* The size in pixels of the custom title text */
+  --custom-title-font-weight: normal;             /* The font "weight" of the custom title text. For reference: https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
+  --custom-title-margin-top: 0px;                 /* The distance from the top of the window to the custom title text */
+  --custom-title-margin-left: 10px;               /* The distance from the left side of the window to the custom title text */
 
   --custom-channel-header-color: rgb(241, 236, 247);
   --custom-channel-icon: rgb(153, 118, 187);
