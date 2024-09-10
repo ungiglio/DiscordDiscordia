@@ -15,7 +15,7 @@ To install the "Lande della Discordia" theme:
 1. Download the theme files from this GitHub repository
 2. Open your Discord client
 3. Navigate to Vencord > Themes
-4. Under "Local Themes", select "Open Themes Folder" and upload the downloaded files named "Discordia.theme.css"
+4. Under "Local Themes", select "Open Themes Folder" and upload the downloaded files named "discordia.theme.css"
 5. Click "Load Missing Themes" and check the toggle near "Lande della Discordia" card
 
 ## Reporting Bugs
