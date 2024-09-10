@@ -1,2 +1,2 @@
-# lande-della-discordia
+# Lande della Discordia
 Theme for BetterDiscord
