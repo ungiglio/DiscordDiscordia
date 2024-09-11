@@ -397,17 +397,18 @@ body {
 .panels_a4d4d9 {    /*personal info/status panel*/
     flex: 0 0 auto;
     background-color: var(--background-secondary-alt);
+    border: 1px solid rgba(0, 0, 0, 0);
     z-index: 2;
     border-radius: 8px;
-    border: 1px solid var(--highlight);
     position: fixed;
     width: 237px;
     height: 44px;
     bottom: 24px;
-    /*display: none;*/
 }
 .container_b2ca13 { /*personal info/status panel section*/
+    border: 1px solid var(--highlight);
     height: 43px; /*52*/
+    /*bottom: 54px; /*24px;*/
     font-size: 14px;
     font-weight: 500;
     display: flex;
@@ -416,6 +417,13 @@ body {
     flex-shrink: 0;
     position: relative;
     border-radius: 8px;
+}
+.activityPanel_a4d4d9 { /*activitypanel*/
+    border: 1px solid var(--highlight);
+    border-radius: 8px;
+    position: relative;
+    z-index: 2;
+    bottom: 60px;
 }
 
 .privateChannels_f0963d {   /*friend list*/
