@@ -300,7 +300,7 @@ body {
     background-color: rgba(var(--rgb-highlight), 20%)
 }
 
-*/ .reactionMe_ec6b19 .reactionCount_ec6b19 {
+.reactionMe_ec6b19 .reactionCount_ec6b19 {
     color: var(--background) !important
 }
 
@@ -372,6 +372,70 @@ body {
     display: block
 }
 
+.newMessagesBar_cf58b5 { /*new messages bar*/
+    height: 32px;
+    top: 0px;
+    border-radius: 8px;
+    background-color: var(--highlight);
+    box-shadow: var(--elevation-low);
+}
+
+.subtitleContainer_a7d72e { /*channel header*/
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 8px;
+    border: 1px solid var(--highlight);
+}
+.title_a7d72e { /*channel header section*/
+    position: relative;
+    flex: 0 0 auto;
+    z-index: 100;
+    border-radius: 8px;
+}
+
+.panels_a4d4d9 {    /*personal info/status panel*/
+    flex: 0 0 auto;
+    background-color: var(--background-secondary-alt);
+    z-index: 2;
+    border-radius: 8px;
+    border: 1px solid var(--highlight);
+    position: fixed;
+    width: 237px;
+    height: 44px;
+    bottom: 24px;
+    /*display: none;*/
+}
+.container_b2ca13 { /*personal info/status panel section*/
+    height: 43px; /*52*/
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding: 0 8px 1px;
+    flex-shrink: 0;
+    position: relative;
+    border-radius: 8px;
+}
+
+.privateChannels_f0963d {   /*friend list*/
+    padding-bottom: 68px;
+}
+.scroller_c43953 {  /*channel list*/
+    padding-bottom: 68px;
+}
+.scroller_c43953::-webkit-scrollbar { /*channel list scrollbar hidden*/
+  display: none;
+}
+
+.scroller_e2e187::-webkit-scrollbar { /*channel scrollbar hidden*/
+  width: 12px;
+}
+
+.bottom_eba0ba { /*new messages button - bottom*/
+    bottom: 70px;
+}
+
  .info_c5a741:last-child::after {
     content: "Terminal 1.0.0";
     font-size: 12px;
@@ -379,7 +443,7 @@ body {
     color: rgb(var(--rgb-highlight))
 }
 
-.tabBar_c2739c .addFriend_c2739c.addFriend_c2739c.addFriend_c2739c { /* add firend button */
+.tabBar_c2739c .addFriend_c2739c.addFriend_c2739c.addFriend_c2739c { /* add friend button */
     background-color: var(--status-danger-background);
 }
 
