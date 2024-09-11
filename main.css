@@ -423,10 +423,12 @@ body {
 }
 .scroller_c43953 {  /*channel list*/
     padding-bottom: 68px;
-    padding-right: 7px;
 }
 .scroller_c43953::-webkit-scrollbar { /*channel list scrollbar hidden*/
-  display: none;
+  display: block;
+}
+.scroller_c43953::-webkit-scrollbar-thumb {
+  background: #2b2d31;
 }
 
 .scroller_e2e187::-webkit-scrollbar { /*channel scrollbar hidden*/
