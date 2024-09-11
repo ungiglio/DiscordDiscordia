@@ -428,7 +428,7 @@ body {
   display: block;
 }
 .scroller_c43953::-webkit-scrollbar-thumb {
-  background: #2b2d31;
+  background: rgba(43, 45, 49, 0);
 }
 
 .scroller_e2e187::-webkit-scrollbar { /*channel scrollbar hidden*/
