@@ -425,7 +425,7 @@ body {
     /*position: absolute;*/
     width: 220px;
     z-index: 2;
-    bottom: 75px; /*75/*175*/
+    bottom: 85px; /*85/*175*/
 }
 .theme-dark #vc-spotify-player {
     background: var(--bg-overlay-1, rgba(35, 36, 40, 0.5));
