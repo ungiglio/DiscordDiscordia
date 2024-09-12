@@ -34,6 +34,6 @@
   --custom-channel-header-color: rgb(241, 236, 247);
   --custom-channel-icon: rgb(153, 118, 187);
   --custom-selected-channel-color: rgb(78, 209, 203);
-  --cat-custom-color: rgb(120, 138, 167);
   --cat-custom-color-rgba: 120, 138, 167;
+  --cat-custom-color: rgb(var(--cat-custom-color-rgba));
 }
