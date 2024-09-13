@@ -451,7 +451,7 @@ body {
     padding-bottom: 68px; /*68*/
 }
 .scroller_c43953 {  /*channel list*/
-    padding-bottom: 225px; /*165*//*120*//*68*/
+    padding-bottom: 128px; /*165*//*120*//*68*/
 }
 .scroller_c43953::-webkit-scrollbar { /*channel list scrollbar hidden*/
   display: block;
