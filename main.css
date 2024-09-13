@@ -400,59 +400,42 @@ body {
 
 .panels_a4d4d9 {    /*personal info/status panel*/
     flex: 0 0 auto;
-    background-color: rgba(0, 0, 0, 0); /*var(--background-secondary-alt);*/
-    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
     z-index: 2;
-    border-radius: 8px;
-    position: fixed;
-    width: 237px;
-    height: 44px;
-    bottom: 0px; /*24*/
 }
 .container_b2ca13 { /*personal info/status panel section*/
-    border: 1px solid var(--highlight);
-    height: 43px;
-    bottom: 24px; /*24px;*/
+    height: 44px;
     font-size: 14px;
     font-weight: 500;
-    width: 220px;
-    /*display: flex;*/
+    display: flex;
     align-items: center;
     padding: 0 8px 1px;
     flex-shrink: 0;
-    position: absolute;
+    position: relative;
     border-radius: 8px;
-}
-.activityPanel_a4d4d9 {     /*activitypanel*/
     border: 1px solid var(--highlight);
-    border-radius: 8px;
-    /*position: absolute;*/
-    width: 220px;
+}
+.activityPanel_a4d4d9 {   /*activitypanel*/
+    border-bottom: 1px solid var(--background-modifier-accent);
+    position: relative;
     z-index: 2;
-    bottom: 85px; /*85/*175*/
-}
-.theme-dark #vc-spotify-player {
-    background: var(--bg-overlay-1, rgba(35, 36, 40, 0.5));
-}
-.theme-dark #vc-spotify-player:hover {
-    background: var(--bg-overlay-1, rgba(35, 36, 40, 1));
+    border-radius: 8px;
+    border: 1px solid var(--highlight);
 }
 #vc-spotify-player {     /*spotify controller*/
-    padding: .375rem .5rem;
-    border: 1px solid var(--highlight);
-    border-radius: 8px;
-    position: absolute;
-    width: 220px;
+    padding: 0.375rem 0.5rem;
     --vc-spotify-green: #1db954;
-    bottom: 133px; /*133/*75*/
+    border-radius: 8px;
+    border: 1px solid var(--highlight);
 }
 
-.privateChannels_f0963d {   /*friend list*/
-    padding-bottom: 68px; /*68*/
+/*.privateChannels_f0963d {   /*friend list* /
+    padding-bottom: 68px; /*68* /
 }
-.scroller_c43953 {  /*channel list*/
-    padding-bottom: 225px; /*165*//*120*//*68*/
-}
+.scroller_c43953 {  /*channel list* /
+    padding-bottom: 225px; /*165*|*120*|*68* /
+}*/
+
 .scroller_c43953::-webkit-scrollbar { /*channel list scrollbar hidden*/
   display: block;
 }
@@ -462,10 +445,6 @@ body {
 
 .scroller_e2e187::-webkit-scrollbar { /*channel scrollbar hidden*/
   width: 12px;
-}
-
-.bottom_eba0ba { /*new messages button - bottom*/
-    bottom: 70px;
 }
 
  .info_c5a741:last-child::after {
