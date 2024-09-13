@@ -301,7 +301,7 @@ body {
 }
 
 .reactionMe_ec6b19 .reactionCount_ec6b19 {
-    color: var(--background) !important
+    color: var(--brand-200) !important;
 }
 
 .botText_a02df3,
@@ -338,6 +338,10 @@ body {
     background-color: var(--status-danger);
 }
 
+.reaction_ec6b19.reactionMe_ec6b19 { /* forum reaction color */
+    background-color: rgba(178, 102, 255, 0.3);
+    border-color: var(--highlight);
+}
 .reaction_f61c73.reactionMe_f61c73 { /* forum reaction color */
     background-color: rgba(178, 102, 255, 0.3);
     border-color: var(--highlight);
