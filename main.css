@@ -414,6 +414,8 @@ body {
     position: relative;
     border-radius: 8px;
     border: 1px solid var(--highlight);
+    margin-top: 3px;
+    margin-bottom: 24px;
 }
 .activityPanel_a4d4d9 {   /*activitypanel*/
     border-bottom: 1px solid var(--background-modifier-accent);
@@ -421,20 +423,16 @@ body {
     z-index: 2;
     border-radius: 8px;
     border: 1px solid var(--highlight);
+    margin-bottom: 3px;
 }
 #vc-spotify-player {     /*spotify controller*/
     padding: 0.375rem 0.5rem;
     --vc-spotify-green: #1db954;
     border-radius: 8px;
     border: 1px solid var(--highlight);
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
-
-/*.privateChannels_f0963d {   /*friend list* /
-    padding-bottom: 68px; /*68* /
-}
-.scroller_c43953 {  /*channel list* /
-    padding-bottom: 225px; /*165*|*120*|*68* /
-}*/
 
 .scroller_c43953::-webkit-scrollbar { /*channel list scrollbar hidden*/
   display: block;
