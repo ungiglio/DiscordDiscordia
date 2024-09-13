@@ -72,6 +72,34 @@
         p a {
             color: #00A6F6;
         }
+
+        /* New styles for navigation */
+        nav {
+            background-color: #2f3136;
+            padding: 10px;
+            margin-top: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #dcddde;
+            text-decoration: none;
+            padding: 5px 10px;
+            margin: 0 5px;
+            border-radius: 3px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #b266ff;
+            color: white;
+        }
+
+        nav a.active {
+            background-color: #7289da;
+            color: white;
+        }
     </style>
 </head>
 
@@ -80,6 +108,13 @@
         <h1>Lande della Discordia</h1>
         <p>A custom purple theme to enhance your Discord experience</p>
     </header>
+
+    <nav>
+        <a href="#" class="active">Home</a>
+        <a href="https://ungiglio.github.io/DiscordDiscordia/changelog">Changelog</a>
+        <a href="https://github.com/ungiglio/DiscordDiscordia/wiki">Documentation</a>
+        <a href="https://github.com/ungiglio/DiscordDiscordia">GitHub</a>
+    </nav>
 
     <main>
         <section class="theme-preview">
