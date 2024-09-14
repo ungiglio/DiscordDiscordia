@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Releases - Lande della Discordia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://i.imgur.com/2R9lIOQ.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://i.imgur.com/rQ8Jokf.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://i.imgur.com/fEjuDm7.png">
+    <link rel="mask-icon" href="https://i.imgur.com/qdDn97I.png" color="#b266ff">
+    <meta name="msapplication-TileColor" content="#9f00a7">
+    <meta name="theme-color" content="#ffffff">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #dcddde;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #36393f;
+        }
+        header {
+            background-color: #2f3136;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        h1 {
+            margin-bottom: 0;
+            font-family: 'Pirata One', cursive;
+            font-size: 2.5em;
+        }
+        .version-section {
+            background-color: #2f3136;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .version-title {
+            color: #b266ff;
+            border-bottom: 1px solid #b266ff;
+            padding-bottom: 5px;
+        }
+        .changelog-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .changelog-list li {
+            margin-bottom: 10px;
+        }
+        .changelog-type {
+            font-weight: bold;
+            color: #7289da;
+        }
+        .beta {
+            background-color: #4a412a;
+        }
+        .beta .version-title {
+            color: #ffd700;
+            border-bottom-color: #ffd700;
+        }
+        warningtext {
+            color: #ffd700;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #7289da;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #5b6eae;
+        }
+
+        /* New styles for navigation */
+        nav {
+            background-color: #2f3136;
+            padding: 10px;
+            margin-top: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #dcddde;
+            text-decoration: none;
+            padding: 5px 10px;
+            margin: 0 5px;
+            border-radius: 3px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #b266ff;
+            color: white;
+        }
+
+        nav a.active {
+            background-color: #7289da;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lande della Discordia</h1>
+        <p>Releases</p>
+    </header>
+
+    <nav>
+        <a href="https://ungiglio.github.io/DiscordDiscordia">Home</a>
+        <a href="#"  class="active">Download</a>
+        <a href="https://ungiglio.github.io/DiscordDiscordia/changelog">Changelog</a>
+        <a href="https://github.com/ungiglio/DiscordDiscordia/wiki">Documentation</a>
+        <a href="https://github.com/ungiglio/DiscordDiscordia">GitHub</a>
+    </nav>
+
+    <main>
+        <section class="version-section">
+            <h2 class="version-title">Version 1.0.6 (Stable) - September 13, 2024</h2>
+            <ul class="changelog-list">
+                <li><span class="changelog-type">Added:</span> N/A</li>
+                <li><span class="changelog-type">Improved:</span> Better contrast for reactions number color + beta version available from source code</li>
+                <li><span class="changelog-type">Fixed:</span> Issue with info panel and activity panel</li>
+            </ul>
+            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.6" class="button">Download [v1.0.6]</a>
+        </section>
+
+        <section class="version-section beta">
+            <h2 class="version-title">Version 2.0.0-beta.1 - September 13, 2024</h2>
+            <ul class="changelog-list">
+                <li><span class="changelog-type">Added:</span> Experimental infoArea: userinfo, activity and <a style="color: #00A6F6;" href="https://vencord.dev/plugins/SpotifyControls">spotify control</a> panels</li>
+                <li><span class="changelog-type">Changed:</span> Adjusted backgruond colors for an high contrast</li>
+                <li><span class="changelog-type">Fixed:</span> Minor visual glitches in member list</li>
+                <li><span class="changelog-type">Caution:</span> Experimental infoArea it's instable and may cause some visual glitches <warningtext>[enable/install at your own risk]</warningtext> </li>
+            </ul>
+            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v2.0.0-beta.1" class="button">Download [v2.0.0-beta.1]</a>
+        </section>
+
+        <section class="version-section">
+            <h2 class="version-title">Version 1.0.5 (Stable) - September 10, 2024</h2>
+            <ul class="changelog-list">
+                <li><span class="changelog-type">Added:</span> <a style="color: #00A6F6;" href="https://github.com/ungiglio/DiscordDiscordia/commits/v1.0.5">Everything</a></li>
+                <li><span class="changelog-type">Improved:</span> N/A</li>
+                <li><span class="changelog-type">Fixed:</span> N/A</li>
+            </ul>
+            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.5" class="button">Download [v1.0.5]</a>
+        </section>
+
+        <!-- Add more version sections as needed -->
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ungiglio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
