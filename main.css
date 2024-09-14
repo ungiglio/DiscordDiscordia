@@ -417,6 +417,18 @@ body {
     margin-top: 3px;
     margin-bottom: 24px;
 }
+.container_adcaac {     /*VC panel*/
+    color: var(--header-primary);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px;
+    flex-shrink: 0;
+    background: var(--background-secondary-alt);
+    border-radius: 8px;
+    border: 1px solid var(--highlight);
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
 .activityPanel_a4d4d9 {   /*activitypanel*/
     border-bottom: 1px solid var(--background-modifier-accent);
     position: relative;
