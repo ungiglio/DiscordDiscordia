@@ -1,3 +1,9 @@
+/*
+ *name      Lande della Discordia
+ *author    @ungiglio
+ *version   1.0.6
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
 
 :root,
@@ -181,6 +187,15 @@ body {
     unicode-bidi: plaintext;
     color: rgb(178, 202, 255);
     background: var(--mention-background);
+}
+
+.replyBar_b11c5e {  /*reply box over textarea */
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-top: solid 1px var(--highlight);
 }
 
 .guildSeparator-33mFX6 {
