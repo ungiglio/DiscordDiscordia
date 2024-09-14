@@ -46,11 +46,16 @@
             padding-bottom: 5px;
         }
         .changelog-list {
-            list-style-type: none;
+            list-style: none;
             padding-left: 0;
+            margin-top: 0;
+        }
+        .changelog-list li::before {
+            content: "-";
+            padding-right: 8px;
         }
         .changelog-list li {
-            margin-bottom: 10px;
+            margin-bottom: 2px;
         }
         .changelog-type {
             font-weight: bold;
@@ -65,20 +70,6 @@
         }
         warningtext {
             color: #ffd700;
-        }
-
-        .button {
-            display: inline-block;
-            background-color: #7289da;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-
-        .button:hover {
-            background-color: #5b6eae;
         }
 
         /* New styles for navigation */
@@ -108,6 +99,10 @@
             background-color: #7289da;
             color: white;
         }
+
+        li a {
+            color: #00A6F6;
+        }
     </style>
 </head>
 <body>
@@ -118,6 +113,7 @@
 
     <nav>
         <a href="https://ungiglio.github.io/DiscordDiscordia">Home</a>
+        <a href="https://ungiglio.github.io/DiscordDiscordia/releases">Download</a>
         <a href="#"  class="active">Changelog</a>
         <a href="https://github.com/ungiglio/DiscordDiscordia/wiki">Documentation</a>
         <a href="https://github.com/ungiglio/DiscordDiscordia">GitHub</a>
@@ -125,35 +121,29 @@
 
     <main>
         <section class="version-section">
-            <h2 class="version-title">Version 1.0.6 (Stable) - September 13, 2024</h2>
+            <h2 class="version-title">Version 1.0.6 - September 14, 2024</h2>
+            <span class="changelog-type">Changelog:</span>
             <ul class="changelog-list">
-                <li><span class="changelog-type">Added:</span> N/A</li>
-                <li><span class="changelog-type">Improved:</span> Better contrast for reactions number color + beta version available from source code</li>
-                <li><span class="changelog-type">Fixed:</span> Issue with info panel and activity panel</li>
+                <li>resolved issues <a href="https://github.com/ungiglio/DiscordDiscordia/issues/6">#6</a></li>
+                <li>resolved issues <a href="https://github.com/ungiglio/DiscordDiscordia/issues/7">#7</a></li>
+                <li>resolved issues <a href="https://github.com/ungiglio/DiscordDiscordia/issues/8">#8</a></li>
+                <li>resolved issues <a href="https://github.com/ungiglio/DiscordDiscordia/issues/11">#11</a></li>
+                <li>resolved issues <a href="https://github.com/ungiglio/DiscordDiscordia/issues/13">#12</a></li>
             </ul>
-            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.6" class="button">Download [v1.0.6]</a>
         </section>
 
+        <!--
         <section class="version-section beta">
             <h2 class="version-title">Version 2.0.0-beta.1 - September 13, 2024</h2>
+            <span class="changelog-type">Changelog:</span>
             <ul class="changelog-list">
-                <li><span class="changelog-type">Added:</span> Experimental infoArea: userinfo, activity and <a style="color: #00A6F6;" href="https://vencord.dev/plugins/SpotifyControls">spotify control</a> panels</li>
-                <li><span class="changelog-type">Changed:</span> Adjusted backgruond colors for an high contrast</li>
-                <li><span class="changelog-type">Fixed:</span> Minor visual glitches in member list</li>
-                <li><span class="changelog-type">Caution:</span> Experimental infoArea it's instable and may cause some visual glitches <warningtext>[enable/install at your own risk]</warningtext> </li>
+                <li>ff</li>
+                <li>ff</li>
+                <li>ff</li>
+                <li>ff</li>
             </ul>
-            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v2.0.0-beta.1" class="button">Download [v2.0.0-beta.1]</a>
         </section>
-
-        <section class="version-section">
-            <h2 class="version-title">Version 1.0.5 (Stable) - September 10, 2024</h2>
-            <ul class="changelog-list">
-                <li><span class="changelog-type">Added:</span> <a style="color: #00A6F6;" href="https://github.com/ungiglio/DiscordDiscordia/commits/v1.0.5">Everything</a></li>
-                <li><span class="changelog-type">Improved:</span> N/A</li>
-                <li><span class="changelog-type">Fixed:</span> N/A</li>
-            </ul>
-            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.5" class="button">Download [v1.0.5]</a>
-        </section>
+        -->
 
         <!-- Add more version sections as needed -->
 
