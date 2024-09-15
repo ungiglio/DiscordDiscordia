@@ -17,14 +17,6 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
-  - type: input
-    id: contact2
-    attributes:
-      label: 
-      description: 
-      placeholder: ex. @username (Discord only)
-    validations:
-      required: false
   - type: textarea
     id: what-happened
     attributes:
