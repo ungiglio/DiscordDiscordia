@@ -75,7 +75,7 @@ body:
       label: Bug Priority
       description: Select the priority level for this bug based on its impact and urgency.
       options:
-        - labels: ["high"]
+        - High
         - Medium
         - Low
     validations:
