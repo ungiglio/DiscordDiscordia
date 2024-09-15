@@ -64,12 +64,35 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Labels**\nAdd the proper label between "high", "medium" and "low"
+        **Priority Labels**
+        Please select the appropriate priority label for this bug:
+        - High: Critical issues that severely impact core functionality or affect a large number of users. Requires immediate attention.
+        - Medium: Important issues that affect some users or non-critical features. Should be addressed in the near future.
+        - Low: Minor issues or cosmetic problems that don't significantly impact functionality. Can be addressed in future updates.
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Bug Priority
+      description: Select the priority level for this bug based on its impact and urgency.
+      options:
+        - High
+        - Medium
+        - Low
+    validations:
+      required: true
   - type: checkboxes
     id: validation
     attributes:
-      label: Final step
-      description: Double check every field
+      label: Final Checklist
+      description: Please review and confirm the following before submitting:
       options:
-        - label: I'm ready to submit!
+        - label: I have provided a clear and detailed description of the bug.
+          required: true
+        - label: I have specified the correct version and client information.
+          required: true
+        - label: I have included relevant log output (if applicable).
+          required: false
+        - label: I have selected the appropriate priority level for this bug.
+          required: true
+        - label: I have double-checked all the information in this report for accuracy.
           required: true
