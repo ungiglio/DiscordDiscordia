@@ -84,7 +84,7 @@ body:
     id: validation
     attributes:
       label: Final Checklist
-      description: Please review and confirm the following before submitting:
+      description: Please review and confirm the following before submitting
       options:
         - label: I have provided a clear and detailed description of the bug.
           required: true
