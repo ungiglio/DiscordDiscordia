@@ -21,7 +21,7 @@ body:
     id: what-happened
     attributes:
       label: What happened?
-      description: Also tell us, what did you expect to happen?
+      description: Also tell us, what did you expect to happen? (you can also attach images)
       placeholder: Tell us what you see!
       value: "A bug happened!"
     validations:
@@ -86,12 +86,6 @@ body:
       label: Final Checklist
       description: Please review and confirm the following before submitting
       options:
-        - label: I have provided a clear and detailed description of the bug.
-          required: true
-        - label: I have specified the correct version and client information.
-          required: true
-        - label: I have included relevant log output (if applicable).
-          required: false
         - label: I have selected the appropriate priority level for this bug.
           required: true
         - label: I have double-checked all the information in this report for accuracy.
