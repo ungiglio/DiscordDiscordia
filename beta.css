@@ -467,6 +467,16 @@ body {
     bottom: 133px; /*133/*75*/
 }
 
+#popout_211 { /*VC soundbar*/
+    border: solid 1px var(--highlight);
+    border-radius: 8px;
+}
+
+.root_f9a4c9 { /*VC stuffs*/
+    border: solid 1px var(--highlight);
+    border-radius: 8px;
+}
+
 .privateChannels_f0963d {   /*friend list*/
     padding-bottom: 68px; /*68*/
 }

@@ -488,6 +488,16 @@ body {
     background-color: var(--status-danger-background);
 }
 
+#popout_211 { /*VC soundbar*/
+    border: solid 1px var(--highlight);
+    border-radius: 8px;
+}
+
+.root_f9a4c9 { /*VC stuffs*/
+    border: solid 1px var(--highlight);
+    border-radius: 8px;
+}
+
 .containerDefault_a08117 {
     display: flex;
     align-items: center;
