@@ -467,15 +467,45 @@ body {
     bottom: 133px; /*133/*75*/
 }
 
-#popout_211 { /*VC soundbar*/
+.animatorTop_f88ae3 { /*VC soundbar*/
+    border: solid 1px var(--highlight);
+    border-radius: 8px;
+    bottom: 57px;
+    right: 181px;
+}
+
+.contentWrapper_f7506e, .modalRoot_e5da2b { /*VC activities*/
     border: solid 1px var(--highlight);
     border-radius: 8px;
 }
-
-/*.root_f9a4c9 { /*VC stuffs/
+.messagesPopoutWrap_ac90a2 { /*pinned messages tab*/
     border: solid 1px var(--highlight);
     border-radius: 8px;
-}*/
+    top: 8px;
+    right: 175px;
+}
+.browser_f542fc, .container_e664f3 {  /*thread tab*/
+    border: solid 1px var(--highlight);
+    border-radius: 8px;
+    position: absolute;
+    top: 8px;
+    right: 55px;
+}
+.recentMentionsPopout_ddb5b4  {  /*notify tab*/
+    border: solid 1px var(--highlight);
+    border-radius: 8px;
+    position: absolute;
+    top: 8px;
+    right: 385px;
+}
+.menu_d90b3d {  /*every right-click context menu*/
+    border: solid 1px var(--highlight);
+    border-radius: 8px;
+}
+.submenu_d90b3d { /*every right-click context menu dropdown tab*/
+    border: solid 1px var(--highlight);
+    border-radius: 8px;
+}
 
 .privateChannels_f0963d {   /*friend list*/
     padding-bottom: 68px; /*68*/
