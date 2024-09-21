@@ -488,11 +488,12 @@ body {
     background-color: var(--status-danger-background);
 }
 
-.animatorTop_f88ae3 { /*VC soundbar*/
+.picker_cd703d { /*VC soundbar*/
     border: solid 1px var(--highlight);
     border-radius: 8px;
+    position: absolute;
     bottom: 57px;
-    right: 181px;
+    left: -181px;
 }
 
 .contentWrapper_f7506e, .modalRoot_e5da2b { /*VC activities*/
@@ -503,21 +504,16 @@ body {
     border: solid 1px var(--highlight);
     border-radius: 8px;
     top: 8px;
-    right: 175px;
 }
 .browser_f542fc, .container_e664f3 {  /*thread tab*/
     border: solid 1px var(--highlight);
     border-radius: 8px;
-    position: absolute;
     top: 8px;
-    right: 55px;
 }
 .recentMentionsPopout_ddb5b4  {  /*notify tab*/
     border: solid 1px var(--highlight);
     border-radius: 8px;
-    position: absolute;
     top: 8px;
-    right: 385px;
 }
 .menu_d90b3d {  /*every right-click context menu*/
     border: solid 1px var(--highlight);
