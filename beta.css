@@ -467,14 +467,17 @@ body {
     bottom: 133px; /*133/*75*/
 }
 
-.picker_cd703d { /*VC soundbar*/
+.picker_cd703d {    /*VC soundbar*/
     border: solid 1px var(--highlight);
     border-radius: 8px;
-    position: absolute;
-    bottom: 57px;
-    left: -181px;
+    position: fixed;
+    bottom: 73px;
+    left: 328px;
 }
-
+.pictureInPictureVideo_cadaa5 {   /*mediaplayer PiP*/
+    border: solid 1px var(--highlight);
+    border-radius: 8px;
+}
 .contentWrapper_f7506e, .modalRoot_e5da2b { /*VC activities*/
     border: solid 1px var(--highlight);
     border-radius: 8px;
