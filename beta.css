@@ -9,7 +9,7 @@
 .theme-dark,
 .theme-light {
     --highlight: rgb(var(--rgb-highlight));
-    --text: rgb(var(--rgb-text));
+    --text: var(--text-muted);
     --rgb-online-color: 31, 147, 80;
     --online-color: rgb(var(--rgb-online-color));
     --rgb-afk-color: 220, 163, 46;
@@ -50,7 +50,7 @@
     --text-warning: var(--afk-color);
     --text-danger: var(--dnd-color);
     --text-brand: var(--highlight);
-    --text-muted: var(--text);
+    /*--text-muted: var(--text);*/
     --channels-default: var(--text);
     --button-danger-background-disabled: rgba(var(--rgb-close-button), 20%);
     --button-danger-background: rgba(var(--rgb-close-button), 100%);
