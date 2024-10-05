@@ -50,7 +50,7 @@
     --text-warning: var(--afk-color);
     --text-danger: var(--dnd-color);
     --text-brand: var(--highlight);
-    /*--text-muted: var(--text);*/
+    /*--text-muted: var(--text);*/ /* normal color */ 
     --channels-default: var(--text);
     --button-danger-background-disabled: rgba(var(--rgb-close-button), 20%);
     --button-danger-background: rgba(var(--rgb-close-button), 100%);
@@ -121,8 +121,8 @@
     --search-popout-option-user-username: rgba(var(--rgb-highlight), 70%);
     --search-popout-option-filter-text: rgba(var(--rgb-highlight), 70%);
     --search-popout-date-picker-border: 1px solid var(--highlight);
-    --status-danger: rgb(var(--rgb-status-danger));
-    --status-danger-background: rgb(var(--rgb-status-danger));
+    --status-danger: rgb(152, 51, 255);
+    --status-danger-background: var(--status-danger);
     --channel-header-color: var(--custom-channel-header-color);
     --channel-icon: var(--custom-channel-icon);
     --selected-channel-color: var(--custom-selected-channel-color);
@@ -135,11 +135,6 @@
 
     --bg-brand: var(--highlight);
 }
-
-/*html,
-body {
-    font-family: "Share Tech Mono", monospace
-}*/
 
 #app-mount .wrapper_c51b4e rect[fill="#593695"],
 #app-mount .wrapper_c51b4e rect[mask*=streaming] {
@@ -217,33 +212,16 @@ body {
     color: var(--background) !important
 }
 
-/*.bar_c10249 {
-    background-color: var(--highlight);
-    color: var(--background)
-}*/
-
-/*.autocomplete_f23da8 {
-    background-color: var(--background) !important
-}*/
-
 .channelTextArea_a7d72e {
     border: 1px solid var(--highlight);
     /*background-color: var(--background) !important*/
 }
-
-/*.userProfileInnerThemedNonPremium_c69a7b {
-    background-color: var(--background)
-}*/
 
 .theme-dark .children_e44302:after,
 .form_a7d72e::before,
 .option_b0286e:after {
     display: none
 }
-
-/*.userPanelInnerThemed-2xZFjl {
-    background-color: var(--background)
-}*/
 
 .childWrapper_f90abb { /* discord logo color */
     color: rgb(115, 49, 190);
@@ -423,12 +401,13 @@ body {
     border-radius: 8px;
     background-color: var(--highlight);
     color: white;
-    width: 96%;
-    margin: 1 2%;
+    width: 80%;
+    margin: 5% 10% 10% 10%;
+    padding: 5% 2%;
 }
 .vc-ranb-button:hover { /* read all button */
-    border: 1px solid var(--channel-icon);
-    background-color: var(--channel-icon);
+    border: 1px solid rgb(149, 76, 226);
+    background-color: rgb(149, 76, 226);
 }
 
 .panels_a4d4d9 {    /*personal info/status panel*/
@@ -448,8 +427,7 @@ body {
     bottom: 24px; /*24px;*/
     font-size: 14px;
     font-weight: 500;
-    width: 220px;
-    /*display: flex;*/
+    width: 220px; /*display: flex;*/
     align-items: center;
     padding: 0 8px 1px;
     flex-shrink: 0;
@@ -458,8 +436,7 @@ body {
 }
 .activityPanel_a4d4d9 {     /*activitypanel*/
     border: 1px solid var(--highlight);
-    border-radius: 8px;
-    /*position: absolute;*/
+    border-radius: 8px; /*position: absolute;*/
     width: 220px;
     z-index: 2;
     bottom: 85px; /*85/*175*/
