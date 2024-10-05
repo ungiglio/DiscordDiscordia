@@ -9,8 +9,9 @@
  * @invite kaphShJrcb
 */
 
-@import url('https://ungiglio.github.io/DiscordDiscordia/main.css');     /* stable v1 */
-/*@import url('https://ungiglio.github.io/DiscordDiscordia/beta.css');*/ /* beta: https://ungiglio.github.io/DiscordDiscordia/changelog/#beta */
+@import url('https://ungiglio.github.io/DiscordDiscordia/main.css');          /* stable v1 */
+/* @import url('https://ungiglio.github.io/DiscordDiscordia/beta.css'); */    /* beta: https://ungiglio.github.io/DiscordDiscordia/changelog/ */
+/* @import url('https://ungiglio.github.io/DiscordDiscordia/beta2.css'); */   /* beta2: https://ungiglio.github.io/DiscordDiscordia/changelog/ */
 
 /* CUSTOMIZATION CONTROL CENTER */
 :root {
