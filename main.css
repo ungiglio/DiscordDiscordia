@@ -418,7 +418,7 @@ body {
     border-radius: 8px;
 }
 
-.vc-ranb-button {
+.vc-ranb-button { /* read all button */
     border: 1px solid var(--channel-icon);
     border-radius: 8px;
     background-color: var(--channel-icon);
@@ -426,7 +426,7 @@ body {
     width: 96%;
     margin: 1 2%;
 }
-.vc-ranb-button:hover {
+.vc-ranb-button:hover { /* read all button */
     border: 1px solid var(--selected-channel-color);
     background-color: var(--selected-channel-color);
 }
