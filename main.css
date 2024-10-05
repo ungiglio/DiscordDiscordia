@@ -136,11 +136,6 @@
     --bg-brand: var(--highlight);
 }
 
-/*html,
-body {
-    font-family: "Share Tech Mono", monospace
-}*/
-
 #app-mount .wrapper_c51b4e rect[fill="#593695"],
 #app-mount .wrapper_c51b4e rect[mask*=streaming] {
     fill: var(--streaming-color)
@@ -217,33 +212,15 @@ body {
     color: var(--background) !important
 }
 
-/*.bar_c10249 {
-    background-color: var(--highlight);
-    color: var(--background)
-}*/
-
-/*.autocomplete_f23da8 {
-    background-color: var(--background) !important
-}*/
-
 .channelTextArea_a7d72e {
     border: 1px solid var(--highlight);
-    /*background-color: var(--background) !important*/
 }
-
-/*.userProfileInnerThemedNonPremium_c69a7b {
-    background-color: var(--background)
-}*/
 
 .theme-dark .children_e44302:after,
 .form_a7d72e::before,
 .option_b0286e:after {
     display: none
 }
-
-/*.userPanelInnerThemed-2xZFjl {
-    background-color: var(--background)
-}*/
 
 .childWrapper_f90abb { /* discord logo color */
     color: rgb(115, 49, 190);
@@ -419,16 +396,17 @@ body {
 }
 
 .vc-ranb-button { /* read all button */
-    border: 1px solid var(--channel-icon);
+    border: 1px solid var(--highlight);
     border-radius: 8px;
-    background-color: var(--channel-icon);
+    background-color: var(--highlight);
     color: white;
-    width: 96%;
-    margin: 1 2%;
+    width: 80%;
+    margin: 5% 10% 10% 10%;
+    padding: 5% 2%;
 }
 .vc-ranb-button:hover { /* read all button */
-    border: 1px solid var(--selected-channel-color);
-    background-color: var(--selected-channel-color);
+    border: 1px solid rgb(149, 76, 226);
+    background-color: rgb(149, 76, 226);
 }
 
 .panels_a4d4d9 {    /*personal info/status panel*/
