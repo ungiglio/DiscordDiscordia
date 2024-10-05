@@ -418,6 +418,19 @@ body {
     border-radius: 8px;
 }
 
+.vc-ranb-button {
+    border: 1px solid var(--channel-icon);
+    border-radius: 8px;
+    background-color: var(--channel-icon);
+    color: white;
+    width: 96%;
+    margin: 1 2%;
+}
+.vc-ranb-button:hover {
+    border: 1px solid var(--selected-channel-color);
+    background-color: var(--selected-channel-color);
+}
+
 .panels_a4d4d9 {    /*personal info/status panel*/
     flex: 0 0 auto;
     background-color: rgba(0, 0, 0, 0);
