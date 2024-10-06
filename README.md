@@ -1,4 +1,9 @@
+<div align="center">
+
 # Lande della Discordia
+
+![Lande della Discordia](https://github.com/user-attachments/assets/289d6055-bfed-4671-939a-06f9e90a4e9c)
+</div>
 
 A custom purple theme to enhance your Discord experience.
 
