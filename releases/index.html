@@ -63,6 +63,13 @@
             color: #ffd700;
             border-bottom-color: #ffd700;
         }
+        .discontinued {
+            background-color: #4a302a;
+        }
+        .discontinued .version-title {
+            color: #ff1100;
+            border-bottom-color: #ff1100;
+        }
         warningtext {
             color: #ffd700;
         }
@@ -75,6 +82,17 @@
             text-decoration: none;
             border-radius: 5px;
             transition: background-color 0.3s;
+        }
+
+        .discontinuedbutton {
+            display: inline-block;
+            background-color: #7d91daa6;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            pointer-events: none;
         }
 
         .button:hover {
@@ -135,6 +153,28 @@
             <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.7" class="button">Download [v1.0.7]</a>
         </section>
 
+        <section class="version-section beta">
+            <h2 class="version-title">Version 1.0.0-beta.awkglass - October 10, 2024</h2>
+            <ul class="changelog-list">
+                <li><span class="changelog-type">Added:</span> Transparent window</li>
+                <li><span class="changelog-type">Improved:</span> N/A</li>
+                <li><span class="changelog-type">Fixed:</span> Color issues</li>
+                <li><span class="changelog-type">Caution:</span> This beta it's instable and may cause some visual glitches <warningtext>[enable/install at your own risk]</warningtext></li>
+            </ul>
+            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.0-beta.awkglass" class="button">Download [awkglass version]</a>
+        </section>
+
+        <section class="version-section beta">
+            <h2 class="version-title">Version 1.0.0-beta.durple - October 10, 2024</h2>
+            <ul class="changelog-list">
+                <li><span class="changelog-type">Added:</span> DarkPurple background to user GUI</li>
+                <li><span class="changelog-type">Improved:</span> N/A</li>
+                <li><span class="changelog-type">Fixed:</span> N/A</li>
+                <li><span class="changelog-type">Caution:</span> This beta it's instable and may cause some visual glitches <warningtext>[enable/install at your own risk]</warningtext></li>
+            </ul>
+            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.0-beta.durple" class="button">Download [durple version]</a>
+        </section>
+
         <section class="version-section">
             <h2 class="version-title">Version 1.0.6 (Stable) - September 13, 2024</h2>
             <ul class="changelog-list">
@@ -145,15 +185,15 @@
             <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.6" class="button">Download [v1.0.6]</a>
         </section>
 
-        <section class="version-section beta">
-            <h2 class="version-title">Version 2.0.0-beta.1 - September 13, 2024</h2>
+        <section class="version-section discontinued">
+            <h2 class="version-title">[DISCONTINUED] Version 1.0.0-beta.absolute - September 13, 2024</h2>
             <ul class="changelog-list">
                 <li><span class="changelog-type">Added:</span> Experimental infoArea: userinfo, activity and <a style="color: #00A6F6;" href="https://vencord.dev/plugins/SpotifyControls">spotify control</a> panels</li>
                 <li><span class="changelog-type">Changed:</span> Adjusted backgruond colors for an high contrast</li>
                 <li><span class="changelog-type">Fixed:</span> Minor visual glitches in member list</li>
                 <li><span class="changelog-type">Caution:</span> Experimental infoArea it's instable and may cause some visual glitches <warningtext>[enable/install at your own risk]</warningtext> </li>
             </ul>
-            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v2.0.0-beta.1" class="button">Download [v2.0.0-beta.1]</a>
+            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v2.0.0-beta.1" class="discontinuedbutton">Download [absolute version]</a>
         </section>
 
         <section class="version-section">
