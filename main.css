@@ -965,3 +965,11 @@ html.platform-osx #app-mount #pluginNotice {
 [class^="expandedFolderIconWrapper"] svg {
     transform: rotate(90deg);
 }
+
+
+
+
+/*prank*/
+button.button_adca65, span.button_adca65 {
+    display: none;
+}
