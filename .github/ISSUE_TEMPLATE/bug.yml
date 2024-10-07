@@ -35,8 +35,9 @@ body:
         - 1.0.7 (Stable)
         - 1.0.6 (Stable)
         - 1.0.5 (Stable)
-        - 2.0.0-beta.2
-        - 2.0.0-beta.1
+        - 1.0.0-beta.awkglass
+        - 1.0.0-beta.durple
+        - 1.0.0-beta.absolute (discontinued)
       default: 0
     validations:
       required: true
