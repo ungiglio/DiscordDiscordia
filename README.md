@@ -2,7 +2,7 @@
 
 # Lande della Discordia
 
-![Lande della Discordia](https://github.com/user-attachments/assets/289d6055-bfed-4671-939a-06f9e90a4e9c)
+![durple-beta theme](https://github.com/user-attachments/assets/91d97186-88f7-4236-a836-b9d76a59f495)
 </div>
 
 A custom purple theme to enhance your Discord experience.
