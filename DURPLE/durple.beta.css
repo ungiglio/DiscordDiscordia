@@ -176,6 +176,13 @@
     background-color: var(--selected-channel-color)
 }
 
+.popoverReactionHoverBar_e986d9 { /* message:hover popup */
+  background: var(--darkPurple-background);
+}
+.popoverReactionHoverBar_e986d9:hover { /* message:hover popup */
+  border: 1px solid var(--custom-channel-icon);
+}
+
 .wrapper_bf1b19 { /* slash cmds */
     border-radius: 3px;
     padding: 0 2px;
