@@ -13,7 +13,7 @@ A custom purple theme to enhance your Discord experience.
 
 The theme features a beautiful purple shade (#b266ff) that transforms your Discord experience into something truly unique.
 
-## Installation [Vencord Version]
+## Installation [Vencord version]
 
 To install "Lande della Discordia" theme:
 
@@ -23,7 +23,7 @@ To install "Lande della Discordia" theme:
 4. Under "Local Themes", select "Open Themes Folder" and upload the downloaded file named "discordia.theme.css"
 5. Click "Load Missing Themes" and check the toggle near "Lande della Discordia" card
 
-<!--## Installation [BetterDiscord Version]
+<!--## Installation [BetterDiscord version]
 
 To install "Lande della Discordia" theme:
 
