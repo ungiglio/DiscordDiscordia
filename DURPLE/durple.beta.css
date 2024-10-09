@@ -560,6 +560,10 @@
     display: inline-block;
     background: linear-gradient(90deg, rgba(var(--cat-color-rgba), 1) 0%, rgba(var(--cat-color-rgba), 0) 100%)
 }
+
+button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){
+  display: none;
+}
 /*
 HHHHHHHHH     HHHHHHHHH                                      iiii                                                               tttt                            lllllll    SSSSSSSSSSSSSSS                                                                                                  LLLLLLLLLLL               iiii                            tttt          
 H:::::::H     H:::::::H                                     i::::i                                                           ttt:::t                            l:::::l  SS:::::::::::::::S                                                                                                 L:::::::::L              i::::i                        ttt:::t          
