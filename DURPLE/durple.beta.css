@@ -568,9 +568,24 @@
     background: linear-gradient(90deg, rgba(var(--cat-color-rgba), 1) 0%, rgba(var(--cat-color-rgba), 0) 100%)
 }
 
-button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){
+button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker button */
   display: none;
 }
+
+.chatHeaderBar_e2f46e { /* thread header bar (ex. blocked thread) */
+  border-radius: 8px;
+  background-color: var(--interactive-muted);
+  box-shadow: var(--elevation-low);
+  border: 1px solid var(--highlight);
+}
+.narrow_e2f46e {  /* thread header bar padding (ex. blocked thread) */
+  padding: 5px 16px;
+}
+
+.chatContent_a7d72e { /* forum chat content */
+  border-radius: 8px;
+}
+
 /*
 HHHHHHHHH     HHHHHHHHH                                      iiii                                                               tttt                            lllllll    SSSSSSSSSSSSSSS                                                                                                  LLLLLLLLLLL               iiii                            tttt          
 H:::::::H     H:::::::H                                     i::::i                                                           ttt:::t                            l:::::l  SS:::::::::::::::S                                                                                                 L:::::::::L              i::::i                        ttt:::t          
