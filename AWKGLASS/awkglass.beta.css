@@ -248,6 +248,15 @@
   background: none;
 }
 
+/* member list */
+.layout_d808b0 {
+  border-radius: 8px;
+}
+.container_d808b0 {
+  border-radius: 8px;
+  margin-bottom: 1px;
+}
+
 /* Improve readability for text on glass backgrounds */
 .containerDefault_f6f816 .name_d8bfb3,
 .containerDefault_f6f816:hover .name_d8bfb3,
@@ -621,6 +630,10 @@
     background: var(--bg-overlay-1, var(--darkPurple-background));
 }
 
+.scroller_c43953 { /* channel list background */
+  border-radius: 8px;
+}
+
 .scroller_c43953::-webkit-scrollbar { /*channel list scrollbar hidden*/
   display: block;
 }
@@ -706,9 +719,10 @@
     background: linear-gradient(90deg, rgba(var(--cat-color-rgba), 1) 0%, rgba(var(--cat-color-rgba), 0) 100%)
 }
 
-button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){
+button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* remove sticker button */
     display: none;
 }
+
 /*
 HHHHHHHHH     HHHHHHHHH                                      iiii                                                               tttt                            lllllll    SSSSSSSSSSSSSSS                                                                                                  LLLLLLLLLLL               iiii                            tttt          
 H:::::::H     H:::::::H                                     i::::i                                                           ttt:::t                            l:::::l  SS:::::::::::::::S                                                                                                 L:::::::::L              i::::i                        ttt:::t          
