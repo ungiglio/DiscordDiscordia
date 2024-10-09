@@ -545,3 +545,7 @@
     display: inline-block;
     background: linear-gradient(90deg, rgba(var(--cat-color-rgba), 1) 0%, rgba(var(--cat-color-rgba), 0) 100%)
 }
+
+button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){
+    display: none;
+}
