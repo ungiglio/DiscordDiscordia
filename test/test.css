@@ -9,7 +9,7 @@
     --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
 
     /*Background*/
-    /*--background-image : url('https://i.imgur.com/0y2HIFA.jpeg');*/
+    --background-image : url('https://i.imgur.com/0y2HIFA.jpeg');
     --app-blur : 8px;
     --button-background: linear-gradient(60deg, rgb(204, 94, 31), rgba(255, 105, 105, 0.973));
     --background-primary: rgba(24, 24, 24, 0.26) !important;
