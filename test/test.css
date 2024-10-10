@@ -133,7 +133,8 @@ strong{
 .platform-win .sidebar_a4d4d9, .container_c2739c, .chat_a7d72e{
     border-radius: 10px;
     margin: 20px;
-    box-shadow: var(--box-shadow)
+    box-shadow: var(--box-shadow);
+    transform: skewY(10deg); /*TEST*/
 }
 
 .guilds_a4d4d9{
