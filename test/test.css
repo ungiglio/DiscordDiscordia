@@ -31,7 +31,7 @@
 
     /*Typing customizer*/
 
-    --content: "Want to say something"
+    --content: "It's trying to chat"
 
 }
 
@@ -134,7 +134,6 @@ strong{
     border-radius: 10px;
     margin: 20px;
     box-shadow: var(--box-shadow);
-    transform: skewY(10deg); /*TEST*/
 }
 
 .guilds_a4d4d9{
@@ -158,6 +157,7 @@ strong{
 
 #app-mount .sidebar_a4d4d9 {
     border-radius: 10px;
+    transform: skewY(-10deg); /*TEST*/
 }
 
 .unreadImportant_d8bfb3, .lookFilled_dd4f85.colorBrand_dd4f85, .lookFilled_dd4f85.colorPrimary_dd4f85, .botTagRegular_a9e77f, .unread_fd8ff1{
