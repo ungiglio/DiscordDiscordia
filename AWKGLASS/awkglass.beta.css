@@ -28,13 +28,9 @@
     /*other*/
     --highlight: rgb(var(--rgb-highlight));
     --text: var(--text-muted);
-    --rgb-online-color: 31, 147, 80;
     --online-color: rgb(var(--rgb-online-color));
-    --rgb-afk-color: 220, 163, 46;
     --afk-color: rgb(var(--rgb-afk-color));
-    --rgb-dnd-color: 224, 58, 62;
     --dnd-color: rgb(var(--rgb-dnd-color));
-    --rgb-streaming-color: 188, 19, 254;
     --streaming-color: rgb(var(--rgb-streaming-color));
     --scrollbar-thin-thumb: var(--highlight);
     --scrollbar-auto-thumb: var(--highlight);
