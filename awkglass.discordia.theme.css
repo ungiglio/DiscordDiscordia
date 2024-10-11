@@ -1,15 +1,15 @@
 /**
- * @name Lande della Discordia
+ * @name Lande della Discordia [AG]
  * @author ungiglio
- * @version 1.0.7
+ * @version 1.0.1-beta.awkglass
  * @source https://github.com/ungiglio/DiscordDiscordia/
  * @website https://ungiglio.github.io/DiscordDiscordia/
- * @description Lande della Discordia implements purple and lightblue details on your client!
+ * @description Lande della Discordia implements a glass purple and lightblue details on your client!
  * @authorId 769144538107215872
  * @invite kaphShJrcb
 */
 
-@import url('https://ungiglio.github.io/DiscordDiscordia/main.css');          /* stable v1 */
+@import url('https://ungiglio.github.io/DiscordDiscordia/AWKGLASS.awkglass.beta.css');
 
 /* CUSTOMIZATION CONTROL CENTER */
 :root {
@@ -36,4 +36,6 @@
   --custom-selected-channel-color: rgb(78, 209, 203);
   --cat-custom-color-rgba: 120, 138, 167;
   --cat-custom-color: rgb(var(--cat-custom-color-rgba));
+
+  --custom-image-url: 'https://i.imgur.com/GcFkyZp.jpeg';
 }

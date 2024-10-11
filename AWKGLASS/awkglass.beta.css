@@ -17,7 +17,7 @@
     --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
 
     /*Background*/
-    --background-image: url('https://i.imgur.com/GcFkyZp.jpeg');
+    --background-image: url(var(--custom-image-url));
     --app-blur: 8px;
     --button-background: linear-gradient(60deg, var(--highlight), rgba(152, 51, 255, 0.973));
     --background-primary: rgba(24, 24, 24, 0.26) !important;
