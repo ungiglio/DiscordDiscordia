@@ -207,7 +207,7 @@
 }
 
 .modeSelected_d8bfb3 .link_d8bfb3, .modeSelected_d8bfb3:hover .link_d8bfb3 {
-    background: none
+    background: var(--background-mentioned);
 }
 
 .wrapper_d8bfb3:hover .link_d8bfb3 {
