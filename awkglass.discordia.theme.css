@@ -4,18 +4,18 @@
  * @version 1.0.1-beta.awkglass
  * @source https://github.com/ungiglio/DiscordDiscordia/
  * @website https://ungiglio.github.io/DiscordDiscordia/
- * @description DarkPurple + glass style
+ * @description Lande della Discordia implements a glass purple and lightblue details on your client!
  * @authorId 769144538107215872
  * @invite kaphShJrcb
 */
 
-@import url('https://ungiglio.github.io/DiscordDiscordia/AWKGLASS/awkglass.beta.css');      /* beta2: https://ungiglio.github.io/DiscordDiscordia/changelog/ */
+@import url('https://ungiglio.github.io/DiscordDiscordia/AWKGLASS/awkglass.beta.css');
 
 /* CUSTOMIZATION CONTROL CENTER */
 :root {
   --rgb-highlight: 178, 102, 255;                 /*4, 217, 255; /* The main highlight color */
   --rgb-close-button: 224, 58, 62;                /* The main "close this" or "deny" color */
-  --rgb-online-color: 73, 147, 255;               /* The color used in the "online" user status symbol */
+  --rgb-online-color: 31, 147, 80;                /* The color used in the "online" user status symbol */
   --rgb-afk-color: 220, 163, 46;                  /* The color used in the "idle" user status symbol */
   --rgb-dnd-color: 224, 58, 62;                   /* The color used in the "do not disturb" user status symbol */
   --rgb-streaming-color: 188, 19, 254;            /* The color used in the "streaming X" user status symbol */
@@ -36,4 +36,6 @@
   --custom-selected-channel-color: rgb(78, 209, 203);
   --cat-custom-color-rgba: 120, 138, 167;
   --cat-custom-color: rgb(var(--cat-custom-color-rgba));
+
+  --custom-image-url: 'https://i.imgur.com/GcFkyZp.jpeg';
 }
