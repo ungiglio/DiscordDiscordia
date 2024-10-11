@@ -202,8 +202,7 @@
 }
 
 .memberInner_a31c43:hover{
-    background: var(--button-background);
-    transition: 1s;
+    background: var(--background-mentioned);
 }
 
 .modeSelected_d8bfb3 .link_d8bfb3, .modeSelected_d8bfb3:hover .link_d8bfb3 {
