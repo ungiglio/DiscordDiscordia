@@ -37,5 +37,5 @@
   --cat-custom-color-rgba: 120, 138, 167;
   --cat-custom-color: rgb(var(--cat-custom-color-rgba));
 
-  --custom-image-url: 'https://i.imgur.com/GcFkyZp.jpeg';
+  --custom-image-url: url('https://i.imgur.com/GcFkyZp.jpeg');
 }
