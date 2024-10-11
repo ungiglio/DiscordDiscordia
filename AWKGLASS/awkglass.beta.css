@@ -386,38 +386,6 @@
     background-color: var(--background-secondary);
 }
 
-rect[fill='#23a55a'], svg[fill='#23a55a']{
-    fill: var(--Online);
-}
- 
- rect[fill='#f0b232'], svg[fill='#f0b232']{
-     fill: var(--Idle);
-}
- 
- rect[fill='#f23f43'], svg[fill='#f23f43'] {
-     fill: var(--Do-not-disturb);
-}
-
-#app-mount .wrapper_c51b4e rect[fill="#593695"],
-#app-mount .wrapper_c51b4e rect[mask*=streaming] {
-    fill: var(--streaming-color)
-}
-
-#app-mount .wrapper_c51b4e rect[fill="#43b581"],
-#app-mount .wrapper_c51b4e rect[mask*=online] {
-    fill: var(--online-color)
-}
-
-#app-mount .wrapper_c51b4e rect[fill="#faa61a"],
-#app-mount .wrapper_c51b4e rect[mask*=idle] {
-    fill: var(--afk-color)
-}
-
-#app-mount .wrapper_c51b4e rect[fill="#f04747"],
-#app-mount .wrapper_c51b4e rect[mask*=dnd] {
-    fill: var(--dnd-color)
-}
-
 .numberBadge__40d6f {
     background-color: rgba(var(--rgb-highlight), 70%) !important;
     color: var(--background)
