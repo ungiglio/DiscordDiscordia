@@ -64,8 +64,8 @@
     --text-warning: var(--afk-color);
     --text-danger: var(--dnd-color);
     --text-brand: var(--highlight);
-    /*--text-muted: var(--text);*/ /* normal color */ 
     --channels-default: var(--text);
+    --interactive-muted: rgba(180, 180, 180, 0.493);
     --button-danger-background-disabled: rgba(var(--rgb-close-button), 20%);
     --button-danger-background: rgba(var(--rgb-close-button), 100%);
     --button-danger-background-hover: rgba(var(--rgb-close-button), 70%);
@@ -172,27 +172,8 @@
     background-color: transparent;
 }
 
-.wrapper_a7c28c, .title_d1da5f{
-    background: linear-gradient(to right,#ff1d1d,#ff1eec, #fc22ea, #0f93ff, #00ffb3 , #00ff00, #fffb21, #e69706,#ff1111);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    animation: rainbow_animation 5s ease-in-out infinite;
-    background-size: 400% 100%;
-}
-
 .footer_aa1bff{
     background-color: transparent !important;
-}
-
-@keyframes rainbow_animation {
-    0%,100% {
-        background-position: 0 0;
-    }
-
-    50% {
-        background-position: 100% 0;
-    }
 }
 
 .side_a0 .item_a0:hover, .containerDefault_f6f816:hover{
