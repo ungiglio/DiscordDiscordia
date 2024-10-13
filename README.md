@@ -2,7 +2,9 @@
 
 # Lande della Discordia
 
-![Lande della Discordia](https://github.com/user-attachments/assets/289d6055-bfed-4671-939a-06f9e90a4e9c)
+<!--![Lande della Discordia](https://github.com/user-attachments/assets/289d6055-bfed-4671-939a-06f9e90a4e9c)-->
+![awkglass beta v1.0.2](https://github.com/user-attachments/assets/f9b2630a-5bda-464b-9eac-b02b9ba88822)
+*screenshot from latest [awkglass](https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.2-beta.awkglass) release*
 </div>
 
 A custom purple theme to enhance your Discord experience.
