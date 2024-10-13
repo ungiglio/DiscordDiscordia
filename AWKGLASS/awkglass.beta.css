@@ -871,3 +871,9 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 .spineBorder_e1e976 {
     background: rgb(121, 121, 121);
 }
+.containerDefault_f6f816:hover .spineBorder_e1e976 {
+    background: var(--white);
+}
+.containerDefault_f6f816:hover .spine_e1e976 {
+    color: var(--white);
+}
