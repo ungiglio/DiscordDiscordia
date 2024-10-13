@@ -2,7 +2,7 @@
 
 # Lande della Discordia
 
-![awkglass-beta theme](https://github.com/user-attachments/assets/ee1925eb-cb36-4c99-b9ef-2122c9839d07)
+![awkglass-beta theme v1.0.2](https://github.com/user-attachments/assets/f9b2630a-5bda-464b-9eac-b02b9ba88822)
 
 </div>
 
@@ -12,7 +12,7 @@ A custom purple theme to enhance your Discord experience.
 
 "Lande della Discordia" is a Discord theme created by [@ungiglio](https://discord.com/users/769144538107215872) to customize his own Discord client. Now available for everyone who wants to add a touch of elegance to their Discord interface.
 
-The theme features a beautiful purple shade (#b266ff) that transforms your Discord experience into something truly unique.
+The theme features a beautiful glass effect with purple shade (#b266ff) that transforms your Discord experience into something truly unique.
 
 ## Installation [Vencord Version]
 
