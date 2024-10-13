@@ -842,3 +842,22 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
     border-radius: 8px;
     box-shadow: var(--box-shadow);
 }
+#app-mount .wrapper_c51b4e rect[fill="#593695"],
+#app-mount .wrapper_c51b4e rect[mask*=streaming] {
+    fill: var(--streaming-color)
+}
+
+#app-mount .wrapper_c51b4e rect[fill="#43b581"],
+#app-mount .wrapper_c51b4e rect[mask*=online] {
+    fill: var(--online-color)
+}
+
+#app-mount .wrapper_c51b4e rect[fill="#faa61a"],
+#app-mount .wrapper_c51b4e rect[mask*=idle] {
+    fill: var(--afk-color)
+}
+
+#app-mount .wrapper_c51b4e rect[fill="#f04747"],
+#app-mount .wrapper_c51b4e rect[mask*=dnd] {
+    fill: var(--dnd-color)
+}
