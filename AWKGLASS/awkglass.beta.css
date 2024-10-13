@@ -877,3 +877,21 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 .containerDefault_f6f816:hover .spine_e1e976 {
     color: var(--white);
 }
+
+.jumpToPresentBar_cf58b5 {
+    bottom: 1px;
+    right: calc(18px + var(--custom-channel-textarea-text-area-height) + var(--custom-channel-textarea-app-launcher-button-gap));
+    border-radius: 8px;
+    background-color: var(--darkPurple-background);
+    border: 1px solid var(--channel-icon);
+    opacity: .95;
+    padding-bottom: 8px;
+}
+
+#popout_5211 {  /* channel search input */
+    border-radius: 8px;
+    border: 1px solid var(--highlight);
+}
+.container_eedf95 { /* channel search input */
+    border-radius: 8px;
+}
