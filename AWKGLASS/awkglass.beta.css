@@ -473,6 +473,9 @@
 .containerDefault_f6f816 .modeMuted_d8bfb3 .name_d8bfb3 {
     color: var(--interactive-muted);
 }
+.containerDefault_f6f816:hover .modeMuted_d8bfb3 .name_d8bfb3 {
+    color: var(--white);
+}
 
 .modeUnreadImportant_d8bfb3 .name_d8bfb3,
 .modeUnreadImportant_d8bfb3:hover .name_d8bfb3 {
