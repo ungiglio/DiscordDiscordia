@@ -10,16 +10,11 @@
 :root,
 .theme-dark,
 .theme-light {
-    /*HorizontalServersList settings*/
-
-    --HSL-server-icon-size: 45px;  /* Size of the server icons | DEFAULT: 40px */
-    --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
-    --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
-
     /*Background*/
     --background-image: var(--custom-image-url);
     --app-blur: 8px;
-    --button-background: linear-gradient(60deg, var(--highlight), rgba(152, 51, 255, 0.973));
+    --button-background: linear-gradient(60deg, var(--highlight), var(--highlight-darker));
+    --button-background-static: var(--highlight);
     --background-primary: rgba(24, 24, 24, 0.26) !important;
     --background-secondary: rgba(26, 26, 26, 0.500) !important;
     --background-modifier-hover : rgba(20, 20, 20, 0.500) ;
@@ -27,6 +22,7 @@
 
     /*other*/
     --highlight: rgb(var(--rgb-highlight));
+    --highlight-darker: hsl(from var(--highlight) calc(h + 15) s calc(l - 35)); /*color-mix(in srgb,var(--highlight),#000 50%);*/
     --text: var(--text-muted);
     --online-color: rgb(var(--rgb-online-color));
     --afk-color: rgb(var(--rgb-afk-color));
@@ -146,6 +142,8 @@
     --status-positive: var(--online-color);
     --profile-gradient-primary-color: var(--rgb-background);
     --profile-gradient-secondary-color: var(--rgb-background);
+    --menu-item-default-active-bg: var(--highlight);
+    --menu-item-default-hover-bg: var(--highlight);
 
     --bg-brand: var(--highlight);
     --darkPurple-background: rgb(46, 0, 58);
@@ -177,8 +175,8 @@
 }
 
 .side_a0 .item_a0:hover, .containerDefault_f6f816:hover{
-    background: var(--button-background);
     border-radius: 3px;
+    background: var(--button-background);
     color: white;
 }
 
@@ -224,7 +222,7 @@
 }
 
 .lookFilled_dd4f85.colorBrand_dd4f85, .lookFilled_dd4f85.colorPrimary_dd4f85, .botTagRegular_a9e77f, .unread_fd8ff1{
-    background: var(--button-background);
+    background: var(--button-background-static);
 }
 
 .modeUnreadImportant_d8bfb3 .name_d8bfb3, .modeUnreadImportant_d8bfb3:hover .name_d8bfb3{
@@ -445,7 +443,7 @@
 }
 
 .childWrapper_f90abb { /* discord logo color */
-    color: rgb(115, 49, 190);
+    color: var(--highlight);
 }
 
 .vc-ranb-button {
@@ -635,8 +633,8 @@
     font-size: 10px;
 }
 .vc-ranb-button:hover { /* read all button */
-    border: 1px solid rgb(149, 76, 226);
-    background-color: rgb(149, 76, 226);
+    border: 1px solid var(--highlight);
+    background-color: color-mix(in srgb,var(--highlight),#000 30%);
 }
 
 .panels_a4d4d9 {    /*personal info/status panel*/
@@ -812,4 +810,35 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 .members_cbd271 {
     background: transparent;
     border-radius: 0px 0px 8px 8px;
+}
+
+.circleIconButton_db6521 {
+    color: var(--highlight);
+}
+.circleIconButton_db6521:hover {
+    background-color: var(--highlight);
+}
+.botTagOP_a9e77f {  /* Post Author tag color */
+    color: var(--white);
+}
+
+/* forum */
+.chatLayerWrapper_d1c246 {
+    border-radius: 8px;
+    margin: 20px;
+    height: 95.9%;
+    background: transparent;
+}
+.resizeHandle_d1c246 {
+    cursor: ew-resize;
+    height: 100%;
+    width: var(--chat-resize-handle-width);
+    flex-shrink: 0;
+    border-radius: 8px;
+    margin: 0 5px;
+    background: var(--bg-overlay-3, var(--background-tertiary));
+}
+.container_d1c246 {
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
 }
