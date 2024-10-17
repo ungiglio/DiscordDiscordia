@@ -895,3 +895,18 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 .container_eedf95 { /* channel search input */
     border-radius: 8px;
 }
+.autocomplete_bcc24e {
+    border-radius: 8px;
+    border: 1px solid var(--highlight);
+    background-color: var(--darkPurple-background);
+}
+.wrapper_efd8e6, .wrapper_ba23fe {
+    background: var(--darkPurple-background);
+}
+.categoryHeader_fe2299 {
+    background-color: 0;
+    border-radius: 8px;
+}
+.clickable_bcc24e[aria-disabled=false]>.base_bcc24e:hover {
+    border-radius: 8px;
+}
