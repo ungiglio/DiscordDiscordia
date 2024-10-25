@@ -434,6 +434,9 @@
 .themedBackground_d0696b {
     background: var(--bg-overlay-3, var(--darkPurple-background));
 }
+.themedBackground_bdf0de {
+    background: var(--bg-overlay-3, var(--darkPurple-background));
+}
 
 
 .theme-dark .children_e44302:after,
