@@ -12,12 +12,12 @@
 .theme-light {
 
     /* Halloween theme */
-    --custom-image-url: url('https://i.imgur.com/8AxJeml.png');
+    --custom-halloween-image-url: url('https://i.imgur.com/8AxJeml.png');
 
     
     /* Halloween theme end */
     /*Background*/
-    --background-image: var(--custom-image-url);
+    --background-image: var(--custom-halloween-image-url);
     --app-blur: 5px;
     --button-background: linear-gradient(60deg, var(--highlightHalloween), var(--highlightHalloween-darker));
     --button-background-static: var(--highlightHalloween);
