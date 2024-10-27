@@ -19,7 +19,7 @@
     /*Background*/
     --background-image: var(--custom-halloween-image-url);
     --app-blur: 5px;
-    --button-background: linear-gradient(60deg, var(--highlightHalloween), var(--highlightHalloween-darker));
+    --button-background: linear-gradient(45rad, rgb(255, 151, 36), rgb(250, 104, 6));
     --button-background-static: var(--highlightHalloween);
     --background-primary: rgba(24, 24, 24, 0.26) !important;
     --background-secondary: rgba(26, 26, 26, 0.500) !important;
@@ -29,7 +29,6 @@
     /*other*/
     --rgb-highlightHalloween: 249, 105, 10;
     --highlightHalloween: rgb(var(--rgb-highlightHalloween));
-    --highlightHalloween-darker: rgb(var(--rgb-highlight));
     --text: var(--text-muted);
     --online-color: rgb(var(--rgb-online-color));
     --afk-color: rgb(var(--rgb-afk-color));
@@ -144,7 +143,7 @@
     --channel-header-color: var(--custom-channel-header-color);
     --custom-halloween-channel-icon: rgb(187, 134, 118);
     --channel-icon: var(--custom-halloween-channel-icon);
-    --custom-halloween-selected-channel-color: rgb(178, 180, 79);
+    --custom-halloween-selected-channel-color: rgb(255, 238, 0);
     --selected-channel-color: var(--custom-halloween-selected-channel-color);
     --cat-color: var(--cat-custom-color);
     --cat-color-rgba: var(--cat-custom-color-rgba);
