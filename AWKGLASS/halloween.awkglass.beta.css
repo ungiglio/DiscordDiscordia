@@ -929,3 +929,7 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
     padding: 0 8px;
     background-color: none;
 }
+
+.container_ac201b {
+    background-color: rgb(24, 24, 24);
+}
