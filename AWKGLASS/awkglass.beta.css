@@ -924,3 +924,12 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 .container_ac201b {
     background-color: rgb(24, 24, 24);
 }
+
+.content_c2654d {
+    color: var(--text-muted);
+    background: var(--bg-overlay-chat, var(--darkPurple-background));
+}
+
+.divider_c2654d {
+    border-top: thin solid var(--custom-channel-icon);
+}
