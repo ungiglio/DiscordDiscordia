@@ -942,3 +942,7 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 .divider_c2654d {
     border-top: thin solid var(--custom-channel-icon);
 }
+
+.popout_f6639d {
+    background: rgb(26, 26, 26);
+}
