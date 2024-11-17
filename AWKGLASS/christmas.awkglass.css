@@ -155,7 +155,7 @@
     --menu-item-default-hover-bg: var(--highlightChristmas);
 
     --bg-brand: var(--highlightChristmas);
-    --darkPurpleChristmas-background: rgba(119, 0, 0, 0.418);
+    --darkPurpleChristmas-background: rgb(119, 0, 0);
 }
 
 .bg_d4b6c5{
@@ -438,13 +438,13 @@
 
 .channelTextArea_a7d72e {   /* textbar area */
     border: 1px solid var(--highlightChristmas);
-    background: var(--darkPurpleChristmas-background);
+    background: rgba(119, 0, 0, 0.418);
 }
 .themedBackground_d0696b {
-    background: var(--bg-overlay-3, var(--darkPurpleChristmas-background));
+    background: var(--bg-overlay-3, rgba(119, 0, 0, 0.418));
 }
 .themedBackground_bdf0de {
-    background: var(--bg-overlay-3, var(--darkPurpleChristmas-background));
+    background: var(--bg-overlay-3, rgba(119, 0, 0, 0.418));
 }
 
 
@@ -466,7 +466,7 @@
     margin-top: auto;
     border: 1px solid var(--highlightChristmas);
     border-radius: 10px;
-    background: var(--darkPurpleChristmas-background);
+    background: rgba(119, 0, 0, 0.418);
 }
 .button_df39bd {    /* apps cmds (near text area) background */
     background: transparent;
@@ -670,7 +670,7 @@
     border: 1px solid var(--highlightChristmas);
     margin-top: 3px;
     margin-bottom: 24px;
-    background:  var(--darkPurpleChristmas-background);
+    background:  rgba(119, 0, 0, 0.418);
 }
 .container_adcaac {     /*VC panel*/
     color: var(--header-primary);
@@ -678,7 +678,7 @@
     font-weight: 500;
     padding: 8px;
     flex-shrink: 0;
-    background: var(--darkPurpleChristmas-background);
+    background: rgba(119, 0, 0, 0.418);
     border-radius: 8px;
     border: 1px solid var(--highlightChristmas);
     margin-top: 3px;
@@ -693,7 +693,7 @@
     margin-bottom: 3px;
 }
 .theme-dark .panel_bf1a22{  /*activitypanel bg*/
-    background: var(--darkPurpleChristmas-background);
+    background: rgba(119, 0, 0, 0.418);
 }
 #vc-spotify-player {     /*spotify controller*/
     padding: 0.375rem 0.5rem;
@@ -704,7 +704,7 @@
     margin-bottom: 3px;
 }
 .theme-dark #vc-spotify-player {    /*spotify bg color*/
-    background: var(--bg-overlay-1, var(--darkPurpleChristmas-background));
+    background: var(--bg-overlay-1, rgba(119, 0, 0, 0.418));
 }
 
 .scroller_c43953::-webkit-scrollbar { /*channel list scrollbar hidden*/
