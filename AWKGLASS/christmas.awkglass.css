@@ -11,32 +11,32 @@
 .theme-dark,
 .theme-light {
 
-    /* Halloween theme */
-    --custom-halloween-image-url: url('https://i.imgur.com/KrDzzSg.png'); /*url('https://i.imgur.com/63MdyUf.png');*/
+    /* Christmas theme */
+    --custom-christmas-image-url: url('https://i.imgur.com/KrDzzSg.png'); /*url('https://i.imgur.com/63MdyUf.png');*/
 
     
-    /* Halloween theme end */
+    /* Christmas theme end */
     /*Background*/
-    --background-image: var(--custom-halloween-image-url);
+    --background-image: var(--custom-christmas-image-url);
     --app-blur: 5px;
-    --button-background: linear-gradient(45rad, rgb(255, 151, 36), rgb(250, 104, 6));
-    --button-background-static: var(--highlightHalloween);
+    --button-background: linear-gradient(45rad, rgb(155, 29, 20), rgb(231, 10, 10));
+    --button-background-static: var(--highlightChristmas);
     --background-primary: rgba(24, 24, 24, 0.26) !important;
     --background-secondary: rgba(26, 26, 26, 0.500) !important;
     --background-modifier-hover : rgba(20, 20, 20, 0.500) ;
     --box-shadow: 0 0 10px 0px black;
 
     /*other*/
-    --rgb-highlightHalloween: 249, 105, 10;
-    --highlightHalloween: rgb(var(--rgb-highlightHalloween));
+    --rgb-highlightChristmas: 155, 29, 20;
+    --highlightChristmas: rgb(255, 255, 255);
     --text: var(--text-muted);
     --online-color: rgb(var(--rgb-online-color));
     --afk-color: rgb(var(--rgb-afk-color));
     --dnd-color: rgb(var(--rgb-dnd-color));
     --streaming-color: rgb(var(--rgb-streaming-color));
-    --scrollbar-thin-thumb: var(--highlightHalloween);
-    --scrollbar-auto-thumb: var(--highlightHalloween);
-    --scrollbar-auto-scrollbar-color-thumb: var(--highlightHalloween);
+    --scrollbar-thin-thumb: var(--highlightChristmas);
+    --scrollbar-auto-thumb: var(--highlightChristmas);
+    --scrollbar-auto-scrollbar-color-thumb: var(--highlightChristmas);
     --scrollbar-thin-track: transparent;
     --scrollbar-auto-track: transparent;
     --scrollbar-auto-scrollbar-color-track: transparent;
@@ -49,23 +49,23 @@
     --custom-title-margin-top: 0px;
     --custom-title-margin-left: 0px;
 
-    --logo-primary: var(--highlightHalloween);
-    --control-brand-foreground: var(--highlightHalloween);
-    --control-brand-foreground-new: var(--highlightHalloween);
-    --background-mentioned: rgba(var(--rgb-highlightHalloween), 10%);
-    --background-mentioned-hover: rgba(var(--rgb-highlightHalloween), 20%);
+    --logo-primary: var(--highlightChristmas);
+    --control-brand-foreground: var(--highlightChristmas);
+    --control-brand-foreground-new: var(--highlightChristmas);
+    --background-mentioned: rgba(var(--rgb-highlightChristmas), 10%);
+    --background-mentioned-hover: rgba(var(--rgb-highlightChristmas), 20%);
     --background-message-hover: color-mix(in oklab,hsl(var(--primary-900-hsl) / 0.06) 100%,hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.06) var(--theme-base-color-amount, 0%));
-    --background-message-highlightHalloween: rgba(var(--rgb-highlightHalloween), 30%);
-    --background-message-highlightHalloween-hover: rgba(var(--rgb-highlightHalloween), 40%);
-    --background-message-automod: rgba(var(--rgb-highlightHalloween), 20%);
-    --background-message-automod-hover: rgba(var(--rgb-highlightHalloween), 40%);
+    --background-message-highlightChristmas: rgba(var(--rgb-highlightChristmas), 30%);
+    --background-message-highlightChristmas-hover: rgba(var(--rgb-highlightChristmas), 40%);
+    --background-message-automod: rgba(var(--rgb-highlightChristmas), 20%);
+    --background-message-automod-hover: rgba(var(--rgb-highlightChristmas), 40%);
     --channeltextarea-background: color-mix(in oklab,var(--primary-560) 100%,var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
-    --text-link: var(--highlightHalloween);
-    --text-link-low-saturation: rgba(var(--rgb-highlightHalloween), 50%);
+    --text-link: var(--highlightChristmas);
+    --text-link-low-saturation: rgba(var(--rgb-highlightChristmas), 50%);
     --text-positive: var(--online-color);
     --text-warning: var(--afk-color);
     --text-danger: var(--dnd-color);
-    --text-brand: var(--highlightHalloween);
+    --text-brand: var(--highlightChristmas);
     --channels-default: var(--text);
     --interactive-muted: rgba(180, 180, 180, 0.493);
     --button-danger-background-disabled: rgba(var(--rgb-close-button), 20%);
@@ -94,68 +94,68 @@
     --button-outline-positive-text-active: rgba(var(--rgb-online-color), 100%);
     --button-outline-positive-border-hover: rgba(var(--rgb-online-color), 70%);
     --button-outline-positive-border-active: rgba(var(--rgb-online-color), 100%);
-    --button-primary-background-disabled: rgba(var(--rgb-highlightHalloween), 20%);
-    --button-primary-background: rgba(var(--rgb-highlightHalloween), 20%);
-    --button-primary-background-hover: rgba(var(--rgb-highlightHalloween), 70%);
-    --button-primary-background-active: rgba(var(--rgb-highlightHalloween), 100%);
-    --button-outline-primary-border: rgba(var(--rgb-highlightHalloween), 50%);
-    --button-outline-primary-background: rgba(var(--rgb-highlightHalloween), 50%);
-    --button-outline-primary-background-hover: rgba(var(--rgb-highlightHalloween), 70%);
-    --button-outline-primary-background-active: rgba(var(--rgb-highlightHalloween), 100%);
-    --button-outline-primary-text: rgba(var(--rgb-highlightHalloween), 50%);
-    --button-outline-primary-text-hover: rgba(var(--rgb-highlightHalloween), 70%);
-    --button-outline-primary-text-active: rgba(var(--rgb-highlightHalloween), 100%);
-    --button-outline-primary-border-hover: rgba(var(--rgb-highlightHalloween), 70%);
-    --button-outline-primary-border-active: rgba(var(--rgb-highlightHalloween), 100%);
-    --button-secondary-background-disabled: rgba(var(--rgb-highlightHalloween), 20%);
-    --button-secondary-background: rgba(var(--rgb-highlightHalloween), 20%);
-    --button-secondary-background-hover: rgba(var(--rgb-highlightHalloween), 70%);
-    --button-secondary-background-active: rgba(var(--rgb-highlightHalloween), 100%);
-    --button-outline-secondary-border: rgba(var(--rgb-highlightHalloween), 50%);
-    --button-outline-secondary-background: rgba(var(--rgb-highlightHalloween), 50%);
-    --button-outline-secondary-background-hover: rgba(var(--rgb-highlightHalloween), 70%);
-    --button-outline-secondary-background-active: rgba(var(--rgb-highlightHalloween), 100%);
-    --button-outline-secondary-text: rgba(var(--rgb-highlightHalloween), 50%);
-    --button-outline-secondary-text-hover: rgba(var(--rgb-highlightHalloween), 70%);
-    --button-outline-secondary-text-active: rgba(var(--rgb-highlightHalloween), 100%);
-    --button-outline-secondary-border-hover: rgba(var(--rgb-highlightHalloween), 70%);
-    --button-outline-secondary-border-active: rgba(var(--rgb-highlightHalloween), 100%);
-    --button-brand-background-disabled: rgba(var(--rgb-highlightHalloween), 20%);
-    --button-brand-background: rgba(var(--rgb-highlightHalloween), 20%);
-    --button-brand-background-hover: rgba(var(--rgb-highlightHalloween), 70%);
-    --button-brand-background-active: rgba(var(--rgb-highlightHalloween), 100%);
-    --button-outline-brand-border: rgba(var(--rgb-highlightHalloween), 50%);
-    --button-outline-brand-background: rgba(var(--rgb-highlightHalloween), 50%);
-    --button-outline-brand-background-hover: rgba(var(--rgb-highlightHalloween), 70%);
-    --button-outline-brand-background-active: rgba(var(--rgb-highlightHalloween), 100%);
-    --button-outline-brand-text: rgba(var(--rgb-highlightHalloween), 50%);
-    --button-outline-brand-text-hover: rgba(var(--rgb-highlightHalloween), 70%);
-    --button-outline-brand-text-active: rgba(var(--rgb-highlightHalloween), 100%);
-    --button-outline-brand-border-hover: rgba(var(--rgb-highlightHalloween), 70%);
-    --button-outline-brand-border-active: rgba(var(--rgb-highlightHalloween), 100%);
-    --search-popout-option-user-nickname: var(--highlightHalloween);
-    --search-popout-option-user-username: rgba(var(--rgb-highlightHalloween), 70%);
-    --search-popout-option-filter-text: rgba(var(--rgb-highlightHalloween), 70%);
-    --search-popout-date-picker-border: 1px solid var(--highlightHalloween);
-    --status-danger-halloween: rgb(252, 76, 1);
-    --status-danger: rgb(252, 76, 1);
-    --status-danger-halloween-background: var(--status-danger-halloween);
+    --button-primary-background-disabled: rgba(var(--rgb-highlightChristmas), 20%);
+    --button-primary-background: rgba(var(--rgb-highlightChristmas), 20%);
+    --button-primary-background-hover: rgba(var(--rgb-highlightChristmas), 70%);
+    --button-primary-background-active: rgba(var(--rgb-highlightChristmas), 100%);
+    --button-outline-primary-border: rgba(var(--rgb-highlightChristmas), 50%);
+    --button-outline-primary-background: rgba(var(--rgb-highlightChristmas), 50%);
+    --button-outline-primary-background-hover: rgba(var(--rgb-highlightChristmas), 70%);
+    --button-outline-primary-background-active: rgba(var(--rgb-highlightChristmas), 100%);
+    --button-outline-primary-text: rgba(var(--rgb-highlightChristmas), 50%);
+    --button-outline-primary-text-hover: rgba(var(--rgb-highlightChristmas), 70%);
+    --button-outline-primary-text-active: rgba(var(--rgb-highlightChristmas), 100%);
+    --button-outline-primary-border-hover: rgba(var(--rgb-highlightChristmas), 70%);
+    --button-outline-primary-border-active: rgba(var(--rgb-highlightChristmas), 100%);
+    --button-secondary-background-disabled: rgba(var(--rgb-highlightChristmas), 20%);
+    --button-secondary-background: rgba(var(--rgb-highlightChristmas), 20%);
+    --button-secondary-background-hover: rgba(var(--rgb-highlightChristmas), 70%);
+    --button-secondary-background-active: rgba(var(--rgb-highlightChristmas), 100%);
+    --button-outline-secondary-border: rgba(var(--rgb-highlightChristmas), 50%);
+    --button-outline-secondary-background: rgba(var(--rgb-highlightChristmas), 50%);
+    --button-outline-secondary-background-hover: rgba(var(--rgb-highlightChristmas), 70%);
+    --button-outline-secondary-background-active: rgba(var(--rgb-highlightChristmas), 100%);
+    --button-outline-secondary-text: rgba(var(--rgb-highlightChristmas), 50%);
+    --button-outline-secondary-text-hover: rgba(var(--rgb-highlightChristmas), 70%);
+    --button-outline-secondary-text-active: rgba(var(--rgb-highlightChristmas), 100%);
+    --button-outline-secondary-border-hover: rgba(var(--rgb-highlightChristmas), 70%);
+    --button-outline-secondary-border-active: rgba(var(--rgb-highlightChristmas), 100%);
+    --button-brand-background-disabled: rgba(var(--rgb-highlightChristmas), 20%);
+    --button-brand-background: rgba(var(--rgb-highlightChristmas), 20%);
+    --button-brand-background-hover: rgba(var(--rgb-highlightChristmas), 70%);
+    --button-brand-background-active: rgba(var(--rgb-highlightChristmas), 100%);
+    --button-outline-brand-border: rgba(var(--rgb-highlightChristmas), 50%);
+    --button-outline-brand-background: rgba(var(--rgb-highlightChristmas), 50%);
+    --button-outline-brand-background-hover: rgba(var(--rgb-highlightChristmas), 70%);
+    --button-outline-brand-background-active: rgba(var(--rgb-highlightChristmas), 100%);
+    --button-outline-brand-text: rgba(var(--rgb-highlightChristmas), 50%);
+    --button-outline-brand-text-hover: rgba(var(--rgb-highlightChristmas), 70%);
+    --button-outline-brand-text-active: rgba(var(--rgb-highlightChristmas), 100%);
+    --button-outline-brand-border-hover: rgba(var(--rgb-highlightChristmas), 70%);
+    --button-outline-brand-border-active: rgba(var(--rgb-highlightChristmas), 100%);
+    --search-popout-option-user-nickname: var(--highlightChristmas);
+    --search-popout-option-user-username: rgba(var(--rgb-highlightChristmas), 70%);
+    --search-popout-option-filter-text: rgba(var(--rgb-highlightChristmas), 70%);
+    --search-popout-date-picker-border: 1px solid var(--highlightChristmas);
+    --status-danger-christmas: rgb(230, 19, 19);
+    --status-danger: rgb(255, 255, 255);
+    --status-danger-christmas-background: var(--status-danger-christmas);
     --channel-header-color: var(--custom-channel-header-color);
-    --custom-halloween-channel-icon: rgb(187, 134, 118);
-    --channel-icon: var(--custom-halloween-channel-icon);
-    --custom-halloween-selected-channel-color: rgb(255, 238, 0);
-    --selected-channel-color: var(--custom-halloween-selected-channel-color);
+    --custom-christmas-channel-icon: rgb(214, 65, 65);
+    --channel-icon: var(--custom-christmas-channel-icon);
+    --custom-christmas-selected-channel-color: rgb(255, 255, 255);
+    --selected-channel-color: var(--custom-christmas-selected-channel-color);
     --cat-color: var(--cat-custom-color);
     --cat-color-rgba: var(--cat-custom-color-rgba);
     --status-warning: var(--afk-color);
     --status-positive: var(--online-color);
     --profile-gradient-primary-color: var(--rgb-background);
     --profile-gradient-secondary-color: var(--rgb-background);
-    --menu-item-default-active-bg: var(--highlightHalloween);
-    --menu-item-default-hover-bg: var(--highlightHalloween);
+    --menu-item-default-active-bg: var(--highlightChristmas);
+    --menu-item-default-hover-bg: var(--highlightChristmas);
 
-    --bg-brand: var(--highlightHalloween);
-    --darkPurpleHalloween-background: rgb(58, 18, 0);
+    --bg-brand: var(--highlightChristmas);
+    --darkPurpleChristmas-background: rgba(119, 0, 0, 0.418);
 }
 
 .bg_d4b6c5{
@@ -172,7 +172,7 @@
 }
 
 #app-mount .guilds_a4d4d9 [class*=pill] span[style*="height: 40"] {
-    background-color: var(--selected-channel-color);
+    background-color: var(--status-danger-christmas);
 }
 
 .content_a4d4d9{
@@ -194,7 +194,7 @@
 }
 
 .modeSelected_d8bfb3 .link_d8bfb3, .modeSelected_d8bfb3:hover .link_d8bfb3 {
-    background: var(--background-mentioned);
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .wrapper_d8bfb3:hover .link_d8bfb3 {
@@ -230,7 +230,7 @@
     border-radius: 10px;
 }
 
-.lookFilled_dd4f85.colorBrand_dd4f85, .lookFilled_dd4f85.colorPrimary_dd4f85, .botTagRegular_a9e77f, .unread_fd8ff1{
+.lookFilled_dd4f85.colorBrand_dd4f85, .botTagRegular_a9e77f, .unread_fd8ff1{
     background: var(--button-background-static);
 }
 
@@ -374,16 +374,16 @@
 }
 
 .numberBadge__40d6f {
-    background-color: rgba(var(--rgb-highlightHalloween), 70%) !important;
+    background-color: rgba(var(--rgb-highlightChristmas), 70%) !important;
     color: var(--background)
 }
 
 .isUnread_fc5f50 {
-    border: 1px solid var(--highlightHalloween)
+    border: 1px solid var(--highlightChristmas)
 }
 
 .content_fc5f50 {
-    color: var(--highlightHalloween) !important
+    color: var(--highlightChristmas) !important
 }
 
 .unread_d8bfb3,
@@ -392,10 +392,10 @@
 }
 
 .popoverReactionHoverBar_e986d9 { /* message:hover popup */
-  background: var(--darkPurpleHalloween-background);
+  background: var(--darkPurpleChristmas-background);
 }
 .popoverReactionHoverBar_e986d9:hover { /* message:hover popup */
-  border: 1px solid var(--custom-halloween-channel-icon);
+  border: 1px solid var(--custom-christmas-channel-icon);
 }
 
 .wrapper_bf1b19 { /* slash cmds */
@@ -413,7 +413,7 @@
     align-items: center;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    border-top: solid 1px var(--highlightHalloween);
+    border-top: solid 1px var(--highlightChristmas);
 }
 .clipContainer_b11c5e { /*reply box over textarea */
     overflow: hidden;
@@ -427,24 +427,24 @@
 }
 
 .unreadPillCapStroke_fc5f50 {
-    color: var(--highlightHalloween);
-    fill: var(--highlightHalloween)
+    color: var(--highlightChristmas);
+    fill: var(--highlightChristmas)
 }
 
 .unreadPill_fc5f50 {
-    background-color: var(--highlightHalloween);
+    background-color: var(--highlightChristmas);
     color: var(--background) !important
 }
 
 .channelTextArea_a7d72e {   /* textbar area */
-    border: 1px solid var(--highlightHalloween);
-    background: var(--darkPurpleHalloween-background);
+    border: 1px solid var(--highlightChristmas);
+    background: var(--darkPurpleChristmas-background);
 }
 .themedBackground_d0696b {
-    background: var(--bg-overlay-3, var(--darkPurpleHalloween-background));
+    background: var(--bg-overlay-3, var(--darkPurpleChristmas-background));
 }
 .themedBackground_bdf0de {
-    background: var(--bg-overlay-3, var(--darkPurpleHalloween-background));
+    background: var(--bg-overlay-3, var(--darkPurpleChristmas-background));
 }
 
 
@@ -455,7 +455,7 @@
 }
 
 .childWrapper_f90abb { /* discord logo color */
-    color: var(--highlightHalloween);
+    color: var(--highlightChristmas);
 }
 
 .vc-ranb-button {
@@ -464,9 +464,9 @@
 
 .theme-dark .buttonContainer_df39bd { /* apps cmds (near text area) border color */
     margin-top: auto;
-    border: 1px solid var(--highlightHalloween);
+    border: 1px solid var(--highlightChristmas);
     border-radius: 10px;
-    background: var(--darkPurpleHalloween-background);
+    background: var(--darkPurpleChristmas-background);
 }
 .button_df39bd {    /* apps cmds (near text area) background */
     background: transparent;
@@ -527,15 +527,15 @@
 }
 
 .containerDefault_f6f816 .modeUnreadImportant_d8bfb3 .icon_d8bfb3 { /*unread channel*/
-    color: var(--selected-channel-color)
+    color: var(--selected-channel-color);
 }
 
 .containerDefault_f6f816 .modeSelected_d8bfb3 .name_d8bfb3 { /*selected channel text*/
-    color: var(--selected-channel-color)
+    color: var(--selected-channel-color);
 }
 
 .containerDefault_f6f816 .modeSelected_d8bfb3 .wrapper_d8bfb3 {
-    background-color: rgba(var(--rgb-highlightHalloween), 20%)
+    background-color: rgba(var(--rgb-highlightChristmas), 20%)
 }
 
 .reactionMe_ec6b19 .reactionCount_ec6b19 {
@@ -548,46 +548,46 @@
 }
 
 .replying_d5deea:hover {
-    background-color: rgba(var(--rgb-highlightHalloween), 60%) !important
+    background-color: rgba(var(--rgb-highlightChristmas), 60%) !important
 }
 
 .ephemeral_d5deea {
-    background-color: rgba(var(--rgb-highlightHalloween), 30%)
+    background-color: rgba(var(--rgb-highlightChristmas), 30%)
 }
 
 .ephemeral_d5deea:hover {
-    background-color: rgba(var(--rgb-highlightHalloween), 40%) !important
+    background-color: rgba(var(--rgb-highlightChristmas), 40%) !important
 }
 
 .mentioned_d5deea::before {
-    background-color: var(--highlightHalloween)
+    background-color: var(--highlightChristmas)
 }
 
 .lookFilled_dd4f85.colorBrand_dd4f85 { /* forum new post button */
-    background-color: var(--highlightHalloween);
+    background-color: var(--channel-icon);
     color: rgb();
 }
 
 .lookFilled_dd4f85.colorBrand_dd4f85:hover { /* forum new post button hover */
-    background-color: rgb(255, 133, 52);
+    background-color: rgba(184, 28, 28, 0.733);
 }
 
 .pinIcon_f451cd { /* forum pin */
-    background-color: var(--status-danger-halloween);
+    background-color: var(--status-danger-christmas);
 }
 
 .reaction_ec6b19.reactionMe_ec6b19 { /* forum reaction color */
-    background-color: rgba(255, 184, 102, 0.3);
-    border-color: var(--highlightHalloween);
+    background-color: rgba(255, 102, 102, 0.3);
+    border-color: var(--highlightChristmas);
 }
 .reaction_f61c73.reactionMe_f61c73 { /* forum reaction color */
     background-color: rgba(255, 184, 102, 0.3);
-    border-color: var(--highlightHalloween);
+    border-color: var(--highlightChristmas);
 }
 
 .mainCard_a6d69a { /*forum posts cards */
     background: var(--bg-mod-faint);
-    border: 1px solid var(--highlightHalloween);
+    border: 1px solid var(--highlightChristmas);
     border-radius: var(--radius-md);
 }
 
@@ -618,7 +618,7 @@
     height: 32px;
     top: 0px;
     border-radius: 8px;
-    background-color: var(--highlightHalloween);
+    background-color: var(--channel-icon);
     box-shadow: var(--elevation-low);
 }
 
@@ -638,9 +638,9 @@
 }
 
 .vc-ranb-button { /* read all button */
-    border: 1px solid var(--highlightHalloween);
+    border: 1px solid var(--channel-icon);
     border-radius: 8px;
-    background-color: var(--highlightHalloween);
+    background-color: var(--channel-icon);
     color: white;
     width: 80%;
     margin: 5% 10% 10% 10%;
@@ -648,8 +648,8 @@
     font-size: 10px;
 }
 .vc-ranb-button:hover { /* read all button */
-    border: 1px solid var(--highlightHalloween);
-    background-color: color-mix(in srgb,var(--highlightHalloween),#000 30%);
+    border: 1px solid var(--channel-icon);
+    background-color: color-mix(in srgb,var(--channel-icon),#000 30%);
 }
 
 .panels_a4d4d9 {    /*personal info/status panel*/
@@ -667,10 +667,10 @@
     flex-shrink: 0;
     position: relative;
     border-radius: 8px;
-    border: 1px solid var(--highlightHalloween);
+    border: 1px solid var(--highlightChristmas);
     margin-top: 3px;
     margin-bottom: 24px;
-    background:  var(--darkPurpleHalloween-background);
+    background:  var(--darkPurpleChristmas-background);
 }
 .container_adcaac {     /*VC panel*/
     color: var(--header-primary);
@@ -678,9 +678,9 @@
     font-weight: 500;
     padding: 8px;
     flex-shrink: 0;
-    background: var(--darkPurpleHalloween-background);
+    background: var(--darkPurpleChristmas-background);
     border-radius: 8px;
-    border: 1px solid var(--highlightHalloween);
+    border: 1px solid var(--highlightChristmas);
     margin-top: 3px;
     margin-bottom: 3px;
 }
@@ -689,22 +689,22 @@
     position: relative;
     z-index: 2;
     border-radius: 8px;
-    border: 1px solid var(--highlightHalloween);
+    border: 1px solid var(--highlightChristmas);
     margin-bottom: 3px;
 }
 .theme-dark .panel_bf1a22{  /*activitypanel bg*/
-    background: var(--darkPurpleHalloween-background);
+    background: var(--darkPurpleChristmas-background);
 }
 #vc-spotify-player {     /*spotify controller*/
     padding: 0.375rem 0.5rem;
     --vc-spotify-green: #1db954;
     border-radius: 8px;
-    border: 1px solid var(--highlightHalloween);
+    border: 1px solid var(--highlightChristmas);
     margin-top: 3px;
     margin-bottom: 3px;
 }
 .theme-dark #vc-spotify-player {    /*spotify bg color*/
-    background: var(--bg-overlay-1, var(--darkPurpleHalloween-background));
+    background: var(--bg-overlay-1, var(--darkPurpleChristmas-background));
 }
 
 .scroller_c43953::-webkit-scrollbar { /*channel list scrollbar hidden*/
@@ -722,49 +722,49 @@
     content: "Terminal 1.0.0";
     font-size: 12px;
     line-height: 16px;
-    color: rgb(var(--rgb-highlightHalloween))
+    color: rgb(var(--rgb-highlightChristmas))
 }
 
 .tabBar_c2739c .addFriend_c2739c.addFriend_c2739c.addFriend_c2739c { /* add friend button */
-    background-color: var(--status-danger-halloween-background);
+    background-color: var(--status-danger-christmas-background);
 }
 
 .picker_cd703d {    /*VC soundbar*/
-    border: solid 1px var(--highlightHalloween);
+    border: solid 1px var(--highlightChristmas);
     border-radius: 8px;
     position: fixed;
     bottom: 73px;
     left: 328px;
 }
 .pictureInPictureVideo_cadaa5 {   /*mediaplayer PiP*/
-    border: solid 1px var(--highlightHalloween);
+    border: solid 1px var(--highlightChristmas);
     border-radius: 8px;
 }
 .contentWrapper_f7506e, .modalRoot_e5da2b { /*VC activities*/
-    border: solid 1px var(--highlightHalloween);
+    border: solid 1px var(--highlightChristmas);
     border-radius: 8px;
 }
 .messagesPopoutWrap_ac90a2 { /*pinned messages tab*/
-    border: solid 1px var(--highlightHalloween);
+    border: solid 1px var(--highlightChristmas);
     border-radius: 8px;
     top: 8px;
 }
 .browser_f542fc, .container_e664f3 {  /*thread tab*/
-    border: solid 1px var(--highlightHalloween);
+    border: solid 1px var(--highlightChristmas);
     border-radius: 8px;
     top: 8px;
 }
 .recentMentionsPopout_ddb5b4  {  /*notify tab*/
-    border: solid 1px var(--highlightHalloween);
+    border: solid 1px var(--highlightChristmas);
     border-radius: 8px;
     top: 8px;
 }
 .menu_d90b3d {  /*every right-click context menu*/
-    border: solid 1px var(--highlightHalloween);
+    border: solid 1px var(--highlightChristmas);
     border-radius: 8px;
 }
 .submenu_d90b3d { /*every right-click context menu dropdown tab*/
-    border: solid 1px var(--highlightHalloween);
+    border: solid 1px var(--highlightChristmas);
     border-radius: 8px;
 }
 
@@ -804,7 +804,7 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
   border-radius: 8px;
   background-color: var(--interactive-muted);
   box-shadow: var(--elevation-low);
-  border: 1px solid var(--highlightHalloween);
+  border: 1px solid var(--highlightChristmas);
 }
 .narrow_e2f46e {  /* thread header bar padding (ex. blocked thread) */
   padding: 5px 16px;
@@ -828,10 +828,10 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 }
 
 .circleIconButton_db6521 {
-    color: var(--highlightHalloween);
+    color: var(--highlightChristmas);
 }
 .circleIconButton_db6521:hover {
-    background-color: var(--highlightHalloween);
+    background-color: var(--channel-icon);
 }
 .botTagOP_a9e77f {  /* Post Author tag color */
     color: var(--white);
@@ -894,7 +894,7 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
     bottom: 1px;
     right: calc(18px + var(--custom-channel-textarea-text-area-height) + var(--custom-channel-textarea-app-launcher-button-gap));
     border-radius: 8px;
-    background-color: var(--darkPurpleHalloween-background);
+    background-color: var(--darkPurpleChristmas-background);
     border: 1px solid var(--channel-icon);
     opacity: .95;
     padding-bottom: 8px;
@@ -902,18 +902,18 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 
 #popout_5211 {  /* channel search input */
     border-radius: 8px;
-    border: 1px solid var(--highlightHalloween);
+    border: 1px solid var(--highlightChristmas);
 }
 .container_eedf95 { /* channel search input */
     border-radius: 8px;
 }
 .autocomplete_bcc24e {
     border-radius: 8px;
-    border: 1px solid var(--highlightHalloween);
-    background-color: var(--darkPurpleHalloween-background);
+    border: 1px solid var(--highlightChristmas);
+    background-color: var(--darkPurpleChristmas-background);
 }
 .wrapper_efd8e6, .wrapper_ba23fe {
-    background: var(--darkPurpleHalloween-background);
+    background: var(--darkPurpleChristmas-background);
 }
 .categoryHeader_fe2299 {
     background-color: 0;
@@ -933,14 +933,17 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 .container_ac201b {
     background-color: rgb(24, 24, 24);
 }
-
+.isUnread_c2654d .content_c2654d {
+    color: black;
+    border: 1px solid #000;
+}
 .content_c2654d {
-    color: var(--text-muted);
-    background: var(--bg-overlay-chat, var(--darkPurple-background));
+    color: black;
+    background: var(--bg-overlay-chat, rgb(255, 255, 255));
 }
 
 .divider_c2654d {
-    border-top: thin solid var(--custom-channel-icon);
+    border-top: thin solid white;
 }
 
 .popout_f6639d {
@@ -949,4 +952,28 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 
 .footer_f8ec41 {
     background: none;
+}
+
+.botTagRegular_a9e77f {
+    background: rgb(214, 65, 65);
+}
+
+.wrapper_f90abb:hover .childWrapper_f90abb, .wrapper_f90abb.selected_f90abb .childWrapper_f90abb {
+    background: var(--channel-icon);
+}
+
+.unreadPill_c2654d {
+    color: rgb(0, 0, 0);
+}
+.numberBadge_df8943 {
+    color: #000;
+}
+
+.hoverButton_d0395d {
+    background-color: var(--background-modifier-hover);
+    color: var(--interactive-hover);
+}
+.vc-pip-button {
+    background-color: var(--background-modifier-hover);
+    color: var(--interactive-hover);
 }
