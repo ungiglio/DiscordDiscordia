@@ -748,6 +748,7 @@
     border: solid 1px var(--highlightHalloween);
     border-radius: 8px;
     top: 8px;
+    background: rgba(24, 24, 24, 0.9);
 }
 .browser_f542fc, .container_e664f3 {  /*thread tab*/
     border: solid 1px var(--highlightHalloween);
