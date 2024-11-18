@@ -950,3 +950,7 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 .footer_f8ec41 {
     background: none;
 }
+
+.container_a57509.isOpen_a57509 {
+    border: 1px solid var(--channel-icon);
+}
