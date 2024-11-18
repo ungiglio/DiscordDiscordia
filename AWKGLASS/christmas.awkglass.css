@@ -979,7 +979,7 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 }
 
 .colorDefault_d90b3d:active:not(.hideInteraction_d90b3d) {
-    background-color: var(--channel-icon);
+    background: var(--channel-icon);
 }
 button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hover {
     background-color: var(--darkPurpleChristmas-background);
