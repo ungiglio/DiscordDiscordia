@@ -18,7 +18,7 @@
     /* Christmas theme end */
     /*Background*/
     --background-image: var(--custom-christmas-image-url);
-    --app-blur: 5px;
+    --app-blur: 8px;
     --button-background: linear-gradient(45rad, rgb(155, 29, 20), rgb(231, 10, 10));
     --button-background-static: var(--highlightChristmas);
     --background-primary: rgba(24, 24, 24, 0.26) !important;
