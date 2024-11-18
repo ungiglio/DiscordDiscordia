@@ -52,8 +52,8 @@
     --logo-primary: var(--highlightChristmas);
     --control-brand-foreground: var(--highlightChristmas);
     --control-brand-foreground-new: var(--highlightChristmas);
-    --background-mentioned: rgba(var(--rgb-highlightChristmas), 10%);
-    --background-mentioned-hover: rgba(var(--rgb-highlightChristmas), 20%);
+    --background-mentioned: rgba(var(--rgb-highlightChristmas), 20%);
+    --background-mentioned-hover: rgba(var(--rgb-highlightChristmas), 40%);
     --background-message-hover: color-mix(in oklab,hsl(var(--primary-900-hsl) / 0.06) 100%,hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.06) var(--theme-base-color-amount, 0%));
     --background-message-highlightChristmas: rgba(var(--rgb-highlightChristmas), 30%);
     --background-message-highlightChristmas-hover: rgba(var(--rgb-highlightChristmas), 40%);
