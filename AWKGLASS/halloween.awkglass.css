@@ -948,7 +948,7 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
     background: rgb(26, 26, 26);
 }
 
-.footer_f8ec41 {
+.footer_f8ec41, .footer_d71945 {
     background: none;
 }
 
