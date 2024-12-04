@@ -1,15 +1,15 @@
 /**
- * @name Lande della Discordia [awkglass]
+ * @name Lande della Discordia [AG]
  * @author ungiglio
- * @version 1.0.3-beta.awkglass
+ * @version 1.0.3 awkglass
  * @source https://github.com/ungiglio/DiscordDiscordia/
  * @website https://ungiglio.github.io/DiscordDiscordia/
- * @description A sleek, cyberpunk-inspired Discord theme with neon purple and lightblue accents against a dark, blurred background. It offers a moody, futuristic vibe, perfect for organized, immersive channel navigation. Ideal for fans of sci-fi aesthetics.
+ * @description Lande della Discordia implements a glass purple and lightblue details on your client!
  * @authorId 769144538107215872
  * @invite kaphShJrcb
 */
 
-@import url('https://ungiglio.github.io/DiscordDiscordia/AWKGLASS/awkglass.beta.css');
+@import url('https://ungiglio.github.io/DiscordDiscordia/AWKGLASS/awkglass.css');
 
 /* CUSTOMIZATION CONTROL CENTER */
 :root {
