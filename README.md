@@ -48,7 +48,7 @@ If you encounter any issues or have suggestions for improving "Lande della Disco
 - [Support Server](https://discord.gg/kaphShJrcb)
 - [BetterDiscord](https://betterdiscord.app)
 - [Vencord](https://vencord.dev)
-- [BetterDiscord](https://betterdiscord.app/theme/Lande della Discordia)
+- [BetterDiscord](https://betterdiscord.app)
 - [Documentation](https://github.com/ungiglio/DiscordDiscordia/wiki)
 
 ---
