@@ -19,7 +19,7 @@ The theme features a beautiful purple shade (#b266ff) that transforms your Disco
 
 To install "Lande della Discordia" theme:
 
-1. Download the theme files from [BetterDiscord's themes page](https://betterdiscord.app/theme/Lande della Discordia) or from this GitHub repository *[see [links](#links) section below]*
+1. Download the theme files from [BetterDiscord's themes page](https://betterdiscord.app/theme/Lande%20della%20Discordia) or from this GitHub repository *[see [links](#links) section below]*
 2. Open your Discord client
 3. Navigate to Vencord > Themes
 4. Under "Local Themes", select "Open Themes Folder" and upload the downloaded file named "discordia.theme.css"
@@ -44,7 +44,7 @@ If you encounter any issues or have suggestions for improving "Lande della Disco
 ## Links
 
 - [Download Theme](https://github.com/ungiglio/DiscordDiscordia/releases/latest)
-- [BetterDiscord Download](https://betterdiscord.app/theme/Lande della Discordia)
+- [BetterDiscord Download](https://betterdiscord.app/theme/Lande%20della%20Discordia)
 - [Support Server](https://discord.gg/kaphShJrcb)
 - [BetterDiscord](https://betterdiscord.app)
 - [Vencord](https://vencord.dev)
