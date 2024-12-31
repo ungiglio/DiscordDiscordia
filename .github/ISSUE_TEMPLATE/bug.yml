@@ -32,6 +32,7 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
+        - 1.0.4 awkglass (Stable)
         - 1.0.3 awkglass (Stable)
         - 1.0.0-beta.durple
       default: 0
