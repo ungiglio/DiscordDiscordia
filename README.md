@@ -2,7 +2,7 @@
 
 # Lande della Discordia
 
-![awkglass-beta theme v1.0.2](https://github.com/user-attachments/assets/f9b2630a-5bda-464b-9eac-b02b9ba88822)
+![awkglass theme v1.0.5](https://github.com/user-attachments/assets/f9b2630a-5bda-464b-9eac-b02b9ba88822)
 
 </div>
 
