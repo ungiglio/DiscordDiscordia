@@ -966,6 +966,6 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 .answerSelectionIcon_cf2c85 path[fill-rule=evenodd] { /* polls checkmarks */
     fill: var(--highlight);
 }
-.answerInner_cf2c85 { /* polls */
-    outline: 1px solid var(--highlight);
+.victorStyles_b5cb3c { /* polls */
+    --custom-poll-style-border: var(--highlight);
 }
