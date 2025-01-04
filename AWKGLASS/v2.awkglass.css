@@ -946,3 +946,22 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 .container_a57509.isOpen_a57509 {
     border: 1px solid var(--channel-icon);
 }
+
+.container_f24a96 { /* poll creation */
+    border: 1px solid var(--highlight);
+    background-color: var(--background-mentioned);
+}
+
+.container_a1531c  { /* polls */
+    border: 1px solid var(--highlight);
+    background-color: var(--background-mentioned);
+}
+.checkboxSelected_b97e9a {  /* polls checkmarks */
+    background-color: var(--highlight);
+}
+.votePercentageBar_cf2c85 { /* polls */
+   background-color: var(--background-mentioned-hover); 
+}
+.answerSelectionIcon_cf2c85 path[fill-rule=evenodd] { /* polls checkmarks */
+    fill: var(--highlight);
+}
