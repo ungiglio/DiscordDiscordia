@@ -1002,3 +1002,11 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 .input_f8bc55 { /* settings inputs bg color */
     background-color: rgba(35, 35, 35, 0.596);
 }
+
+.checked_cebd1c path {  /* settings check slider */
+    fill: var(--online-color) !important;
+}
+
+.checked_cebd1c {   /* settings check slider */
+    background-color: var(--online-color) !important;
+}
