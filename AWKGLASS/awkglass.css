@@ -988,11 +988,11 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
     border-radius: 10%;
 }
 
-.outer_c69a7b { /* moderator view */
+/*.outer_c69a7b { /* moderator view *
     --profile-gradient-primary-color: rgba(255, 255, 255, 0) !important;
     --profile-gradient-secondary-color: rgba(255, 255, 255, 0) !important;
     --profile-gradient-overlay-color: rgba(255, 255, 255, 0) !important;
-}
+}*/
 
 .toast_f42767 { /* vencord updater notification style */
     border: 2px solid var(--online-color);
