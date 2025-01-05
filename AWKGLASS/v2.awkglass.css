@@ -968,3 +968,37 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 .victorStyles_b5cb3c { /* polls */
     --custom-poll-style-border: var(--highlight);
 }
+
+.vc-addon-card { /* vencord plugins style */
+    background: var(--background-modifier-accent);
+}
+
+.vc-addon-card:hover { /* vencord plugins style */
+    background: var(--background-modifier-hover);
+}
+
+.guildSidebar_a7d72e { /* moderator view */
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: var(--box-shadow);
+}
+
+.innerContainer_d2194f { /* moderator view */
+    border-radius: 10%;
+}
+
+.outer_c69a7b { /* moderator view */
+    --profile-gradient-primary-color: rgba(255, 255, 255, 0) !important;
+    --profile-gradient-secondary-color: rgba(255, 255, 255, 0) !important;
+    --profile-gradient-overlay-color: rgba(255, 255, 255, 0) !important;
+}
+
+.toast_f42767 { /* vencord updater notification style */
+    border: 1px solid var(--highlight);
+    border-radius: 10px;
+    background-color: var(--background-mentioned-hover);
+}
+
+.input_f8bc55 { /* settings inputs bg color */
+    background-color: rgba(35, 35, 35, 0.596);
+}
