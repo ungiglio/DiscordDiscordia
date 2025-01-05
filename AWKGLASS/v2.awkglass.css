@@ -994,9 +994,9 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 }
 
 .toast_f42767 { /* vencord updater notification style */
-    border: 1px solid var(--highlight);
+    border: 2px solid var(--online-color);
     border-radius: 10px;
-    background-color: var(--background-mentioned-hover);
+    background-color: rgba(var(--rgb-highlight), 90%);
 }
 
 .input_f8bc55 { /* settings inputs bg color */
