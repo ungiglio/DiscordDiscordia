@@ -1010,3 +1010,22 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 .checked_cebd1c {   /* settings check slider */
     background-color: var(--online-color) !important;
 }
+
+.vc-notification-root { /* vencord update notification */
+    border: 1px solid var(--selected-channel-color);
+    background: rgba(105, 15, 133, 0.9);
+}
+
+.focusLock_f9a4c9 { /* vencord plugin settings/info */
+    background: rgba(255, 255, 255, 0);
+}
+
+.vc-text-selectable {   /* vencord plugin settings/info */
+    background: rgba(105, 15, 133, 0.8);
+    border-radius: 10px;
+    border: 1px solid var(--selected-channel-color);
+}
+
+.footer_f9a4c9 {    /* vencord plugin settings/info */
+    border-radius: 10px;
+}
