@@ -130,7 +130,6 @@
     --search-popout-option-user-username: rgba(var(--rgb-highlight), 70%);
     --search-popout-option-filter-text: rgba(var(--rgb-highlight), 70%);
     --search-popout-date-picker-border: 1px solid var(--highlight);
-    --status-danger: rgb(152, 51, 255);
     --status-danger-background: var(--status-danger);
     --channel-header-color: var(--custom-channel-header-color);
     --channel-icon: var(--custom-channel-icon);
