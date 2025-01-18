@@ -136,6 +136,7 @@
     --selected-channel-color: var(--custom-selected-channel-color);
     --cat-color: var(--cat-custom-color);
     --cat-color-rgba: var(--cat-custom-color-rgba);
+    --status-danger: var(--status-danger-rgb);
     --status-warning: var(--afk-color);
     --status-positive: var(--online-color);
     --profile-gradient-primary-color: var(--rgb-background);

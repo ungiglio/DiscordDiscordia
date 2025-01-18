@@ -1,7 +1,7 @@
 /**
  * @name Lande della Discordia
  * @author ungiglio
- * @version 1.0.5 awkglass
+ * @version 1.0.6 awkglass
  * @source https://github.com/ungiglio/DiscordDiscordia/
  * @website https://ungiglio.github.io/DiscordDiscordia/
  * @description Lande della Discordia implements a glass purple and lightblue details on your client!
@@ -20,7 +20,7 @@
   --rgb-afk-color: 220, 163, 46;                           /* The color used in the "idle" user status symbol */
   --rgb-dnd-color: 224, 58, 62;                            /* The color used in the "do not disturb" user status symbol */
   --rgb-streaming-color: 188, 19, 254;                     /* The color used in the "streaming X" user status symbol */
-  --status-danger: rgb(152, 51, 255);                      /* The color used for every danger action/button */
+  --status-danger-rgb: rgb(152, 51, 255);                      /* The color used for every danger action/button */
 
   --transition-time: .3s;                                  /* How fast animations added by the theme happen. Default is 0.3 seconds */
 
