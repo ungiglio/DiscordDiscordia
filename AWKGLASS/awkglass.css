@@ -1085,3 +1085,7 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 .lottieCanvas_cb3343 {  /* emoji tab canvas */
     border-radius: 6px;
 }
+
+.emptyChannelIcon_c2668b { /* empty channel icon bg */
+    background-color: var(--background-primary);
+}
