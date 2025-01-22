@@ -1057,3 +1057,23 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 .titleContainer_c1668f .input_f8bc55 {  /* fix to forum search bg */
     background: none;
 }
+
+.chat_a7d72e .container_f1fd9c {    /* channels & roles tab */
+    background: none !important;
+}
+.chat_a7d72e .themed_fc4f04 {  /* channels & roles tab */
+    background: rgba(105, 15, 133, 0.8);
+    border-radius: 10px;
+    border: 1px solid var(--selected-channel-color);
+}
+.pageBody_c2efea {  /* channels & roles tab */
+    margin-top: 10px;
+    background: rgba(105, 15, 133, 0.8);
+    border-radius: 10px;
+    border: 1px solid var(--selected-channel-color);
+}
+.chat_a7d72e .header_f1fd9c {   /* channels & roles tab */
+    background: var(--background-secondary) !important;
+    border-radius: 10px;
+    border: 1px solid var(--selected-channel-color);
+}
