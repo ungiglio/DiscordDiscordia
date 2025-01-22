@@ -1072,3 +1072,16 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
     border-radius: 10px;
     border: 1px solid var(--selected-channel-color);
 }
+
+.inspector_c3120f, .contentWrapper_af5dbb { /* emoji tab */
+    background: var(--darkPurple-background);
+}
+.header_a3bc57, .container_c18ec9 { /* emoji tab */
+    background-color: rgba(35, 35, 35, 0.596);
+}
+.emojiItem_fbfedd.emojiItemSelected_fbfedd, .stickerAsset_cb3343:hover {    /* emoji tab */
+    background-color: var(--background-message-highlight-hover);
+}
+.lottieCanvas_cb3343 {  /* emoji tab canvas */
+    border-radius: 6px;
+}
