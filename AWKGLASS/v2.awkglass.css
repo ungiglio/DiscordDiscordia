@@ -145,7 +145,7 @@
     --menu-item-default-hover-bg: var(--highlight);
 
     --bg-brand: var(--highlight);
-    --darkPurple-background: rgb(46, 0, 58);
+    --button-filled-brand-background: var(--highlight);
 }
 
 .bg_d4b6c5{
@@ -433,10 +433,9 @@
 .themedBackground_d0696b {
     background: var(--bg-overlay-3, var(--darkPurple-background));
 }
-.themedBackground_bdf0de {
+.themedBackground_bdf0de, .custom-profile-theme .inner_c59af2 {
     background: var(--bg-overlay-3, var(--darkPurple-background));
 }
-
 
 .theme-dark .children_e44302:after,
 .form_a7d72e::before,
@@ -1052,4 +1051,8 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 .voiceChannelsButton_a08117:hover {   /* show more voice channels button */
     border: 1px solid var(--highlight);
     background: var(--background-secondary);
+}
+
+.titleContainer_c1668f .input_f8bc55 {  /* fix to forum search bg */
+    background: none;
 }
