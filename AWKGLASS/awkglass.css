@@ -1089,3 +1089,7 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 .emptyChannelIcon_c2668b { /* empty channel icon bg */
     background-color: var(--background-primary);
 }
+
+.custom-profile-theme .themeColor_f9d37d.primary_f9d37d {   /* nitro profile buttons */
+    background: var(--button-background-static);
+}
