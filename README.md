@@ -4,7 +4,7 @@
 
 <!--![Lande della Discordia](https://github.com/user-attachments/assets/289d6055-bfed-4671-939a-06f9e90a4e9c)-->
 ![awkglass v1.0.6](https://github.com/user-attachments/assets/f9b2630a-5bda-464b-9eac-b02b9ba88822)
-*screenshot from latest [awkglass](https://github.com/ungiglio/DiscordDiscordia/releases/tag/latest) release*
+*screenshot from latest [awkglass](https://github.com/ungiglio/DiscordDiscordia/releases/latest) release*
 </div>
 
 A custom purple theme to enhance your Discord experience.
