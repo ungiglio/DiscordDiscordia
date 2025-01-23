@@ -53,4 +53,4 @@ If you encounter any issues or have suggestions for improving "Lande della Disco
 
 ---
 
-© 2024 ungiglio. All rights reserved.
+© 2025 ungiglio. All rights reserved.
