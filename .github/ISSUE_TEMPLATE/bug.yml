@@ -29,7 +29,7 @@ body:
         - 1.0.4 awkglass
         - 1.0.3 awkglass
         - previous version
-      
+      default: 0
     validations:
       required: true
   - type: dropdown
@@ -37,6 +37,7 @@ body:
     attributes:
       label: What client are you seeing the problem on?
       multiple: true
+      required: true
       options:
         - Desktop app
         - Browser
