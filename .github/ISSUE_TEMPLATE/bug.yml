@@ -41,8 +41,8 @@ body:
         - Desktop app
         - Browser
         - Mobile
-      validations:
-        required: true
+    validations:
+      required: true
   - type: dropdown
     id: clientmod
     attributes:
