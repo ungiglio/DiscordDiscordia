@@ -19,24 +19,6 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: problem-solution
-    attributes:
-      label: Problem and Solution
-      description: Describe the problem this feature would solve or the use case it addresses.
-      placeholder: This feature would solve...
-    validations:
-      required: false
-
-  - type: textarea
-    id: alternatives
-    attributes:
-      label: Alternatives Considered
-      description: Describe any alternative solutions or features you've considered.
-      placeholder: I've also thought about...
-    validations:
-      required: false
-
   - type: dropdown
     id: impact
     attributes:
@@ -56,19 +38,6 @@ body:
       description: Add any other context, screenshots, or examples about the feature request here.
     validations:
       required: false
-
-  - type: dropdown
-    id: willingness-to-contribute
-    attributes:
-      label: Contribution
-      description: Would you be willing to contribute to the implementation of this feature?
-      options:
-        - Yes, I can help implement this feature
-        - I can provide more detailed specifications
-        - I can test the feature once implemented
-        - No, I cannot contribute beyond this suggestion
-    validations:
-      required: true
 
   - type: checkboxes
     id: validation
