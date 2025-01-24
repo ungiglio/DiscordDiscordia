@@ -22,14 +22,14 @@ body:
     id: version
     attributes:
       label: Version
-      description: What version of our software are you running?
+      description: What version of our theme are you running?
       options:
         - 1.0.6 awkglass (latest)
         - 1.0.5 awkglass
         - 1.0.4 awkglass
         - 1.0.3 awkglass
         - previous version
-      default: 0
+      
     validations:
       required: true
   - type: dropdown
