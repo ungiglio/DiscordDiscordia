@@ -29,6 +29,7 @@ body:
         - 1.0.4 awkglass
         - 1.0.3 awkglass
         - previous version
+      default: 0
     validations:
       required: true
   - type: dropdown
@@ -50,7 +51,7 @@ body:
       options:
         - Vencord
         - BetterDiscord
-        - Others...
+        - Not listed (specify in textarea)
     validations:
       required: true
   - type: textarea
