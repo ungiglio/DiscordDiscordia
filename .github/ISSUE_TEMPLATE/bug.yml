@@ -29,7 +29,6 @@ body:
         - 1.0.4 awkglass
         - 1.0.3 awkglass
         - previous version
-      default: 5
     validations:
       required: true
   - type: dropdown
