@@ -9,14 +9,6 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details (not required)
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
   - type: textarea
     id: what-happened
     attributes:
@@ -32,10 +24,11 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - 1.0.5 awkglass (latest)
+        - 1.0.6 awkglass (latest)
+        - 1.0.5 awkglass
         - 1.0.4 awkglass
         - 1.0.3 awkglass
-        - 1.0.0-beta.durple
+        - previous version
       default: 0
     validations:
       required: true
