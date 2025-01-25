@@ -1093,6 +1093,6 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
     background: var(--button-background-static);
 }
 
-.lottieIcon_f73ef7 :not(defs *)[fill][fill-opacity] { /* user card icon color */
+.contents_dd4f85 .lottieIcon_f73ef7 :not(defs *)[fill][fill-opacity] { /* user card icon color */
     fill: var(--status-danger);
 }
