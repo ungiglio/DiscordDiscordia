@@ -790,6 +790,9 @@
 button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker button */
   display: none;
 }
+button:has([clip-path="url(#__lottie_element_111)"]){ /* gift button */
+    display: none;
+}
 
 .chatHeaderBar_e2f46e { /* thread header bar (ex. blocked thread) */
   border-radius: 8px;
@@ -1096,4 +1099,15 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 
 .contents_dd4f85 .lottieIcon_f73ef7 :not(defs *)[fill][fill-opacity] { /* user card icon color */
     fill: var(--status-danger);
+}
+
+.lottieIcon_f73ef7 :not(defs *)[fill][fill-opacity] {   /* user card and textarea icons color */
+    fill: currentColor;
+}
+.lottieIcon_f73ef7 :not(defs *)[stroke][stroke-opacity] {   /* user card and textarea icons color */
+    stroke: currentColor;
+}
+
+.app_a01fb1 button path[mask="url(#gameActivityMask)"] { /* user card custom icon color */
+    fill: currentColor;
 }
