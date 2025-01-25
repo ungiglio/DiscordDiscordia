@@ -144,6 +144,7 @@
     --profile-gradient-secondary-color: var(--rgb-background);
     --menu-item-default-active-bg: var(--highlight);
     --menu-item-default-hover-bg: var(--highlight);
+    --__lottieIconColor: var(--highlight);
 
     --bg-brand: var(--highlight);
     --button-filled-brand-background: var(--highlight);
