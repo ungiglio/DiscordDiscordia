@@ -646,6 +646,9 @@
     background-color: var(--background-secondary);
     z-index: 2;
 }
+.lottieIcon_f73ef7 {    /* personal info/status panel icons color */
+    --channel-icon: #B5BAC1;
+}
 .theme-dark .container_b2ca13,.container_b2ca13 { /*personal info/status panel section*/
     height: 44px;
     font-size: 14px;
@@ -1094,17 +1097,6 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
 
 .custom-profile-theme .themeColor_f9d37d.primary_f9d37d {   /* nitro profile buttons */
     background: var(--button-background-static);
-}
-
-.lottieIcon_f73ef7 :not(defs *)[fill][fill-opacity] {   /* user card and textarea icons color */
-    fill: currentColor;
-}
-.lottieIcon_f73ef7 :not(defs *)[stroke][stroke-opacity] {   /* user card and textarea icons color */
-    stroke: currentColor;
-}
-
-.app_a01fb1 button path[mask="url(#gameActivityMask)"] { /* user card custom icon color */
-    fill: currentColor;
 }
 
 .soundButtonRefresh_f40049:hover {  /* soundemoji */
