@@ -144,7 +144,6 @@
     --profile-gradient-secondary-color: var(--rgb-background);
     --menu-item-default-active-bg: var(--highlight);
     --menu-item-default-hover-bg: var(--highlight);
-    --__lottieIconColor: var(--highlight);
 
     --bg-brand: var(--highlight);
     --button-filled-brand-background: var(--highlight);
@@ -1096,5 +1095,5 @@ button:has([d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062"]){ /* sticker b
 }
 
 .lottieIcon_f73ef7 :not(defs *)[fill][fill-opacity] { /* user card icon color */
-    fill: var(--highlight);
+    fill: var(--status-danger);
 }
