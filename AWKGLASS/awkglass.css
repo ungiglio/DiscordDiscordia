@@ -1111,3 +1111,16 @@ button:has([clip-path="url(#__lottie_element_111)"]){ /* gift button */
 .app_a01fb1 button path[mask="url(#gameActivityMask)"] { /* user card custom icon color */
     fill: currentColor;
 }
+
+.soundButtonRefresh_f40049:hover {  /* soundemoji */
+    border: 1px solid var(--highlight);
+}
+.soundButtonRefresh_f40049 {    /* soundemoji */
+    background-color: var(--darkPurple-background);
+}
+.soundButtonInteractiveRefresh_f40049.playing_f40049 {  /* soundemoji */
+    outline:  1px solid var(--highlight);
+}
+.inlineButton_f38a29 {  /* soundemoji reply */
+    background: var(--darkPurple-background);
+}
