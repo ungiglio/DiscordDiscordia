@@ -56,10 +56,6 @@
   max-width: 100%;
 }
 
-#app-mount .sidebar_a4d4d9 {
-  border-radius: 0;
-}
-
 #app-mount [class*=unreadMentionsIndicator] {
   width: var(--server-size);
   padding: 0;
