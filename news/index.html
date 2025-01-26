@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News - Lande della Discordia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://i.imgur.com/2R9lIOQ.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://i.imgur.com/rQ8Jokf.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://i.imgur.com/fEjuDm7.png">
+    <link rel="mask-icon" href="https://i.imgur.com/qdDn97I.png" color="#b266ff">
+    <meta name="msapplication-TileColor" content="#9f00a7">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="Lande della Discordia" />
+    <meta property="og:description" content="A custom purple theme to enhance your Discord experience" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ungiglio.github.io/DiscordDiscordia/" />
+    <meta property="og:image" content="https://i.imgur.com/mbe3YLR.png" />
+    <meta property="og:site_name" content="Discordia" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #dcddde;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #36393f;
+            /* Discord dark theme background */
+        }
+
+        header {
+            background-color: #2f3136;
+            /* Discord darker gray */
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            border-radius: 8px;
+        }
+
+        h1 {
+            margin-bottom: 0;
+            font-family: 'Pirata One', cursive;
+            font-size: 2.5em;
+        }
+
+        .theme-preview {
+            background-color: #b266ff;
+            /* The specific purple color */
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #7289da;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+            margin-top: 5px;
+        }
+
+        .button:hover {
+            background-color: #5b6eae;
+        }
+
+        section {
+            background-color: #2f3136;
+            /* Discord darker gray */
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        p a {
+            color: #00A6F6;
+        }
+
+        .title {
+            color: #b266ff;
+            border-bottom: 1px solid #b266ff;
+            padding-bottom: 5px;
+        }
+        hr {
+            border-color: #b266ff;
+        }
+
+        /* styles for navigation */
+        nav {
+            background-color: #2f3136;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #dcddde;
+            text-decoration: none;
+            padding: 5px 10px;
+            margin: 0 5px;
+            border-radius: 3px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #b266ff;
+            color: white;
+        }
+
+        nav a.active {
+            background-color: #7289da;
+            color: white;
+        }
+    </style>
+</head>
+
+<body onload="updateCopyrightYear()">
+    <header>
+        <h1>Lande della Discordia</h1>
+        <p>News</p>
+    </header>
+
+    <nav>
+        <a href="https://ungiglio.github.io/DiscordDiscordia/">Home</a>
+        <a href="https://ungiglio.github.io/DiscordDiscordia/releases">Download</a>
+        <a href="https://ungiglio.github.io/DiscordDiscordia/changelog">Changelog</a>
+        <a href="#" class="active">News</a>
+        <a href="https://github.com/ungiglio/DiscordDiscordia/wiki">Documentation</a>
+        <a href="https://github.com/ungiglio/DiscordDiscordia">GitHub</a>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2 id="v1.0.7" class="title">Theme Update: Version 1.0.7</h2>
+            <p>We are releasing version <a href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.7-awkglass">1.0.7</a> of our theme, and we strongly recommend that all users update to this latest version immediately.</p>
+            <hr>
+            <h3>What's Changed</h3>
+            <ul>
+                <li><b>Critical Customization Fix</b>: This update resolves a significant customization issue that was present in previous versions.</li>
+                <li><b>Backend Compatibility</b>: Recent backend code changes may render older theme versions unstable or non-functional.</li>
+                <li><b>New features</b>: Added a colored mentions based on role being pinged (credits to <a href="https://github.com/davart154">davart154</a>).</li>
+            </ul>
+            <h3>Why you should update</h3>
+            <ul>
+                <li>Resolves potential customization limitations.</li>
+                <li>Prevents unexpected display or functionality issues.</li>
+            </ul>
+            <h3>Why you should update</h3>
+            <ol>
+                <li>Navigate to <a href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.7-awkglass">v1.0.7 release</a>.</li>
+                <li>Download the updated version.</li>
+                <li>Change your current version with the new one in your “themes” folder.</li>
+            </ol>
+            <p><i>(more info in our <a href="https://github.com/ungiglio/DiscordDiscordia/wiki/installation">installation guide</a>)</i></p>
+            <h3>Important Warning</h3>
+            <p><b>Older versions may experience unexpected behavior or complete failure to function correctly.</b></p>
+            <hr>
+            <p>If you encounter any issues during the update, please open a bug report in our repository <a href="https://github.com/ungiglio/DiscordDiscordia/issues">issues tab</a>.<br>Thank you!</p>
+        </section>
+
+        <!--<section class="theme-preview"><!--_post-divider_--</section>-->
+
+    </main>
+
+    <footer>
+        <p>&copy; 202X ungiglio. All rights reserved.</p>
+    </footer>
+
+    <script>
+    function updateCopyrightYear(selector = 'footer p') {
+    const yearElement = document.querySelector(selector);
+    if (yearElement) {
+        const currentYear = new Date().getFullYear();
+        yearElement.innerHTML = `&copy; ${currentYear} ungiglio. All rights reserved.`;
+    }
+}
+</script>
+</body>
+
+</html>
