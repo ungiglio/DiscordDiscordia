@@ -4,8 +4,9 @@
  *internalcode  AWKGLASS
 */
 
-@import url("https://ungiglio.github.io/DiscordDiscordia/horizontal_server_list/top.css");
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/horizontal_server_list/top.css");
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/colored_mentions/mentions.css");
 
 :root,
 .theme-dark,
