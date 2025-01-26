@@ -1,7 +1,7 @@
 /**
  * @name Lande della Discordia
  * @author ungiglio
- * @version 1.0.6 awkglass
+ * @version 1.0.7 awkglass
  * @source https://github.com/ungiglio/DiscordDiscordia/
  * @website https://ungiglio.github.io/DiscordDiscordia/
  * @description Lande della Discordia implements a glass purple and lightblue details on your client!
@@ -11,6 +11,7 @@
 
 @import url('https://ungiglio.github.io/DiscordDiscordia/AWKGLASS/v2.awkglass.css');
 @import url("https://ungiglio.github.io/DiscordDiscordia/horizontal_server_list/top.css"); /* comment/remove this line to restore the servers bar to its original position */
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/colored_mentions/mentions.css"); /* credits to davart154 for the original code */
 
 /* CUSTOMIZATION CONTROL CENTER */
 :root {
