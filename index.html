@@ -18,6 +18,8 @@
     <meta property="og:url" content="https://ungiglio.github.io/DiscordDiscordia/" />
     <meta property="og:image" content="https://i.imgur.com/mbe3YLR.png" />
     <meta property="og:site_name" content="Discordia" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -27,12 +29,10 @@
             margin: 0 auto;
             padding: 20px;
             background-color: #36393f;
-            /* Discord dark theme background */
         }
 
         header {
             background-color: #2f3136;
-            /* Discord darker gray */
             color: white;
             text-align: center;
             padding: 1rem;
@@ -47,7 +47,6 @@
 
         .theme-preview {
             background-color: #b266ff;
-            /* The specific purple color */
             color: white;
             padding: 20px;
             border-radius: 8px;
@@ -71,16 +70,15 @@
 
         section {
             background-color: #2f3136;
-            /* Discord darker gray */
             padding: 20px;
             margin: 20px 0;
             border-radius: 8px;
         }
+
         p a {
             color: #00A6F6;
         }
 
-        /* styles for navigation */
         nav {
             background-color: #2f3136;
             padding: 10px;
@@ -107,11 +105,61 @@
             background-color: #7289da;
             color: white;
         }
+
+        /* Announcement Banner Styles */
+        .announcement-banner {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background-color: #b266ff;
+            color: white;
+            padding: 12px 20px;
+            text-align: center;
+            display: none;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .announcement-banner.visible {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .announcement-content {
+            flex-grow: 1;
+            margin-right: 20px;
+        }
+
+        .announcement-close {
+            background: none;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-size: 20px;
+            padding: 0 5px;
+        }
+
+        .announcement-close:hover {
+            opacity: 0.8;
+        }
+
+        /* Add padding to body when announcement is visible */
+        body.has-announcement {
+            padding-top: 60px;
+        }
     </style>
 </head>
 
-<body onload="updateCopyrightYear()">
-    <div id="announcements-banner"></div>
+<body onload="updateCopyrightYear(); checkForAnnouncements()">
+    <div id="announcement-banner" class="announcement-banner">
+        <div class="announcement-content">
+            <span id="announcement-text"></span>
+        </div>
+        <button class="announcement-close" onclick="dismissAnnouncement()">×</button>
+    </div>
+
     <header>
         <h1>Lande della Discordia</h1>
         <p>A custom purple theme to enhance your Discord experience</p>
@@ -127,7 +175,6 @@
     </nav>
 
     <main>
-
         <section class="theme-preview">
             <h2>Theme Preview</h2>
             <img width="100%" src="https://i.imgur.com/7dCPS4Z.png">
@@ -137,11 +184,8 @@
 
         <section>
             <h2>About the Theme</h2>
-            <p>This purple theme, called "Lande della Discordia", was created by <a style="text-decoration: none;" href="https://discord.com/users/769144538107215872">@ungiglio</a> to customize his own Discord
-                client. Now, he's sharing it with everyone who wants to add a touch of elegance to their Discord
-                interface.</p>
-            <p>The theme features a beautiful purple shade (#b266ff) that transforms your Discord experience into
-                something truly unique.</p>
+            <p>This purple theme, called "Lande della Discordia", was created by <a style="text-decoration: none;" href="https://discord.com/users/769144538107215872">@ungiglio</a> to customize his own Discord client. Now, he's sharing it with everyone who wants to add a touch of elegance to their Discord interface.</p>
+            <p>The theme features a beautiful purple shade (#b266ff) that transforms your Discord experience into something truly unique.</p>
         </section>
 
         <section>
@@ -172,8 +216,7 @@
 
         <section>
             <h2>Reporting Bugs</h2>
-            <p>If you encounter any issues or have suggestions for improving "Lande della Discordia", please report them
-                through one of these channels:</p>
+            <p>If you encounter any issues or have suggestions for improving "Lande della Discordia", please report them through one of these channels:</p>
             <ul>
                 <li>Join our Discord server and report in the #bug-reports channel</li>
                 <li>Open an issue on our GitHub repository</li>
@@ -194,7 +237,6 @@
         <section class="theme-preview">
             <img src="https://i.imgur.com/mbe3YLR.png" width="100%">
         </section>
-
     </main>
 
     <footer>
@@ -202,110 +244,50 @@
     </footer>
 
     <script>
-    function updateCopyrightYear(selector = 'footer p') {
-    const yearElement = document.querySelector(selector);
-    if (yearElement) {
-        const currentYear = new Date().getFullYear();
-        yearElement.innerHTML = `&copy; ${currentYear} ungiglio. All rights reserved.`;
-    }
-}
-</script>
-<script>
-    import React, { useState, useEffect } from 'react';
-import { X } from 'lucide-react';
-import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
+        function updateCopyrightYear(selector = 'footer p') {
+            const yearElement = document.querySelector(selector);
+            if (yearElement) {
+                const currentYear = new Date().getFullYear();
+                yearElement.innerHTML = `&copy; ${currentYear} ungiglio. All rights reserved.`;
+            }
+        }
 
-const AnnouncementBanner = () => {
-  const [announcements, setAnnouncements] = useState([]);
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [isVisible, setIsVisible] = useState(true);
+        async function checkForAnnouncements() {
+            try {
+                // Fetch announcements from your news directory
+                const response = await fetch('/news/announcements.json');
+                const data = await response.json();
+                
+                // Check if there are any announcements and if they haven't been dismissed
+                const lastDismissed = localStorage.getItem('lastDismissedAnnouncement');
+                const latestAnnouncement = data.announcements[0];
+                
+                if (latestAnnouncement && lastDismissed !== latestAnnouncement.id) {
+                    // Show the announcement
+                    document.getElementById('announcement-text').textContent = latestAnnouncement.content;
+                    document.getElementById('announcement-banner').classList.add('visible');
+                    document.body.classList.add('has-announcement');
+                }
+            } catch (error) {
+                console.error('Error fetching announcements:', error);
+            }
+        }
 
-  useEffect(() => {
-    // In a real implementation, this would fetch from your /news directory
-    // For demo purposes, we'll use mock data
-    const fetchAnnouncements = async () => {
-      try {
-        // Replace this with actual fetch call to your news endpoint
-        const mockAnnouncements = [
-          {
-            id: 1,
-            title: "New Theme Update Available!",
-            content: "Version 2.0 brings exciting new features and improvements.",
-            date: "2025-01-27"
-          }
-        ];
-        
-        // Only show announcements from the last 7 days
-        const recentAnnouncements = mockAnnouncements.filter(announcement => {
-          const announcementDate = new Date(announcement.date);
-          const weekAgo = new Date();
-          weekAgo.setDate(weekAgo.getDate() - 7);
-          return announcementDate >= weekAgo;
-        });
-
-        setAnnouncements(recentAnnouncements);
-      } catch (error) {
-        console.error('Error fetching announcements:', error);
-      }
-    };
-
-    fetchAnnouncements();
-  }, []);
-
-  const handleDismiss = () => {
-    setIsVisible(false);
-    // Store in localStorage to remember user's preference
-    localStorage.setItem('lastDismissedAnnouncement', announcements[currentIndex]?.id);
-  };
-
-  // Don't render if there are no announcements or banner was dismissed
-  if (!isVisible || announcements.length === 0) {
-    return null;
-  }
-
-  const currentAnnouncement = announcements[currentIndex];
-
-  return (
-    <div className="fixed top-0 left-0 right-0 z-50 mx-auto max-w-4xl p-4">
-      <Alert className="bg-purple-600 text-white border-none shadow-lg">
-        <div className="flex items-center justify-between">
-          <div className="flex-1">
-            <AlertTitle className="text-white mb-1">
-              {currentAnnouncement.title}
-            </AlertTitle>
-            <AlertDescription className="text-white/90">
-              {currentAnnouncement.content}
-            </AlertDescription>
-          </div>
-          <button
-            onClick={handleDismiss}
-            className="p-1 hover:bg-purple-700 rounded-full transition-colors"
-            aria-label="Dismiss announcement"
-          >
-            <X className="h-5 w-5" />
-          </button>
-        </div>
-        {announcements.length > 1 && (
-          <div className="flex justify-center mt-2 gap-1">
-            {announcements.map((_, index) => (
-              <button
-                key={index}
-                className={`h-2 w-2 rounded-full transition-colors ${
-                  index === currentIndex ? 'bg-white' : 'bg-white/50'
-                }`}
-                onClick={() => setCurrentIndex(index)}
-                aria-label={`Show announcement ${index + 1}`}
-              />
-            ))}
-          </div>
-        )}
-      </Alert>
-    </div>
-  );
-};
-
-export default AnnouncementBanner;
-</script>
+        function dismissAnnouncement() {
+            const banner = document.getElementById('announcement-banner');
+            banner.classList.remove('visible');
+            document.body.classList.remove('has-announcement');
+            
+            // Store the dismissal in localStorage
+            fetch('/news/announcements.json')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.announcements && data.announcements[0]) {
+                        localStorage.setItem('lastDismissedAnnouncement', data.announcements[0].id);
+                    }
+                });
+        }
+    </script>
 </body>
 
 </html>
