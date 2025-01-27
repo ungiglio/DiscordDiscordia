@@ -108,57 +108,117 @@
 
         /* Announcement Banner Styles */
         .announcement-banner {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 1000;
-            background-color: #b266ff;
-            color: white;
-            padding: 12px 20px;
-            text-align: center;
-            display: none;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        }
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 50;
+        margin: 0 auto;
+        max-width: 800px;
+        padding: 1rem;
+        display: none;
+    }
 
-        .announcement-banner.visible {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+    .announcement-banner.visible {
+        display: block;
+    }
 
-        .announcement-content {
-            flex-grow: 1;
-            margin-right: 20px;
-        }
+    .announcement-alert {
+        background-color: #9333ea; /* purple-600 */
+        border: none;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        color: white;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
 
-        .announcement-close {
-            background: none;
-            border: none;
-            color: white;
-            cursor: pointer;
-            font-size: 20px;
-            padding: 0 5px;
-        }
+    .announcement-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-        .announcement-close:hover {
-            opacity: 0.8;
-        }
+    .announcement-text {
+        flex: 1;
+    }
 
-        /* Add padding to body when announcement is visible */
-        body.has-announcement {
-            padding-top: 60px;
-        }
+    .announcement-title {
+        color: white;
+        font-weight: 600;
+        margin-bottom: 0.25rem;
+    }
+
+    .announcement-description {
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+    .announcement-close {
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        padding: 0.25rem;
+        border-radius: 9999px;
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.2s;
+    }
+
+    .announcement-close:hover {
+        background-color: #7e22ce; /* purple-700 */
+    }
+
+    .announcement-dots {
+        display: flex;
+        justify-content: center;
+        margin-top: 0.5rem;
+        gap: 0.25rem;
+    }
+
+    .announcement-dot {
+        height: 0.5rem;
+        width: 0.5rem;
+        border-radius: 9999px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        transition: background-color 0.2s;
+    }
+
+    .announcement-dot.active {
+        background-color: white;
+    }
+
+    /* Add this icon style */
+    .close-icon {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
     </style>
 </head>
 
 <body onload="updateCopyrightYear(); checkForAnnouncements()">
     <div id="announcement-banner" class="announcement-banner">
+    <div class="announcement-alert">
         <div class="announcement-content">
-            <span id="announcement-text"></span>
+            <div class="announcement-text">
+                <div class="announcement-title" id="announcement-title"></div>
+                <div class="announcement-description" id="announcement-text"></div>
+            </div>
+            <button class="announcement-close" onclick="dismissAnnouncement()" aria-label="Dismiss announcement">
+                <svg class="close-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
         </div>
-        <button class="announcement-close" onclick="dismissAnnouncement()">×</button>
+        <div id="announcement-dots" class="announcement-dots"></div>
     </div>
+</div>
 
     <header>
         <h1>Lande della Discordia</h1>
@@ -251,43 +311,77 @@
                 yearElement.innerHTML = `&copy; ${currentYear} ungiglio. All rights reserved.`;
             }
         }
+        </script>
 
-        async function checkForAnnouncements() {
-            try {
-                // Fetch announcements from your news directory
-                const response = await fetch('https://ungiglio.github.io/DiscordDiscordia/news/banner.json');
-                const data = await response.json();
-                
-                // Check if there are any announcements and if they haven't been dismissed
-                const lastDismissed = localStorage.getItem('lastDismissedAnnouncement');
-                const latestAnnouncement = data.announcements[0];
-                
-                if (latestAnnouncement && lastDismissed !== latestAnnouncement.id) {
-                    // Show the announcement
-                    document.getElementById('announcement-text').textContent = latestAnnouncement.content;
-                    document.getElementById('announcement-banner').classList.add('visible');
-                    document.body.classList.add('has-announcement');
-                }
-            } catch (error) {
-                console.error('Error fetching announcements:', error);
-            }
-        }
-
-        function dismissAnnouncement() {
-            const banner = document.getElementById('announcement-banner');
-            banner.classList.remove('visible');
-            document.body.classList.remove('has-announcement');
+        <script>
+    async function checkForAnnouncements() {
+        try {
+            const response = await fetch('https://ungiglio.github.io/DiscordDiscordia/news/banner.json');
+            const data = await response.json();
             
-            // Store the dismissal in localStorage
-            fetch('https://ungiglio.github.io/DiscordDiscordia/news/banner.json')
-                .then(response => response.json())
-                .then(data => {
-                    if (data.announcements && data.announcements[0]) {
-                        localStorage.setItem('lastDismissedAnnouncement', data.announcements[0].id);
+            const lastDismissed = localStorage.getItem('lastDismissedAnnouncement');
+            if (data.announcements && data.announcements.length > 0) {
+                const currentAnnouncement = data.announcements[0];
+                
+                if (lastDismissed !== currentAnnouncement.id) {
+                    document.getElementById('announcement-title').textContent = currentAnnouncement.title;
+                    document.getElementById('announcement-text').textContent = currentAnnouncement.content;
+                    document.getElementById('announcement-banner').classList.add('visible');
+                    
+                    // Add dots if there are multiple announcements
+                    if (data.announcements.length > 1) {
+                        const dotsContainer = document.getElementById('announcement-dots');
+                        dotsContainer.innerHTML = data.announcements.map((_, index) => `
+                            <button 
+                                class="announcement-dot ${index === 0 ? 'active' : ''}" 
+                                onclick="showAnnouncement(${index})"
+                                aria-label="Show announcement ${index + 1}"
+                            ></button>
+                        `).join('');
                     }
-                });
+                }
+            }
+        } catch (error) {
+            console.error('Error fetching announcements:', error);
         }
-    </script>
+    }
+
+    function dismissAnnouncement() {
+        document.getElementById('announcement-banner').classList.remove('visible');
+        
+        fetch('https://ungiglio.github.io/DiscordDiscordia/news/banner.json')
+            .then(response => response.json())
+            .then(data => {
+                if (data.announcements && data.announcements[0]) {
+                    localStorage.setItem('lastDismissedAnnouncement', data.announcements[0].id);
+                }
+            });
+    }
+
+    let currentAnnouncementIndex = 0;
+    async function showAnnouncement(index) {
+        try {
+            const response = await fetch('https://ungiglio.github.io/DiscordDiscordia/news/banner.json');
+            const data = await response.json();
+            
+            if (data.announcements && data.announcements[index]) {
+                currentAnnouncementIndex = index;
+                const announcement = data.announcements[index];
+                
+                document.getElementById('announcement-title').textContent = announcement.title;
+                document.getElementById('announcement-text').textContent = announcement.content;
+                
+                // Update active dot
+                document.querySelectorAll('.announcement-dot').forEach((dot, i) => {
+                    dot.classList.toggle('active', i === index);
+                });
+            }
+        } catch (error) {
+            console.error('Error showing announcement:', error);
+        }
+    }
+</script>
+
 </body>
 
 </html>
