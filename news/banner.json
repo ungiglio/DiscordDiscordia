@@ -8,7 +8,7 @@
     },
     {
       "id": "5",
-      "title": "<a href="https://google.it">TEST DISREGARD!</a>",
+      "title": "<a href='https://google.it'>TEST DISREGARD!</a>",
       "content": "Version 1.0.8 brings exciting new features and improvements.",
       "date": "2025-01-26"
     }
