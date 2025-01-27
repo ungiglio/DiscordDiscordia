@@ -6,9 +6,13 @@
       "url": "https://ungiglio.github.io/DiscordDiscordia/news/#v1.0.7"
     },
     {
-      "title": "TEST",
+      "title": "No url param",
+      "content": "TEST TEST TEST TEST TEST TEST TEST"
+    },
+    {
+      "title": "url param but empty",
       "content": "TEST TEST TEST TEST TEST TEST TEST",
-      "url": "https://google.it"
+      "url": ""
     }
   ]
 }

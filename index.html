@@ -228,109 +228,100 @@
         }
     </script>
 
-<script type="text/babel">
-    const AnnouncementBanner = () => {
-        const [announcements, setAnnouncements] = React.useState([]);
-        const [currentIndex, setCurrentIndex] = React.useState(0);
-    
-        React.useEffect(() => {
-            fetch('https://ungiglio.github.io/DiscordDiscordia/news/banner.json')
-                .then(response => response.json())
-                .then(data => {
-                    if (data.announcements && data.announcements.length > 0) {
-                        setAnnouncements(data.announcements);
-                    }
-                })
-                .catch(error => console.error('Error fetching announcements:', error));
-        }, []);
-    
-        if (announcements.length === 0) return null;
-    
-        const currentAnnouncement = announcements[currentIndex];
-    
-        const handleClick = () => {
-            if (currentAnnouncement.url) {
-                window.location.href = currentAnnouncement.url;
-            }
-        };
-    
-        return (
-            <div style={{ margin: '20px 0' }}>
-                <div 
-                    onClick={handleClick}
-                    style={{ 
+    <script type="text/babel">
+        const AnnouncementBanner = () => {
+            const [announcements, setAnnouncements] = React.useState([]);
+            const [currentIndex, setCurrentIndex] = React.useState(0);
+
+            React.useEffect(() => {
+                fetch('https://ungiglio.github.io/DiscordDiscordia/news/banner.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.announcements && data.announcements.length > 0) {
+                            setAnnouncements(data.announcements);
+                        }
+                    })
+                    .catch(error => console.error('Error fetching announcements:', error));
+            }, []);
+
+            if (announcements.length === 0) return null;
+
+            const currentAnnouncement = announcements[currentIndex];
+
+            return (
+                <div style={{ margin: '20px 0' }}>
+                    <div style={{
                         backgroundColor: '#b266ff',
                         borderRadius: '8px',
                         padding: '1rem',
-                        color: 'white',
-                        cursor: currentAnnouncement.url ? 'pointer' : 'default',
-                        transition: 'background-color 0.2s'
-                    }}
-                    onMouseOver={(e) => {
-                        if (currentAnnouncement.url) {
-                            e.currentTarget.style.backgroundColor = '#9933ff';
-                        }
-                    }}
-                    onMouseOut={(e) => {
-                        e.currentTarget.style.backgroundColor = '#b266ff';
-                    }}
-                >
-                    <div>
-                        <div style={{ 
-                            fontWeight: '600', 
-                            marginBottom: '0.25rem',
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'space-between'
-                        }}>
-                            {currentAnnouncement.title}
-                            {currentAnnouncement.url && (
-                                <span style={{ fontSize: '0.8em', opacity: 0.8 }}>
-                                    Click to learn more →
-                                </span>
-                            )}
+                        color: 'white'
+                    }}>
+                        <div>
+                            <div style={{
+                                fontWeight: '600',
+                                marginBottom: '0.25rem',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'space-between'
+                            }}>
+                                {currentAnnouncement.title}
+                                {currentAnnouncement.url && (
+                                    <a
+                                        href={currentAnnouncement.url}
+                                        style={{
+                                            fontSize: '0.8em',
+                                            opacity: 0.8,
+                                            color: 'white',
+                                            textDecoration: 'none',
+                                            cursor: 'pointer',
+                                            transition: 'opacity 0.2s'
+                                        }}
+                                        onMouseOver={(e) => e.target.style.opacity = '1'}
+                                        onMouseOut={(e) => e.target.style.opacity = '0.8'}
+                                    >
+                                        Click to learn more →
+                                    </a>
+                                )}
+                            </div>
+                            <div style={{ color: 'rgba(255, 255, 255, 0.9)' }}>
+                                {currentAnnouncement.content}
+                            </div>
                         </div>
-                        <div style={{ color: 'rgba(255, 255, 255, 0.9)' }}>
-                            {currentAnnouncement.content}
-                        </div>
+
+                        {announcements.length > 1 && (
+                            <div style={{
+                                display: 'flex',
+                                justifyContent: 'center',
+                                gap: '0.25rem',
+                                marginTop: '0.5rem'
+                            }}>
+                                {announcements.map((_, index) => (
+                                    <button
+                                        key={index}
+                                        onClick={() => setCurrentIndex(index)}
+                                        style={{
+                                            height: '0.5rem',
+                                            width: '0.5rem',
+                                            borderRadius: '9999px',
+                                            backgroundColor: index === currentIndex
+                                                ? 'white'
+                                                : 'rgba(255, 255, 255, 0.5)',
+                                            border: 'none',
+                                            cursor: 'pointer',
+                                            padding: 0
+                                        }}
+                                        aria-label={`Show announcement ${index + 1}`}
+                                    />
+                                ))}
+                            </div>
+                        )}
                     </div>
-                    
-                    {announcements.length > 1 && (
-                        <div style={{ 
-                            display: 'flex',
-                            justifyContent: 'center',
-                            gap: '0.25rem',
-                            marginTop: '0.5rem'
-                        }}
-                        onClick={(e) => e.stopPropagation()} // Prevent navigation when clicking dots
-                        >
-                            {announcements.map((_, index) => (
-                                <button
-                                    key={index}
-                                    onClick={() => setCurrentIndex(index)}
-                                    style={{
-                                        height: '0.5rem',
-                                        width: '0.5rem',
-                                        borderRadius: '9999px',
-                                        backgroundColor: index === currentIndex 
-                                            ? 'white'
-                                            : 'rgba(255, 255, 255, 0.5)',
-                                        border: 'none',
-                                        cursor: 'pointer',
-                                        padding: 0
-                                    }}
-                                    aria-label={`Show announcement ${index + 1}`}
-                                />
-                            ))}
-                        </div>
-                    )}
                 </div>
-            </div>
-        );
-    };
-    
-    const root = ReactDOM.createRoot(document.getElementById('announcement-root'));
-    root.render(<AnnouncementBanner />);
+            );
+        };
+
+        const root = ReactDOM.createRoot(document.getElementById('announcement-root'));
+        root.render(<AnnouncementBanner />);
     </script>
 
 </body>
