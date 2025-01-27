@@ -255,7 +255,7 @@
         async function checkForAnnouncements() {
             try {
                 // Fetch announcements from your news directory
-                const response = await fetch('/news/announcements.json');
+                const response = await fetch('/news/banner.json');
                 const data = await response.json();
                 
                 // Check if there are any announcements and if they haven't been dismissed
