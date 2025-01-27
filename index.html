@@ -279,7 +279,7 @@
             document.body.classList.remove('has-announcement');
             
             // Store the dismissal in localStorage
-            fetch('/news/announcements.json')
+            fetch('/news/banner.json')
                 .then(response => response.json())
                 .then(data => {
                     if (data.announcements && data.announcements[0]) {
