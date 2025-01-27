@@ -210,6 +210,102 @@
     }
 }
 </script>
+<script>
+    import React, { useState, useEffect } from 'react';
+import { X } from 'lucide-react';
+import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
+
+const AnnouncementBanner = () => {
+  const [announcements, setAnnouncements] = useState([]);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    // In a real implementation, this would fetch from your /news directory
+    // For demo purposes, we'll use mock data
+    const fetchAnnouncements = async () => {
+      try {
+        // Replace this with actual fetch call to your news endpoint
+        const mockAnnouncements = [
+          {
+            id: 1,
+            title: "New Theme Update Available!",
+            content: "Version 2.0 brings exciting new features and improvements.",
+            date: "2025-01-27"
+          }
+        ];
+        
+        // Only show announcements from the last 7 days
+        const recentAnnouncements = mockAnnouncements.filter(announcement => {
+          const announcementDate = new Date(announcement.date);
+          const weekAgo = new Date();
+          weekAgo.setDate(weekAgo.getDate() - 7);
+          return announcementDate >= weekAgo;
+        });
+
+        setAnnouncements(recentAnnouncements);
+      } catch (error) {
+        console.error('Error fetching announcements:', error);
+      }
+    };
+
+    fetchAnnouncements();
+  }, []);
+
+  const handleDismiss = () => {
+    setIsVisible(false);
+    // Store in localStorage to remember user's preference
+    localStorage.setItem('lastDismissedAnnouncement', announcements[currentIndex]?.id);
+  };
+
+  // Don't render if there are no announcements or banner was dismissed
+  if (!isVisible || announcements.length === 0) {
+    return null;
+  }
+
+  const currentAnnouncement = announcements[currentIndex];
+
+  return (
+    <div className="fixed top-0 left-0 right-0 z-50 mx-auto max-w-4xl p-4">
+      <Alert className="bg-purple-600 text-white border-none shadow-lg">
+        <div className="flex items-center justify-between">
+          <div className="flex-1">
+            <AlertTitle className="text-white mb-1">
+              {currentAnnouncement.title}
+            </AlertTitle>
+            <AlertDescription className="text-white/90">
+              {currentAnnouncement.content}
+            </AlertDescription>
+          </div>
+          <button
+            onClick={handleDismiss}
+            className="p-1 hover:bg-purple-700 rounded-full transition-colors"
+            aria-label="Dismiss announcement"
+          >
+            <X className="h-5 w-5" />
+          </button>
+        </div>
+        {announcements.length > 1 && (
+          <div className="flex justify-center mt-2 gap-1">
+            {announcements.map((_, index) => (
+              <button
+                key={index}
+                className={`h-2 w-2 rounded-full transition-colors ${
+                  index === currentIndex ? 'bg-white' : 'bg-white/50'
+                }`}
+                onClick={() => setCurrentIndex(index)}
+                aria-label={`Show announcement ${index + 1}`}
+              />
+            ))}
+          </div>
+        )}
+      </Alert>
+    </div>
+  );
+};
+
+export default AnnouncementBanner;
+</script>
 </body>
 
 </html>
