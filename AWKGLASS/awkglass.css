@@ -152,7 +152,7 @@
 }
 
 html:only-child > head + body div.app_a3002d > div.app__160d8::before {
-	content: "Your Version of Lande della Discordia by ungiglio is outdated. Please download the newest Version: https://betterdiscord.app/developer/ungiglio" !important;
+	content: "Your Version of Lande della Discordia by ungiglio is outdated. Please download the newest Version: https://github.com/ungiglio/DiscordDiscordia/releases" !important;
 	background-color: var(--highlight-darker) !important;
 	color: var(--header-primary) !important;
 	flex-grow: 0 !important;
