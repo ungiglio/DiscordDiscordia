@@ -1,12 +1,12 @@
 /**
  * @name Lande della Discordia
  * @author ungiglio
- * @version 1.0.7 awkglass
+ * @version 1.0.8 awkglass
  * @source https://github.com/ungiglio/DiscordDiscordia/
  * @website https://ungiglio.github.io/DiscordDiscordia/
  * @description Lande della Discordia implements a glass purple and lightblue details on your client!
  * @authorId 769144538107215872
- * @invite DDaRdZwB4h
+ * @invite kaphShJrcb
 */
 
 @import url('https://ungiglio.github.io/DiscordDiscordia/AWKGLASS/v2.awkglass.css');
@@ -21,7 +21,7 @@
   --rgb-afk-color: 220, 163, 46;                           /* The color used in the "idle" user status symbol */
   --rgb-dnd-color: 224, 58, 62;                            /* The color used in the "do not disturb" user status symbol */
   --rgb-streaming-color: 188, 19, 254;                     /* The color used in the "streaming X" user status symbol */
-  --status-danger-rgb: rgb(152, 51, 255);                      /* The color used for every danger action/button */
+  --status-danger-rgb: rgb(152, 51, 255);                /* The color used for every danger action/button */
 
   --transition-time: .3s;                                  /* How fast animations added by the theme happen. Default is 0.3 seconds */
 
@@ -39,13 +39,14 @@
   --cat-custom-color-rgba: 120, 138, 167;
   --cat-custom-color: rgb(var(--cat-custom-color-rgba));
 
-  --darkPurple-background: rgb(46, 0, 58);                /* Textarea background color */
+  --darkPurple-background: rgb(46, 0, 58);              /* Textarea background color */
 
   --HSL-server-icon-size: 45px;                           /* Size of the server icons | DEFAULT: 40px */
   --HSL-server-spacing: 10px;                             /* Spacing between each server icon | DEFAULT: 10px */
   --HSL-server-direction: column;                         /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
 
-  --custom-image-url: url('https://i.imgur.com/GcFkyZp.jpeg');
+  --custom-image-url: url('https://i.imgur.com/GcFkyZp.jpeg');  /* background image */
+  --app-blur: 8px;                                              /* background image blur */
 
   /* FONTS */
     --font-primary: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
