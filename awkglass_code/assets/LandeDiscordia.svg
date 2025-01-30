@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="149.99998mm"
-   height="150.00002mm"
-   viewBox="0 0 149.99998 150.00002"
+   width="141.90804mm"
+   height="141.90804mm"
+   viewBox="0 0 141.90804 141.90804"
    version="1.1"
    id="svg1"
    xmlns="http://www.w3.org/2000/svg"
@@ -13,23 +13,22 @@
      id="defs1" />
   <g
      id="layer1"
-     transform="translate(-29.999999,-73.500007)">
-    <rect
-       style="fill:#000000;fill-opacity:0;stroke-width:2.86793"
-       id="rect1"
-       width="150"
-       height="150"
-       x="30"
-       y="73.5" />
+     transform="translate(-34.045982,-77.545989)">
+    <circle
+       style="fill:#000000;fill-opacity:0;stroke:#b266ff;stroke-width:1.90803;stroke-opacity:1"
+       id="path1"
+       cx="105"
+       cy="148.5"
+       r="70" />
     <text
        xml:space="preserve"
-       style="font-size:92.281px;font-family:Allura;-inkscape-font-specification:Allura;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:19.2253"
+       style="font-size:92.281px;font-family:Allura;-inkscape-font-specification:Allura;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#b266ff;fill-opacity:1;stroke-width:19.2253"
        x="69.487915"
        y="184.83853"
        id="text1"
        transform="scale(1.0051462,0.99488015)"><tspan
          id="tspan1"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Pirata One';-inkscape-font-specification:'Pirata One';fill:#ffffff;fill-opacity:1;stroke-width:19.2253"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Pirata One';-inkscape-font-specification:'Pirata One';fill:#b266ff;fill-opacity:1;stroke-width:19.2253"
          x="69.487915"
          y="184.83853">LD</tspan></text>
   </g>
