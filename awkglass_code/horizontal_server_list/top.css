@@ -8,9 +8,6 @@
 
 #app-mount .guilds_c48ade {
   width: var(--server-container);
-  height: calc(100vw - 40px) !important;
-  margin: 7px 20px;
-  box-shadow: var(--box-shadow);
 }
 
 #app-mount .guilds_c48ade .scrollerWrap-1IAIlv {
@@ -56,6 +53,10 @@
   max-width: 100%;
 }
 
+#app-mount .sidebar_c48ade {
+  border-radius: 0;
+}
+
 #app-mount [class*=unreadMentionsIndicator] {
   width: var(--server-size);
   padding: 0;
@@ -67,6 +68,7 @@
 #app-mount .guilds_c48ade {
   transform-origin: top left;
   transform: rotate(-90deg);
+  height: 100vw !important;
   top: var(--server-container);
   bottom: unset;
   position: absolute !important;
@@ -75,6 +77,11 @@
 
 #app-mount .guilds_c48ade>[data-list-id=guildsnav] {
   margin-bottom: 0 !important;
+}
+
+#app-mount .guilds_c48ade .itemsContainer_ef3116 {
+  justify-content: var(--server-alignment);
+  flex-direction: var(--server-direction);
 }
 
 #app-mount .guilds_c48ade .scrollerBase_d125d2 {
@@ -310,6 +317,10 @@
   height: 100%;
 }
 
+#app-mount .guilds_c48ade ul[id^=folder-items-] {
+  gap: var(--server-spacing) !important;
+}
+
 #app-mount .guilds_c48ade .folder__48112 {
   background: transparent;
 }
@@ -330,7 +341,7 @@
   top: 0 !important;
 }
 
-#app-mount [class*=listItemTooltip] {
+#app-mount [class*=listItemTooltip_] {
   position: absolute;
   max-width: unset;
   white-space: nowrap;
@@ -338,7 +349,7 @@
   top: calc(var(--server-size) - 10px);
 }
 
-#app-mount [class*=listItemTooltip] [class*=tooltipPointer] {
+#app-mount [class*=listItemTooltip_] [class*=tooltipPointer] {
   transform: rotate(180deg);
   top: -5px !important;
   right: unset;
