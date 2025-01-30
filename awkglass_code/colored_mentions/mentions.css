@@ -4,60 +4,60 @@ All credits to davart154
 original code: https://davart154.github.io/Themes/Snippets/Colored%20Mentions/ColoredMentionsSource.css
 */
 
-.mentioned_d5deea {
-    background: none;
-    z-index: 0;
-  }
-  .message_d5deea:hover, .message_d5deea.selected_d5deea {
-    background-color: var(--bg-overlay-1,var(--background-message-hover)) !important;
-  }
-  .messageContent_f9f2ca, .compact_f9f2ca .contents_f9f2ca {
-    position: unset !important;
-  }
-  .mention, .roleMention_f8f345 {
-    position: unset;
-    filter: none;
-  }
-  .hasReply_f9f2ca.mentioned_d5deea:not(:has([class*="ention"])):before,
-  .mentioned_d5deea .mention:before,
-  .mentioned_d5deea .roleMention_f8f345:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 2px;
-    background-color: var(--highlight);
-    filter: saturate(var(--saturation-factor,1));
-    pointer-events: none;
-  }
-  .hasReply_f9f2ca.mentioned_d5deea:not(:has([class*="ention"])):after,
-  .mentioned_d5deea .mention:after,
-  .mentioned_d5deea .roleMention_f8f345:after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-color: var(--background-mentioned);
-    z-index: -1;
-    filter: saturate(var(--saturation-factor,1));
-    pointer-events: none;
-  }
-  .roleMention_f8f345[style]:before {
-    background-color: currentColor;
-  }
-  .roleMention_f8f345[style]:after {
-    background: currentColor;
-    opacity: 0.1;
-  }
-  .mentioned_d5deea:before,
-  .mentioned_d5deea:after,
-  .repliedMessage_f9f2ca [class*="ention"]:before,
-  .repliedMessage_f9f2ca [class*="ention"]:after,
-  .mention ~ [class*="ention"]:before,
-  .mention ~ [class*="ention"]:after,
-  .roleMention_f8f345 ~ [class*="ention"]:before,
-  .roleMention_f8f345 ~ [class*="ention"]:after,
-  .mentioned_d5deea:before,
-  .mentioned_d5deea:after {
-    content: unset;
-  }
+.mentioned__5126c {
+  background: none;
+  z-index: 0;
+}
+.message__5126c:hover, .message__5126c.selected__5126c {
+  background-color: var(--bg-overlay-1,var(--background-message-hover)) !important;
+}
+.messageContent_c19a55, .compact_c19a55 .contents_c19a55 {
+  position: unset !important;
+}
+.mention, .roleMention__75297 {
+  position: unset;
+  filter: none;
+}
+.hasReply_c19a55.mentioned__5126c:not(:has([class*="ention"])):before,
+.mentioned__5126c .mention:before,
+.mentioned__5126c .roleMention__75297:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: var(--highlight);
+  filter: saturate(var(--saturation-factor,1));
+  pointer-events: none;
+}
+.hasReply_c19a55.mentioned__5126c:not(:has([class*="ention"])):after,
+.mentioned__5126c .mention:after,
+.mentioned__5126c .roleMention__75297:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--background-mentioned);
+  z-index: -1;
+  filter: saturate(var(--saturation-factor,1));
+  pointer-events: none;
+}
+.roleMention__75297[style]:before {
+  background-color: currentColor;
+}
+.roleMention__75297[style]:after {
+  background: currentColor;
+  opacity: 0.1;
+}
+.mentioned__5126c:before,
+.mentioned__5126c:after,
+.repliedMessage_c19a55 [class*="ention"]:before,
+.repliedMessage_c19a55 [class*="ention"]:after,
+.mention ~ [class*="ention"]:before,
+.mention ~ [class*="ention"]:after,
+.roleMention__75297 ~ [class*="ention"]:before,
+.roleMention__75297 ~ [class*="ention"]:after,
+.mentioned__5126c:before,
+.mentioned__5126c:after {
+  content: unset;
+}
