@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="139.99998mm"
+   height="140.00002mm"
+   viewBox="0 0 139.99998 140.00002"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-35.000001,-78.499997)">
+    <circle
+       style="fill:#000000;fill-opacity:0;stroke:none;stroke-width:1.90803;stroke-opacity:1"
+       id="path1"
+       cx="105"
+       cy="148.5"
+       r="70" />
+    <text
+       xml:space="preserve"
+       style="font-size:92.281px;font-family:Allura;-inkscape-font-specification:Allura;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:19.2253"
+       x="69.487915"
+       y="184.83853"
+       id="text1"
+       transform="scale(1.0051462,0.99488015)"><tspan
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Pirata One';-inkscape-font-specification:'Pirata One';fill:#ffffff;fill-opacity:1;stroke-width:19.2253"
+         x="69.487915"
+         y="184.83853">LD</tspan></text>
+  </g>
+</svg>
