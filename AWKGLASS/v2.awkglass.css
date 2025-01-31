@@ -20,8 +20,8 @@
     --background-modifier-hover: rgba(20, 20, 20, 0.500);
     --box-shadow: 0 0 10px 0px black;
 
-    --custom-logo: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordia.svg');
-    --custom-logo-hover: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordiaHover.svg');
+    --custom-logo: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordia.png');
+    --custom-logo-hover: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordiaHover.png');
 
     /*other*/
     --highlight: rgb(var(--rgb-highlight));

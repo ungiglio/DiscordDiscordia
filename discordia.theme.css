@@ -48,8 +48,8 @@
   --custom-image-url: url('https://i.imgur.com/GcFkyZp.jpeg');  /* background image */
   --app-blur: 8px;                                              /* background image blur */
 
-  --custom-logo: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordia.svg'); /* custom logo .svg file preferred */
-  --custom-logo-hover: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordiaHover.svg'); /* custom logo .svg file preferred (hover) */
+  --custom-logo: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordia.png'); /* custom logo */
+  --custom-logo-hover: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordiaHover.png'); /* custom logo (hover) */
 
   /* FONTS */
     --font-primary: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
