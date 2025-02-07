@@ -1340,7 +1340,8 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
 
 .container__2637a {
     /* server banner */
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .tutorialContainer__1f388 .childWrapper__6e9f8 { /* discord logo */
