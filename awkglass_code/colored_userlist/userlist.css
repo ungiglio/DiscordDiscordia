@@ -18,19 +18,22 @@
 }
 
 /* Online status */
-.member_c8ffbb:has(rect[mask="url(#svg-mask-status-online)"]):hover {
+.member_c8ffbb:has(rect[mask="url(#svg-mask-status-online)"]):hover,
+.member_c8ffbb:has(rect[mask="url(#svg-mask-status-online-mobile)"]):hover {
     border-left: 3px solid var(--online-color);
     /* Online color */
 }
 
 /* Do Not Disturb status */
-.member_c8ffbb:has(rect[mask="url(#svg-mask-status-dnd)"]):hover {
+.member_c8ffbb:has(rect[mask="url(#svg-mask-status-dnd)"]):hover,
+.member_c8ffbb:has(rect[mask="url(#svg-mask-status-dnd-mobile)"]):hover {
     border-left: 3px solid var(--dnd-color);
     /* DND color */
 }
 
 /* Idle/Inactive status */
-.member_c8ffbb:has(rect[mask="url(#svg-mask-status-idle)"]):hover {
+.member_c8ffbb:has(rect[mask="url(#svg-mask-status-idle)"]):hover,
+.member_c8ffbb:has(rect[mask="url(#svg-mask-status-idle-mobile)"]):hover {
     border-left: 3px solid var(--afk-color);
     /* Idle color */
 }
