@@ -68,6 +68,16 @@
         .changelog-list li {
             margin-bottom: 2px;
         }
+        .changelog-list le {
+            display: list-item;
+            list-style: none;
+            padding-left: 0;
+            margin-top: 0;
+        }
+        .changelog-list le::before {
+            content: "▸";
+            padding-right: 8px;
+        }
         .changelog-type {
             font-weight: bold;
             color: #7289da;
@@ -134,12 +144,27 @@
     <main>
 
         <!--<section class="version-section">
-            <h2 id="2024MMDD" class="version-title">Update - October X, 2024</h2>
+            <h2 id="2025MMDD" class="version-title">Update - October X, 2025</h2>
             <span class="changelog-type">Changelog:</span>
             <ul class="changelog-list">
                 <li></li>
             </ul>
         </section>-->
+
+        <section class="version-section">
+            <h2 id="20250303" class="version-title">Update - March 03, 2025</h2>
+            <span class="changelog-type">Changelog:</span>
+            <ul class="changelog-list">
+                <li>Customized more BetterDiscord elements</li>
+                <ul>
+                    <le>Toggles in settings now match color as for Discord ones</le>
+                    <le>Checkmarks are now blue in Updates tab</le>
+                    <le>Customized BetterDiscord modals and window prompts</le>
+                </ul>
+                <li>Changed the channel-list hover style</li>
+            </ul>
+        </section>
+
 
         <section class="version-section">
             <h2 id="20250130awkglass" class="version-title">Update - January 30, 2025 <i style="font-size: 11px;">[AWKGLASS]</i></h2>
