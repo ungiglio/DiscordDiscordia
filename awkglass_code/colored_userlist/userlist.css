@@ -1,0 +1,57 @@
+/*
+ *author        @ungiglio
+ *description   Colored userlist based on user status
+ *internalcode  AWKGLASS
+*/
+
+.member_c8ffbb {
+    /* userlist */
+    background: var(--background-primary);
+}
+
+.member_c8ffbb:hover {
+    /* userlist hover */
+    border-left: 3px solid #80848e;
+    border-top: 1px solid var(--app-border-frame);
+    border-bottom: 1px solid var(--app-border-frame);
+    border-right: 1px solid var(--app-border-frame);
+}
+
+/* Online status */
+.member_c8ffbb:has(rect[mask="url(#svg-mask-status-online)"]):hover {
+    border-left: 3px solid var(--online-color);
+    /* Online color */
+}
+
+/* Do Not Disturb status */
+.member_c8ffbb:has(rect[mask="url(#svg-mask-status-dnd)"]):hover {
+    border-left: 3px solid var(--dnd-color);
+    /* DND color */
+}
+
+/* Idle/Inactive status */
+.member_c8ffbb:has(rect[mask="url(#svg-mask-status-idle)"]):hover {
+    border-left: 3px solid var(--afk-color);
+    /* Idle color */
+}
+
+/* Offline status */
+.member_c8ffbb:has(rect[mask="url(#svg-mask-status-offline)"]):hover,
+.member_c8ffbb:has(rect[mask="url(#svg-mask-status-invisible)"]):hover {
+    border-left: 3px solid #80848e;
+    /* Offline color */
+}
+
+.selected__91a9d {
+    /* userlist selected */
+    background: none;
+    border-radius: 3px;
+    border-left: 3px solid var(--highlight);
+    border-top: 1px solid var(--app-border-frame);
+    border-bottom: 1px solid var(--app-border-frame);
+    border-right: 1px solid var(--app-border-frame);
+}
+
+.selected__91a9d .childContainer__91a9d {
+    background: none;
+}
