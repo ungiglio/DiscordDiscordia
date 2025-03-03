@@ -218,7 +218,7 @@ html:only-child > head + body div.app_a3002d > div.app__160d8::before {
 }
 
 .modeSelected__2ea32 .link__2ea32, .modeSelected__2ea32:hover .link__2ea32 {
-    background: var(--background-mentioned);
+    background: var(--button-background);
 }
 
 .wrapper__2ea32:hover .link__2ea32 {
