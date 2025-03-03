@@ -194,7 +194,7 @@
 
 .modeSelected__2ea32 .link__2ea32,
 .modeSelected__2ea32:hover .link__2ea32 {
-    background: var(--background-mentioned);
+    background: var(--background-message-highlight-hover);
 }
 
 .wrapper__2ea32:hover .link__2ea32 {
@@ -804,6 +804,10 @@
     background: var(--bg-overlay-1, var(--darkPurple-background));
 }
 
+.disabledStrokeThrough {
+    fill: var(--status-danger);
+}
+
 .scroller__629e4::-webkit-scrollbar {
     /*channel list scrollbar hidden*/
     display: block;
@@ -1144,6 +1148,11 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
     --custom-poll-style-border: var(--highlight);
 }
 
+.bd-switch input:checked+.bd-switch-body {
+    /* BetterDiscord checkmark toggle color */
+    --switch-color: var(--online-color);
+}
+
 .vc-addon-card {
     /* vencord plugins style */
     background: var(--background-modifier-accent);
@@ -1210,7 +1219,8 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
 .small__49fc1,
 .modal_b545d5,
 .form__468a6,
-.oauth2ModalWrapper__647f0 {
+.oauth2ModalWrapper__647f0,
+.bd-modal-root {
     /* modal theme */
     background: rgba(105, 15, 133, 0.8);
     border-radius: 10px;
@@ -1218,10 +1228,28 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
 }
 
 .footer_d97f89,
-.footer__49fc1 {
+.footer__49fc1,
+.bd-modal-footer {
     /* modal footer color */
     background-color: rgba(35, 35, 35, 0.75);
     border-radius: 10px;
+}
+
+.bd-button-filled.bd-button-color-red {
+    /* BetterDiscord red button -> purple */
+    background-color: var(--status-danger);
+}
+.bd-button-filled.bd-button-color-red:hover {
+    /* BetterDiscord red button -> purple */
+    background-color: var(--highlight);
+}
+.bd-filled-checkmark {
+    /* BetterDiscord green checkmark -> blue */
+    background: var(--online-color);
+}
+.bd-empty-updates svg {
+    /* BetterDiscord green checkmark -> blue */
+    fill: var(--online-color);
 }
 
 .defaultTextInputWrapper__7b848 {
