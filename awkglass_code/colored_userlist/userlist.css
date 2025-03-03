@@ -38,6 +38,12 @@
     /* Idle color */
 }
 
+/* Streaming status */
+.member_c8ffbb:has(rect[mask="url(#svg-mask-status-streaming)"]):hover {
+    border-left: 3px solid var(--streaming-color);
+    /* Streaming color */
+}
+
 /* Offline status */
 .member_c8ffbb:has(rect[mask="url(#svg-mask-status-offline)"]):hover,
 .member_c8ffbb:has(rect[mask="url(#svg-mask-status-invisible)"]):hover {
