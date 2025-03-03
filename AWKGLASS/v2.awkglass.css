@@ -188,10 +188,6 @@
     color: white;
 }
 
-.memberInner__5d473:hover {
-    background: var(--background-mentioned);
-}
-
 .modeSelected__2ea32 .link__2ea32,
 .modeSelected__2ea32:hover .link__2ea32 {
     background: var(--background-mentioned);
@@ -1370,7 +1366,7 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
 .member_c8ffbb:hover {  /* userlist hover */
     border: 1px solid var(--app-border-frame);
 }
-.selected__91a9d .layout__91a9d {   /* userlist selected */
+.selected__91a9d {   /* userlist selected */
     background: none;
     border-radius: 3px;
     border-left: 3px solid var(--highlight);
