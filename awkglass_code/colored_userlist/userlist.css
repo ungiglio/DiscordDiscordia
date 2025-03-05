@@ -64,3 +64,7 @@
 .selected__91a9d .childContainer__91a9d {
     background: none;
 }
+
+.icon__8ac07 path[fill="#23a55a"] { /* userlist game activity controller color */
+    fill: var(--online-color);
+}
