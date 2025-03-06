@@ -1,0 +1,46 @@
+:root {
+    --green-dot: #22CB3D; /* --online-color */
+    --yellow-dot: #FFBB32; /* --afk-color */
+    --purple-dot: var(--status-danger);
+}
+
+.winButtonMinMax__421ed[aria-label="Espandi"] {
+    background-color: var(--yellow-dot);
+}
+.winButtonMinMax__421ed[aria-label="Riduci"] {
+    background-color: var(--green-dot);
+}
+.winButtonClose__421ed {
+    background-color: var(--purple-dot);
+    margin-right: 5px;
+}
+
+.winButtonMinMax__421ed[aria-label="Espandi"]:hover {
+    background-color: hsl(from var(--yellow-dot) h s calc(l - 20));
+}
+.winButtonMinMax__421ed[aria-label="Riduci"]:hover {
+    background-color: hsl(from var(--green-dot) h s calc(l - 10));
+}
+.winButtonClose__421ed:hover {
+    background-color:  hsl(from var(--status-danger) h s calc(l - 10));
+}
+
+.typeWindows__421ed {
+    transform: rotate(180deg);
+}
+
+.withFrame__421ed {
+    margin-bottom: 4px;
+    margin-top: 0px;
+}
+
+.winButton__421ed {
+    border-radius: 100%;
+    width: 13px;
+    height: 13px;
+    top: 0px;
+    margin-left: 3px;
+}
+.winButton__421ed svg {
+    display: none;
+}
