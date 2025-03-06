@@ -1,3 +1,9 @@
+/*
+ *author        @ungiglio
+ *description   macOS dots instead of window native navbar
+ *internalcode  AWKGLASS
+*/
+
 :root {
     --green-dot: #22CB3D; /* --online-color */
     --yellow-dot: #FFBB32; /* --afk-color */
