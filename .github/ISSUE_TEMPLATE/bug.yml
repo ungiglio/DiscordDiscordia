@@ -24,7 +24,8 @@ body:
       label: Version
       description: What version of our theme are you running?
       options:
-        - 1.0.8 awkglass (latest)
+        - 1.0.9 (latest)
+        - 1.0.8 awkglass
         - 1.0.7 awkglass
         - 1.0.6 awkglass
         - 1.0.5 awkglass
