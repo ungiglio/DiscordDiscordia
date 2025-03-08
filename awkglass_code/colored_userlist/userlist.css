@@ -64,3 +64,11 @@
 .selected__91a9d .childContainer__91a9d {
     background: none;
 }
+
+.icon__8ac07 path[fill="#23a55a"] { /* userlist activity icons color */
+    fill: var(--online-color);
+}
+
+.PI-icon_desktop[data-status="online"], .PI-icon_mobile[data-status="online"], .PI-icon_embedded[data-status="online"], .PI-icon_web[data-status="online"] { /* Platform Indicator plugin colors */
+    color: var(--online-color) !important;
+}
