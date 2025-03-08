@@ -2,9 +2,8 @@
 
 # Lande della Discordia
 
-<!--![Lande della Discordia](https://github.com/user-attachments/assets/289d6055-bfed-4671-939a-06f9e90a4e9c)-->
-![Lande della Discordia v1.0.8](https://i.imgur.com/DCbXlOw.png)
-*screenshot from latest [awkglass](https://github.com/ungiglio/DiscordDiscordia/releases/latest) release*
+![Lande della Discordia v1.0.9](https://i.imgur.com/BXwy1GO.png)
+*screenshot from [latest](https://github.com/ungiglio/DiscordDiscordia/releases/latest) release*
 </div>
 
 A custom purple theme to enhance your Discord experience.
@@ -29,11 +28,10 @@ To install "Lande della Discordia" theme:
 
 To install "Lande della Discordia" theme:
 
-1. Download the theme files from [BetterDiscord's themes page](https://betterdiscord.app/theme/Lande%20della%20Discordia) or from this GitHub repository *[see **links** section below]*
-2. Open your Discord client
-3. Go to discord user settings. Near the very bottom, there should be a themes tab. Click it
-4. At the top of the themes page, click the "Open themes folder" button
-5. Drag the file you downloaded into the themes folder that opened
+1. Open your Discord client
+2. Go to discord settings. Near the very bottom, there should be a themes tab. Click it
+3. At the top of the themes page, open the themes store
+4. search for "Lande della Discordia" theme
 
 ## Reporting Bugs
 
