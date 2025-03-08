@@ -33,6 +33,15 @@ body:
       default: 0
     validations:
       required: true
+  - type: textarea
+    id: theme-version
+    attributes:
+      label: Theme version
+      description: Theme version can be found at very bottom of settings page above discord version, pls copy below the \# number.
+      placeholder: Ex. \#20250308
+      value: ""
+    validations:
+      required: true
   - type: dropdown
     id: client
     attributes:
