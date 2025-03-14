@@ -61,3 +61,7 @@ original code: https://davart154.github.io/Themes/Snippets/Colored%20Mentions/Co
 .mentioned__5126c:after {
   content: unset;
 }
+
+.ephemeral__5126c:hover {
+  background-color: rgba(var(--rgb-highlight), 20%) !important;
+}
