@@ -618,19 +618,23 @@
 }
 
 .replying__5126c:hover {
-    background-color: rgba(var(--rgb-highlight), 60%) !important
+    background-color: rgba(var(--rgb-highlight), 60%) !important;
 }
 
 .ephemeral__5126c {
-    background-color: rgba(var(--rgb-highlight), 30%)
+    background-color: rgba(var(--rgb-highlight), 30%);
 }
 
 .ephemeral__5126c:hover {
-    background-color: rgba(var(--rgb-highlight), 40%) !important
+    background-color: rgba(var(--rgb-highlight), 20%) !important;
+}
+
+.ephemeral__5126c::before {
+    background-color: var(--highlight) !important;
 }
 
 .mentioned__5126c::before {
-    background-color: var(--highlight)
+    background-color: var(--highlight);
 }
 
 .lookFilled__201d5.colorBrand__201d5 {
