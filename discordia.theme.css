@@ -1,7 +1,7 @@
 /**
  * @name Lande della Discordia
  * @author ungiglio
- * @version 1.0.9
+ * @version 1.1.0
  * @source https://github.com/ungiglio/DiscordDiscordia/
  * @website https://ungiglio.github.io/DiscordDiscordia/
  * @description Lande della Discordia implements a glass purple and lightblue details on your client!
@@ -9,10 +9,8 @@
  * @invite kaphShJrcb
 */
 
-@import url('https://ungiglio.github.io/DiscordDiscordia/AWKGLASS/v2.awkglass.css');
-@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/horizontal_server_list/top.css"); /* comment/remove this line to restore the servers bar to its original position */
 @import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/colored_mentions/mentions.css"); /* credits to davart154 for the original code */
-/*@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/mac_dots/dots.css");*/ /* un-comment this line to add macOS style navigation dots */
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/colored_userlist/userlist.css");
 
 /* CUSTOMIZATION CONTROL CENTER */
 :root {
@@ -36,6 +34,7 @@
 
   --custom-channel-header-color: rgb(241, 236, 247);
   --custom-channel-icon: rgb(153, 118, 187);              /* channel list unselected color */
+  --channel-icon: rgb(153, 118, 187) !important;    /* channel list unselected color */
   --custom-selected-channel-color: rgb(78, 209, 203);     /* channel list selected color */
   --cat-custom-color-rgba: 120, 138, 167;
   --cat-custom-color: rgb(var(--cat-custom-color-rgba));
@@ -60,6 +59,4 @@
     --font-clan-body: Fraunces, 'gg sans', serif, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-clan-signature: Corinthia, 'gg sans', cursive, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-display-marketing: 'ABC Ginto Nord', 'gg sans', serif, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
-    --current-ver: "1.0.9"
 }
