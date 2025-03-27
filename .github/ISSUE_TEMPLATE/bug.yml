@@ -39,8 +39,7 @@ body:
     attributes:
       label: Theme version
       description: Theme version can be found at very bottom of settings page above discord version, pls copy below the \# number.
-      placeholder: Ex. \#20250308
-      value: "#20250308"
+      placeholder: Ex. #20250308
     validations:
       required: true
   - type: dropdown
