@@ -64,7 +64,7 @@
     --background-message-automod: rgba(var(--rgb-highlight), 20%);
     --background-message-automod-hover: rgba(var(--rgb-highlight), 40%);
     --channeltextarea-background: color-mix(in oklab, var(--primary-560) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
-    --text-link: var(--highlight);
+    --text-link: var(--highlight) !important;
     --text-link-low-saturation: rgba(var(--rgb-highlight), 50%);
     --text-positive: var(--online-color);
     --text-warning: var(--afk-color);
