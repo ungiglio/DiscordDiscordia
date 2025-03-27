@@ -2,7 +2,7 @@
  *name          Lande della Discordia
  *author        @ungiglio
  *internalcode  AWKGLASS
- *version       #20250326
+ *version       #20250327
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
@@ -13,7 +13,7 @@
 .theme-dark,
 .theme-light {
 
-    --file-ver: "#20250326";
+    --file-ver: "#20250327";
 
     /*Background*/
     --background-image: var(--custom-image-url);
@@ -64,7 +64,7 @@
     --background-message-automod: rgba(var(--rgb-highlight), 20%);
     --background-message-automod-hover: rgba(var(--rgb-highlight), 40%);
     --channeltextarea-background: color-mix(in oklab, var(--primary-560) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
-    --text-link: var(--highlight);
+    --text-link: var(--highlight) !important;
     --text-link-low-saturation: rgba(var(--rgb-highlight), 50%);
     --text-positive: var(--online-color);
     --text-warning: var(--afk-color);
@@ -163,6 +163,10 @@
     --bg-base-secondary: var(--background-tertiary) !important;
     --card-primary-bg: var(--background-primary) !important;
     --background-base-lower: var(--background-tertiary) !important;
+    --background-floating: black !important;
+    --background-surface-higher: black !important;
+    --background-base-low: var(--background-secondary) !important;
+    --background-secondary-alt: var(--background-secondary) !important;
 
     --ver: "lande discordia ("var(--current-ver)") "var(--file-ver);
 }
@@ -276,7 +280,7 @@
     border-radius: 10px;
 }
 
-.visual-refresh .sidebar_c48ade:after {
+.visual-refresh .stackedBars__74017, .visual-refresh .sidebar_c48ade:after {
     background: none;
 }
 
@@ -512,7 +516,7 @@ span.button__67645.redGlow__67645 {
     background: var(--background-primary);
 }
 
-.visual-refresh .standardSidebarView__23e6b, .visual-refresh .contentRegionScroller__23e6b {
+.visual-refresh .tabBody__133bf, .sidebarScrollable__53543 .scroller__53543, .visual-refresh .standardSidebarView__23e6b, .visual-refresh .contentRegionScroller__23e6b {
     background: none;
 }
 
@@ -543,7 +547,6 @@ span.button__67645.redGlow__67645 {
     align-items: center;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    border-top: solid 1px var(--highlight);
 }
 
 .clipContainer__841c8 {
@@ -589,6 +592,15 @@ background: var(--darkPurple-background);
 .themedBackground__74017,
 .custom-profile-theme .inner_a99829 {
     background: var(--bg-overlay-3, var(--darkPurple-background));
+    margin-top: 5px;
+}
+
+.container_c48ade {
+    --custom-chat-input-margin-bottom: 8px !important;
+}
+
+.channelTextArea_f75fb0 {
+    height: 60px;
 }
 
 .theme-dark .children__9293f:after,
@@ -1262,8 +1274,15 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
 .guildSidebar_f75fb0 {
     /* moderator view */
     border-radius: 10px;
-    margin: 20px;
-    box-shadow: var(--box-shadow);
+    margin: 0 20px 0 0;
+}
+
+.outer_c0bea0 { /* moderator view */
+    border-radius: 10px !important;
+}
+
+.sidebarContainer__656be { /* moderator view */
+    margin: 0;
 }
 
 .innerContainer__656be {
