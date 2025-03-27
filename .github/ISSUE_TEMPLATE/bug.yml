@@ -31,7 +31,7 @@ body:
         - 1.0.6 awkglass
         - 1.0.5 awkglass
         - previous version
-      default: "1.1.0 (latest)"
+      default: 0
     validations:
       required: true
   - type: textarea
