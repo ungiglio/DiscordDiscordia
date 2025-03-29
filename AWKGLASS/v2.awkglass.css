@@ -2,7 +2,7 @@
  *name          Lande della Discordia
  *author        @ungiglio
  *internalcode  AWKGLASS
- *version       #20250327
+ *version       #20250329
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
@@ -13,7 +13,7 @@
 .theme-dark,
 .theme-light {
 
-    --file-ver: "#20250327";
+    --file-ver: "#20250329";
 
     /*Background*/
     --background-image: var(--custom-image-url);
@@ -33,14 +33,14 @@
     --highlight: rgb(var(--rgb-highlight));
     --highlight-darker: hsl(from var(--highlight) calc(h + 15) s calc(l - 35));
     /*color-mix(in srgb,var(--highlight),#000 50%);*/
-    --text: var(--text-muted);
-    --online-color: rgb(var(--rgb-online-color));
-    --afk-color: rgb(var(--rgb-afk-color));
-    --dnd-color: rgb(var(--rgb-dnd-color));
-    --streaming-color: rgb(var(--rgb-streaming-color));
-    --scrollbar-thin-thumb: var(--highlight);
-    --scrollbar-auto-thumb: var(--highlight);
-    --scrollbar-auto-scrollbar-color-thumb: var(--highlight);
+    --text: var(--text-muted) !important;
+    --online-color: rgb(var(--rgb-online-color)) !important;
+    --afk-color: rgb(var(--rgb-afk-color)) !important;
+    --dnd-color: rgb(var(--rgb-dnd-color)) !important;
+    --streaming-color: rgb(var(--rgb-streaming-color)) !important;
+    --scrollbar-thin-thumb: var(--highlight) !important;
+    --scrollbar-auto-thumb: var(--highlight) !important;
+    --scrollbar-auto-scrollbar-color-thumb: var(--highlight) !important;
     --scrollbar-thin-track: transparent;
     --scrollbar-auto-track: transparent;
     --scrollbar-auto-scrollbar-color-track: transparent;
@@ -53,39 +53,39 @@
     --custom-title-margin-top: 0px;
     --custom-title-margin-left: 0px;
 
-    --logo-primary: var(--highlight);
-    --control-brand-foreground: var(--highlight);
-    --control-brand-foreground-new: var(--highlight);
-    --background-mentioned: rgba(var(--rgb-highlight), 10%);
+    --logo-primary: var(--highlight) !important;
+    --control-brand-foreground: var(--highlight) !important;
+    --control-brand-foreground-new: var(--highlight) !important;
+    --background-mentioned: rgba(var(--rgb-highlight), 14%) !important;
     --background-mentioned-hover: rgba(var(--rgb-highlight), 20%);
-    --background-message-hover: color-mix(in oklab, hsl(var(--primary-900-hsl) / 0.06) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.06) var(--theme-base-color-amount, 0%));
-    --background-message-highlight: rgba(var(--rgb-highlight), 30%);
-    --background-message-highlight-hover: rgba(var(--rgb-highlight), 40%);
-    --background-message-automod: rgba(var(--rgb-highlight), 20%);
-    --background-message-automod-hover: rgba(var(--rgb-highlight), 40%);
-    --channeltextarea-background: color-mix(in oklab, var(--primary-560) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+    --background-message-hover: color-mix(in oklab, hsl(var(--primary-900-hsl) / 0.06) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.06) var(--theme-base-color-amount, 0%)) !important;
+    --background-message-highlight: rgba(var(--rgb-highlight), 30%) !important;
+    --background-message-highlight-hover: rgba(var(--rgb-highlight), 40%) !important;
+    --background-message-automod: rgba(var(--rgb-highlight), 20%) !important;
+    --background-message-automod-hover: rgba(var(--rgb-highlight), 40%) !important;
+    --channeltextarea-background: color-mix(in oklab, var(--primary-560) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%)) !important;
     --text-link: var(--highlight) !important;
-    --text-link-low-saturation: rgba(var(--rgb-highlight), 50%);
-    --text-positive: var(--online-color);
-    --text-warning: var(--afk-color);
-    --text-danger: var(--dnd-color);
-    --text-brand: var(--highlight);
-    --channels-default: var(--text);
-    --interactive-muted: rgba(180, 180, 180, 0.493);
-    --button-danger-background-disabled: rgba(var(--rgb-close-button), 20%);
-    --button-danger-background: rgba(var(--rgb-close-button), 100%);
-    --button-danger-background-hover: rgba(var(--rgb-close-button), 70%);
-    --button-danger-background-active: rgba(var(--rgb-close-button), 100%);
-    --button-outline-danger-border: rgba(var(--rgb-close-button), 100%);
-    --button-outline-danger-background: rgba(var(--rgb-close-button), 50%);
-    --button-outline-danger-background-hover: rgba(var(--rgb-close-button), 100%);
-    --button-outline-danger-background-active: rgba(var(--rgb-close-button), 100%);
-    --button-outline-danger-text: rgb(255, 255, 255);
-    --button-outline-danger-text-hover: rgb(255, 255, 255);
-    --button-outline-danger-text-active: rgba(var(--rgb-close-button), 100%);
-    --button-outline-danger-border-hover: rgba(var(--rgb-close-button), 70%);
-    --button-outline-danger-border-active: rgba(var(--rgb-close-button), 100%);
-    --button-positive-background-disabled: rgba(var(--rgb-online-color), 20%);
+    --text-link-low-saturation: rgba(var(--rgb-highlight), 50%) !important;
+    --text-positive: var(--online-color) !important;
+    --text-warning: var(--afk-color) !important;
+    --text-danger: var(--dnd-color) !important;
+    --text-brand: var(--highlight) !important;
+    --channels-default: var(--text) !important;
+    --interactive-muted: rgba(180, 180, 180, 0.493) !important;
+    --button-danger-background-disabled: rgba(var(--rgb-close-button), 20%) !important;
+    --button-danger-background: rgba(var(--rgb-close-button), 100%) !important;
+    --button-danger-background-hover: rgba(var(--rgb-close-button), 70%) !important;
+    --button-danger-background-active: rgba(var(--rgb-close-button), 100%) !important;
+    --button-outline-danger-border: rgba(var(--rgb-close-button), 100%) !important;
+    --button-outline-danger-background: rgba(var(--rgb-close-button), 50%) !important;
+    --button-outline-danger-background-hover: rgba(var(--rgb-close-button), 100%) !important;
+    --button-outline-danger-background-active: rgba(var(--rgb-close-button), 100%) !important;
+    --button-outline-danger-text: rgb(255, 255, 255) !important;
+    --button-outline-danger-text-hover: rgb(255, 255, 255) !important;
+    --button-outline-danger-text-active: rgba(var(--rgb-close-button), 100%) !important;
+    --button-outline-danger-border-hover: rgba(var(--rgb-close-button), 70%) !important;
+    --button-outline-danger-border-active: rgba(var(--rgb-close-button), 100%) !important;
+    --button-positive-background-disabled: rgba(var(--rgb-online-color), 20%) !important;
     --button-positive-background: rgba(var(--rgb-online-color), 20%);
     --button-positive-background-hover: rgba(var(--rgb-online-color), 70%);
     --button-positive-background-active: rgba(var(--rgb-online-color), 100%);
@@ -141,24 +141,24 @@
     --search-popout-option-user-username: rgba(var(--rgb-highlight), 70%);
     --search-popout-option-filter-text: rgba(var(--rgb-highlight), 70%);
     --search-popout-date-picker-border: 1px solid var(--highlight);
-    --status-danger-background: var(--status-danger);
-    --channel-header-color: var(--custom-channel-header-color);
-    --channel-icon: var(--custom-channel-icon);
-    --selected-channel-color: var(--custom-selected-channel-color);
-    --cat-color: var(--cat-custom-color);
-    --cat-color-rgba: var(--cat-custom-color-rgba);
-    --status-danger: var(--status-danger-rgb);
-    --status-warning: var(--afk-color);
-    --status-positive: var(--online-color);
-    --profile-gradient-primary-color: var(--rgb-background);
-    --profile-gradient-secondary-color: var(--rgb-background);
-    --menu-item-default-active-bg: var(--highlight);
-    --menu-item-default-hover-bg: var(--highlight);
-    --background-channel-selected: rgba(var(--rgb-highlight), 10%);
-    --app-border-frame: color-mix(in oklab,hsl(var(--opacity-24-hsl)/0.23921568627450981) 100%,hsl(var(--theme-base-color-hsl,0 0% 0%)/0.23921568627450981) var(--theme-base-color-amount,0%));
+    --status-danger-background: var(--status-danger) !important;
+    --channel-header-color: var(--custom-channel-header-color) !important;
+    --channel-icon: var(--custom-channel-icon) !important;
+    --selected-channel-color: var(--custom-selected-channel-color) !important;
+    --cat-color: var(--cat-custom-color) !important;
+    --cat-color-rgba: var(--cat-custom-color-rgba) !important;
+    --status-danger: var(--status-danger-rgb) !important;
+    --status-warning: var(--afk-color) !important;
+    --status-positive: var(--online-color) !important;
+    --profile-gradient-primary-color: var(--rgb-background) !important;
+    --profile-gradient-secondary-color: var(--rgb-background) !important;
+    --menu-item-default-active-bg: var(--highlight) !important;
+    --menu-item-default-hover-bg: var(--highlight) !important;
+    --background-channel-selected: rgba(var(--rgb-highlight), 10%) !important;
+    --app-border-frame: color-mix(in oklab,hsl(var(--opacity-24-hsl)/0.23921568627450981) 100%,hsl(var(--theme-base-color-hsl,0 0% 0%)/0.23921568627450981) var(--theme-base-color-amount,0%)) !important;
 
     --bg-brand: var(--highlight) !important;
-    --button-filled-brand-background: var(--highlight);
+    --button-filled-brand-background: var(--highlight) !important;
     --bg-base-tertiary: var(--background-secondary) !important;
     --bg-base-secondary: var(--background-tertiary) !important;
     --card-primary-bg: var(--background-primary) !important;
@@ -167,6 +167,8 @@
     --background-surface-higher: black !important;
     --background-base-low: var(--background-secondary) !important;
     --background-secondary-alt: var(--background-secondary) !important;
+    --checkbox-border-checked: var(--online-color) !important;
+    --checkbox-background-checked: var(--online-color) !important;
 
     --ver: "lande discordia ("var(--current-ver)") "var(--file-ver);
 }
@@ -238,6 +240,23 @@
     height: 25px;
 }
 
+.recentsIcon_c99c29 div, .trailing_c38106 a div {
+    background: #00000083;
+    width: 30px !important;
+    height: 25px !important;
+    border-radius: 10px;
+}
+
+.recentsIcon_c99c29 div:hover, .trailing_c38106 a div:hover {
+    background: var(--online-color);
+}
+
+.trailing_c38106 a div svg, .recentsIcon_c99c29 div svg {
+    width: 15px !important;
+    height: 15px !important;
+    color: #fff !important;
+}
+
 .winButtons_c38106 {
     gap: 0;
 }
@@ -257,6 +276,10 @@
     margin-right: 20px;
 }
 
+.winButtonsWithDivider_c38106:before {
+    display: none;
+}
+
 .platform-win .sidebar_c48ade,
 .container__133bf,
 .chat_f75fb0 {
@@ -270,6 +293,8 @@
 
 .visual-refresh .container__34c2c, .visual-refresh .header__34c2c {
     background: var(--darkPurple-background);
+    border-radius: 10px;
+    margin-left: 10px;
 }
 
 .content_c48ade {
@@ -277,7 +302,7 @@
 }
 
 .visual-refresh .chat_f75fb0 {
-    background: none;
+    background: var(--background-primary);
 }
 
 .guilds_c48ade {
@@ -287,7 +312,7 @@
 }
 
 .visual-refresh .title__85643 {
-    background: var(--background-primary);
+    background: #00000083;
     border-radius: 10px;
     padding: 5px;
 }
@@ -449,7 +474,6 @@
 .visual-refresh .privateChannels__35e86,
 .visual-refresh .nowPlayingColumn__133bf,
 .visual-refresh .container__7d20c,
-.visual-refresh .channelTextArea_f75fb0,
 .visual-refresh .container_c8ffbb,
 .visual-refresh .chatContent_f75fb0,
 .visual-refresh .wrapper_ef3116 {
@@ -602,10 +626,11 @@ span.button__67645.redGlow__67645 {
     color: var(--background) !important
 }
 
-.visual-refresh .channelTextArea_f75fb0 {
+.visual-refresh .channelTextArea__74017, .visual-refresh .channelTextArea__74017:focus-within {
     /* textbar area */
     border: 1px solid var(--highlight);
     background: var(--darkPurple-background);
+    height: 60px;
 }
 
 .themedBackground__74017 {
@@ -624,10 +649,6 @@ background: var(--darkPurple-background);
 
 .container_c48ade {
     --custom-chat-input-margin-bottom: 8px !important;
-}
-
-.channelTextArea_f75fb0 {
-    height: 60px;
 }
 
 .theme-dark .children__9293f:after,
@@ -769,7 +790,7 @@ background: var(--darkPurple-background);
     background-color: var(--status-danger);
 }
 
-.reaction__23977.reactionMe__23977 {
+.visual-refresh .reaction__23977.reactionMe__23977 {
     /* forum reaction color */
     background-color: rgba(178, 102, 255, 0.3);
     border-color: var(--highlight);
@@ -790,7 +811,8 @@ background: var(--darkPurple-background);
 
 .mainCard_f369db:hover {
     /*forum posts cards hover */
-    border: 1px solid var(--selected-channel-color);
+    border: 1px solid var(--selected-channel-color) !important;
+    background: var(--bg-mod-faint) !important;
 }
 
 .wordmark__421ed {
@@ -935,6 +957,16 @@ background: var(--darkPurple-background);
 .disabledStrokeThrough {
     fill: var(--status-danger);
 }
+
+.auto__99f8c.list_f369db.scrollerBase__99f8c::-webkit-scrollbar {
+    width: 5px;
+    }
+    .auto__99f8c.list_f369db.scrollerBase__99f8c::-webkit-scrollbar-thumb {
+      background: var(--darkPurple-background);
+    }
+    .auto__99f8c.list_f369db.scrollerBase__99f8c::-webkit-scrollbar-thumb:hover {
+      background: var(--highlight);
+    }
 
 .scroller__629e4::-webkit-scrollbar {
     /*channel list scrollbar hidden*/
@@ -1113,7 +1145,7 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
     background: transparent;
 }
 
-.resizeHandle__01ae2 {
+.visual-refresh .resizeHandle__01ae2 {
     cursor: ew-resize;
     height: 100%;
     width: var(--chat-resize-handle-width);
@@ -1123,9 +1155,9 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
     background: none;
 }
 
-.container__01ae2 {
+.visual-refresh .container__01ae2 {
     border-radius: 8px;
-    box-shadow: var(--box-shadow);
+    background: var(--background-secondary);
 }
 
 .lookOutlined__201d5.colorGreen__201d5 {
@@ -1169,14 +1201,9 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
     background: var(--white);
 }
 
-.jumpToPresentBar__0f481 {
-    bottom: 1px;
-    right: calc(18px + var(--custom-channel-textarea-text-area-height) + var(--custom-channel-textarea-app-launcher-button-gap));
-    border-radius: 8px;
+.visual-refresh .jumpToPresentBar__0f481 {
     background-color: var(--darkPurple-background);
     border: 1px solid var(--channel-icon);
-    opacity: .95;
-    padding-bottom: 8px;
 }
 
 #popout_5211 {

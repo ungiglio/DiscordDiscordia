@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: https://ogp.me/ns#">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,6 +28,7 @@
             padding: 20px;
             background-color: #36393f;
         }
+
         header {
             background-color: #2f3136;
             color: white;
@@ -35,55 +36,58 @@
             padding: 1rem;
             border-radius: 8px;
         }
+
         h1 {
             margin-bottom: 0;
             font-family: 'Pirata One', cursive;
             font-size: 2.5em;
         }
+
         .version-section {
             background-color: #2f3136;
             padding: 20px;
             margin: 20px 0;
             border-radius: 8px;
         }
-        .version-section:hover {
-            box-shadow: 5px 5px 15px black;
-            transform: scale(1.01);
-        }
-        .discontinued:hover {
-            box-shadow: none;
-            transform: none;
-        }
+
         .version-title {
             color: #b266ff;
             border-bottom: 1px solid #b266ff;
             padding-bottom: 5px;
         }
+
         .changelog-list {
             list-style-type: none;
             padding-left: 0;
         }
+
         .changelog-list li {
             margin-bottom: 10px;
         }
+
         .changelog-type {
             font-weight: bold;
             color: #7289da;
         }
+
         .beta {
             background-color: #4a412a;
         }
+
         .beta .version-title {
             color: #ffd700;
             border-bottom-color: #ffd700;
         }
+
         .discontinued {
             background-color: #4a302a;
         }
+
         .discontinued .version-title {
             color: #ff1100;
             border-bottom-color: #ff1100;
         }
+
         warningtext {
             color: #ffd700;
         }
@@ -144,8 +148,46 @@
         li a {
             color: #00A6F6;
         }
+
+        /*collapsible*/
+        .collapsible {
+            background-color: #2f3136;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border-radius: 8px;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+        }
+
+        .activec,
+        .collapsible:hover {
+            background-color: #2f3136a1;
+        }
+
+        .collapsible:after {
+            content: '\002B';
+            color: white;
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+        }
+
+        .activec:after {
+            content: "\2212";
+        }
+
+        .content {
+            padding: 0 18px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+        }
     </style>
 </head>
+
 <body onload="updateCopyrightYear()">
     <header>
         <h1>Lande della Discordia</h1>
@@ -168,142 +210,183 @@
             <ul class="changelog-list">
                 <li><span class="changelog-type">New:</span> Discord UI Refresh update</li>
             </ul>
-            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.1.0" class="button">Download [<small>v1.1.0</small>]</a>
+            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.1.0"
+                class="button">Download [<small>v1.1.0</small>]</a>
         </section>
 
         <section id="20250308" class="version-section">
             <h2 class="version-title">Version 1.0.9 - March 08, 2025</h2>
             <ul class="changelog-list">
-                <li><span class="changelog-type">Added:</span> macOS dots customization <a href="https://github.com/ungiglio/DiscordDiscordia/discussions/78">#78</a></li>
+                <li><span class="changelog-type">Added:</span> macOS dots customization <a
+                        href="https://github.com/ungiglio/DiscordDiscordia/discussions/78">#78</a></li>
             </ul>
-            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.9" class="button">Download [<small>v1.0.9</small>]</a>
+            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.9"
+                class="button">Download [<small>v1.0.9</small>]</a>
         </section>
 
         <section id="20250130awkglass" class="version-section">
             <h2 class="version-title">Version 1.0.8 awkglass - January 30, 2025</h2>
             <ul class="changelog-list">
-                <li><span class="changelog-type">Added:</span> app blur customization and discord logo customization <a href="https://github.com/ungiglio/DiscordDiscordia/discussions/75">#75</a></li>
+                <li><span class="changelog-type">Added:</span> app blur customization and discord logo customization <a
+                        href="https://github.com/ungiglio/DiscordDiscordia/discussions/75">#75</a></li>
             </ul>
-            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.8-awkglass" class="button">Download [awkglass <small>v1.0.8</small>]</a>
+            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.8-awkglass"
+                class="button">Download [awkglass <small>v1.0.8</small>]</a>
         </section>
 
-        <section id="20250126awkglass" class="version-section discontinued">
-            <h2 class="version-title">[OUTDATED] Version 1.0.7 awkglass - January 26, 2025</h2>
-            <ul class="changelog-list">
-                <li><span class="changelog-type">Added:</span> Colored mentions based on role color (credits to <a href="https://github.com/davart154">davart154</a>)</li>
-            </ul>
-            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.7-awkglass" class="discontinuedbutton">Download [awkglass <small>v1.0.7</small>]</a>
-        </section>
+        <button class="collapsible">Outdated versions</button>
+        <div class="content">
+            <!-- Collapsible contents -->
+            <section id="20250126awkglass" class="version-section discontinued">
+                <h2 class="version-title">[OUTDATED] Version 1.0.7 awkglass - January 26, 2025</h2>
+                <ul class="changelog-list">
+                    <li><span class="changelog-type">Added:</span> Colored mentions based on role color (credits to <a
+                            href="https://github.com/davart154">davart154</a>)</li>
+                </ul>
+                <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.7-awkglass"
+                    class="discontinuedbutton">Download [awkglass <small>v1.0.7</small>]</a>
+            </section>
 
-        <section id="20250118awkglass" class="version-section discontinued">
-            <h2 class="version-title">[OUTDATED] Version 1.0.6 awkglass - January 18, 2025</h2>
-            <ul class="changelog-list">
-                <li><span class="changelog-type">Fixed:</span> <a href="https://github.com/ungiglio/DiscordDiscordia/discussions/45">#45</a></li>
-            </ul>
-            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.6-awkglass" class="discontinuedbutton">Download [awkglass <small>v1.0.6</small>]</a>
-        </section>
+            <section id="20250118awkglass" class="version-section discontinued">
+                <h2 class="version-title">[OUTDATED] Version 1.0.6 awkglass - January 18, 2025</h2>
+                <ul class="changelog-list">
+                    <li><span class="changelog-type">Fixed:</span> <a
+                            href="https://github.com/ungiglio/DiscordDiscordia/discussions/45">#45</a></li>
+                </ul>
+                <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.6-awkglass"
+                    class="discontinuedbutton">Download [awkglass <small>v1.0.6</small>]</a>
+            </section>
 
-        <section id="20250103awkglass" class="version-section discontinued">
-            <h2 class="version-title">[OUTDATED] Version 1.0.5 awkglass - January 03, 2025</h2>
-            <ul class="changelog-list">
-                <li><span class="changelog-type">Added:</span> Option to disable the servers bar at the top of the screen</li>
-            </ul>
-            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.5-awkglass" class="discontinuedbutton">Download [awkglass <small>v1.0.5</small>]</a>
-        </section>
+            <section id="20250103awkglass" class="version-section discontinued">
+                <h2 class="version-title">[OUTDATED] Version 1.0.5 awkglass - January 03, 2025</h2>
+                <ul class="changelog-list">
+                    <li><span class="changelog-type">Added:</span> Option to disable the servers bar at the top of the
+                        screen</li>
+                </ul>
+                <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.5-awkglass"
+                    class="discontinuedbutton">Download [awkglass <small>v1.0.5</small>]</a>
+            </section>
 
-        <section id="20241229awkglass" class="version-section discontinued">
-            <h2 class="version-title">[OUTDATED] Version 1.0.4 awkglass - December 29, 2024</h2>
-            <ul class="changelog-list">
-                <li><span class="changelog-type">Added:</span> Font customization</li>
-            </ul>
-            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.4-awkglass" class="discontinuedbutton">Download [awkglass <small>v1.0.4</small>]</a>
-        </section>
+            <section id="20241229awkglass" class="version-section discontinued">
+                <h2 class="version-title">[OUTDATED] Version 1.0.4 awkglass - December 29, 2024</h2>
+                <ul class="changelog-list">
+                    <li><span class="changelog-type">Added:</span> Font customization</li>
+                </ul>
+                <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.4-awkglass"
+                    class="discontinuedbutton">Download [awkglass <small>v1.0.4</small>]</a>
+            </section>
 
-        <section id="20241028awkglass" class="version-section discontinued">
-            <h2 class="version-title">[OUTDATED] Version 1.0.3 awkglass - October 28, 2024</h2>
-            <ul class="changelog-list">
-                <li><span class="changelog-type">Improved:</span> Possibility to customize more options</li>
-            </ul>
-            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.3-awkglass" class="discontinuedbutton">Download [awkglass <small>v1.0.3</small>]</a>
-        </section>
+            <section id="20241028awkglass" class="version-section discontinued">
+                <h2 class="version-title">[OUTDATED] Version 1.0.3 awkglass - October 28, 2024</h2>
+                <ul class="changelog-list">
+                    <li><span class="changelog-type">Improved:</span> Possibility to customize more options</li>
+                </ul>
+                <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.3-awkglass"
+                    class="discontinuedbutton">Download [awkglass <small>v1.0.3</small>]</a>
+            </section>
 
-        <section id="20241013awkglass" class="version-section discontinued">
-            <h2 class="version-title">[OUTDATED] Version 1.0.2-beta.awkglass - October 13, 2024</h2>
-            <ul class="changelog-list">
-                <li><span class="changelog-type">Added:</span> Possibility to customize more options</li>
-                <li><span class="changelog-type">Improved:</span> Color optimization</li>
-                <li><span class="changelog-type">Fixed:</span> Forum channel container</li>
-                <li><span class="changelog-type">Note:</span> This is a <warningtext>stable</warningtext> release of beta awkglass</li>
-            </ul>
-            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.2-beta.awkglass" class="discontinuedbutton">Download [awkglass stable <small>v1.0.2</small>]</a>
-        </section>
+            <section id="20241013awkglass" class="version-section discontinued">
+                <h2 class="version-title">[OUTDATED] Version 1.0.2-beta.awkglass - October 13, 2024</h2>
+                <ul class="changelog-list">
+                    <li><span class="changelog-type">Added:</span> Possibility to customize more options</li>
+                    <li><span class="changelog-type">Improved:</span> Color optimization</li>
+                    <li><span class="changelog-type">Fixed:</span> Forum channel container</li>
+                    <li><span class="changelog-type">Note:</span> This is a <warningtext>stable</warningtext> release of
+                        beta awkglass</li>
+                </ul>
+                <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.2-beta.awkglass"
+                    class="discontinuedbutton">Download [awkglass stable <small>v1.0.2</small>]</a>
+            </section>
 
-        <section class="version-section discontinued">
-            <h2 class="version-title">[DISCONTINUED] Version 1.0.0-beta.durple - October 7, 2024</h2>
-            <ul class="changelog-list">
-                <li><span class="changelog-type">Added:</span> DarkPurple background to user GUI</li>
-                <li><span class="changelog-type">Caution:</span> This beta it's stable but some visual glitches may happens <warningtext>[enable/install at your own risk]</warningtext></li>
-            </ul>
-            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.0-beta.durple" class="discontinuedbutton">Download [durple version]</a>
-        </section>
+            <section class="version-section discontinued">
+                <h2 class="version-title">[DISCONTINUED] Version 1.0.0-beta.durple - October 7, 2024</h2>
+                <ul class="changelog-list">
+                    <li><span class="changelog-type">Added:</span> DarkPurple background to user GUI</li>
+                    <li><span class="changelog-type">Caution:</span> This beta it's stable but some visual glitches may
+                        happens <warningtext>[enable/install at your own risk]</warningtext>
+                    </li>
+                </ul>
+                <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.0-beta.durple"
+                    class="discontinuedbutton">Download [durple version]</a>
+            </section>
 
-        <section class="version-section discontinued">
-            <h2 class="version-title">[OUTDATED] Version 1.0.7 - September 28, 2024</h2>
-            <ul class="changelog-list">
-                <li><span class="changelog-type">Added:</span> Possibility to change '--status-danger' property color</li>
-                <li><span class="changelog-type">Improved:</span> VC activities re-style</li>
-            </ul>
-            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.7" class="discontinuedbutton">Download [v1.0.7]</a>
-        </section>
+            <section class="version-section discontinued">
+                <h2 class="version-title">[OUTDATED] Version 1.0.7 - September 28, 2024</h2>
+                <ul class="changelog-list">
+                    <li><span class="changelog-type">Added:</span> Possibility to change '--status-danger' property
+                        color</li>
+                    <li><span class="changelog-type">Improved:</span> VC activities re-style</li>
+                </ul>
+                <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.7"
+                    class="discontinuedbutton">Download [v1.0.7]</a>
+            </section>
 
-        <section class="version-section discontinued">
-            <h2 class="version-title">[OUTDATED] Version 1.0.1-beta.awkglass - October 11, 2024</h2>
-            <ul class="changelog-list">
-                <li><span class="changelog-type">Fixed:</span> <a style="color: #00A6F6;" href="https://ungiglio.github.io/DiscordDiscordia/changelog/#20241011awkglass">click here</a></li>
-                <li><span class="changelog-type">Caution:</span> This beta shouldn't be instable but may cause some visual glitches <warningtext>[enable/install at your own risk]</warningtext></li>
-            </ul>
-            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.1-beta.awkglass" class="discontinuedbutton">Download [awkglass version]</a>
-        </section>
+            <section class="version-section discontinued">
+                <h2 class="version-title">[OUTDATED] Version 1.0.1-beta.awkglass - October 11, 2024</h2>
+                <ul class="changelog-list">
+                    <li><span class="changelog-type">Fixed:</span> <a style="color: #00A6F6;"
+                            href="https://ungiglio.github.io/DiscordDiscordia/changelog/#20241011awkglass">click
+                            here</a></li>
+                    <li><span class="changelog-type">Caution:</span> This beta shouldn't be instable but may cause some
+                        visual glitches <warningtext>[enable/install at your own risk]</warningtext>
+                    </li>
+                </ul>
+                <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.1-beta.awkglass"
+                    class="discontinuedbutton">Download [awkglass version]</a>
+            </section>
 
-        <section class="version-section discontinued">
-            <h2 class="version-title">[OUTDATED] Version 1.0.0-beta.awkglass - October 7, 2024</h2>
-            <ul class="changelog-list">
-                <li><span class="changelog-type">Added:</span> Transparent window</li>
-                <li><span class="changelog-type">Fixed:</span> Color issues</li>
-                <li><span class="changelog-type">Caution:</span> This beta it's instable and may cause some visual glitches <warningtext>[enable/install at your own risk]</warningtext></li>
-            </ul>
-            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.0-beta.awkglass" class="discontinuedbutton">Download [awkglass version]</a>
-        </section>
+            <section class="version-section discontinued">
+                <h2 class="version-title">[OUTDATED] Version 1.0.0-beta.awkglass - October 7, 2024</h2>
+                <ul class="changelog-list">
+                    <li><span class="changelog-type">Added:</span> Transparent window</li>
+                    <li><span class="changelog-type">Fixed:</span> Color issues</li>
+                    <li><span class="changelog-type">Caution:</span> This beta it's instable and may cause some visual
+                        glitches <warningtext>[enable/install at your own risk]</warningtext>
+                    </li>
+                </ul>
+                <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.0-beta.awkglass"
+                    class="discontinuedbutton">Download [awkglass version]</a>
+            </section>
 
-        <section class="version-section discontinued">
-            <h2 class="version-title">[OUTDATED] Version 1.0.6 - September 13, 2024</h2>
-            <ul class="changelog-list">
-                <li><span class="changelog-type">Improved:</span> Better contrast for reactions number color + beta version available from source code</li>
-                <li><span class="changelog-type">Fixed:</span> Issue with info panel and activity panel</li>
-            </ul>
-            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.6" class="discontinuedbutton">Download [v1.0.6]</a>
-        </section>
+            <section class="version-section discontinued">
+                <h2 class="version-title">[OUTDATED] Version 1.0.6 - September 13, 2024</h2>
+                <ul class="changelog-list">
+                    <li><span class="changelog-type">Improved:</span> Better contrast for reactions number color + beta
+                        version available from source code</li>
+                    <li><span class="changelog-type">Fixed:</span> Issue with info panel and activity panel</li>
+                </ul>
+                <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.6"
+                    class="discontinuedbutton">Download [v1.0.6]</a>
+            </section>
 
-        <section class="version-section discontinued">
-            <h2 class="version-title">[DISCONTINUED] Version 1.0.0-beta.absolute - September 13, 2024</h2>
-            <ul class="changelog-list">
-                <li><span class="changelog-type">Added:</span> Experimental infoArea: userinfo, activity and <a style="color: #00A6F6;" href="https://vencord.dev/plugins/SpotifyControls">spotify control</a> panels</li>
-                <li><span class="changelog-type">Changed:</span> Adjusted backgruond colors for an high contrast</li>
-                <li><span class="changelog-type">Fixed:</span> Minor visual glitches in member list</li>
-                <li><span class="changelog-type">Caution:</span> Experimental infoArea it's instable and may cause some visual glitches <warningtext>[enable/install at your own risk]</warningtext> </li>
-            </ul>
-            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v2.0.0-beta.1" class="discontinuedbutton">Download [absolute version]</a>
-        </section>
+            <section class="version-section discontinued">
+                <h2 class="version-title">[DISCONTINUED] Version 1.0.0-beta.absolute - September 13, 2024</h2>
+                <ul class="changelog-list">
+                    <li><span class="changelog-type">Added:</span> Experimental infoArea: userinfo, activity and <a
+                            style="color: #00A6F6;" href="https://vencord.dev/plugins/SpotifyControls">spotify
+                            control</a> panels</li>
+                    <li><span class="changelog-type">Changed:</span> Adjusted backgruond colors for an high contrast
+                    </li>
+                    <li><span class="changelog-type">Fixed:</span> Minor visual glitches in member list</li>
+                    <li><span class="changelog-type">Caution:</span> Experimental infoArea it's instable and may cause
+                        some visual glitches <warningtext>[enable/install at your own risk]</warningtext>
+                    </li>
+                </ul>
+                <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v2.0.0-beta.1"
+                    class="discontinuedbutton">Download [absolute version]</a>
+            </section>
 
-        <section class="version-section discontinued">
-            <h2 class="version-title">[OUTDATED] Version 1.0.5 - September 10, 2024</h2>
-            <ul class="changelog-list">
-                <li><span class="changelog-type">Added:</span> <a style="color: #00A6F6;" href="https://github.com/ungiglio/DiscordDiscordia/commits/v1.0.5">Everything</a></li>
-            </ul>
-            <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.5" class="discontinuedbutton">Download [v1.0.5]</a>
-        </section>
+            <section class="version-section discontinued">
+                <h2 class="version-title">[OUTDATED] Version 1.0.5 - September 10, 2024</h2>
+                <ul class="changelog-list">
+                    <li><span class="changelog-type">Added:</span> <a style="color: #00A6F6;"
+                            href="https://github.com/ungiglio/DiscordDiscordia/commits/v1.0.5">Everything</a></li>
+                </ul>
+                <a target="_blank" href="https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.0.5"
+                    class="discontinuedbutton">Download [v1.0.5]</a>
+            </section>
 
-        <!-- Add more version sections as needed -->
+        </div>
 
     </main>
 
@@ -312,14 +395,32 @@
     </footer>
 
     <script>
-    function updateCopyrightYear(selector = 'footer p') {
-    const yearElement = document.querySelector(selector);
-    if (yearElement) {
-        const currentYear = new Date().getFullYear();
-        yearElement.innerHTML = `&copy; ${currentYear} ungiglio. All rights reserved.`;
-    }
-}
-</script>
-    
+        function updateCopyrightYear(selector = 'footer p') {
+            const yearElement = document.querySelector(selector);
+            if (yearElement) {
+                const currentYear = new Date().getFullYear();
+                yearElement.innerHTML = `&copy; ${currentYear} ungiglio. All rights reserved.`;
+            }
+        }
+    </script>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("activec");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+
 </body>
+
 </html>
