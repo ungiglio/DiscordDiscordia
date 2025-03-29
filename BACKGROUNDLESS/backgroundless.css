@@ -626,7 +626,7 @@ span.button__67645.redGlow__67645 {
     /* textbar area */
     border: 1px solid var(--highlight);
     background: var(--darkPurple-background);
-    height: 60px;
+    margin-bottom: 25px;
 }
 
 .themedBackground__74017 {
@@ -881,8 +881,9 @@ background: var(--darkPurple-background);
 .visual-refresh .panels_c48ade {
     /*personal info/status panel*/
     flex: 0 0 auto;
-    background-color: var(--background-secondary);
+    background: none;
     z-index: 2;
+    border: none;
 }
 
 .lottieIcon__5eb9b {
@@ -893,17 +894,18 @@ background: var(--darkPurple-background);
 .visual-refresh .theme-dark .container__37e49,
 .visual-refresh .container__37e49 {
     /*personal info/status panel section*/
-    height: 60px;   /*73px;44px;*/
+    height: 59px;   /*73px;44px;*/
     font-size: 14px;
     font-weight: 500;
     display: flex;
     align-items: center;
-    padding: 0 8px 1px;
+    padding: 0 8px 0;
     flex-shrink: 0;
     position: relative;
     border-radius: 8px;
     border: 1px solid var(--highlight);
     background: var(--darkPurple-background);
+    margin-bottom: 16px;
 }
 
 .container_e131a9 {
