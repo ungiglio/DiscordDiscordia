@@ -235,15 +235,14 @@
 .winButton_c38106 {
     background: #00000083;
     color: #fff;
-    margin-top: 2px;
-    width: 30px;
-    height: 25px;
+    width: 35px;
+    height: 30px;
 }
 
 .recentsIcon_c99c29 div, .trailing_c38106 a div {
     background: #00000083;
-    width: 30px !important;
-    height: 25px !important;
+    width: 35px !important;
+    height: 30px !important;
     border-radius: 10px;
 }
 
