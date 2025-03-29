@@ -1051,6 +1051,11 @@ background: var(--darkPurple-background);
     border-radius: 8px;
 }
 
+.colorDefault_c1e9c4:hover {
+    /*every right-click context menu hover*/
+    background-color: var(--highlight);
+}
+
 .containerDefault__29444 {
     display: flex;
     align-items: center;
