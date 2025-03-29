@@ -86,61 +86,61 @@
     --button-outline-danger-border-hover: rgba(var(--rgb-close-button), 70%) !important;
     --button-outline-danger-border-active: rgba(var(--rgb-close-button), 100%) !important;
     --button-positive-background-disabled: rgba(var(--rgb-online-color), 20%) !important;
-    --button-positive-background: rgba(var(--rgb-online-color), 20%);
-    --button-positive-background-hover: rgba(var(--rgb-online-color), 70%);
-    --button-positive-background-active: rgba(var(--rgb-online-color), 100%);
-    --button-outline-positive-border: rgba(var(--rgb-online-color), 50%);
-    --button-outline-positive-background: rgba(var(--rgb-online-color), 50%);
-    --button-outline-positive-background-hover: rgba(var(--rgb-online-color), 70%);
-    --button-outline-positive-background-active: rgba(var(--rgb-online-color), 100%);
-    --button-outline-positive-text: rgba(var(--rgb-online-color), 50%);
-    --button-outline-positive-text-hover: rgba(var(--rgb-online-color), 70%);
-    --button-outline-positive-text-active: rgba(var(--rgb-online-color), 100%);
-    --button-outline-positive-border-hover: rgba(var(--rgb-online-color), 70%);
-    --button-outline-positive-border-active: rgba(var(--rgb-online-color), 100%);
-    --button-primary-background-disabled: rgba(var(--rgb-highlight), 20%);
-    --button-primary-background: rgba(var(--rgb-highlight), 20%);
-    --button-primary-background-hover: rgba(var(--rgb-highlight), 70%);
-    --button-primary-background-active: rgba(var(--rgb-highlight), 100%);
-    --button-outline-primary-border: rgba(var(--rgb-highlight), 50%);
-    --button-outline-primary-background: rgba(var(--rgb-highlight), 50%);
-    --button-outline-primary-background-hover: rgba(var(--rgb-highlight), 70%);
-    --button-outline-primary-background-active: rgba(var(--rgb-highlight), 100%);
-    --button-outline-primary-text: rgba(var(--rgb-highlight), 50%);
-    --button-outline-primary-text-hover: rgba(var(--rgb-highlight), 70%);
-    --button-outline-primary-text-active: rgba(var(--rgb-highlight), 100%);
-    --button-outline-primary-border-hover: rgba(var(--rgb-highlight), 70%);
-    --button-outline-primary-border-active: rgba(var(--rgb-highlight), 100%);
-    --button-secondary-background-disabled: rgba(var(--rgb-highlight), 20%);
-    --button-secondary-background: rgba(var(--rgb-highlight), 20%);
-    --button-secondary-background-hover: rgba(var(--rgb-highlight), 70%);
-    --button-secondary-background-active: rgba(var(--rgb-highlight), 100%);
-    --button-outline-secondary-border: rgba(var(--rgb-highlight), 50%);
-    --button-outline-secondary-background: rgba(var(--rgb-highlight), 50%);
-    --button-outline-secondary-background-hover: rgba(var(--rgb-highlight), 70%);
-    --button-outline-secondary-background-active: rgba(var(--rgb-highlight), 100%);
-    --button-outline-secondary-text: rgba(var(--rgb-highlight), 50%);
-    --button-outline-secondary-text-hover: rgba(var(--rgb-highlight), 70%);
-    --button-outline-secondary-text-active: rgba(var(--rgb-highlight), 100%);
-    --button-outline-secondary-border-hover: rgba(var(--rgb-highlight), 70%);
-    --button-outline-secondary-border-active: rgba(var(--rgb-highlight), 100%);
-    --button-brand-background-disabled: rgba(var(--rgb-highlight), 20%);
-    --button-brand-background: rgba(var(--rgb-highlight), 20%);
-    --button-brand-background-hover: rgba(var(--rgb-highlight), 70%);
-    --button-brand-background-active: rgba(var(--rgb-highlight), 100%);
-    --button-outline-brand-border: rgba(var(--rgb-highlight), 50%);
-    --button-outline-brand-background: rgba(var(--rgb-highlight), 50%);
-    --button-outline-brand-background-hover: rgba(var(--rgb-highlight), 70%);
-    --button-outline-brand-background-active: rgba(var(--rgb-highlight), 100%);
-    --button-outline-brand-text: rgba(var(--rgb-highlight), 50%);
-    --button-outline-brand-text-hover: rgba(var(--rgb-highlight), 70%);
-    --button-outline-brand-text-active: rgba(var(--rgb-highlight), 100%);
-    --button-outline-brand-border-hover: rgba(var(--rgb-highlight), 70%);
-    --button-outline-brand-border-active: rgba(var(--rgb-highlight), 100%);
-    --search-popout-option-user-nickname: var(--highlight);
-    --search-popout-option-user-username: rgba(var(--rgb-highlight), 70%);
-    --search-popout-option-filter-text: rgba(var(--rgb-highlight), 70%);
-    --search-popout-date-picker-border: 1px solid var(--highlight);
+    --button-positive-background: rgba(var(--rgb-online-color), 20%) !important;
+    --button-positive-background-hover: rgba(var(--rgb-online-color), 70%) !important;
+    --button-positive-background-active: rgba(var(--rgb-online-color), 100%) !important;
+    --button-outline-positive-border: rgba(var(--rgb-online-color), 50%) !important;
+    --button-outline-positive-background: rgba(var(--rgb-online-color), 50%) !important;
+    --button-outline-positive-background-hover: rgba(var(--rgb-online-color), 70%) !important;
+    --button-outline-positive-background-active: rgba(var(--rgb-online-color), 100%) !important;
+    --button-outline-positive-text: rgba(var(--rgb-online-color), 50%) !important;
+    --button-outline-positive-text-hover: rgba(var(--rgb-online-color), 70%) !important;
+    --button-outline-positive-text-active: rgba(var(--rgb-online-color), 100%) !important;
+    --button-outline-positive-border-hover: rgba(var(--rgb-online-color), 70%) !important;
+    --button-outline-positive-border-active: rgba(var(--rgb-online-color), 100%) !important;
+    --button-primary-background-disabled: rgba(var(--rgb-highlight), 20%) !important;
+    --button-primary-background: rgba(var(--rgb-highlight), 20%) !important;
+    --button-primary-background-hover: rgba(var(--rgb-highlight), 70%) !important;
+    --button-primary-background-active: rgba(var(--rgb-highlight), 100%) !important;
+    --button-outline-primary-border: rgba(var(--rgb-highlight), 50%) !important;
+    --button-outline-primary-background: rgba(var(--rgb-highlight), 50%) !important;
+    --button-outline-primary-background-hover: rgba(var(--rgb-highlight), 70%) !important;
+    --button-outline-primary-background-active: rgba(var(--rgb-highlight), 100%) !important;
+    --button-outline-primary-text: rgba(var(--rgb-highlight), 50%) !important;
+    --button-outline-primary-text-hover: rgba(var(--rgb-highlight), 70%) !important;
+    --button-outline-primary-text-active: rgba(var(--rgb-highlight), 100%) !important;
+    --button-outline-primary-border-hover: rgba(var(--rgb-highlight), 70%) !important;
+    --button-outline-primary-border-active: rgba(var(--rgb-highlight), 100%) !important;
+    --button-secondary-background-disabled: rgba(var(--rgb-highlight), 20%) !important;
+    --button-secondary-background: rgba(var(--rgb-highlight), 20%) !important;
+    --button-secondary-background-hover: rgba(var(--rgb-highlight), 70%) !important;
+    --button-secondary-background-active: rgba(var(--rgb-highlight), 100%) !important;
+    --button-outline-secondary-border: rgba(var(--rgb-highlight), 50%) !important;
+    --button-outline-secondary-background: rgba(var(--rgb-highlight), 50%) !important;
+    --button-outline-secondary-background-hover: rgba(var(--rgb-highlight), 70%) !important;
+    --button-outline-secondary-background-active: rgba(var(--rgb-highlight), 100%) !important;
+    --button-outline-secondary-text: rgba(var(--rgb-highlight), 50%) !important;
+    --button-outline-secondary-text-hover: rgba(var(--rgb-highlight), 70%) !important;
+    --button-outline-secondary-text-active: rgba(var(--rgb-highlight), 100%) !important;
+    --button-outline-secondary-border-hover: rgba(var(--rgb-highlight), 70%) !important;
+    --button-outline-secondary-border-active: rgba(var(--rgb-highlight), 100%) !important;
+    --button-brand-background-disabled: rgba(var(--rgb-highlight), 20%) !important;
+    --button-brand-background: rgba(var(--rgb-highlight), 20%) !important;
+    --button-brand-background-hover: rgba(var(--rgb-highlight), 70%) !important;
+    --button-brand-background-active: rgba(var(--rgb-highlight), 100%) !important;
+    --button-outline-brand-border: rgba(var(--rgb-highlight), 50%) !important;
+    --button-outline-brand-background: rgba(var(--rgb-highlight), 50%) !important;
+    --button-outline-brand-background-hover: rgba(var(--rgb-highlight), 70%) !important;
+    --button-outline-brand-background-active: rgba(var(--rgb-highlight), 100%) !important;
+    --button-outline-brand-text: rgba(var(--rgb-highlight), 50%) !important;
+    --button-outline-brand-text-hover: rgba(var(--rgb-highlight), 70%) !important;
+    --button-outline-brand-text-active: rgba(var(--rgb-highlight), 100%) !important;
+    --button-outline-brand-border-hover: rgba(var(--rgb-highlight), 70%) !important;
+    --button-outline-brand-border-active: rgba(var(--rgb-highlight), 100%) !important;
+    --search-popout-option-user-nickname: var(--highlight) !important;
+    --search-popout-option-user-username: rgba(var(--rgb-highlight), 70%) !important;
+    --search-popout-option-filter-text: rgba(var(--rgb-highlight), 70%) !important;
+    --search-popout-date-picker-border: 1px solid var(--highlight) !important;
     --status-danger-background: var(--status-danger) !important;
     --channel-header-color: var(--custom-channel-header-color) !important;
     --channel-icon: var(--custom-channel-icon) !important;
@@ -169,6 +169,7 @@
     --background-secondary-alt: var(--background-secondary) !important;
     --checkbox-border-checked: var(--online-color) !important;
     --checkbox-background-checked: var(--online-color) !important;
+    --background-surface-high: var(--background-tertiary) !important;
 
     --ver: "lande discordia ("var(--current-ver)") "var(--file-ver);
 }
@@ -1586,6 +1587,10 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
 
 .permissionCheckmark__50a54 {
     background: url(https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/bluetick.svg) no-repeat;
+}
+
+.visual-refresh .outer_bf1984.active_bf1984, .visual-refresh .outer_bf1984.interactive_bf1984:hover {
+    background-color: var(--background-primary);
 }
 
 /* temporary fix to nitro bg colors */
