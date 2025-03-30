@@ -1151,9 +1151,12 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
 /* forum */
 .chatLayerWrapper__01ae2 {
     border-radius: 8px;
-    margin: 20px;
-    height: 95.9%;
+    margin-right: 20px;
     background: transparent;
+}
+
+.chat_f75fb0.threadSidebarOpen_f75fb0 {
+    border-radius: 8px;
 }
 
 .visual-refresh .resizeHandle__01ae2 {
