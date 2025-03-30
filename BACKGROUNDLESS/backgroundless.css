@@ -290,9 +290,13 @@
 }
 
 .visual-refresh .container__34c2c, .visual-refresh .header__34c2c {
-    background: var(--darkPurple-background);
+    background: var(--background-secondary);
     border-radius: 10px;
     margin-left: 10px;
+}
+
+.divider_ee23ac {
+    height: 0;
 }
 
 .content_c48ade {
@@ -794,7 +798,7 @@ background: var(--darkPurple-background);
     border-color: var(--highlight);
 }
 
-.reaction_f8896c.reactionMe_f8896c {
+.visual-refresh .reaction_f8896c.reactionMe_f8896c {
     /* forum reaction color */
     background-color: rgba(178, 102, 255, 0.3);
     border-color: var(--highlight);
