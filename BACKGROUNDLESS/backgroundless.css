@@ -2,7 +2,7 @@
  *name          Lande della Discordia
  *author        @ungiglio
  *internalcode  BACKGROUNDLESS
- *version       #20250329BL
+ *version       #20250330BL
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
@@ -13,7 +13,7 @@
 .theme-dark,
 .theme-light {
 
-    --file-ver: "#20250329BL";
+    --file-ver: "#20250330BL";
 
     /*Background*/
     --background-image: var(--custom-image-url);
@@ -170,6 +170,7 @@
     --checkbox-border-checked: var(--online-color) !important;
     --checkbox-background-checked: var(--online-color) !important;
     --background-surface-high: var(--background-tertiary) !important;
+    --text-feedback-positive: var(--online-color) !important;
 
     --ver: "lande discordia ("var(--current-ver)") "var(--file-ver);
 }
@@ -909,7 +910,7 @@ background: var(--darkPurple-background);
     margin-bottom: 16px;
 }
 
-.container_e131a9 {
+.visual-refresh .container_e131a9 {
     /*VC panel*/
     color: var(--header-primary);
     font-size: 14px;
@@ -919,11 +920,10 @@ background: var(--darkPurple-background);
     background: var(--darkPurple-background);
     border-radius: 8px;
     border: 1px solid var(--highlight);
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin: 3px 0 3px 0;
 }
 
-.activityPanel_c48ade {
+.visual-refresh .activityPanel_c48ade {
     /*activitypanel*/
     border-bottom: 1px solid var(--background-modifier-accent);
     position: relative;
