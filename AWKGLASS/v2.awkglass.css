@@ -171,7 +171,7 @@
     --checkbox-background-checked: var(--online-color) !important;
     --background-surface-high: var(--background-tertiary) !important;
     --text-feedback-positive: var(--online-color) !important;
-    --text-feedback-critical: var(--status-danger) !important;
+    --text-feedback-critical: var(--text-danger) !important;
     --header-primary: var(--interactive-normal) !important;
 
     --ver: "lande discordia ("var(--current-ver)") "var(--file-ver);
@@ -1605,6 +1605,13 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
 
 .avatarSpeaking__07f91, .avatarSpeaking__44b0c { /* avatar speaking blue circle */
     box-shadow: inset 0 0 0 2px var(--online-color),inset 0 0 0 3px var(--background-secondary) !important;
+}
+
+:where(.visual-refresh) .colorDefault_c1e9c4:hover .label_c1e9c4 {
+    color: white;
+}
+:where(.visual-refresh) .colorDanger_c1e9c4.focused_c1e9c4 .check_c1e9c4, :where(.visual-refresh) .colorDanger_c1e9c4.focused_c1e9c4 .label_c1e9c4 {
+    color: var(--text-feedback-critical);
 }
 
 /* temporary fix to nitro bg colors */
