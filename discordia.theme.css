@@ -1,7 +1,7 @@
 /**
  * @name Lande della Discordia
  * @author ungiglio
- * @version 1.1.0
+ * @version 1.1.1
  * @source https://github.com/ungiglio/DiscordDiscordia/
  * @website https://ungiglio.github.io/DiscordDiscordia/
  * @description Lande della Discordia implements a glass purple and lightblue details on your client!
@@ -9,7 +9,8 @@
  * @invite kaphShJrcb
 */
 
-@import url("https://ungiglio.github.io/DiscordDiscordia/AWKGLASS/v2.awkglass.css");
+@import url("https://ungiglio.github.io/DiscordDiscordia/AWKGLASS/v2.awkglass.css"); /* standard edition */
+/*@import url("https://ungiglio.github.io/DiscordDiscordia/BACKGROUNDLESS/backgroundless.css");  /* backgroundless edition */
 @import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/colored_mentions/mentions.css"); /* credits to davart154 for the original code */
 @import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/colored_userlist/userlist.css");
 
@@ -42,10 +43,6 @@
 
   --darkPurple-background: rgb(46, 0, 58);              /* Textarea background color */
 
-  --HSL-server-icon-size: 45px;                           /* Size of the server icons | DEFAULT: 40px */
-  --HSL-server-spacing: 10px;                             /* Spacing between each server icon | DEFAULT: 10px */
-  --HSL-server-direction: column;                         /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
-
   --custom-image-url: url('https://i.imgur.com/GcFkyZp.jpeg');  /* background image */
   --app-blur: 8px;                                              /* background image blur */
 
@@ -61,5 +58,5 @@
     --font-clan-signature: Corinthia, 'gg sans', cursive, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-display-marketing: 'ABC Ginto Nord', 'gg sans', serif, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
-    --current-ver: "1.1.0"
+    --current-ver: "1.1.1"
 }
