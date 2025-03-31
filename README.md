@@ -3,7 +3,7 @@
 # Lande della Discordia
 
 ![Lande della Discordia v1.1.0](https://i.imgur.com/M9XnhiB.png)
-*screenshot from [latest](https://github.com/ungiglio/DiscordDiscordia/releases/latest) release*
+*screenshot from [latest](https://github.com/ungiglio/DiscordDiscordia/releases/v1.1.1-bl) release*
 </div>
 
 A custom purple theme to enhance your Discord experience.
