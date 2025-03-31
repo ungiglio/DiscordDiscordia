@@ -647,7 +647,8 @@ background: var(--darkPurple-background);
 .themedBackground__74017,
 .custom-profile-theme .inner_a99829 {
     background: var(--bg-overlay-3, var(--darkPurple-background));
-    margin-top: 5px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
 }
 
 .container_c48ade {
