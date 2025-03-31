@@ -32,7 +32,6 @@
     /*other*/
     --highlight: rgb(var(--rgb-highlight));
     --highlight-darker: hsl(from var(--highlight) calc(h + 15) s calc(l - 35));
-    /*color-mix(in srgb,var(--highlight),#000 50%);*/
     --text: var(--text-muted) !important;
     --online-color: rgb(var(--rgb-online-color)) !important;
     --afk-color: rgb(var(--rgb-afk-color)) !important;
@@ -150,8 +149,6 @@
     --status-danger: var(--status-danger-rgb) !important;
     --status-warning: var(--afk-color) !important;
     --status-positive: var(--online-color) !important;
-    --profile-gradient-primary-color: var(--rgb-background) !important;
-    --profile-gradient-secondary-color: var(--rgb-background) !important;
     --menu-item-default-active-bg: var(--highlight) !important;
     --menu-item-default-hover-bg: var(--highlight) !important;
     --background-channel-selected: rgba(var(--rgb-highlight), 10%) !important;
@@ -645,13 +642,6 @@ span.button__67645.redGlow__67645 {
 
 .visual-refresh .bar__7aaec {   /* unread pill */
 background: var(--darkPurple-background);
-}
-
-.themedBackground__74017,
-.custom-profile-theme .inner_a99829 {
-    background: var(--bg-overlay-3, var(--darkPurple-background));
-    margin-top: 2.5px;
-    margin-bottom: 2.5px;
 }
 
 .container_c48ade {
@@ -1361,12 +1351,6 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
     border-radius: 10%;
 }
 
-/*.outer_c0bea0 { /* moderator view *
-    --profile-gradient-primary-color: rgba(255, 255, 255, 0) !important;
-    --profile-gradient-secondary-color: rgba(255, 255, 255, 0) !important;
-    --profile-gradient-overlay-color: rgba(255, 255, 255, 0) !important;
-}*/
-
 .toast__3fde7 {
     /* vencord updater notification style */
     border: 2px solid var(--online-color);
@@ -1624,9 +1608,4 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
 
 .visual-refresh .container_d829e7, .visual-refresh .ctaContainer_d829e7 {  /* nitro emoji bg */
     background-color: var(--darkPurple-background);
-}
-
-/* temporary fix to nitro bg colors */
-.custom-theme-background {
-    background: black;
 }
