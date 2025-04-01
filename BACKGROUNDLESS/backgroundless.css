@@ -435,6 +435,16 @@
     pointer-events: none;
 }
 
+.header_c6bf1b {
+    background-color: var(--darkPurple-background);
+    border-radius: 10px;
+    border: 1px solid var(--highlight);
+}
+
+.container_d5ae15 {
+    background-color: var(--background-tertiary);
+}
+
 .wrapper__4d7bb .card__4d7bb {
     background-color: var(--card-color-select);
     border-radius: var(--card-radius);
