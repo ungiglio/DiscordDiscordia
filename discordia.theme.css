@@ -36,12 +36,14 @@
 
   --custom-channel-header-color: rgb(241, 236, 247);
   --custom-channel-icon: rgb(153, 118, 187);              /* channel list unselected color */
-  --channel-icon: rgb(153, 118, 187) !important;    /* channel list unselected color */
+  --channel-icon: rgb(153, 118, 187) !important;          /* channel list unselected color */
   --custom-selected-channel-color: rgb(78, 209, 203);     /* channel list selected color */
   --cat-custom-color-rgba: 120, 138, 167;
   --cat-custom-color: rgb(var(--cat-custom-color-rgba));
 
-  --darkPurple-background: rgb(46, 0, 58);              /* Textarea background color */
+  --custom-spoiler-color: rgb(148, 83, 212);              /* Spoilers color */
+
+  --darkPurple-background: rgb(46, 0, 58);                /* Textarea background color */
 
   --custom-image-url: url('https://i.imgur.com/GcFkyZp.jpeg');  /* background image */
   --app-blur: 8px;                                              /* background image blur */

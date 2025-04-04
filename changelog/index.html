@@ -47,10 +47,6 @@
             margin: 20px 0;
             border-radius: 8px;
         }
-        .version-section:hover {
-            box-shadow: 5px 5px 15px black;
-            transform: scale(1.06);
-        }
         .version-title {
             color: #b266ff;
             border-bottom: 1px solid #b266ff;
@@ -91,6 +87,34 @@
         }
         warningtext {
             color: #ffd700;
+        }
+
+        /* tags */
+        tag {
+            font-size: 13px;
+            -webkit-user-select: none; /* Safari */
+            -ms-user-select: none; /* IE 10 and IE 11 */
+            user-select: none; /* Standard syntax */
+        }
+
+        awktag {
+            background-color: #904dd363;
+            border: 1px solid #b266ff;
+            border-radius: 8px;
+            padding: 5px 10px;
+        }
+        awktag::after {
+            content: "# awkglass";
+        }
+
+        bltag {
+            background-color: #0f1d8359;
+            border: 1px solid #2d40cb;
+            border-radius: 8px;
+            padding: 5px 10px;
+        }
+        bltag::after {
+            content: "# backgroundless";
         }
 
         /* styles for navigation */
@@ -149,7 +173,32 @@
             <ul class="changelog-list">
                 <li></li>
             </ul>
+            <tag>
+                <awktag></awktag>
+                <bltag></bltag>
+            </tag>
         </section>-->
+
+        <section class="version-section">
+            <h2 id="20250404" class="version-title">Update - April 4, 2025</h2>
+            <span class="changelog-type">Changelog:</span>
+            <ul class="changelog-list">
+                <li>Fixed streamer mode banner</li>
+                <li>Fixed VC call border color</li>
+                <li>Added support to spoilers color customization</li>
+                <li>Fixed right-click menu dangerous actions color</li>
+                <li>Fixed right-click menu hover colors</li>
+                <li>Fixed soundbar picker background</li>
+                <li>Changed emoji picker background color</li>
+                <li>Customised commands/apps panel</li>
+                <li>Fixed reactions modal background color</li>
+                <li>Fixed polls style</li>
+            </ul>
+            <tag>
+                <awktag></awktag>
+                <bltag></bltag>
+            </tag>
+        </section>
 
         <section class="version-section">
             <h2 id="20250329" class="version-title">Update - March 29, 2025</h2>
@@ -161,6 +210,10 @@
                 <li>Fixed issue with scrollbars</li>
                 <li>Fixed rections customisation</li>
             </ul>
+            <tag>
+                <awktag></awktag>
+                <bltag></bltag>
+            </tag>
         </section>
 
         <section class="version-section">
@@ -169,6 +222,9 @@
             <ul class="changelog-list">
                 <li>Minor changes to accommodate Discord UI update</li>
             </ul>
+            <tag>
+                <awktag></awktag>
+            </tag>
         </section>
 
         <section class="version-section">
@@ -181,6 +237,9 @@
                 <li>Customised external links alert prompt</li>
                 <li>Added theme version info in settings page</li>
             </ul>
+            <tag>
+                <awktag></awktag>
+            </tag>
         </section>
 
         <section class="version-section">
@@ -197,6 +256,9 @@
                 <li>Customised Silent Typing plugin button color</li>
                 <li>Userlist left border-color based on user status</li>
             </ul>
+            <tag>
+                <awktag></awktag>
+            </tag>
         </section>
 
         <section class="version-section">
@@ -209,6 +271,9 @@
                 <li>Fixed servers list tooltip issue (bug: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/68">#68</a>)</li>
                 <li>Fixed Discord mess (bug: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/73">#73</a>)</li>
             </ul>
+            <tag>
+                <awktag></awktag>
+            </tag>
         </section>
 
         <section class="version-section">
@@ -225,6 +290,9 @@
                 <li>Customised emoji tab (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/48">#48</a>)</li>
                 <li>Customised polls (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/46">#46</a>)</li>
             </ul>
+            <tag>
+                <awktag></awktag>
+            </tag>
         </section>
 
         <section class="version-section">
@@ -236,6 +304,9 @@
                 <li>Customised vencord plugins tab (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/38">#38</a>)</li>
                 <li>Customised moderator view (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/29">#29</a>)</li>
             </ul>
+            <tag>
+                <awktag></awktag>
+            </tag>
         </section>
 
         <section class="version-section">
@@ -245,6 +316,9 @@
                 <li>Removed @import for servers bar (moved to theme module)</li>
                 <li>Customised poll messages (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/37">#37</a>)</li>
             </ul>
+            <tag>
+                <awktag></awktag>
+            </tag>
         </section>
 
         <section class="version-section">
@@ -254,6 +328,9 @@
                 <li>Fixed channel days divider background trasparency</li>
                 <li>Changed channel days divider style</li>
             </ul>
+            <tag>
+                <awktag></awktag>
+            </tag>
         </section>
 
         <section class="version-section">
@@ -262,6 +339,9 @@
             <ul class="changelog-list">
                 <li>Halloween theme (until 01/11/2024)</li>
             </ul>
+            <tag>
+                <awktag></awktag>
+            </tag>
         </section>
 
         <section class="version-section beta">
@@ -280,6 +360,9 @@
                 <li>fixed forum spine color transparency</li>
                 <li>fixed hover color for muted channel</li>
             </ul>
+            <tag>
+                <awktag></awktag>
+            </tag>
         </section>
 
         <section class="version-section beta">
@@ -296,6 +379,9 @@
                 <li>fixed errors in servr list</li>
                 <li>changed default online status color from green to blue</li>
             </ul>
+            <tag>
+                <awktag></awktag>
+            </tag>
         </section>
 
         <section class="version-section">
@@ -322,6 +408,9 @@
                 <li>created a blank transparent theme: '/AWKGLASS/or.awkglass.beta.css'</li>
                 <li>added thread header customization (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/18">#18</a>)</li>
             </ul>
+            <tag>
+                <awktag></awktag>
+            </tag>
         </section>
 
         <section class="version-section beta">
@@ -330,6 +419,9 @@
             <ul class="changelog-list">
                 <li>added trasparency</li>
             </ul>
+            <tag>
+                <awktag></awktag>
+            </tag>
         </section>
 
         <section class="version-section beta">

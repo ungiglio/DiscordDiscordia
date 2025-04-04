@@ -1,7 +1,7 @@
 /**
  * @name Lande della Discordia BL
  * @author ungiglio
- * @version 1.1.1
+ * @version 1.1.2
  * @source https://github.com/ungiglio/DiscordDiscordia/
  * @website https://ungiglio.github.io/DiscordDiscordia/
  * @description Lande della Discordia backgroundless edition!
@@ -41,6 +41,8 @@
   --cat-custom-color-rgba: 120, 138, 167;
   --cat-custom-color: rgb(var(--cat-custom-color-rgba));
 
+  --custom-spoiler-color: rgb(148, 83, 212);            /* Spoilers color */
+
   --darkPurple-background: rgb(46, 0, 58);              /* Textarea background color */
 
   --custom-logo: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordia.png'); /* custom logo */
@@ -55,5 +57,5 @@
     --font-clan-signature: Corinthia, 'gg sans', cursive, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-display-marketing: 'ABC Ginto Nord', 'gg sans', serif, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
-    --current-ver: "1.1.1"
+    --current-ver: "1.1.2"
 }
