@@ -167,7 +167,8 @@
     --checkbox-background-checked: var(--online-color) !important;
     --background-surface-high: var(--background-tertiary) !important;
     --text-feedback-positive: var(--online-color) !important;
-    --__spoiler-background-color-hidden: var(--custom-spoiler-color) !important;
+    --spoiler-hidden-background: var(--custom-spoiler-color) !important;
+    --spoiler-hidden-background-hover: var(--highlight) !important;
 
     --ver: "lande discordia ("var(--current-ver)") "var(--file-ver);
 }
