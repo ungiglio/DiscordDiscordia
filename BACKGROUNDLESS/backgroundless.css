@@ -23,6 +23,7 @@
     --background-secondary: rgba(26, 26, 26, 0.9) !important;
     --background-tertiary: rgba(26, 26, 26, 0.8) !important;
     --background-modifier-hover: rgba(20, 20, 20, 0.500);
+    --custom-spoiler-color: rgb(148, 83, 212);
     --box-shadow: 0 0 10px 0px black;
 
     --custom-logo: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordia.png');

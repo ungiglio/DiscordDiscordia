@@ -41,7 +41,7 @@
   --cat-custom-color-rgba: 120, 138, 167;
   --cat-custom-color: rgb(var(--cat-custom-color-rgba));
 
-  --custom-spoiler-color: rgb(148, 83, 212);              /* Spoilers color */
+  --custom-spoiler-color: rgb(148, 83, 212)!important;    /* Spoilers color */
 
   --darkPurple-background: rgb(46, 0, 58);                /* Textarea background color */
 
