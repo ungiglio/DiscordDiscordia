@@ -4,8 +4,16 @@ All credits to davart154
 original code: https://davart154.github.io/Themes/Snippets/Colored%20Mentions/ColoredMentionsSource.css
 */
 
-/*.mentioned__5126c {
-  /*background: none;*
+
+.mentioned__5126c[class*="hasReply_c19a55"] {
+  background-color: var(--background-mentioned);
+}
+.mentioned__5126c[class*="hasReply_c19a55"]:hover {
+  background-color: var(--background-mentioned-hover) !important;
+  z-index: 0;
+}
+.mentioned__5126c {
+  background: none;
   z-index: 0;
 }
 .message__5126c:hover, .message__5126c.selected__5126c {
@@ -20,7 +28,7 @@ original code: https://davart154.github.io/Themes/Snippets/Colored%20Mentions/Co
 }
 .hasReply_c19a55.mentioned__5126c:not(:has([class*="ention"])):before,
 .mentioned__5126c .mention:before,
-.mentioned__5126c .roleMention__75297:before {
+.mentioned__5126c .roleMention__75297:before,.mentioned__5126c[class*="hasReply_c19a55"]:before {
   content: "";
   position: absolute;
   top: 0;
@@ -64,62 +72,4 @@ original code: https://davart154.github.io/Themes/Snippets/Colored%20Mentions/Co
 
 .ephemeral__5126c:hover {
   background-color: rgba(var(--rgb-highlight), 20%) !important;
-}*/
-
-.mentioned__5126c {
-  background: none;
-  z-index: 0;
-}
-.message__5126c:hover, .message__5126c.selected__5126c {
-  background-color: var(--bg-overlay-1,var(--background-message-hover)) !important;
-}
-.messageContent_c19a55, .compact_c19a55 .contents_c19a55 {
-  position: unset !important;
-}
-.mention, .roleMention__75297 {
-  position: unset;
-  filter: none;
-}
-.hasReply_c19a55.mentioned__5126c:not(:has([class*="ention"])):before,
-.mentioned__5126c .mention:before,
-.mentioned__5126c .roleMention__75297:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 2px;
-  background-color: var(--info-warning-foreground);
-  filter: saturate(var(--saturation-factor,1));
-  pointer-events: none;
-}
-.hasReply_c19a55.mentioned__5126c:not(:has([class*="ention"])):after,
-.mentioned__5126c .mention:after,
-.mentioned__5126c .roleMention__75297:after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-color: var(--background-mentioned);
-  z-index: -1;
-  filter: saturate(var(--saturation-factor,1));
-  pointer-events: none;
-}
-.roleMention__75297[style]:before {
-  background-color: currentColor;
-}
-.roleMention__75297[style]:after {
-  background: currentColor;
-  opacity: 0.1;
-}
-.mentioned__5126c:before,
-.mentioned__5126c:after,
-.repliedMessage_c19a55 [class*="ention"]:before,
-.repliedMessage_c19a55 [class*="ention"]:after,
-.mention ~ [class*="ention"]:before,
-.mention ~ [class*="ention"]:after,
-.roleMention__75297 ~ [class*="ention"]:before,
-.roleMention__75297 ~ [class*="ention"]:after,
-.mentioned__5126c:before,
-.mentioned__5126c:after {
-  content: unset;
 }

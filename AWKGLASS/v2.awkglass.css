@@ -2,7 +2,7 @@
  *name          Lande della Discordia
  *author        @ungiglio
  *internalcode  AWKGLASS
- *version       #20250404
+ *version       #20250411
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
@@ -13,7 +13,7 @@
 .theme-dark,
 .theme-light {
 
-    --file-ver: "#20250404";
+    --file-ver: "#20250411";
 
     /*Background*/
     --background-image: var(--custom-image-url);
@@ -57,7 +57,7 @@
     --control-brand-foreground: var(--highlight) !important;
     --control-brand-foreground-new: var(--highlight) !important;
     --background-mentioned: rgba(var(--rgb-highlight), 14%) !important;
-    --background-mentioned-hover: rgba(var(--rgb-highlight), 20%);
+    --background-mentioned-hover: rgba(var(--rgb-highlight), 20%) !important;
     --background-message-hover: color-mix(in oklab, hsl(var(--primary-900-hsl) / 0.06) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.06) var(--theme-base-color-amount, 0%)) !important;
     --background-message-highlight: rgba(var(--rgb-highlight), 30%) !important;
     --background-message-highlight-hover: rgba(var(--rgb-highlight), 40%) !important;
