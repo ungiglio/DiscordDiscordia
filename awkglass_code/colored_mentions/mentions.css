@@ -73,3 +73,7 @@ original code: https://davart154.github.io/Themes/Snippets/Colored%20Mentions/Co
 .ephemeral__5126c:hover {
   background-color: rgba(var(--rgb-highlight), 20%) !important;
 }
+
+.replying__5126c:before {
+  background: var(--highlight);
+}
