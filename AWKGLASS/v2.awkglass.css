@@ -547,7 +547,7 @@
 
 
 .visual-refresh .content__908e2 {
-    color: var(--highlight-darker);
+    color: var(--custom-channel-icon);
     background: var(--bg-overlay-chat, var(--darkPurple-background));
 }
 
