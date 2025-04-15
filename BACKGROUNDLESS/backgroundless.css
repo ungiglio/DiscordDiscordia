@@ -543,7 +543,9 @@
 
 .visual-refresh .content__908e2 {
     color: var(--custom-channel-icon);
-    background: var(--bg-overlay-chat, var(--darkPurple-background));
+    background: var(--background-primary);
+    border: 1px solid var(--custom-channel-icon);
+    border-radius: 3px;
 }
 
 .unread__2ea32,
@@ -1269,7 +1271,7 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
 }
 
 .divider__908e2 {
-    border-top: thin solid var(--custom-channel-icon);
+    border-top: none;
 }
 
 .popout__3f413 {
@@ -1665,4 +1667,40 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
 
 .visual-refresh .upload_aa605f { /* media/files messages preview background */
     background: var(--background-secondary);
+}
+
+.channelNotice_e2d7b8 { /* discord event */
+    background: var(--background-tertiary);
+    margin: 5px 5px 0px 5px;
+    border-radius: 10px;
+}
+.liveIndicator_e2d7b8 { /* discord event live indicator */
+    background-color: var(--online-color);
+    animation-name: livedot;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes livedot { /* discord event live indicator animation */
+    0%      { background-color: var(--online-color); }
+    50%     { background-color: var(--background-tertiary); }
+    100%    { background-color: var(--online-color); }
+}
+
+.visual-refresh .card__88264 { /* server events list */
+    background-color: var(--background-primary);
+}
+.visual-refresh .card__88264:hover { /* server events list hover */
+    background-color: var(--background-secondary);
+}
+.eventStatusContainer__29021 svg path { /* server events list svg color */
+    fill: var(--icon-muted);
+}
+
+.item__58105 { /* serverlist pills */
+    border-radius: 1.5px;
+    width: 6.5px;
+}
+
+.visual-refresh .friendRequestsButton__523aa div { /* notification inbox friend request badge background */
+    background: none !important;
 }
