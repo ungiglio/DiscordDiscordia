@@ -25,8 +25,6 @@ body:
       options:
         - 1.1.0 (latest)
         - 1.1.1 backgroundless
-        - 1.0.9
-        - 1.0.8 awkglass
         - previous version
       default: 0
     validations:
