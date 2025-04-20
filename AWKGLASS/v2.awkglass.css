@@ -2,7 +2,7 @@
  *name          Lande della Discordia
  *author        @ungiglio
  *internalcode  AWKGLASS
- *version       #20250414
+ *version       #20250420
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
@@ -13,7 +13,7 @@
 .theme-dark,
 .theme-light {
 
-    --file-ver: "#20250414";
+    --file-ver: "#20250420";
 
     /*Background*/
     --background-image: var(--custom-image-url);
@@ -443,9 +443,43 @@
 }
 
 .header_c6bf1b {
-    background-color: var(--darkPurple-background);
+    background: var(--background-primary);
     border-radius: 10px;
-    border: 1px solid var(--highlight);
+    position: fixed;
+    max-width: 451.4px;
+}
+
+.scroller__981c8 {
+    top: 155px;
+    padding-bottom: 155px;
+}
+.scroller__981c8:has(div[class*="warning__35859"]) {
+    top: 255px;
+    padding-bottom: 255px;
+}
+.scroller__16663, .list__9a73f {
+    top: 215px;
+    padding-bottom: 215px;
+}
+.scroller__16663:has(div[class*="warning__35859"]), .container__9a73f:has(.headerContainer__9a73f .header_c6bf1b div[class*="warning__35859"]) .list__9a73f {
+    top: 315px;
+    padding-bottom: 315px;
+}
+.scroller__16663:has(div[class*="noticeContainer__16663"])  {
+    top: 269px;
+    padding-bottom: 269px;
+}
+.scroller_d80a13 {
+    top: 175px;
+    padding-bottom: 175px;
+}
+.scroller_d80a13:has(div[class*="warning__35859"]) {
+    top: 275px;
+    padding-bottom: 275px;
+}
+
+.titleContainer_e29cd7 {
+    border-radius: 10px;
 }
 
 .container_d5ae15 {
@@ -1716,4 +1750,63 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
 }
 .endCap__908e2 svg { /* new msg divider */
     display: none;
+}
+
+.iconContainerWithGuildIcon__2ea32 { /* favorite section guild icon */
+    .icon__2894c {
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 20px;
+        height: 20px;
+        background: none !important;
+
+        >path {
+            filter: drop-shadow(-1px 0 0px var(--background-base-lowest)) drop-shadow(1px 0 0px var(--background-base-lowest)) drop-shadow(0px 1px 0px var(--background-base-lowest)) drop-shadow(0px -1px 0px var(--background-base-lowest));
+        }
+    }
+    .svg__2338f { /* favorite section guild icon */
+        position: absolute;
+        top: -6px;
+        left: -10px;
+        overflow: visible !important;
+        width: calc(28px + var(--space-xxs) + var(--space-xxs));
+        height: calc(28px + var(--space-xxs) + var(--space-xxs));
+        contain: none;
+
+        foreignObject {
+            mask: none !important;
+            overflow: hidden !important;
+            border-radius: var(--radius-sm) 0 0 var(--radius-sm) !important;
+            width: calc(28px + var(--space-xxs) + var(--space-xxs)) !important;
+
+            .channelGuildIcon__2894c {
+                position: absolute;
+                top: calc(0px - var(--space-xxs) - var(--space-xxs));
+                width: calc(28px + var(--space-xxs) + var(--space-xxs)) !important;
+                height: calc(28px + var(--space-xxs) + var(--space-xxs)) !important;
+                mask-image: linear-gradient(to right, black 0%, transparent 100%);
+                border-radius: 0px !important;
+            }
+        }
+
+
+    }
+}
+
+.modeSelected__2ea32 .iconWithGuildIcon__2ea32 { /* bring back "today at" */
+    color: var(--header-primary)
+}
+
+span[class*="timestampInline_"] time::before {
+  content: attr(aria-label);
+  font-size: 12px;
+}
+
+span[class*="timestampInline_"] {
+  font-size: 0px !important;
+}
+
+[class*='membersGroup']:has([role=button]),
+[class*='member'] [class*='container']:has([class*='badges']) { /* get rid of activities in member list */
+  display: none;
 }
