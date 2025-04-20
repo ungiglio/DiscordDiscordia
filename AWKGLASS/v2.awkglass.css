@@ -1810,3 +1810,7 @@ span[class*="timestampInline_"] {
 [class*='member'] [class*='container']:has([class*='badges']) { /* get rid of activities in member list */
   display: none;
 }
+
+.mentionIcon__841c8 { /* reply 'at' spacing */
+    margin-right: 0px;
+}
