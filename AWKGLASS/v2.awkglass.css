@@ -2,7 +2,7 @@
  *name          Lande della Discordia
  *author        @ungiglio
  *internalcode  AWKGLASS
- *version       #20250420
+ *version       #20250423
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
@@ -13,7 +13,7 @@
 .theme-dark,
 .theme-light {
 
-    --file-ver: "#20250420";
+    --file-ver: "#20250423";
 
     /*Background*/
     --background-image: var(--custom-image-url);
@@ -689,8 +689,10 @@ span.button__67645.redGlow__67645 {
     background: var(--bg-overlay-3, var(--darkPurple-background));
 }
 
-.visual-refresh .bar__7aaec {   /* unread pill */
-background: var(--darkPurple-background);
+.visual-refresh .bar__7aaec { /* unread pill */
+    background: var(--background-tertiary);
+    border: 1.5px solid var(--highlight);
+    border-radius: 7px;
 }
 
 .container_c48ade {
@@ -1394,10 +1396,14 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
 }
 
 .toast__3fde7 {
-    /* vencord updater notification style */
-    border: 2px solid var(--online-color);
-    border-radius: 10px;
-    background-color: rgba(105, 15, 133, 90%);
+    /* Discord interaction notifications */
+    border: 2px solid var(--online-color) !important;
+    color: whitesmoke !important;
+    border-radius: 7px !important;
+    background-color: var(--background-primary) !important;
+}
+.icon__3fde7 path {
+    fill: whitesmoke !important;
 }
 
 .input__0f084 {
@@ -1813,4 +1819,27 @@ span[class*="timestampInline_"] {
 
 .mentionIcon__841c8 { /* reply 'at' spacing */
     margin-right: 0px;
+}
+
+.theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786, .ripple_a8e786 { /* mp3 audio */
+    background: var(--online-color);
+}
+
+.theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:hover { /* mp3 audio */
+    background: var(--online-color);
+    filter: brightness(85%);
+}
+
+.visual-refresh .scroller_ef3116 { /* server-list spacing */
+    padding: var(--space-xs) 0;
+}
+
+.visual-refresh .mention__3b95d { /* serverlist ping/DM notification */
+    border: 1.5px solid var(--status-danger);
+    border-radius: 5px;
+}
+
+.visual-refresh .soundButtonWrapper__9be63 { /* soundbar sounds bg */
+    background: var(--online-color);
+    filter: brightness(75%);
 }
