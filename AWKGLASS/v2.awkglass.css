@@ -45,13 +45,6 @@
     --scrollbar-auto-track: transparent;
     --scrollbar-auto-scrollbar-color-track: transparent;
     --transition-time: 0.3s;
-    --show-original-title: 0;
-    --show-custom-title: 1;
-    --custom-title-text: "Lande della Discordia";
-    --custom-title-font-size: 16px;
-    --custom-title-font-weight: normal;
-    --custom-title-margin-top: 0px;
-    --custom-title-margin-left: 0px;
 
     --logo-primary: var(--highlight) !important;
     --control-brand-foreground: var(--highlight) !important;

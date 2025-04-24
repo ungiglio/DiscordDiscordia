@@ -1,9 +1,9 @@
 .title__85643 div::after {
-    font-family: var(--font-primary);
-    font-size: 14px;
+    font-family: var(--custom-title-font-family);
+    font-size: var(--custom-title-font-size);
     font-weight: 500;
     line-height: 1.2857142857142858;
-    content: var(--title-custom-text);
+    content: var(--custom-title-text);
     color: var(--text-normal);
 }
 .title__85643 div:not(.icon_f34534) {
