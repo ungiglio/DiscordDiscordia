@@ -1838,6 +1838,10 @@ span[class*="timestampInline_"] {
     border: 1.5px solid var(--status-danger);
     border-radius: 5px;
 }
+.mention__3b95d:active {
+    background: var(--status-danger);
+    filter: brightness(80%);
+}
 
 .visual-refresh .soundButtonWrapper__9be63 { /* soundbar sounds bg */
     background: var(--online-color);

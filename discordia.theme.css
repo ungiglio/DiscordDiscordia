@@ -10,9 +10,10 @@
 */
 
 @import url("https://ungiglio.github.io/DiscordDiscordia/AWKGLASS/v2.awkglass.css"); /* standard edition */
-/*@import url("https://ungiglio.github.io/DiscordDiscordia/BACKGROUNDLESS/backgroundless.css");  /* backgroundless edition */
+/*@import url("https://ungiglio.github.io/DiscordDiscordia/BACKGROUNDLESS/backgroundless.css"); /* backgroundless edition */
 @import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/colored_mentions/mentions.css"); /* credits to davart154 for the original code */
 @import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/colored_userlist/userlist.css");
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/title_bar/custom_title.css"); /* comment/remove to bring back server icon and name in topbar */
 
 /* CUSTOMIZATION CONTROL CENTER */
 :root {
@@ -50,6 +51,7 @@
 
   --custom-logo: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordia.png'); /* custom logo */
   --custom-logo-hover: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordiaHover.png'); /* custom logo (hover) */
+  --title-custom-text: "Lande della Discordia"; /* app custom title */
 
   /* FONTS */
     --font-primary: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
