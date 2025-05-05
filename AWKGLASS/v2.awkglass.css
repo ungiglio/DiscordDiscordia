@@ -1871,3 +1871,7 @@ span[class*="timestampInline_"] {
 .inner_ab8609 {
     background: black;
 }
+
+.visual-refresh .reaction_f8896c.reactionMe_f8896c .reactionCount_f8896c {
+    color: var(--brand-200);
+}
