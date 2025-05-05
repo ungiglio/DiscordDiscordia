@@ -587,7 +587,9 @@
 
 .unread__2ea32,
 .wrapper__2ea32:hover .unread__2ea32 {
-    background-color: var(--selected-channel-color)
+    background-color: var(--selected-channel-color);
+    border-radius: 1.5px;
+    left: -8px;
 }
 
 .visual-refresh .wrapper_f7ecac {
@@ -1845,4 +1847,27 @@ span[class*="timestampInline_"] {
 .visual-refresh .soundButtonWrapper__9be63 { /* soundbar sounds bg */
     background: var(--online-color);
     filter: brightness(75%);
+}
+
+.popout__3f413 {
+    border: solid 1px var(--highlight);
+}
+.popout__3f413 .selectedIcon__3f413 {
+    color: var(--online-color);
+}
+.option__3f413 {
+    background: black;
+}
+.option__3f413[aria-selected=true]:not(.option__3f413.multi__3f413) {
+    background-color: var(--darkPurple-background);
+}
+:where(.visual-refresh) .option__3f413:hover {
+    background-color: var(--highlight);
+}
+
+.outer_ab8609 {
+    background: black;
+}
+.inner_ab8609 {
+    background: black;
 }
