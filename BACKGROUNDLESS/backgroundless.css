@@ -1897,3 +1897,21 @@ span[class*="timestampInline_"] {
     border-radius: 0 0 10px 10px;
     background: var(--background-secondary);
 }
+
+.carouselModal_d3a6f0 { /* images modal */
+    border: none !important;
+}
+
+.visual-refresh .actionButtons_cc1819, .closeButton__6088c .buttonInner_aec7ab { /* images modal buttons */
+    border: 1px solid var(--highlight);
+}
+
+.actionButton_cc1819:hover, .buttonInner_aec7ab:hover { /* images modal buttons hover */
+    background-color: var(--highlight-darker);
+}
+
+:root:has(.carouselModal_d3a6f0:not([hidden]):not([style*="display: none"])) .winButton_c38106 { /* images modal windows buttons restyle */
+    border-top: 1px solid var(--highlight);
+    border-bottom: 1px solid var(--highlight);
+    margin-bottom: 10px;
+}
