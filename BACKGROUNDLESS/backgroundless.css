@@ -502,7 +502,6 @@
 .visual-refresh .container_fea832,
 .visual-refresh .searchBar__35e86,
 .visual-refresh .lookFilled__3f413.select__3f413,
-.visual-refresh .connectionHeader_c7f964,
 .visual-refresh .container_f369db,
 .visual-refresh .connectContainer_c7f964,
 .visual-refresh .container__133bf,
@@ -1883,4 +1882,18 @@ span[class*="timestampInline_"] {
 
 .visual-refresh .reaction_f8896c.reactionMe_f8896c .reactionCount_f8896c {
     color: var(--brand-200);
+}
+
+.connection_c7f964 { /* connection tab customisation */
+    background: none;
+}
+.connection_c7f964:hover { /* connection tab customisation */
+    border: 1px solid var(--highlight);
+}
+.visual-refresh .connectionHeader_c7f964 { /* connection tab customisation */
+    background: var(--background-tertiary);
+}
+.connectionOptionsWrapper_c7f964 { /* connection tab customisation */
+    border-radius: 0 0 10px 10px;
+    background: var(--background-secondary);
 }
