@@ -1765,7 +1765,7 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
         background: none !important;
 
         >path {
-            filter: drop-shadow(-1px 0 0px var(--background-base-lowest)) drop-shadow(1px 0 0px var(--background-base-lowest)) drop-shadow(0px 1px 0px var(--background-base-lowest)) drop-shadow(0px -1px 0px var(--background-base-lowest));
+            fill: var(--highlight);
         }
     }
     .svg__2338f { /* favorite section guild icon */
