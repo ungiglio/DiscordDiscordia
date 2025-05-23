@@ -237,21 +237,23 @@
     height: 30px;
 }
 
-.recentsIcon_c99c29 div, .trailing_c38106 a div {
-    background: #00000083;
+.visual-refresh .button__85643 {    background: #00000083;
     width: 35px !important;
     height: 30px !important;
     border-radius: 10px;
 }
 
-.recentsIcon_c99c29 div:hover, .trailing_c38106 a div:hover {
+.visual-refresh .button__85643:hover {
     background: var(--online-color);
 }
 
-.trailing_c38106 a div svg, .recentsIcon_c99c29 div svg {
-    width: 15px !important;
-    height: 15px !important;
-    color: #fff !important;
+.visual-refresh .button__85643 svg path {
+    fill: #fff !important;
+}
+
+.visual-refresh .button__85643 svg {
+    width: 16.5px !important;
+    height: 16.5px !important;
 }
 
 .winButtons_c38106 {
