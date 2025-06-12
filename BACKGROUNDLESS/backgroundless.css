@@ -26,9 +26,6 @@
     --custom-spoiler-color: rgb(148, 83, 212);
     --box-shadow: 0 0 10px 0px black;
 
-    --custom-logo: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordia.png');
-    --custom-logo-hover: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordiaHover.png');
-
     /*other*/
     --highlight: rgb(var(--rgb-highlight));
     --highlight-darker: hsl(from var(--highlight) calc(h + 15) s calc(l - 35));
