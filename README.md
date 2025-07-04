@@ -2,7 +2,7 @@
 
 # Lande della Discordia
 
-![Lande della Discordia v1.1.0](https://i.imgur.com/M9XnhiB.png)
+![Lande della Discordia v1.1.2](https://i.imgur.com/M9XnhiB.png)
 *screenshot from [latest](https://github.com/ungiglio/DiscordDiscordia/releases/latest) release*
 </div>
 
