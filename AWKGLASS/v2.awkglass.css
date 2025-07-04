@@ -162,7 +162,7 @@
     --spoiler-hidden-background: var(--custom-spoiler-color) !important;
     --spoiler-hidden-background-hover: var(--highlight) !important;
 
-    --ver: "lande discordia ("var(--current-ver)") "var(--file-ver);
+    --ver: "Lande della Discordia ("var(--current-ver)") "var(--file-ver);
 }
 
 .info__2debe::before {
@@ -306,6 +306,7 @@
     border-radius: 10px;
     margin: 6px;
     margin-left: 0px;
+    margin-bottom: 87px;
 }
 
 .visual-refresh .title__85643 {
@@ -1913,4 +1914,39 @@ span[class*="timestampInline_"] {
 }
 .colorable_f1ceac.greenGlow_f1ceac:hover { /* VC active activity */
     background: rgba(var(--rgb-online-color), .5);
+}
+
+
+
+
+.visual-refresh .panels_c48ade::after {
+  content: var(--ver);
+  color: var(--text-default);
+  font-size: 11px;
+  position: absolute;
+  font-family: Consolas;
+  bottom: -6px;
+  background: var(--darkPurple-background);
+  padding: 5px;
+  border: solid 1px var(--highlight);
+  border-top: var(--darkPurple-background);
+  border-radius: 8px;
+  opacity: var(--show-dev-panel-info-static);
+  pointer-events: calc(var(--show-dev-panel-info-static) * 1);
+}
+
+.visual-refresh .panels_c48ade:hover::after {
+  content: var(--ver);
+  color: var(--text-default);
+  font-size: 11px;
+  position: absolute;
+  font-family: Consolas;
+  bottom: -6px;
+  background: var(--darkPurple-background);
+  padding: 5px;
+  border: solid 1px var(--highlight);
+  border-top: var(--darkPurple-background);
+  border-radius: 8px;
+  opacity: var(--show-dev-panel-info-hover);
+  pointer-events: calc(var(--show-dev-panel-info-hover) * 1);
 }
