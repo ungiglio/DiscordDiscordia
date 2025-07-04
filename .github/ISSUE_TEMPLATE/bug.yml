@@ -23,8 +23,9 @@ body:
       label: Version
       description: What version of our theme are you running?
       options:
-        - 1.1.1 (latest)
+        - 1.1.2 (latest)
         - 1.1.1 backgroundless
+        - 1.1.1
         - 1.1.0
         - previous version
       default: 0
