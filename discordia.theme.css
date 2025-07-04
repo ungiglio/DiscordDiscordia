@@ -1,7 +1,7 @@
 /**
  * @name Lande della Discordia
  * @author ungiglio
- * @version 1.1.1
+ * @version 1.1.2
  * @source https://github.com/ungiglio/DiscordDiscordia/
  * @website https://ungiglio.github.io/DiscordDiscordia/
  * @description Lande della Discordia implements a glass purple and lightblue details on your client!
@@ -56,6 +56,11 @@
     --font-clan-body: Fraunces, 'gg sans', serif, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-clan-signature: Corinthia, 'gg sans', cursive, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-display-marketing: 'ABC Ginto Nord', 'gg sans', serif, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
 
-    --current-ver: "1.1.1"
+    /* DEV PANEL INFO */
+    --show-dev-panel-info-static: 0; /* Set to 1 to show the static version, 0 to hide | (NOTE: for static to work also hover need to be 1) */
+    --show-dev-panel-info-hover: 1; /* Set to 1 to show the static and hover version, put 0 to hide */
+  
+    --current-ver: "1.1.2"
 }
