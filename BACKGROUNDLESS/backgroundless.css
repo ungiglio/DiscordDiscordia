@@ -2,7 +2,7 @@
  *name          Lande della Discordia
  *author        @ungiglio
  *internalcode  BACKGROUNDLESS
- *version       #20250423BL
+ *version       #20250704BL
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
@@ -13,7 +13,7 @@
 .theme-dark,
 .theme-light {
 
-    --file-ver: "#20250423BL";
+    --file-ver: "#20250704BL";
 
     /*Background*/
     --app-blur: 8px;
