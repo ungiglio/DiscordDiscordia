@@ -1968,3 +1968,14 @@ span[class*="timestampInline_"] {
     border-radius: 10px;
     margin: 0 20px 0 0;
 }
+
+.guildRow__58ae6 {
+    background-color: var(--darkPurple-background);
+}
+
+.container_b962dc {
+    background-color: var(--darkPurple-background) !important;
+}
+.sidebarCard_b962dc {
+    background-color: var(--highlight-darker) !important;
+}
