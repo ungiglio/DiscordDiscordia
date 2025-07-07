@@ -1419,10 +1419,15 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
     background-color: var(--online-color) !important;
 }
 
-.vc-notification-root {
+.visual-refresh .vc-notification-root {
     /* vencord update notification */
     border: 1px solid var(--selected-channel-color);
     background: rgba(105, 15, 133, 0.9);
+}
+
+.vc-notification-progressbar {
+    background-image: linear-gradient(45deg, var(--highlight), var(--selected-channel-color)) !important;
+    border-radius: 0;
 }
 
 .focusLock__49fc1 {
@@ -1437,6 +1442,7 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
 .form__468a6,
 .oauth2ModalWrapper__647f0,
 .bd-modal-root,
+.prompt_fe70ca,
 .root__49fc1 {
     /* modal theme */
     background: rgba(105, 15, 133, 0.8);
@@ -1949,4 +1955,16 @@ span[class*="timestampInline_"] {
   border-radius: 8px;
   opacity: var(--show-dev-panel-info-hover);
   pointer-events: calc(var(--show-dev-panel-info-hover) * 1);
+}
+
+.checkIcon__270d7, .memberCount__270d7 {
+    background-color: var(--selected-channel-color);
+}
+.optionButtonWrapper__270d7.selected__270d7 {
+    border-color: var(--selected-channel-color);
+}
+
+.main_c08b38 {
+    border-radius: 10px;
+    margin: 0 20px 0 0;
 }
