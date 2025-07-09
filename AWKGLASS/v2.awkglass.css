@@ -1964,7 +1964,7 @@ span[class*="timestampInline_"] {
     border-color: var(--selected-channel-color);
 }
 
-.main_c08b38 {
+.main_c08b38, .page_c48ade {
     border-radius: 10px;
     margin: 0 20px 0 0;
 }
