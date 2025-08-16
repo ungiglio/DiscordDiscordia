@@ -1233,12 +1233,12 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
     fill: var(--streaming-color)
 }
 
-#app-mount .wrapper__44b0c rect[fill="#43b581"],
+#app-mount .wrapper__44b0c rect[fill="#45a25a"],
 #app-mount .wrapper__44b0c rect[mask*=online] {
     fill: var(--online-color)
 }
 
-#app-mount .wrapper__44b0c rect[fill="#faa61a"],
+#app-mount .wrapper__44b0c rect[fill="#ca9654"],
 #app-mount .wrapper__44b0c rect[mask*=idle] {
     fill: var(--afk-color)
 }
