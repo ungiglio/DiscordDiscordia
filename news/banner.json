@@ -1,11 +1,6 @@
 {
   "announcements": [
     {
-      "title": "New version available!",
-      "content": "Check out the changelog to see what's new in v1.1.2!",
-      "url": "https://ungiglio.github.io/DiscordDiscordia/releases#20250704"
-    },
-    {
       "title": "Need help?",
       "content": "Found a bug or want to suggest something? open a issue on our GitHub page!",
       "url": "https://github.com/ungiglio/DiscordDiscordia/issues"
