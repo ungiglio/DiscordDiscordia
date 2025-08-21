@@ -1589,11 +1589,6 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
     background: none;
 }
 
-.input__0ed4f.focused__0ed4f,
-.input__0ed4f:focus {
-    margin: 5px;
-}
-
 .chat_f75fb0 .container__0b563 {
     /* channels & roles tab */
     background: none !important;
