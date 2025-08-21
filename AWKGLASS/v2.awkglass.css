@@ -13,7 +13,7 @@
 .theme-dark,
 .theme-light {
 
-    --file-ver: "#20250707";
+    --file-ver: "#20250820";
 
     /*Background*/
     --background-image: var(--custom-image-url);
