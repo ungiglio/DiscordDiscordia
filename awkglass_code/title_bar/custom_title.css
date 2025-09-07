@@ -1,4 +1,4 @@
-.title__85643 div::after {
+.title_bb0d86::after {
     font-family: var(--custom-title-font-family);
     font-size: var(--custom-title-font-size);
     font-weight: 500;
@@ -6,12 +6,7 @@
     content: var(--custom-title-text);
     color: var(--text-default);
 }
-.title__85643 div:not(.icon_f34534) {
-    display: none;
-}
 
-.title__85643 div {
-    width: auto;
-    height: auto;
-    background-image: none !important;
+.title_bb0d86 div {
+    display: none !important;
 }

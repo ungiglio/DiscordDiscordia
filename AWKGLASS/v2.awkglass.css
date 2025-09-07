@@ -2,7 +2,7 @@
  *name          Lande della Discordia
  *author        @ungiglio
  *internalcode  AWKGLASS
- *version       #20250820
+ *version       #20250907
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
@@ -13,7 +13,7 @@
 .theme-dark,
 .theme-light {
 
-    --file-ver: "#20250820";
+    --file-ver: "#20250907";
 
     /*Background*/
     --background-image: var(--custom-image-url);
@@ -148,6 +148,7 @@
     --menu-item-default-hover-bg: var(--highlight) !important;
     --background-channel-selected: rgba(var(--rgb-highlight), 10%) !important;
     --app-border-frame: color-mix(in oklab, hsl(var(--opacity-24-hsl)/0.23921568627450981) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%)/0.23921568627450981) var(--theme-base-color-amount, 0%)) !important;
+    --status-positive-background: var(--online-color);
 
     --bg-brand: var(--highlight) !important;
     --button-filled-brand-background: var(--highlight) !important;
@@ -986,6 +987,12 @@ span.button__67645.redGlow__67645 {
     background: none;
     z-index: 2;
     border: none;
+    pointer-events: none;
+}
+
+.visual-refresh .panels_c48ade div {
+    /*personal info/status panel divs*/
+    pointer-events: all;
 }
 
 .lottieIcon__5eb9b {
@@ -1037,6 +1044,13 @@ span.button__67645.redGlow__67645 {
 .theme-dark .panel__5dec7 {
     /*activitypanel bg*/
     background: var(--darkPurple-background);
+    margin-left: 72px;
+}
+
+.theme-dark .panel__5dec7:hover {
+    /*activitypanel bg*/
+    background: var(--darkPurple-background);
+    margin-left: 0;
 }
 
 #vc-spotify-player {
@@ -2156,4 +2170,19 @@ span[class*="timestampInline_"] {
 .pill_a2c9e8.selected_a2c9e8:not(.disabled_a2c9e8):hover {
     background-color: var(--background-message-highlight-hover);
     border-color: var(--highlight);
+}
+
+/* Server Name (TOPBAR) */
+.title_bb0d86 {
+    background: #00000083;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+}
+
+/**/
+.addGamePopout_cc46f0 {
+    background-color: var(--darkPurple-background);
 }
