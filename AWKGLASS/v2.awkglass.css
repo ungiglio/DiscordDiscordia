@@ -987,13 +987,13 @@ span.button__67645.redGlow__67645 {
     background: none;
     z-index: 2;
     border: none;
-    pointer-events: none;
+    /*pointer-events: none;*/
 }
 
-.visual-refresh .panels_c48ade div {
-    /*personal info/status panel divs*/
+/*.visual-refresh .panels_c48ade div {
+    /*personal info/status panel divs*
     pointer-events: all;
-}
+}*/
 
 .lottieIcon__5eb9b {
     /* personal info/status panel icons color */
