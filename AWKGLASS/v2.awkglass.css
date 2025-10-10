@@ -667,7 +667,7 @@ span.button__67645.redGlow__67645 {
     color: #d8d5d5;
 }
 
-.wrapper_f61d60 {
+.wrapper_d852db {
     /* slash cmds */
     border-radius: 3px;
     padding: 0 2px;
@@ -1356,7 +1356,7 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
 }
 
 .wrapper_b1e4f3,
-.wrapper__4e6ce {
+.wrapper_d852db {
     background: var(--darkPurple-background);
 }
 
@@ -1398,7 +1398,7 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
     border: 1px solid var(--channel-icon);
 }
 
-.visual-refresh .container__53cea {
+.visual-refresh .container__8a031 {
     /* poll creation */
     border: 1px solid var(--highlight);
     background-color: var(--background-mentioned);
@@ -1484,17 +1484,17 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
 }
 
 .input__0ed4f,
-.input__0f084 {
+.input__0ed4f {
     /* settings inputs bg color */
     background-color: rgba(30, 2, 46, 0.596);
 }
 
-.checked__87bf1 path {
+.checked__3f21e path {
     /* settings check slider */
     fill: var(--online-color) !important;
 }
 
-.checked__87bf1 {
+.checked__3f21e {
     /* settings check slider */
     background-color: var(--online-color) !important;
 }
@@ -1627,7 +1627,7 @@ button:has([d=" M7,-6 C7,-7.6570000648498535 5.6570000648498535,-9 4,-9 C4,-9 3.
 .visual-refresh .inspector_aeaaeb,
 .visual-refresh .contentWrapper__08434,
 .visual-refresh .unicodeShortcut_b9ee0c,
-.visual-refresh .wrapper__4e6ce {
+.visual-refresh .wrapper_d852db {
     /* emoji tab */
     background: var(--darkPurple-background);
 }
