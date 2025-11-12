@@ -2202,3 +2202,18 @@ span[class*="timestampInline_"] time::before {
 .addGamePopout_cc46f0 {
     background-color: var(--darkPurple-background);
 }
+
+
+.sidebarList__5e434, .clickable_f37cb1 {
+    border-radius: 8px;
+    border: none;
+}
+
+.container__2637a {
+    margin-left: 20px;
+}
+
+.privateChannels_e6b769 {
+    background: var(--background-secondary);
+    margin-left: 20px;
+}
