@@ -2,7 +2,7 @@
  *name          Lande della Discordia
  *author        @ungiglio
  *internalcode  AWKGLASS
- *version       #20251012
+ *version       #20251112
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
@@ -12,7 +12,7 @@
 .theme-dark,
 .theme-light {
 
-    --file-ver: "#20251012";
+    --file-ver: "#20251112";
 
     /*Background*/
     --background-image: var(--custom-image-url);
@@ -2203,10 +2203,11 @@ span[class*="timestampInline_"] time::before {
     background-color: var(--darkPurple-background);
 }
 
-
-.sidebarList__5e434, .clickable_f37cb1 {
+.sidebarList__5e434 {
+     border: none;
+}
+.sidebarList__5e434, .clickable_f37cb1, .searchBar__5ec2f {
     border-radius: 8px;
-    border: none;
 }
 
 .container__2637a {
