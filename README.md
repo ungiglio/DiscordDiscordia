@@ -1,4 +1,4 @@
-![GitHub Release](https://img.shields.io/github/v/release/ungiglio/DiscordDiscordia)
+[![GitHub Release](https://img.shields.io/github/v/release/ungiglio/DiscordDiscordia)](https://github.com/ungiglio/DiscordDiscordia/releases/latest)
 ![license: GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-lightgrey)
 [![Discord](https://img.shields.io/discord/1283064177199550536?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/DDaRdZwB4h)
 
