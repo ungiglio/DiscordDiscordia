@@ -1,6 +1,7 @@
-[![version: v1.1.2](https://img.shields.io/badge/version-v1.1.2-blue)](https://github.com/ungiglio/DiscordDiscordia/releases/tag/v1.1.2)
+![GitHub Release](https://img.shields.io/github/v/release/ungiglio/DiscordDiscordia)
 ![license: GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-lightgrey)
 [![Discord](https://img.shields.io/discord/1283064177199550536?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/DDaRdZwB4h)
+
 
 <div align="center">
 
