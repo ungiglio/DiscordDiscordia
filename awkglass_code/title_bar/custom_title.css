@@ -1,4 +1,4 @@
-.title_bb0d86::after {
+.title_edbb22::after {
     font-family: var(--custom-title-font-family);
     font-size: var(--custom-title-font-size);
     font-weight: 500;
@@ -7,6 +7,6 @@
     color: var(--text-default);
 }
 
-.title_bb0d86 div {
+.title_edbb22 div {
     display: none !important;
 }
