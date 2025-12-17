@@ -4,12 +4,12 @@
  *internalcode  AWKGLASS
 */
 
-.member_c8ffbb {
+.c8ffbb79449f399c-member {
     /* userlist */
     background: var(--background-primary);
 }
 
-.member_c8ffbb:hover {
+.c8ffbb79449f399c-member:hover {
     /* userlist hover */
     border-left: 3px solid #80848e;
     border-top: 1px solid var(--app-border-frame);
@@ -18,40 +18,40 @@
 }
 
 /* Online status */
-.member_c8ffbb:has(rect[mask="url(#svg-mask-status-online)"]):hover,
-.member_c8ffbb:has(rect[mask="url(#svg-mask-status-online-mobile)"]):hover {
+.c8ffbb79449f399c-member:has(rect[mask="url(#svg-mask-status-online)"]):hover,
+.c8ffbb79449f399c-member:has(rect[mask="url(#svg-mask-status-online-mobile)"]):hover {
     border-left: 3px solid var(--online-color);
     /* Online color */
 }
 
 /* Do Not Disturb status */
-.member_c8ffbb:has(rect[mask="url(#svg-mask-status-dnd)"]):hover,
-.member_c8ffbb:has(rect[mask="url(#svg-mask-status-dnd-mobile)"]):hover {
+.c8ffbb79449f399c-member:has(rect[mask="url(#svg-mask-status-dnd)"]):hover,
+.c8ffbb79449f399c-member:has(rect[mask="url(#svg-mask-status-dnd-mobile)"]):hover {
     border-left: 3px solid var(--dnd-color);
     /* DND color */
 }
 
 /* Idle/Inactive status */
-.member_c8ffbb:has(rect[mask="url(#svg-mask-status-idle)"]):hover,
-.member_c8ffbb:has(rect[mask="url(#svg-mask-status-idle-mobile)"]):hover {
+.c8ffbb79449f399c-member:has(rect[mask="url(#svg-mask-status-idle)"]):hover,
+.c8ffbb79449f399c-member:has(rect[mask="url(#svg-mask-status-idle-mobile)"]):hover {
     border-left: 3px solid var(--afk-color);
     /* Idle color */
 }
 
 /* Streaming status */
-.member_c8ffbb:has(rect[mask="url(#svg-mask-status-streaming)"]):hover {
+.c8ffbb79449f399c-member:has(rect[mask="url(#svg-mask-status-streaming)"]):hover {
     border-left: 3px solid var(--streaming-color);
     /* Streaming color */
 }
 
 /* Offline status */
-.member_c8ffbb:has(rect[mask="url(#svg-mask-status-offline)"]):hover,
-.member_c8ffbb:has(rect[mask="url(#svg-mask-status-invisible)"]):hover {
+.c8ffbb79449f399c-member:has(rect[mask="url(#svg-mask-status-offline)"]):hover,
+.c8ffbb79449f399c-member:has(rect[mask="url(#svg-mask-status-invisible)"]):hover {
     border-left: 3px solid #80848e;
     /* Offline color */
 }
 
-.selected__91a9d {
+._91a9d7f7e5248a56-selected {
     /* userlist selected */
     background: none;
     border-radius: 3px;
@@ -61,7 +61,7 @@
     border-right: 1px solid var(--app-border-frame);
 }
 
-.selected__91a9d .childContainer__91a9d {
+._91a9d7f7e5248a56-selected ._91a9d7f7e5248a56-childContainer {
     background: none;
 }
 

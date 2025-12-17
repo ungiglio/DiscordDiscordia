@@ -2,7 +2,7 @@
  *name          Lande della Discordia
  *author        @ungiglio
  *internalcode  AWKGLASS
- *version       #20251201
+ *version       #20251217
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
@@ -12,7 +12,7 @@
 .theme-dark,
 .theme-light {
 
-    --file-ver: "#20251201";
+    --file-ver: "#20251217";
 
     /*Background*/
     --background-image: var(--custom-image-url);
