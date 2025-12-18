@@ -98,3 +98,35 @@
     z-index: -1;
     pointer-events: none;
 }
+
+/* === ANIMAZIONI & LOGHI === */
+
+/* Animazione rotazione icone (Hover) */
+._20a53846fe2e8513-avatar:hover>svg,
+._2ea32c412048f708-icon:hover,
+._972a0d22c8afa7f0-closeIcon:hover {
+    animation: icon1 2.5s ease-in;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes icon1 {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Tutorial / Logo Home personalizzato */
+._1f388bcaa446c0c8-tutorialContainer ._6e9f8dce4cc18de3-childWrapper {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: var(--custom-logo) !important;
+}
+
+._1f388bcaa446c0c8-tutorialContainer ._6e9f8dce4cc18de3-childWrapper:hover {
+    background-image: var(--custom-logo-hover) !important;
+}
+
+._1f388bcaa446c0c8-tutorialContainer ._6e9f8dce4cc18de3-childWrapper img {
+    display: none;
+}

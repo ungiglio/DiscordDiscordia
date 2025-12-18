@@ -53,6 +53,8 @@
 /* 3. Layout (Sidebar, Canali) */
 @import url("awkglass_code/core/layout/sidebar.css");
 @import url("awkglass_code/core/layout/channels.css");
+@import url("awkglass_code/core/layout/members.css");
+@import url("awkglass_code/core/layout/pages.css");
 
 /* 4. Chat & Forum */
 @import url("awkglass_code/core/chat/message_area.css");

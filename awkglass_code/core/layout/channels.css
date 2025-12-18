@@ -104,3 +104,23 @@
 ._29444ba32c7fbeab-icon {
     display: none; /* Rimuove la freccetta standard della categoria */
 }
+
+/* === BANNER SERVER === */
+.f37cb1984c371ee5-animatedContainer {
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+._2637a2609f343032-container {
+    border-radius: 10px;
+    background: var(--background-secondary);
+}
+
+.f37cb1984c371ee5-header {
+    background: none;
+}
+
+.clickable_f37cb1 {
+    background: var(--background-primary);
+    border-radius: 8px;
+}
