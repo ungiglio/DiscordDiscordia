@@ -2,7 +2,7 @@
  *name          Lande della Discordia
  *author        @ungiglio
  *internalcode  AWKGLASS
- *version       #20251217
+ *version       #20251218
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
@@ -12,7 +12,7 @@
 .theme-dark,
 .theme-light {
 
-    --file-ver: "#20251217";
+    --file-ver: "#20251218";
 
     /*Background*/
     --background-image: var(--custom-image-url);
@@ -151,6 +151,7 @@
 
     --bg-brand: var(--highlight) !important;
     --button-filled-brand-background: var(--highlight) !important;
+    --background-brand: var(--highlight) !important;
     --bg-base-tertiary: var(--background-secondary) !important;
     --bg-base-secondary: var(--background-tertiary) !important;
     --card-primary-bg: var(--background-primary) !important;
@@ -169,7 +170,7 @@
     --ver: "Lande della Discordia (" var(--current-ver)") " var(--file-ver);
 }
 
-._2debea61131de3de-info::before {
+._2debea61131de3de-info::before, ._2debea61131de3de-compact::before {
     /* settings theme version */
     content: var(--ver);
     color: var(--text-muted);
@@ -2242,4 +2243,8 @@ span[class*="timestampInline_"] time::before {
 .f07d62e29a48ceee-applicationStore, ._6db1d32c47b6ad72-shop, ._955a392354a35c6e-container, ._0920e02cc8fc7b7b-homeWrapper {
     border-radius: 10px;
     border: none;
+}
+
+._0be773cf1443f34f-container {
+    background-color: var(--background-base-low);
 }

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: https://ogp.me/ns#">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,6 +29,7 @@
             padding: 20px;
             background-color: #36393f;
         }
+
         header {
             background-color: #2f3136;
             color: white;
@@ -36,55 +37,67 @@
             padding: 1rem;
             border-radius: 8px;
         }
+
         h1 {
             margin-bottom: 0;
             font-family: 'Pirata One', cursive;
             font-size: 2.5em;
         }
+
         .version-section {
             background-color: #2f3136;
             padding: 20px;
             margin: 20px 0;
             border-radius: 8px;
         }
+
         .version-title {
             color: #b266ff;
             border-bottom: 1px solid #b266ff;
             padding-bottom: 5px;
         }
+
         .changelog-list {
             list-style: none;
             padding-left: 0;
             margin-top: 0;
         }
+
         .changelog-list li::before {
             content: "-";
             padding-right: 8px;
         }
+
         .changelog-list li {
             margin-bottom: 2px;
         }
+
         .changelog-list le {
             display: list-item;
             list-style: none;
             padding-left: 0;
             margin-top: 0;
         }
+
         .changelog-list le::before {
             content: "▸";
             padding-right: 8px;
         }
+
         .changelog-type {
             font-weight: bold;
             color: #7289da;
         }
+
         .beta {
             background-color: #4a412a;
         }
+
         .beta .version-title {
             color: #ffd700;
             border-bottom-color: #ffd700;
         }
+
         warningtext {
             color: #ffd700;
         }
@@ -92,9 +105,12 @@
         /* tags */
         tag {
             font-size: 13px;
-            -webkit-user-select: none; /* Safari */
-            -ms-user-select: none; /* IE 10 and IE 11 */
-            user-select: none; /* Standard syntax */
+            -webkit-user-select: none;
+            /* Safari */
+            -ms-user-select: none;
+            /* IE 10 and IE 11 */
+            user-select: none;
+            /* Standard syntax */
         }
 
         awktag {
@@ -103,6 +119,7 @@
             border-radius: 8px;
             padding: 5px 10px;
         }
+
         awktag::after {
             content: "# awkglass";
         }
@@ -113,6 +130,7 @@
             border-radius: 8px;
             padding: 5px 10px;
         }
+
         bltag::after {
             content: "# backgroundless";
         }
@@ -150,6 +168,7 @@
         }
     </style>
 </head>
+
 <body onload="updateCopyrightYear()">
     <header>
         <h1>Lande della Discordia</h1>
@@ -178,6 +197,18 @@
                 <bltag></bltag>
             </tag>
         </section>-->
+
+        <section class="version-section">
+            <h2 id="20251218" class="version-title">Update - December 18, 2025</h2>
+            <span class="changelog-type">Changelog:</span>
+            <ul class="changelog-list">
+                <li>New polls style</li>
+                <li></li>
+            </ul>
+            <tag>
+                <awktag></awktag>
+            </tag>
+        </section>
 
         <section class="version-section">
             <h2 id="20251217" class="version-title">Update - December 17, 2025</h2>
@@ -218,9 +249,11 @@
             <h2 id="20251012" class="version-title">Update - October 12, 2025</h2>
             <span class="changelog-type">Changelog:</span>
             <ul class="changelog-list">
-                <li>Fixed polls style (bug: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/109">#109</a>)</li>
+                <li>Fixed polls style (bug: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/109">#109</a>)
+                </li>
                 <li>Fixed activities panels covering the server list</li>
-                <li>Fixed timestamp being hidden (bug: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/111">#111</a>)</li>
+                <li>Fixed timestamp being hidden (bug: <a
+                        href="https://github.com/ungiglio/DiscordDiscordia/issues/111">#111</a>)</li>
                 <li>Fixed windows topbar styles</li>
             </ul>
             <tag>
@@ -268,7 +301,7 @@
             </tag>
         </section>
 
-         <section class="version-section">
+        <section class="version-section">
             <h2 id="20250704" class="version-title">Update - July 4, 2025</h2>
             <span class="changelog-type">Changelog:</span>
             <ul class="changelog-list">
@@ -369,8 +402,10 @@
             <h2 id="20250308" class="version-title">Update - March 08, 2025</h2>
             <span class="changelog-type">Changelog:</span>
             <ul class="changelog-list">
-                <li>MacOS dots code (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/78">#78</a>)</li>
-                <li>Platform indicator plugin customization (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/93">#93</a>)</li>
+                <li>MacOS dots code (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/78">#78</a>)
+                </li>
+                <li>Platform indicator plugin customization (feature: <a
+                        href="https://github.com/ungiglio/DiscordDiscordia/issues/93">#93</a>)</li>
                 <li>Customised user-list activity icons color</li>
                 <li>Customised external links alert prompt</li>
                 <li>Added theme version info in settings page</li>
@@ -400,14 +435,18 @@
         </section>
 
         <section class="version-section">
-            <h2 id="20250130awkglass" class="version-title">Update - January 30, 2025 <i style="font-size: 11px;">[AWKGLASS]</i></h2>
+            <h2 id="20250130awkglass" class="version-title">Update - January 30, 2025 <i
+                    style="font-size: 11px;">[AWKGLASS]</i></h2>
             <span class="changelog-type">Changelog:</span>
             <ul class="changelog-list">
-                <li>Customised spotify controls (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/69">#69</a>)</li>
+                <li>Customised spotify controls (feature: <a
+                        href="https://github.com/ungiglio/DiscordDiscordia/issues/69">#69</a>)</li>
                 <li>Fixed server banner border radius</li>
                 <li>Fixed servers list spacing</li>
-                <li>Fixed servers list tooltip issue (bug: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/68">#68</a>)</li>
-                <li>Fixed Discord mess (bug: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/73">#73</a>)</li>
+                <li>Fixed servers list tooltip issue (bug: <a
+                        href="https://github.com/ungiglio/DiscordDiscordia/issues/68">#68</a>)</li>
+                <li>Fixed Discord mess (bug: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/73">#73</a>)
+                </li>
             </ul>
             <tag>
                 <awktag></awktag>
@@ -415,18 +454,28 @@
         </section>
 
         <section class="version-section">
-            <h2 id="20250122awkglass" class="version-title">Update - January 22, 2025 <i style="font-size: 11px;">[AWKGLASS]</i></h2>
+            <h2 id="20250122awkglass" class="version-title">Update - January 22, 2025 <i
+                    style="font-size: 11px;">[AWKGLASS]</i></h2>
             <span class="changelog-type">Changelog:</span>
             <ul class="changelog-list">
-                <li>Customised profile buttons (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/55">#55</a>)</li>
-                <li>Customised channelcreation prompt (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/54">#54</a>)</li>
-                <li>Customised channels & roles tab (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/53">#53</a>)</li>
-                <li>Customised empty channel icon (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/52">#52</a>)</li>
-                <li>Customised disabled button (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/51">#51</a>)</li>
-                <li>Customised forum search input (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/50">#50</a>)</li>
-                <li>Customised "more channel" button (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/49">#49</a>)</li>
-                <li>Customised emoji tab (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/48">#48</a>)</li>
-                <li>Customised polls (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/46">#46</a>)</li>
+                <li>Customised profile buttons (feature: <a
+                        href="https://github.com/ungiglio/DiscordDiscordia/issues/55">#55</a>)</li>
+                <li>Customised channelcreation prompt (feature: <a
+                        href="https://github.com/ungiglio/DiscordDiscordia/issues/54">#54</a>)</li>
+                <li>Customised channels & roles tab (feature: <a
+                        href="https://github.com/ungiglio/DiscordDiscordia/issues/53">#53</a>)</li>
+                <li>Customised empty channel icon (feature: <a
+                        href="https://github.com/ungiglio/DiscordDiscordia/issues/52">#52</a>)</li>
+                <li>Customised disabled button (feature: <a
+                        href="https://github.com/ungiglio/DiscordDiscordia/issues/51">#51</a>)</li>
+                <li>Customised forum search input (feature: <a
+                        href="https://github.com/ungiglio/DiscordDiscordia/issues/50">#50</a>)</li>
+                <li>Customised "more channel" button (feature: <a
+                        href="https://github.com/ungiglio/DiscordDiscordia/issues/49">#49</a>)</li>
+                <li>Customised emoji tab (feature: <a
+                        href="https://github.com/ungiglio/DiscordDiscordia/issues/48">#48</a>)</li>
+                <li>Customised polls (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/46">#46</a>)
+                </li>
             </ul>
             <tag>
                 <awktag></awktag>
@@ -434,13 +483,18 @@
         </section>
 
         <section class="version-section">
-            <h2 id="20250105awkglass" class="version-title">Update - January 05, 2025 <i style="font-size: 11px;">[AWKGLASS]</i></h2>
+            <h2 id="20250105awkglass" class="version-title">Update - January 05, 2025 <i
+                    style="font-size: 11px;">[AWKGLASS]</i></h2>
             <span class="changelog-type">Changelog:</span>
             <ul class="changelog-list">
-                <li>Customised settings checkmark (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/40">#40</a>)</li>
-                <li>Customised settings text input background color (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/39">#39</a>)</li>
-                <li>Customised vencord plugins tab (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/38">#38</a>)</li>
-                <li>Customised moderator view (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/29">#29</a>)</li>
+                <li>Customised settings checkmark (feature: <a
+                        href="https://github.com/ungiglio/DiscordDiscordia/issues/40">#40</a>)</li>
+                <li>Customised settings text input background color (feature: <a
+                        href="https://github.com/ungiglio/DiscordDiscordia/issues/39">#39</a>)</li>
+                <li>Customised vencord plugins tab (feature: <a
+                        href="https://github.com/ungiglio/DiscordDiscordia/issues/38">#38</a>)</li>
+                <li>Customised moderator view (feature: <a
+                        href="https://github.com/ungiglio/DiscordDiscordia/issues/29">#29</a>)</li>
             </ul>
             <tag>
                 <awktag></awktag>
@@ -448,11 +502,13 @@
         </section>
 
         <section class="version-section">
-            <h2 id="20250104awkglass" class="version-title">Update - January 04, 2025 <i style="font-size: 11px;">[AWKGLASS]</i></h2>
+            <h2 id="20250104awkglass" class="version-title">Update - January 04, 2025 <i
+                    style="font-size: 11px;">[AWKGLASS]</i></h2>
             <span class="changelog-type">Changelog:</span>
             <ul class="changelog-list">
                 <li>Removed @import for servers bar (moved to theme module)</li>
-                <li>Customised poll messages (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/37">#37</a>)</li>
+                <li>Customised poll messages (feature: <a
+                        href="https://github.com/ungiglio/DiscordDiscordia/issues/37">#37</a>)</li>
             </ul>
             <tag>
                 <awktag></awktag>
@@ -460,7 +516,8 @@
         </section>
 
         <section class="version-section">
-            <h2 id="20241109awkglass" class="version-title">Update - November 09, 2024 <i style="font-size: 11px;">[AWKGLASS]</i></h2>
+            <h2 id="20241109awkglass" class="version-title">Update - November 09, 2024 <i
+                    style="font-size: 11px;">[AWKGLASS]</i></h2>
             <span class="changelog-type">Changelog:</span>
             <ul class="changelog-list">
                 <li>Fixed channel days divider background trasparency</li>
@@ -472,7 +529,8 @@
         </section>
 
         <section class="version-section">
-            <h2 id="20241025awkglass" class="version-title">Update - October 25, 2024 <i style="font-size: 11px;">[AWKGLASS]</i></h2>
+            <h2 id="20241025awkglass" class="version-title">Update - October 25, 2024 <i
+                    style="font-size: 11px;">[AWKGLASS]</i></h2>
             <span class="changelog-type">Changelog:</span>
             <ul class="changelog-list">
                 <li>Halloween theme (until 01/11/2024)</li>
@@ -483,7 +541,8 @@
         </section>
 
         <section class="version-section beta">
-            <h2 id="20241013awkglass" class="version-title">Update - October 13, 2024 <i style="font-size: 11px;">[BETA AWKGLASS]</i></h2>
+            <h2 id="20241013awkglass" class="version-title">Update - October 13, 2024 <i style="font-size: 11px;">[BETA
+                    AWKGLASS]</i></h2>
             <span class="changelog-type">Changelog:</span>
             <ul class="changelog-list">
                 <li>added 'discovery' button style</li>
@@ -504,7 +563,8 @@
         </section>
 
         <section class="version-section beta">
-            <h2 id="20241011awkglass" class="version-title">Update - October 11, 2024 <i style="font-size: 11px;">[BETA AWKGLASS]</i></h2>
+            <h2 id="20241011awkglass" class="version-title">Update - October 11, 2024 <i style="font-size: 11px;">[BETA
+                    AWKGLASS]</i></h2>
             <span class="changelog-type">Changelog:</span>
             <ul class="changelog-list">
                 <li>total restyle</li>
@@ -526,14 +586,17 @@
             <h2 id="20241009" class="version-title">Update - October 9, 2024</h2>
             <span class="changelog-type">Changelog:</span>
             <ul class="changelog-list">
-                <li>removed sticker shortcut (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/24">#24</a>)</li>
+                <li>removed sticker shortcut (feature: <a
+                        href="https://github.com/ungiglio/DiscordDiscordia/issues/24">#24</a>)</li>
                 <li>Customised the reaction hover bar on messages</li>
-                <li>added thread header customization (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/18">#18</a>)</li>
+                <li>added thread header customization (feature: <a
+                        href="https://github.com/ungiglio/DiscordDiscordia/issues/18">#18</a>)</li>
             </ul>
         </section>
 
         <section class="version-section beta">
-            <h2 id="20241009awkglass" class="version-title">Update - October 9, 2024 <i style="font-size: 11px;">[BETA AWKGLASS]</i></h2>
+            <h2 id="20241009awkglass" class="version-title">Update - October 9, 2024 <i style="font-size: 11px;">[BETA
+                    AWKGLASS]</i></h2>
             <span class="changelog-type">Changelog:</span>
             <ul class="changelog-list">
                 <li>changed background color with a darkest one</li>
@@ -542,9 +605,11 @@
                 <li>removed background color from the server member list</li>
                 <li>increased the contrast for hovered elements</li>
                 <li>Customised the reaction hover bar on messages</li>
-                <li>removed sticker shortcut (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/24">#24</a>)</li>
+                <li>removed sticker shortcut (feature: <a
+                        href="https://github.com/ungiglio/DiscordDiscordia/issues/24">#24</a>)</li>
                 <li>created a blank transparent theme: '/AWKGLASS/or.awkglass.beta.css'</li>
-                <li>added thread header customization (feature: <a href="https://github.com/ungiglio/DiscordDiscordia/issues/18">#18</a>)</li>
+                <li>added thread header customization (feature: <a
+                        href="https://github.com/ungiglio/DiscordDiscordia/issues/18">#18</a>)</li>
             </ul>
             <tag>
                 <awktag></awktag>
@@ -552,7 +617,8 @@
         </section>
 
         <section class="version-section beta">
-            <h2 id="20241007awkglass" class="version-title">Update - October 7, 2024 <i style="font-size: 11px;">[BETA AWKGLASS]</i></h2>
+            <h2 id="20241007awkglass" class="version-title">Update - October 7, 2024 <i style="font-size: 11px;">[BETA
+                    AWKGLASS]</i></h2>
             <span class="changelog-type">Changelog:</span>
             <ul class="changelog-list">
                 <li>added trasparency</li>
@@ -563,7 +629,8 @@
         </section>
 
         <section class="version-section beta">
-            <h2 id="20241007dlurple" class="version-title">Update - October 7, 2024 <i style="font-size: 11px;">[BETA DLURPLE]</i></h2>
+            <h2 id="20241007dlurple" class="version-title">Update - October 7, 2024 <i style="font-size: 11px;">[BETA
+                    DLURPLE]</i></h2>
             <span class="changelog-type">Changelog:</span>
             <ul class="changelog-list">
                 <li>moved the server list horizontal</li>
@@ -580,7 +647,8 @@
         </section>
 
         <section class="version-section beta">
-            <h2 id="20241005dlurple" class="version-title">Update - October 5, 2024 <i style="font-size: 11px;">[BETA DLURPLE]</i></h2>
+            <h2 id="20241005dlurple" class="version-title">Update - October 5, 2024 <i style="font-size: 11px;">[BETA
+                    DLURPLE]</i></h2>
             <span class="changelog-type">Changelog:</span>
             <ul class="changelog-list">
                 <li>added style to 'read all' button</li>
@@ -589,7 +657,8 @@
         </section>
 
         <section class="version-section beta">
-            <h2 id="20241005absolute" class="version-title">Update - October 5, 2024 <i style="font-size: 11px;">[BETA ABSOLUTE]</i></h2>
+            <h2 id="20241005absolute" class="version-title">Update - October 5, 2024 <i style="font-size: 11px;">[BETA
+                    ABSOLUTE]</i></h2>
             <span class="changelog-type">Changelog:</span>
             <ul class="changelog-list">
                 <li>added style to 'read all' button</li>
@@ -601,12 +670,14 @@
             <h2 id="20240928" class="version-title">Update - September 28, 2024</h2>
             <span class="changelog-type">Changelog:</span>
             <ul class="changelog-list">
-                <li>fixed issues with unselected DMs <a href="https://github.com/ungiglio/DiscordDiscordia/issues/17">#17</a></li>
+                <li>fixed issues with unselected DMs <a
+                        href="https://github.com/ungiglio/DiscordDiscordia/issues/17">#17</a></li>
             </ul>
         </section>
 
         <section class="version-section beta">
-            <h2 id="20240928absolute" class="version-title">Update - September 28, 2024 <i style="font-size: 11px;">[BETA ABSOLUTE]</i></h2>
+            <h2 id="20240928absolute" class="version-title">Update - September 28, 2024 <i
+                    style="font-size: 11px;">[BETA ABSOLUTE]</i></h2>
             <span class="changelog-type">Changelog:</span>
             <ul class="changelog-list">
                 <li>added fix to issue <a href="https://github.com/ungiglio/DiscordDiscordia/issues/17">#17</a></li>
@@ -615,7 +686,8 @@
                 <li>added fix to issue <a href="https://github.com/ungiglio/DiscordDiscordia/issues/8">#8</a></li>
                 <li>added fix to issue <a href="https://github.com/ungiglio/DiscordDiscordia/issues/11">#11</a></li>
                 <li>added fix to issue <a href="https://github.com/ungiglio/DiscordDiscordia/issues/13">#13</a></li>
-                <li>fixed issues with feature <a href="https://github.com/ungiglio/DiscordDiscordia/issues/15">#15</a></li>
+                <li>fixed issues with feature <a href="https://github.com/ungiglio/DiscordDiscordia/issues/15">#15</a>
+                </li>
                 <li>added highlight to inbox tab</li>
                 <li>added highlight to pinned messages tab</li>
                 <li>added highlight to threads tab</li>
@@ -627,7 +699,8 @@
             <h2 id="20240921" class="version-title">Update - September 21, 2024</h2>
             <span class="changelog-type">Changelog:</span>
             <ul class="changelog-list">
-                <li>fixed issues with feature <a href="https://github.com/ungiglio/DiscordDiscordia/issues/15">#15</a></li>
+                <li>fixed issues with feature <a href="https://github.com/ungiglio/DiscordDiscordia/issues/15">#15</a>
+                </li>
                 <li>added highlight to inbox tab</li>
                 <li>added highlight to pinned messages tab</li>
                 <li>added highlight to threads tab</li>
@@ -663,14 +736,15 @@
     </footer>
 
     <script>
-    function updateCopyrightYear(selector = 'footer p') {
-    const yearElement = document.querySelector(selector);
-    if (yearElement) {
-        const currentYear = new Date().getFullYear();
-        yearElement.innerHTML = `&copy; ${currentYear} ungiglio. All rights reserved.`;
-    }
-}
-</script>
-    
+        function updateCopyrightYear(selector = 'footer p') {
+            const yearElement = document.querySelector(selector);
+            if (yearElement) {
+                const currentYear = new Date().getFullYear();
+                yearElement.innerHTML = `&copy; ${currentYear} ungiglio. All rights reserved.`;
+            }
+        }
+    </script>
+
 </body>
+
 </html>
