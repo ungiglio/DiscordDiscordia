@@ -1,0 +1,106 @@
+/* * CORE LAYOUT: CHANNELS LIST
+ * Canali, Categorie e Header Laterale
+ */
+
+/* Header Server (Nome server in alto a sinistra) */
+._34c2c51cfce1632e-container,
+._34c2c51cfce1632e-header {
+    background: var(--background-tertiary);
+    border-radius: 10px;
+    margin-left: 10px;
+    backdrop-filter: blur(50px);
+}
+
+/* Elemento Canale (Default) */
+.c69b6db0641110f6-containerDefault ._2ea32c412048f708-name {
+    color: var(--channel-icon);
+}
+
+/* Elemento Canale (Hover) */
+.aa8da23faa27393c-side .aa8da23faa27393c-item:hover,
+.c69b6db0641110f6-containerDefault:hover ._2ea32c412048f708-link:hover {
+    border-radius: 3px;
+    background: var(--button-background);
+    color: white;
+}
+
+.c69b6db0641110f6-containerDefault:hover ._2ea32c412048f708-name,
+.c69b6db0641110f6-containerDefault:hover ._2ea32c412048f708-icon {
+    color: white;
+}
+
+/* Elemento Canale (Selezionato) */
+._2ea32c412048f708-modeSelected ._2ea32c412048f708-link,
+._2ea32c412048f708-modeSelected:hover ._2ea32c412048f708-link {
+    background: var(--background-message-highlight-hover);
+}
+
+.c69b6db0641110f6-containerDefault ._2ea32c412048f708-modeSelected ._2ea32c412048f708-icon,
+.c69b6db0641110f6-containerDefault ._2ea32c412048f708-modeSelected ._2ea32c412048f708-name {
+    color: var(--selected-channel-color);
+}
+
+.c69b6db0641110f6-containerDefault ._2ea32c412048f708-modeSelected ._2ea32c412048f708-wrapper {
+    background-color: rgba(var(--rgb-highlight), 20%);
+}
+
+/* Canali non letti */
+._2ea32c412048f708-modeUnreadImportant ._2ea32c412048f708-name {
+    color: var(--selected-channel-color);
+    font-weight: 550;
+}
+
+._2ea32c412048f708-unread {
+    background-color: var(--selected-channel-color);
+    border-radius: 1.5px;
+    left: -8px;
+}
+
+/* Canali Silenziati */
+.c69b6db0641110f6-containerDefault ._2ea32c412048f708-modeMuted ._2ea32c412048f708-name {
+    color: var(--interactive-muted);
+}
+
+/* Categorie */
+._13cf1aa56cd732d2-container {
+    /* Testo Categoria */
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: var(--font-display);
+    font-weight: 600;
+    color: var(--cat-color);
+}
+
+._13cf1aa56cd732d2-container:hover {
+    color: var(--cat-color);
+}
+
+/* Linee divisorie categoria personalizzate */
+._29444ba32c7fbeab-containerDefault {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+._29444ba32c7fbeab-containerDefault::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    margin-right: -11px;
+    display: inline-block;
+    background: linear-gradient(90deg, rgba(var(--cat-color-rgba), 0) 0%, rgba(var(--cat-color-rgba), 1) 100%);
+}
+
+._29444ba32c7fbeab-containerDefault::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    margin-left: -3px;
+    display: inline-block;
+    background: linear-gradient(90deg, rgba(var(--cat-color-rgba), 1) 0%, rgba(var(--cat-color-rgba), 0) 100%);
+}
+
+._29444ba32c7fbeab-icon {
+    display: none; /* Rimuove la freccetta standard della categoria */
+}
