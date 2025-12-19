@@ -1,6 +1,8 @@
 awkglass/
 ├── core/
 │   ├── variables.css           <-- Tutte le variabili :root e colori
+│   ├── notices/                <-- Elementi di notifica (non sempre presenti)
+│   │   ├── notice.css
 │   ├── ui/                     <-- Elementi interfaccia generali
 │   │   ├── app_base.css        <-- Gestione finestre, sfondi, app-mount
 │   │   └── scrollbars.css      <-- Barre di scorrimento

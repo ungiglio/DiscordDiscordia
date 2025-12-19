@@ -2,7 +2,7 @@
  *name          Lande della Discordia
  *author        @ungiglio
  *internalcode  AWKGLASS
- *version       #20251218
+ *version       #20251219
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
@@ -12,7 +12,7 @@
 .theme-dark,
 .theme-light {
 
-    --file-ver: "#20251218";
+    --file-ver: "#20251219";
 
     /*Background*/
     --background-image: var(--custom-image-url);
@@ -169,6 +169,50 @@
 
     --ver: "Lande della Discordia (" var(--current-ver)") " var(--file-ver);
 }
+
+
+/* 1. Il background scuro con Blur (::before) */
+.f75fb00fb7356cbe-subtitleContainer::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    z-index: 9999;
+    pointer-events: all;
+}
+
+/* 2. Il Modale con il testo (::after) */
+.f75fb00fb7356cbe-subtitleContainer::after {
+    content: "THEME UPDATE REQUIRED\A\AThis version of the theme will be deprecated shortly.\A\APlease download the latest version (25.1) from one of our official distribution to ensure continued functionality.\A\A\ALande della Discordia Theme";
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background-color: rgba(46, 0, 58, 0.6);
+    color: #ffffff;
+    border: 2px solid rgb(178, 102, 255);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    
+    /* Stile del Testo */
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    max-width: 400px;
+    z-index: 10000;
+}
+
+
 
 ._2debea61131de3de-info::before, ._2debea61131de3de-compact::before {
     /* settings theme version */
