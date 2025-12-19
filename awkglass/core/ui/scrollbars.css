@@ -1,0 +1,27 @@
+/* * CORE UI: SCROLLBARS */
+
+._99f8cc7ad4790ce9-auto.f369dba7416c67f0-list._99f8cc7ad4790ce9-scrollerBase::-webkit-scrollbar {
+    width: 5px;
+}
+
+._99f8cc7ad4790ce9-auto.f369dba7416c67f0-list._99f8cc7ad4790ce9-scrollerBase::-webkit-scrollbar-thumb {
+    background: var(--darkPurple-background);
+}
+
+._99f8cc7ad4790ce9-auto.f369dba7416c67f0-list._99f8cc7ad4790ce9-scrollerBase::-webkit-scrollbar-thumb:hover {
+    background: var(--highlight);
+}
+
+._629e4c86564a4ee7-scroller::-webkit-scrollbar {
+    /*channel list scrollbar hidden*/
+    display: block;
+}
+
+._629e4c86564a4ee7-scroller::-webkit-scrollbar-thumb {
+    background: rgba(43, 45, 49, 0);
+}
+
+._36d072eab2b2e737-scroller::-webkit-scrollbar {
+    /*channel scrollbar hidden*/
+    width: 12px;
+}

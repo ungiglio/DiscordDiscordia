@@ -1,0 +1,34 @@
+/* 1. FONTS & SYSTEM CORE IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+/* --- Core Logic --- */
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/variables.css");
+
+/* --- Interfaccia Utente (UI) --- */
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/ui/app_base.css");
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/ui/scrollbars.css");
+
+/* --- Layout --- */
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/layout/sidebar.css");
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/layout/channels.css");
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/layout/members.css");
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/layout/pages.css");
+
+/* --- Chat & Forum --- */
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/chat/message_area.css");
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/chat/input_bar.css");
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/chat/forum.css");
+
+/* --- Moduli & Plugin --- */
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/modules/modals.css");
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/modules/plugins.css");
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/modules/popouts.css");
+
+/* --- Addons Personalizzati --- */
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/modules/userlist.css");
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/modules/title_bar.css");
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/modules/mentions.css");
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/modules/extras.css");
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/modules/notifications.css");
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/modules/user_panel_version.css");
+/* @import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/modules/horizontal_server_list.css"); */

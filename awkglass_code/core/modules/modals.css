@@ -1,0 +1,82 @@
+/* * CORE MODULES: MODALS & SETTINGS
+ * Finestre modali, Impostazioni e Banner
+ */
+
+/* === STILE GENERALE MODALI === */
+._49fc18ba07c5025f-large,
+._49fc18ba07c5025f-medium,
+._49fc18ba07c5025f-small,
+.modal_b545d5,
+._918e53296f179828-form,
+.oauth2ModalWrapper__647f0,
+.bd-modal-root,
+.fe70ca6739eeb5f0-prompt,
+._49fc18ba07c5025f-root {
+    background: var(--background-mentioned-hover);
+    border-radius: 10px;
+    border: 1px solid var(--highlight) !important;
+    backdrop-filter: blur(50px);
+}
+
+/* Footer dei Modali */
+.d0b769b126b63b86-header,
+.footer_d97f89,
+._49fc18ba07c5025f-footer,
+.bd-modal-footer {
+    background-color: rgba(35, 35, 35, 0.75);
+    border-radius: 10px;
+}
+
+/* Sfondo scuro impostazioni */
+._49fc18ba07c5025f-focusLock {
+    background: rgba(255, 255, 255, 0);
+}
+
+/* === IMPOSTAZIONI UTENTE === */
+._0ed4fc708cdbac0d-input {
+    background-color: rgba(30, 2, 46, 0.596);
+}
+
+/* Switch e Checkbox */
+._3f21e80f8677ec40-checked path {
+    fill: var(--online-color) !important;
+}
+
+._3f21e80f8677ec40-checked {
+    background-color: var(--online-color) !important;
+}
+
+/* Banner "Salva Modifiche" */
+._9a9f981d3524e20f-container {
+    background-color: var(--darkPurple-background);
+    border: 1px solid var(--highlight);
+}
+
+/* Modal Reazioni (chi ha reagito) */
+.b7f4b43fe1b6e285-container,
+.b7f4b43fe1b6e285-reactors {
+    background: rgba(105, 15, 133, 0.8);
+}
+
+/* Modal Carosello Immagini */
+.d3a6f0de39ff36e9-carouselModal {
+    border: none !important;
+}
+
+.cc1819cb49c2d109-actionButtons,
+._6088c3df6d10c76d-closeButton .aec7abc73c126bc0-buttonInner {
+    border: 1px solid var(--highlight);
+}
+
+.actionButton_cc1819:hover,
+.aec7abc73c126bc0-buttonInner:hover {
+    background-color: var(--highlight-darker);
+}
+
+/* === NOTIFICHE TOAST === */
+._3fde7e375925af75-toast {
+    border: 2px solid var(--online-color) !important;
+    color: whitesmoke !important;
+    border-radius: 7px !important;
+    background-color: var(--background-primary) !important;
+}

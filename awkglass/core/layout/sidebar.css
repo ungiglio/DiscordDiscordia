@@ -1,0 +1,264 @@
+/* * CORE LAYOUT: SIDEBAR */
+
+#app-mount ._5e434347c823b592-guilds [class*=pill] span[style*="height: 40"] {
+    background-color: var(--highlighted-channel-color);
+}
+
+._5e434347c823b592-sidebarList {
+    border-radius: 10px;
+    margin-left: 20px;
+    border: none;
+}
+
+._5e434347c823b592-guilds {
+    border-radius: 10px;
+    margin: 6px;
+    margin-left: 0px;
+    margin-bottom: 87px;
+}
+
+.title__85643 {
+    background: #00000083;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+._6e9f8dce4cc18de3-childWrapperNoHoverBg {
+    background: var(--background-primary);
+}
+
+._6e9f8dce4cc18de3-childWrapperNoHoverBg>svg {
+    display: none;
+}
+
+#app-mount ._5e434347c823b592-sidebar {
+    border-radius: 10px;
+}
+
+.d5f3cd116f175f35-wrapper {
+    background-color: var(--darkPurple-background);
+}
+
+._99e7cad8d4c55236-scroller {
+    background: none;
+    margin: 0;
+    padding-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs) + 16px);
+}
+
+._5e434347c823b592-activityPanel:has(button[aria-label*="Apri selettore di adesivi"]) {
+    display: none;
+}
+
+._23e6b439306f125a-standardSidebarView {
+    background: var(--background-primary);
+}
+
+._133bf5eea8e33a34-tabBody,
+._535437b3d3b11fd1-sidebarScrollable ._535437b3d3b11fd1-scroller,
+._23e6b439306f125a-standardSidebarView,
+._23e6b439306f125a-contentRegionScroller {
+    background: none;
+}
+
+.d8f25bf4f76423e6-container {
+    background-color: var(--background-primary);
+    color: white;
+}
+
+.d8f25bf4f76423e6-container:hover {
+    background-color: var(--background-primary);
+    color: #d8d5d5;
+}
+
+.guildSeparator-33mFX6 {
+    border-radius: 2px;
+}
+
+._6e9f8dce4cc18de3-childWrapper {
+    /* discord logo color */
+    color: var(--highlight);
+}
+
+._5e434347c823b592-panels {
+    /*personal info/status panel*/
+    flex: 0 0 auto;
+    background: none;
+    z-index: 2;
+    border: none;
+    margin-bottom: 16px;
+}
+
+._5eb9b3cc7c2b1ce8-lottieIcon {
+    /* personal info/status panel icons color */
+    --channel-icon: #B5BAC1;
+}
+
+.theme-dark ._37e49614b9f110a9-container,
+._37e49614b9f110a9-container {
+    /*personal info/status panel section*/
+    height: 59px;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding: 0 8px 0;
+    flex-shrink: 0;
+    position: relative;
+    border-radius: 8px;
+    border: 1px solid var(--highlight);
+    background: var(--darkPurple-background);
+}
+
+.e131a99484292a19-container {
+    /*VC panel*/
+    color: var(--header-primary);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px;
+    flex-shrink: 0;
+    background: var(--darkPurple-background);
+    border-radius: 8px;
+    border: 1px solid var(--highlight);
+    margin: 3px 0 3px 0;
+}
+
+._5e434347c823b592-activityPanel {
+    /*activitypanel*/
+    border-bottom: 1px solid var(--background-modifier-accent);
+    position: relative;
+    z-index: 2;
+    border-radius: 8px;
+    border: 1px solid var(--highlight);
+    margin-bottom: 3px;
+}
+
+.theme-dark ._5dec784a68542d60-panel {
+    /*activitypanel bg*/
+    background: var(--darkPurple-background);
+}
+
+#vc-spotify-player {
+    /*spotify controller*/
+    padding: 0.375rem 0.5rem;
+    --vc-spotify-green: var(--highlight);
+    border-radius: 8px;
+    border: 1px solid var(--highlight);
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.theme-dark #vc-spotify-player {
+    /*spotify bg color*/
+    background: var(--bg-overlay-1, var(--darkPurple-background));
+}
+
+._133bf5eea8e33a34-tabBar ._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend {
+    /* add friend button */
+    background-color: var(--status-danger-background);
+}
+
+._5e434347c823b592-panels::after {
+    content: var(--ver);
+    color: var(--text-default);
+    font-size: 11px;
+    position: absolute;
+    font-family: Consolas;
+    bottom: -21px;
+    background: var(--darkPurple-background);
+    padding: 5px;
+    border: solid 1px var(--highlight);
+    border-top: var(--darkPurple-background);
+    border-radius: 8px;
+    opacity: var(--show-dev-panel-info-static);
+    pointer-events: calc(var(--show-dev-panel-info-static) * 1);
+}
+
+._5e434347c823b592-panels:hover::after {
+    content: var(--ver);
+    color: var(--text-default);
+    font-size: 11px;
+    position: absolute;
+    font-family: Consolas;
+    bottom: -21px;
+    background: var(--darkPurple-background);
+    padding: 5px;
+    border: solid 1px var(--highlight);
+    border-top: var(--darkPurple-background);
+    border-radius: 8px;
+    opacity: var(--show-dev-panel-info-hover);
+    pointer-events: calc(var(--show-dev-panel-info-hover) * 1);
+}
+
+.ef3116c2da186559-wrapper {
+    /* server list wrapper */
+    padding-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs) + 1px);
+    border-radius: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ef3116c2da186559-scroller {
+    /* server-list spacing */
+    padding: var(--space-xs) 0;
+}
+
+._9be63f0b86033228-soundButtonWrapper {
+    /* soundbar sounds bg */
+    background: var(--online-color);
+    filter: brightness(75%);
+}
+
+.f1ceaca61b18918e-colorable.f1ceaca61b18918e-greenGlow,
+.f1ceaca61b18918e-colorable.f1ceaca61b18918e-greenGlow .f1ceaca61b18918e-centerIcon {
+    /* VC active activity */
+    color: var(--online-color);
+}
+
+.f1ceaca61b18918e-colorable.f1ceaca61b18918e-greenGlow {
+    /* VC active activity */
+    background: rgba(var(--rgb-online-color), .2);
+}
+
+.f1ceaca61b18918e-colorable.f1ceaca61b18918e-greenGlow:hover {
+    /* VC active activity */
+    background: rgba(var(--rgb-online-color), .5);
+}
+
+.b962dc319e969a3f-container {
+    background-color: var(--darkPurple-background) !important;
+}
+
+.sidebarCard_b962dc {
+    background-color: var(--highlight-darker) !important;
+}
+
+._523aa09e59621644-friendRequestsButton div {
+    /* notification inbox friend request badge background */
+    background: none !important;
+}
+
+._8826425bb0684b12-card {
+    /* server events list */
+    background-color: var(--background-primary);
+}
+
+._8826425bb0684b12-card:hover {
+    /* server events list hover */
+    background-color: var(--background-secondary);
+}
+
+._581051df43c5ebb6-item {
+    /* serverlist pills */
+    border-radius: 1.5px;
+    width: 6.5px;
+}
+
+._290218226e53085c-eventStatusContainer svg path {
+    /* server events list svg color */
+    fill: var(--icon-muted);
+}
+
+/* settings menu gradient */
+._409aa1aeee28d5f7-fixedContent:after {
+    background: linear-gradient(to bottom, var(--darkPurple-background), transparent);
+}

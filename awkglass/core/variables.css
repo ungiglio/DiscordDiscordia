@@ -1,0 +1,129 @@
+/* CORE: VARIABLES */
+
+:root,
+.theme-dark,
+.theme-light {
+
+    --file-ver: "#20251219";
+
+    /* --- MAPPING VARIABILI UTENTE --- */
+    --background-image: var(--custom-image-url);
+
+    /* --- FIX COLORI --- */
+    --darkPurple-background: rgb(46, 0, 58) !important; 
+    
+    /* DEFINIZIONE COLORI SPECIFICI RICHIESTI */
+    --header-dark-purple: rgb(147, 106, 201) !important;
+    --text-lilac: rgb(175, 145, 230) !important;
+
+    /* Variabili Categorie (Usa il nuovo viola scuro) */
+    --cat-custom-color: var(--header-dark-purple);
+    --cat-custom-color-rgba: 147, 106, 201;
+
+    /* Colori Base */
+    --highlight: rgb(var(--rgb-highlight));
+    --highlight-darker: hsl(from var(--highlight) calc(h + 15) s calc(l - 35));
+    
+    /* Stati Utente */
+    --online-color: rgb(var(--rgb-online-color)) !important;
+    --afk-color: rgb(var(--rgb-afk-color)) !important;
+    --dnd-color: rgb(var(--rgb-dnd-color)) !important;
+    --streaming-color: rgb(var(--rgb-streaming-color)) !important;
+
+    /* --- BACKGROUND LAYERS --- */
+    --background-primary: rgba(24, 24, 24, 0.26) !important;
+    --background-secondary: rgba(26, 26, 26, 0.500) !important;
+    --background-tertiary: rgba(26, 26, 26, 0.815) !important;
+    --background-modifier-hover: rgba(20, 20, 20, 0.500);
+    
+    /* MENU TASTO DESTRO NERI */
+    --background-floating: black !important; 
+    
+    --app-border-frame: rgba(255, 255, 255, 0.1) !important;
+    
+    /* --- ELEMENTI UI --- */
+    --button-background: linear-gradient(60deg, var(--highlight), var(--highlight-darker));
+    --button-background-static: var(--highlight);
+    --box-shadow: 0 0 10px 0px black;
+    --custom-spoiler-color: rgb(148, 83, 212);
+    --spoiler-hidden-background: var(--custom-spoiler-color) !important;
+    --spoiler-hidden-background-hover: var(--highlight) !important;
+    
+    /* --- SCROLLBARS --- */
+    --scrollbar-thin-thumb: var(--highlight) !important;
+    --scrollbar-auto-thumb: var(--highlight) !important;
+    
+    /* --- GESTIONE TESTI --- */
+    --text-normal: rgb(230, 230, 230) !important;
+    --text-muted: rgb(160, 160, 160) !important;
+    --text-header: white !important;
+    
+    /* Canali in Lilla */
+    --text-channel-normal: var(--text-lilac) !important; 
+    --text-channel-hover: white !important;
+    
+    --icon-default: rgb(180, 180, 180) !important;
+    --icon-hover: white !important;
+    
+    --border-subtle: rgba(255, 255, 255, 0.15) !important;
+    --border-strong: rgba(255, 255, 255, 0.4) !important;
+
+    /* Mapping Compatibilità */
+    --channels-default: var(--text-channel-normal) !important;
+    --channel-icon: var(--text-lilac) !important; 
+    --highlighted-channel-color: rgb(123, 176, 245) !important;
+    --interactive-normal: var(--icon-default) !important;
+    --interactive-hover: var(--icon-hover) !important;
+    --interactive-muted: rgba(180, 180, 180, 0.5) !important;
+
+    /* --- LOGHI E BRAND --- */
+    --logo-primary: var(--highlight) !important;
+    --control-brand-foreground: var(--highlight) !important;
+    --bg-brand: var(--highlight) !important;
+    --background-brand: var(--highlight) !important;
+
+    /* --- MESSAGGI --- */
+    --background-mentioned: rgba(var(--rgb-highlight), 14%) !important;
+    --background-mentioned-hover: rgba(var(--rgb-highlight), 20%) !important;
+    --background-message-highlight: rgba(var(--rgb-highlight), 30%) !important;
+    --background-message-highlight-hover: rgba(var(--rgb-highlight), 40%) !important;
+    --background-message-automod: rgba(var(--rgb-highlight), 20%) !important;
+    --background-message-hover: rgba(20, 20, 20, 0.4) !important;
+    --background-surface-high: var(--background-tertiary) !important;
+    --background-surface-higher: var(--background-tertiary) !important;
+    --background-base-low: var(--background-tertiary) !important;
+    --background-base-lower: var(--background-secondary) !important;
+    --card-background-default: rgba(20, 20, 20, 0.4) !important;
+
+    /* --- PULSANTI --- */
+    --button-danger-background: rgba(var(--rgb-close-button), 100%) !important;
+    --button-danger-background-hover: rgba(var(--rgb-close-button), 70%) !important;
+    --button-danger-background-active: rgba(var(--rgb-close-button), 100%) !important;
+    
+    --button-positive-background: rgba(var(--rgb-online-color), 20%) !important;
+    --button-positive-background-hover: rgba(var(--rgb-online-color), 70%) !important;
+    
+    --button-primary-background: rgba(var(--rgb-highlight), 95%) !important;
+    --button-primary-background-hover: rgba(var(--rgb-highlight), 70%) !important;
+    
+    --button-secondary-background: rgba(var(--rgb-highlight), 20%) !important;
+    --button-secondary-background-hover: rgba(var(--rgb-highlight), 70%) !important;
+
+    /* --- UI GENERICA --- */
+    --status-danger-background: rgb(var(--rgb-close-button)) !important;
+    --status-danger: rgb(var(--rgb-close-button)) !important; 
+    --status-warning: var(--afk-color) !important;
+    --status-positive: var(--online-color) !important;
+    --status-positive-background: var(--online-color);
+    
+    --menu-item-default-active-bg: var(--highlight) !important;
+    --background-channel-selected: rgba(var(--rgb-highlight), 10%) !important;
+
+    /* --- Search Popout --- */
+    --search-popout-option-user-nickname: var(--highlight) !important;
+    --search-popout-option-user-username: rgba(var(--rgb-highlight), 70%) !important;
+    --search-popout-option-filter-text: rgba(var(--rgb-highlight), 70%) !important;
+    --search-popout-date-picker-border: 1px solid var(--highlight) !important;
+
+    --ver: "Lande della Discordia (" var(--current-ver)") " var(--file-ver);
+}

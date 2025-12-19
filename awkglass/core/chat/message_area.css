@@ -1,0 +1,210 @@
+/* * CORE CHAT: MESSAGE AREA */
+
+.f75fb00fb7356cbe-chat {
+    background: var(--background-primary);
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+._5126c0cd07f243a0-mentioned:before {
+    box-shadow: 4px 0px 6px 1px var(--button-background);
+    background: var(--button-background);
+}
+
+._5126c0cd07f243a0-mentioned::before {
+    background-color: var(--highlight);
+}
+
+.f7ecaca5c80dbf3a-wrapper {
+    /* message:hover popup */
+    background: var(--darkPurple-background);
+}
+
+.f7ecaca5c80dbf3a-wrapper:hover {
+    /* message:hover popup */
+    border: 1px solid var(--border-strong); /* Era custom-channel-icon */
+}
+
+.f7ecaca5c80dbf3a-button.f7ecaca5c80dbf3a-dangerous {
+    color: var(--status-warning);
+}
+
+.f7ecaca5c80dbf3a-button.f7ecaca5c80dbf3a-dangerous:hover {
+    color: var(--status-danger);
+}
+
+.aa605f19898fe32e-miniPopover.f7ecaca5c80dbf3a-wrapper .f7ecaca5c80dbf3a-button {
+    height: 4px;
+}
+
+.aa605f19898fe32e-miniPopover.f7ecaca5c80dbf3a-wrapper:hover {
+    border: 1px solid var(--border-strong);
+}
+
+._841c8f861f7b2704-replyBar {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+._841c8f861f7b2704-clipContainer {
+    overflow: hidden;
+    padding-top: 0;
+    margin-top: -3px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+._551b0894962ff66f-container {
+    background: var(--background-secondary);
+}
+
+._908e20001ad67812-unreadPillCapStroke {
+    color: var(--highlight);
+    fill: var(--highlight)
+}
+
+._908e20001ad67812-unreadPill {
+    background-color: var(--highlight);
+}
+
+.popoverReactionHoverBar_f84418 {
+    background: transparent;
+}
+
+._5126c0cd07f243a0-replying:hover {
+    background-color: rgba(var(--rgb-highlight), 60%) !important;
+}
+
+._5126c0cd07f243a0-ephemeral {
+    background-color: rgba(var(--rgb-highlight), 30%);
+}
+
+._5126c0cd07f243a0-ephemeral:hover {
+    background-color: rgba(var(--rgb-highlight), 20%) !important;
+}
+
+._5126c0cd07f243a0-ephemeral::before {
+    background-color: var(--highlight) !important;
+}
+
+._0f481cbbd7530492-newMessagesBar {
+    height: 32px;
+    top: 0px;
+    border-radius: 8px;
+    background-color: var(--highlight);
+    box-shadow: var(--elevation-low);
+}
+
+.f75fb00fb7356cbe-subtitleContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 8px;
+    background: transparent;
+}
+
+.theme-dark .f75fb00fb7356cbe-subtitleContainer {
+    background: transparent;
+}
+
+.f75fb00fb7356cbe-title {
+    position: relative;
+    flex: 0 0 auto;
+    z-index: 100;
+    border-radius: 8px;
+}
+
+.disabledStrokeThrough {
+    fill: var(--status-danger);
+}
+
+._908e20001ad67812-divider {
+    border-top: none;
+}
+
+.f75fb00fb7356cbe-chatContent {
+    border-radius: 0px 0px 0px 8px;
+    background: var(--background-secondary);
+}
+
+._82f0793afa59e5dc-botTagOP {
+    color: var(--white);
+}
+
+._5b40bdd67543ba35-spine {
+    color: rgb(121, 121, 121);
+}
+
+._5b40bdd67543ba35-spineBorder {
+    background: rgb(121, 121, 121);
+}
+
+.c69b6db0641110f6-containerDefault:hover ._5b40bdd67543ba35-spineBorder {
+    background: var(--white);
+}
+
+._0f481cbbd7530492-jumpToPresentBar {
+    background-color: var(--darkPurple-background);
+    border: 1px solid var(--border-subtle);
+}
+
+._5126c0cd07f243a0-divider {
+    margin-right: 50px;
+}
+
+._908e20001ad67812-endCap svg {
+    display: none;
+}
+
+._36d072eab2b2e737-chatGradient {
+    background: transparent;
+}
+
+span[class*="timestampInline_"] time::before {
+    content: attr(aria-label);
+    font-size: 12px;
+}
+
+._841c8f861f7b2704-mentionIcon {
+    margin-right: 0px;
+}
+
+.theme-dark .a8e786485f0c32f8-container:not(.a8e786485f0c32f8-playing) .a8e786485f0c32f8-playButtonContainer,
+.a8e786485f0c32f8-ripple {
+    background: var(--online-color);
+}
+
+.theme-dark .a8e786485f0c32f8-container:not(.a8e786485f0c32f8-playing) .a8e786485f0c32f8-playButtonContainer:hover {
+    background: var(--online-color);
+    filter: brightness(85%);
+}
+
+._00de6f6c14b53606-emptyChannelIcon {
+    background-color: var(--background-primary);
+}
+
+._623de82e76ad7f82-embedFull {
+    background: var(--background-secondary);
+    border-radius: 5px;
+}
+
+
+
+/* New Messages Divider */
+._908e20001ad67812-content {
+    background: transparent; 
+    border: 1px solid var(--border-subtle);
+    border-radius: 3px;
+}
+
+._908e20001ad67812-endCap {
+    color: var(--cat-custom-color) !important;
+    background: transparent;
+    border: 1px solid var(--border-subtle);
+    border-radius: 3px;
+    padding: 1.5px 4px;
+    backdrop-filter: blur(100px);
+    right: -46px;
+}

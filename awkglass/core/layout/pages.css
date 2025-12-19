@@ -1,0 +1,18 @@
+/* * CORE LAYOUT: PAGES */
+
+._0be773cf1443f34f-container {
+    background-color: var(--background-base-low);
+}
+
+.f07d62e29a48ceee-applicationStore,
+._6db1d32c47b6ad72-shop,
+._955a392354a35c6e-container,
+._0920e02cc8fc7b7b-homeWrapper {
+    border-radius: 10px;
+    border: none;
+    margin: 0 20px;
+}
+
+._58ae6034fc6b31dc-guildRow {
+    background-color: var(--darkPurple-background);
+}

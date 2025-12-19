@@ -1,0 +1,78 @@
+/* * CORE CHAT: FORUM & THREADS
+ * Stili specifici per canali Forum e Thread laterali
+ */
+
+/* === FORUM CARDS === */
+
+/* Scheda Post Forum */
+.f369dba7416c67f0-mainCard {
+    background: var(--bg-mod-faint); /* O var(--background-secondary) */
+    border: 1px solid var(--highlight);
+    border-radius: var(--radius-md);
+}
+
+.f369dba7416c67f0-mainCard:hover {
+    border: 1px solid var(--selected-channel-color) !important;
+    background: var(--background-tertiary) !important;
+}
+
+/* Pin Icon nei Forum */
+._08166c4389c22135-pinIcon {
+    background-color: var(--status-danger);
+}
+
+/* Tag/Etichette nei Forum */
+._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrand {
+    background-color: var(--highlight);
+    color: white;
+}
+
+._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrand:hover {
+    background-color: var(--highlight-darker);
+}
+
+/* Reazioni nei Forum */
+._23977d5b7cef7361-reaction._23977d5b7cef7361-reactionMe,
+.f8896c4f6be18f59-reaction.f8896c4f6be18f59-reactionMe {
+    background-color: rgba(178, 102, 255, 0.3);
+    border-color: var(--highlight);
+}
+
+.f8896c4f6be18f59-reaction.f8896c4f6be18f59-reactionMe .f8896c4f6be18f59-reactionCount {
+    color: var(--highlight);
+}
+
+/* === THREADS & SIDEBAR === */
+
+/* Sidebar Thread Aperto */
+._01ae244280823725-container {
+    border-radius: 8px;
+    background: var(--background-secondary);
+}
+
+/* Resize Handle (Barra per ridimensionare) */
+._01ae244280823725-resizeHandle {
+    cursor: ew-resize;
+    width: var(--chat-resize-handle-width);
+    background: none;
+    border-radius: 8px;
+    margin: 0 5px;
+}
+
+/* Header Thread (es. Thread archiviati/bloccati) */
+.a5700d36f7c29ded-chatHeaderBar {
+    border-radius: 8px;
+    background-color: var(--interactive-muted);
+    border: 1px solid var(--highlight);
+}
+
+/* Input Area specifica per nuovi post forum */
+.d9be463a3c35b91e-contentContainer ._740174f3d6a2c8fe-channelTextArea,
+.d9be463a3c35b91e-contentContainer ._740174f3d6a2c8fe-channelTextArea:focus-within {
+    background: var(--background-base-low);
+    border: 1px solid var(--background-modifier-selected);
+    border-radius: 8px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    padding: 4px 8px;
+}
