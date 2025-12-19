@@ -1,0 +1,126 @@
+/* * CORE MODULES: PLUGINS */
+
+.vc-ranb-button {
+    color: rgb(78, 209, 203);
+}
+
+.vc-ranb-button {
+    /* read all button */
+    border: 1px solid var(--highlight);
+    border-radius: 8px;
+    background-color: var(--highlight);
+    color: white;
+    width: 80%;
+    margin: 5% 10% 10% 10%;
+    padding: 5% 2%;
+    font-size: 10px;
+}
+
+.vc-ranb-button:hover {
+    /* read all button */
+    border: 1px solid var(--highlight);
+    background-color: color-mix(in srgb, var(--highlight), #000 30%);
+}
+
+#channelTabs-container {
+    margin: calc(var(--app-margin) / 2) var(--app-margin) calc(var(--app-margin) / 4 * -1);
+    padding: 4px !important;
+    background-color: var(--sidebar-color) !important;
+    border-radius: var(--app-radius);
+    backdrop-filter: blur(var(--app-blur));
+}
+
+.bd-switch input:checked+.bd-switch-body {
+    /* BetterDiscord checkmark toggle color */
+    --switch-color: var(--online-color);
+}
+
+.vc-addon-card {
+    /* vencord plugins style */
+    background: var(--background-modifier-accent);
+}
+
+.vc-addon-card:hover {
+    /* vencord plugins style */
+    background: var(--background-modifier-hover);
+}
+
+.vc-notification-root {
+    /* vencord update notification */
+    border: 1px solid var(--highlighted-channel-color);
+    background: rgba(105, 15, 133, 0.9);
+}
+
+.vc-notification-progressbar {
+    background-image: linear-gradient(45deg, var(--highlight), var(--highlighted-channel-color)) !important;
+    border-radius: 0;
+}
+
+.bd-button-filled.bd-button-color-red {
+    /* BetterDiscord red button -> purple */
+    background-color: var(--status-danger);
+}
+
+.bd-button-filled.bd-button-color-red:hover {
+    /* BetterDiscord red button -> purple */
+    background-color: var(--highlight);
+}
+
+.bd-filled-checkmark {
+    /* BetterDiscord green checkmark -> blue */
+    background: var(--online-color);
+}
+
+.bd-empty-updates svg {
+    /* BetterDiscord green checkmark -> blue */
+    fill: var(--online-color);
+}
+
+._8a031a135bfcb9ba-container {
+    /* poll creation */
+    border: 1px solid var(--highlight);
+    background-color: var(--background-mentioned);
+    backdrop-filter: blur(50px);
+}
+
+.f4f0eb773c27d83f-checkboxSelected {
+    /* polls checkmarks */
+    background-color: var(--highlight);
+}
+
+._4c5209741d147f1b-votePercentageBar {
+    /* polls */
+    background-color: var(--background-mentioned-hover);
+}
+
+._4c5209741d147f1b-answerSelectionIcon path[fill-rule=evenodd] {
+    /* polls checkmarks */
+    fill: var(--highlight);
+}
+
+.a1443c28bb4b5d23-victorStyles {
+    /* polls */
+    --custom-poll-style-border: var(--highlight);
+}
+
+.defaultTextInputWrapper__7b848 {
+    /* poll creation responses input area */
+    background-color: rgba(30, 2, 46, 0.596);
+}
+
+.defaultTextInputWrapper__7b848 input {
+    /* poll creation responses input area */
+    background-color: transparent;
+}
+
+.d97f896195d9f57f-addAnswerButton button {
+    /* poll creation add response bg */
+    background-color: rgba(30, 2, 46, 0.3);
+    border: 1px solid var(--input-border);
+}
+
+.d97f896195d9f57f-addAnswerButton:hover button {
+    /* poll creation add response bg (hover) */
+    background-color: rgba(30, 2, 46, 0.9);
+    border: 1px solid var(--input-border);
+}
