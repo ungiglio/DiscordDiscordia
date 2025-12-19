@@ -7,7 +7,7 @@
 
 # Lande della Discordia
 
-![Lande della Discordia v1.1.2](https://i.imgur.com/M9XnhiB.png)
+![Lande della Discordia v25.1](https://i.imgur.com/M9XnhiB.png)
 *screenshot from [latest](https://github.com/ungiglio/DiscordDiscordia/releases/latest) release*
 </div>
 
@@ -51,7 +51,6 @@ If you encounter any issues or have suggestions for improving "Lande della Disco
 - [Support Server](https://discord.gg/DDaRdZwB4h)
 - [BetterDiscord](https://betterdiscord.app)
 - [Vencord](https://vencord.dev)
-- [Documentation](https://github.com/ungiglio/DiscordDiscordia/wiki)
 
 ---
 
