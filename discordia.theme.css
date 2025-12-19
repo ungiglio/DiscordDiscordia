@@ -1,7 +1,7 @@
 /**
  * @name Lande della Discordia
  * @author ungiglio
- * @version 1.1.2
+ * @version 25.1
  * @source https://github.com/ungiglio/DiscordDiscordia/
  * @website https://ungiglio.github.io/DiscordDiscordia/
  * @description Lande della Discordia implements a glass purple and lightblue details on your client!
@@ -9,58 +9,49 @@
  * @invite DDaRdZwB4h
 */
 
-@import url("https://ungiglio.github.io/DiscordDiscordia/AWKGLASS/v2.awkglass.css"); /* standard edition */
-/*@import url("https://ungiglio.github.io/DiscordDiscordia/BACKGROUNDLESS/backgroundless.css"); /* backgroundless edition */
-@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/colored_mentions/mentions.css"); /* credits to davart154 for the original code */
-@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/colored_userlist/userlist.css");
-@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/title_bar/custom_title.css"); /* comment/remove to bring back server icon and name in topbar */
+/* ======================================================================== */
+/* 1. LOADER (don't touch it) */
+/* ======================================================================== */
 
-/* CUSTOMIZATION CONTROL CENTER */
+@import url('https://ungiglio.github.io/DiscordDiscordia/awkglass/loader.css');
+
+
+/* ======================================================================== */
+/* 2. USER SETTINGS */
+/* ======================================================================== */
+
 :root {
-  --rgb-highlight: 178, 102, 255;                          /* 4, 217, 255; /* The main highlight color */
-  --rgb-close-button: 224, 58, 62;                         /* The main "close this" or "deny" color */
-  --rgb-online-color: 31, 92, 171;                         /* (31, 147, 80: default green) /* The color used in the "online" user status symbol */
-  --rgb-afk-color: 220, 163, 46;                           /* The color used in the "idle" user status symbol */
-  --rgb-dnd-color: 224, 58, 62;                            /* The color used in the "do not disturb" user status symbol */
-  --rgb-streaming-color: 188, 19, 254;                     /* The color used in the "streaming X" user status symbol */
-  --status-danger-rgb: rgb(152, 51, 255);                /* The color used for every danger action/button */
+    /* --- BACKGROUND AND IMAGES --- */
+    /* Background Image */
+    --custom-image-url: url('https://ungiglio.github.io/DiscordDiscordia/awkglass/assets/bgImg.jpg');
 
-  --transition-time: .3s;                                  /* How fast animations added by the theme happen. Default is 0.3 seconds */
+    /* Image blur (default: 8px) */
+    --app-blur: 8px;
+    
 
-  --custom-title-text: "Lande della Discordia";            /* The custom text you want to display */
-  --custom-title-font-size: 14px;                          /* The size in pixels of the custom title text */
-  --custom-title-font-family: "Pirata One", var(--font-primary);/* The font family of the custom title */
+    /* --- MAIN COLORS --- */
+    --rgb-highlight: 178, 102, 255;
 
-  --custom-channel-header-color: rgb(241, 236, 247);
-  --custom-channel-icon: rgb(153, 118, 187);              /* channel list unselected color */
-  --channel-icon: rgb(153, 118, 187) !important;          /* channel list unselected color */
-  --custom-selected-channel-color: rgb(78, 209, 203);     /* channel list selected color */
-  --cat-custom-color-rgba: 120, 138, 167;
-  --cat-custom-color: rgb(var(--cat-custom-color-rgba));
+    /* Danger/Close Button color */
+    --rgb-close-button: 152, 51, 255;
 
-  --custom-spoiler-color: rgb(148, 83, 212)!important;    /* Spoilers color */
 
-  --darkPurple-background: rgb(46, 0, 58);                /* Textarea background color */
+    /* --- USER STATUS (RGB format) --- */
+    --rgb-online-color: 31, 92, 171;        /* Online (Blue) */
+    --rgb-afk-color: 220, 163, 46;          /* Idle (Yellow) */
+    --rgb-dnd-color: 224, 58, 62;           /* DnD (Red) */
+    --rgb-streaming-color: 188, 19, 254;    /* Streaming (Purple) */
 
-  --custom-image-url: url('https://i.imgur.com/GcFkyZp.jpeg');  /* background image */
-  --app-blur: 8px;                                              /* background image blur */
 
-  --custom-logo: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordia.png'); /* custom logo */
-  --custom-logo-hover: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordiaHover.png'); /* custom logo (hover) */
+    /* --- TITLE AND ICONS CUSTOMIZATION --- */
+    --custom-title-text: "Lande della Discordia";                   /* The custom text you want to display */
+    --custom-title-font-size: 14px;                                 /* The size in pixels of the custom title text */
+    --custom-title-font-family: "Pirata One", var(--font-primary);  /* The font family of the custom title */
 
-  /* FONTS */
-    --font-primary: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-display: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-headline: 'ABC Ginto Nord', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-code: 'gg mono', 'Source Code Pro', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;
-    --font-clan-body: Fraunces, 'gg sans', serif, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-clan-signature: Corinthia, 'gg sans', cursive, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-display-marketing: 'ABC Ginto Nord', 'gg sans', serif, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  
+    /* Home/DM Icon (Discord logo left top) */
+    --custom-logo: url('https://ungiglio.github.io/DiscordDiscordia/awkglass/assets/LandeDiscordia.png');
+    --custom-logo-hover: url('https://ungiglio.github.io/DiscordDiscordia/awkglass/assets/LandeDiscordiaHover.png');
 
-    /* DEV PANEL INFO */
     --show-dev-panel-info-static: 0; /* Set to 1 to show the static version, 0 to hide | (NOTE: for static to work also hover need to be 1) */
-    --show-dev-panel-info-hover: 1; /* Set to 1 to show the static and hover version, put 0 to hide */
-  
-    --current-ver: "1.1.2"
+    --show-dev-panel-info-hover: 1; /* Set to 1 to show the static or hover version, put 0 to hide */
 }
