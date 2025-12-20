@@ -71,7 +71,7 @@
     /* Mapping Compatibilità */
     --channels-default: var(--text-channel-normal) !important;
     --channel-icon: var(--text-lilac) !important; 
-    --highlighted-channel-color: rgb(123, 176, 245) !important;
+    --highlighted-channel-color: rgb(123, 176, 245);
     --interactive-normal: var(--icon-default) !important;
     --interactive-hover: var(--icon-hover) !important;
     --interactive-muted: rgba(180, 180, 180, 0.5) !important;
