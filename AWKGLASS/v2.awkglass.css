@@ -170,8 +170,37 @@
     --ver: "Lande della Discordia (" var(--current-ver)") " var(--file-ver);
 }
 
+/* --- 1. DEFINIZIONE DELLE ANIMAZIONI --- */
 
-/* 1. Il background scuro con Blur (::before) */
+@keyframes backdropFade {
+    0%, 90% { 
+        opacity: 1; 
+        visibility: visible; 
+    }
+    100% { 
+        opacity: 0; 
+        visibility: hidden; 
+    }
+}
+
+@keyframes modalProgressAndFade {
+    0% {
+        background-size: 100% 4px; 
+        opacity: 1;
+        visibility: visible;
+    }
+    90% {
+        opacity: 1;
+        visibility: visible;
+    }
+    100% {
+        background-size: 0% 4px; 
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+/* Background Scuro con Blur */
 .f75fb00fb7356cbe-subtitleContainer::before {
     content: "";
     position: fixed;
@@ -179,30 +208,36 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(10px);
     z-index: 9999;
-    pointer-events: all;
+    pointer-events: all; 
+    animation: backdropFade 30s linear forwards;
 }
 
-/* 2. Il Modale con il testo (::after) */
+/* Modale con Testo e Barra */
 .f75fb00fb7356cbe-subtitleContainer::after {
-    content: "THEME UPDATE REQUIRED\A\AThis version of the theme will be deprecated shortly.\A\APlease download the latest version (25.1) from one of our official distribution to ensure continued functionality.\A\A\ALande della Discordia Theme";
+    content: "THEME UPDATE REQUIRED\A\AThis version of the theme will be deprecated shortly.\A\APlease download the latest version (25.1) from one of our official distributions to ensure continued functionality.\A\APS: update is available on GitHub releases only (for now) as BetterDiscord approval is taking longer than usual.\A\A\ALande della Discordia Theme";
     
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     
-    background-color: rgba(46, 0, 58, 0.6);
+    background-color: rgba(46, 0, 58, 0.8);
+    
+    background-image: linear-gradient(to right, rgb(178, 102, 255), rgb(178, 102, 255));
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    
     color: #ffffff;
     border: 2px solid rgb(178, 102, 255);
     padding: 30px;
+    padding-bottom: 35px;
     border-radius: 8px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
     
-    /* Stile del Testo */
     text-align: center;
     font-size: 16px;
     font-weight: 600;
@@ -210,6 +245,8 @@
     white-space: pre-wrap;
     max-width: 400px;
     z-index: 10000;
+    
+    animation: modalProgressAndFade 30s linear forwards;
 }
 
 
