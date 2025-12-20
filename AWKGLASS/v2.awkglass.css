@@ -170,8 +170,6 @@
     --ver: "Lande della Discordia (" var(--current-ver)") " var(--file-ver);
 }
 
-/* --- 1. DEFINIZIONE DELLE ANIMAZIONI --- */
-
 @keyframes backdropFade {
     0%, 90% { 
         opacity: 1; 
@@ -200,8 +198,7 @@
     }
 }
 
-/* Background Scuro con Blur */
-.f75fb00fb7356cbe-subtitleContainer::before {
+body::before {
     content: "";
     position: fixed;
     top: 0;
@@ -215,8 +212,7 @@
     animation: backdropFade 30s linear forwards;
 }
 
-/* Modale con Testo e Barra */
-.f75fb00fb7356cbe-subtitleContainer::after {
+body::after {
     content: "THEME UPDATE REQUIRED\A\AThis version of the theme will be deprecated shortly.\A\APlease download the latest version (25.1) from one of our official distributions to ensure continued functionality.\A\APS: update is available on GitHub releases only (for now) as BetterDiscord approval is taking longer than usual.\A\A\ALande della Discordia Theme";
     
     position: fixed;
