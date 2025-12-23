@@ -58,7 +58,6 @@
     --text-header: white !important;
     
     --icon-default: rgb(180, 180, 180) !important;
-    --icon-hover: white !important;
     
     --border-subtle: rgba(255, 255, 255, 0.15) !important;
     --border-strong: rgba(255, 255, 255, 0.4) !important;
@@ -124,6 +123,7 @@
     --new-msg-divider: var(--cat-custom-color);
     --text-channel-normal: var(--text-lilac); 
     --text-channel-hover: var(--text-normal);
+    --icon-hover: var(--text-channel-hover);
     --highlighted-channel-color: rgb(123, 176, 245);
     --custom-spoiler-color: rgb(148, 83, 212);
 
