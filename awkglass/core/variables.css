@@ -10,15 +10,15 @@
     --background-image: var(--custom-image-url);
 
     /* --- FIX COLORI --- */
-    --darkPurple-background: rgb(46, 0, 58) !important; 
+    --darkPurple-background: rgb(46, 0, 58); 
     
     /* DEFINIZIONE COLORI SPECIFICI RICHIESTI */
-    --header-dark-purple: rgb(147, 106, 201) !important;
-    --text-lilac: rgb(175, 145, 230) !important;
+    --header-cat-rgb: 147, 106, 201;
+    --text-lilac: rgb(175, 145, 230);
+    --text-white: rgb(255, 255, 255);
 
     /* Variabili Categorie (Usa il nuovo viola scuro) */
-    --cat-custom-color: var(--header-dark-purple);
-    --cat-custom-color-rgba: 147, 106, 201;
+    --cat-custom-color: rgb(var(--header-cat-rgb));
 
     /* Colori Base */
     --highlight: rgb(var(--rgb-highlight));
@@ -58,10 +58,6 @@
     --text-muted: rgb(160, 160, 160) !important;
     --text-header: white !important;
     
-    /* Canali in Lilla */
-    --text-channel-normal: var(--text-lilac) !important; 
-    --text-channel-hover: white !important;
-    
     --icon-default: rgb(180, 180, 180) !important;
     --icon-hover: white !important;
     
@@ -70,8 +66,7 @@
 
     /* Mapping Compatibilità */
     --channels-default: var(--text-channel-normal) !important;
-    --channel-icon: var(--text-lilac) !important; 
-    --highlighted-channel-color: rgb(123, 176, 245);
+    --channel-icon: var(--text-channel-normal) !important; 
     --interactive-normal: var(--icon-default) !important;
     --interactive-hover: var(--icon-hover) !important;
     --interactive-muted: rgba(180, 180, 180, 0.5) !important;
@@ -124,6 +119,13 @@
     --search-popout-option-user-username: rgba(var(--rgb-highlight), 70%) !important;
     --search-popout-option-filter-text: rgba(var(--rgb-highlight), 70%) !important;
     --search-popout-date-picker-border: 1px solid var(--highlight) !important;
+
+    /* --- Variabili di Personalizzazione --- */
+    --memberlist-text: var(--text-muted);
+    --new-msg-divider: var(--cat-custom-color);
+    --text-channel-normal: var(--text-lilac); 
+    --text-channel-hover: var(--text-normal);
+    --highlighted-channel-color: rgb(123, 176, 245);
 
     --ver: "Lande della Discordia (" var(--current-ver)") " var(--file-ver);
 }

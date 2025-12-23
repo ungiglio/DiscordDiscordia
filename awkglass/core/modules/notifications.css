@@ -6,11 +6,11 @@
 }
 
 ._908e20001ad67812-isUnread {
-    border: 1px solid var(--cat-custom-color) !important;
+    border: 1px solid var(--new-msg-divider) !important;
 }
 
 ._908e20001ad67812-isUnread ._908e20001ad67812-content {
     backdrop-filter: blur(100px);
     background-color: var(--background-secondary);
-    color: var(--cat-custom-color) !important;
+    color: var(--new-msg-divider) !important;
 }
