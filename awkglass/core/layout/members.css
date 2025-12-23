@@ -62,7 +62,7 @@
 
 /* Titoli Gruppi Membri */
 .membersGroup_cbd271 {
-    color: var(--header-cat) !important;
+    color: rgb(var(--header-cat-rgb)) !important;
     font-weight: bold;
     padding-top: 20px;
 }

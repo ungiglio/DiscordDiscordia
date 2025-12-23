@@ -171,13 +171,13 @@
     font-family: var(--font-display);
     font-weight: 600;
     flex: 1 1 auto;
-    color: var(--header-cat) !important;
+    color: rgb(var(--header-cat-rgb)) !important;
 }
 
 ._13cf1aa56cd732d2-container:hover {
-    color: var(--header-cat) !important;
+    color: rgb(var(--header-cat-rgb)) !important;
 }
 
 ._29444ba32c7fbeab-wrapperCommon {
-    color: var(--header-cat) !important;
+    color: rgb(var(--header-cat-rgb)) !important;
 }
