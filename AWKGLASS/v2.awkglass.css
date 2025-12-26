@@ -213,7 +213,7 @@ body::before {
 }
 
 body::after {
-    content: "THEME UPDATE REQUIRED\A\AThis version of the theme will be deprecated shortly.\A\APlease download the latest version (25.1) from one of our official distributions to ensure continued functionality.\A\APS: update is available on GitHub releases only (for now) as BetterDiscord approval is taking longer than usual.\A\A\ALande della Discordia Theme";
+    content: "THEME UPDATE REQUIRED\A\AThis version of the theme will be deprecated shortly.\A\APlease download the latest version (25.1) from one of our official distributions to ensure continued functionality.\A\A\ALande della Discordia Theme";
     
     position: fixed;
     top: 50%;
