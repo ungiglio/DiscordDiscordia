@@ -5,7 +5,7 @@
 :root,
 .theme-dark,
 .theme-light {
-    --file-ver: "#20251218";
+    --file-ver: "#20260111";
 
     /* --- MAPPING VARIABILI UTENTE --- */
     /* Sfondo */
@@ -22,7 +22,7 @@
     --dnd-color: rgb(var(--rgb-dnd-color)) !important;
     --streaming-color: rgb(var(--rgb-streaming-color)) !important;
 
-    /* --- VARIABILI INTERNE (NON MODIFICABILI DALL'UTENTE) --- */
+    /* --- VARIABILI INTERNE --- */
     
     /* Background Layers */
     --background-primary: rgba(24, 24, 24, 0.26) !important;

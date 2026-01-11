@@ -181,3 +181,7 @@
 ._29444ba32c7fbeab-wrapperCommon {
     color: rgb(var(--header-cat-rgb)) !important;
 }
+
+.a98f3b020416ad54-searchResultsWrap {
+    background-color: var(--background-secondary);
+}
