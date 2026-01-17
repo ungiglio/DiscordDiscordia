@@ -3,6 +3,9 @@
 :root {
     --icon-voice-muted: var(--status-danger) !important;
     --red-new-46: var(--status-danger) !important;
+    --red-new-50: var(--status-danger) !important;
+    --red-new-55: var(--status-danger) !important;
+    --red-new-60: var(--status-danger) !important;
 }
 
 :root,
