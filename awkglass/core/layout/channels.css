@@ -1,82 +1,111 @@
-/* * CORE LAYOUT: CHANNELS LIST
- * Canali, Categorie e Header Laterale
- */
+/* * CORE LAYOUT: CHANNELS */
 
-/* Header Server (Nome server in alto a sinistra) */
-._34c2c51cfce1632e-container,
-._34c2c51cfce1632e-header {
-    background: var(--background-tertiary);
-    border-radius: 10px;
-    margin-left: 10px;
-    backdrop-filter: blur(50px);
-}
-
-/* Elemento Canale (Default) */
-.c69b6db0641110f6-containerDefault ._2ea32c412048f708-name {
-    color: var(--channel-icon);
-}
-
-/* Elemento Canale (Hover) */
 .aa8da23faa27393c-side .aa8da23faa27393c-item:hover,
 .c69b6db0641110f6-containerDefault:hover ._2ea32c412048f708-link:hover {
     border-radius: 3px;
     background: var(--button-background);
-    color: white;
+    color: var(--text-header); /* Bianco su hover */
 }
 
-.c69b6db0641110f6-containerDefault:hover ._2ea32c412048f708-name,
-.c69b6db0641110f6-containerDefault:hover ._2ea32c412048f708-icon {
-    color: white;
-}
-
-/* Elemento Canale (Selezionato) */
 ._2ea32c412048f708-modeSelected ._2ea32c412048f708-link,
 ._2ea32c412048f708-modeSelected:hover ._2ea32c412048f708-link {
     background: var(--background-message-highlight-hover);
 }
 
-.c69b6db0641110f6-containerDefault ._2ea32c412048f708-modeSelected ._2ea32c412048f708-icon,
-.c69b6db0641110f6-containerDefault ._2ea32c412048f708-modeSelected ._2ea32c412048f708-name {
-    color: var(--selected-channel-color);
+._2ea32c412048f708-wrapper:hover ._2ea32c412048f708-link {
+    background: none;
 }
 
-.c69b6db0641110f6-containerDefault ._2ea32c412048f708-modeSelected ._2ea32c412048f708-wrapper {
-    background-color: rgba(var(--rgb-highlight), 20%);
+._2ea32c412048f708-modeUnreadImportant ._2ea32c412048f708-name,
+._2ea32c412048f708-modeUnreadImportant:hover ._2ea32c412048f708-name {
+    color: var(--highlighted-channel-color) !important;
+    font-weight: var(--font-weight-semibold-1x-light-theme, 550);
 }
 
-/* Canali non letti */
-._2ea32c412048f708-modeUnreadImportant ._2ea32c412048f708-name {
-    color: var(--selected-channel-color);
-    font-weight: 550;
+.e29cd7b93c4f1266-titleContainer {
+    border-radius: 10px;
 }
 
-._2ea32c412048f708-unread {
-    background-color: var(--selected-channel-color);
+.container_d5ae15 {
+    background-color: var(--background-tertiary);
+}
+
+._23e6b439306f125a-contentRegionScroller {
+    background: none;
+}
+
+.numberBadge__40d6f {
+    background-color: rgba(var(--rgb-highlight), 70%) !important;
+    color: var(--background);
+}
+
+._2ea32c412048f708-unread,
+._2ea32c412048f708-wrapper:hover ._2ea32c412048f708-unread {
+    background-color: var(--highlighted-channel-color);
     border-radius: 1.5px;
     left: -8px;
 }
 
-/* Canali Silenziati */
+._7aaec78b97ff00f7-bar {
+    /* unread pill */
+    background: var(--background-tertiary);
+    border: 1.5px solid var(--highlight);
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+/* === CORREZIONE PRINCIPALE: Nomi Canali === */
+.c69b6db0641110f6-containerDefault ._2ea32c412048f708-name {
+    /* channel color base */
+    color: var(--text-channel-normal); /* Era --channel-icon */
+}
+
+.c69b6db0641110f6-containerDefault:hover ._2ea32c412048f708-name {
+    /* channel color hover */
+    color: var(--text-channel-hover);
+}
+
+.c69b6db0641110f6-containerDefault:hover ._2ea32c412048f708-icon {
+    /* channel icon hover */
+    color: var(--icon-hover);
+}
+
 .c69b6db0641110f6-containerDefault ._2ea32c412048f708-modeMuted ._2ea32c412048f708-name {
     color: var(--interactive-muted);
 }
 
-/* Categorie */
-._13cf1aa56cd732d2-container {
-    /* Testo Categoria */
-    box-sizing: border-box;
-    text-transform: uppercase;
-    font-size: 13px;
-    font-family: var(--font-display);
-    font-weight: 600;
-    color: var(--cat-color);
+.c69b6db0641110f6-containerDefault:hover ._2ea32c412048f708-modeMuted ._2ea32c412048f708-name {
+    color: var(--text-normal);
 }
 
-._13cf1aa56cd732d2-container:hover {
-    color: var(--cat-color);
+._29444ba32c7fbeab-icon {
+    display: none;
 }
 
-/* Linee divisorie categoria personalizzate */
+.c69b6db0641110f6-containerDefault ._2ea32c412048f708-modeSelected ._2ea32c412048f708-icon {
+    color: var(--highlighted-channel-color)
+}
+
+.c69b6db0641110f6-containerDefault ._2ea32c412048f708-modeUnreadImportant ._2ea32c412048f708-icon {
+    color: var(--highlighted-channel-color)
+}
+
+.c69b6db0641110f6-containerDefault ._2ea32c412048f708-modeSelected ._2ea32c412048f708-name {
+    color: var(--highlighted-channel-color)
+}
+
+.c69b6db0641110f6-containerDefault ._2ea32c412048f708-modeSelected ._2ea32c412048f708-wrapper {
+    background-color: rgba(var(--rgb-highlight), 20%)
+}
+
+.d1405bf11dcfb07a-categoryHeader {
+    background-color: 0;
+    border-radius: 8px;
+    position: sticky;
+    top: 0;
+    padding: 0 8px;
+}
+
 ._29444ba32c7fbeab-containerDefault {
     display: flex;
     align-items: center;
@@ -89,7 +118,7 @@
     height: 2px;
     margin-right: -11px;
     display: inline-block;
-    background: linear-gradient(90deg, rgba(var(--cat-color-rgba), 0) 0%, rgba(var(--cat-color-rgba), 1) 100%);
+    background: linear-gradient(90deg, rgba(var(--header-cat-rgb), 0) 0%, rgba(var(--header-cat-rgb), 1) 100%);
 }
 
 ._29444ba32c7fbeab-containerDefault::after {
@@ -98,17 +127,11 @@
     height: 2px;
     margin-left: -3px;
     display: inline-block;
-    background: linear-gradient(90deg, rgba(var(--cat-color-rgba), 1) 0%, rgba(var(--cat-color-rgba), 0) 100%);
+    background: linear-gradient(90deg, rgba(var(--header-cat-rgb), 1) 0%, rgba(var(--header-cat-rgb), 0) 100%);
 }
 
-._29444ba32c7fbeab-icon {
-    display: none; /* Rimuove la freccetta standard della categoria */
-}
-
-/* === BANNER SERVER === */
 .f37cb1984c371ee5-animatedContainer {
     border-radius: 10px;
-    box-shadow: none;
 }
 
 ._2637a2609f343032-container {
@@ -116,11 +139,49 @@
     background: var(--background-secondary);
 }
 
+.clickable_f37cb1 {
+    background: var(--background-primary);
+    border-radius: 8px;
+}
+
 .f37cb1984c371ee5-header {
     background: none;
 }
 
-.clickable_f37cb1 {
-    background: var(--background-primary);
-    border-radius: 8px;
+._270d7a28db32b312-checkIcon,
+._270d7a28db32b312-memberCount {
+    background-color: var(--highlighted-channel-color);
+}
+
+._270d7a28db32b312-optionButtonWrapper._270d7a28db32b312-selected {
+    border-color: var(--highlighted-channel-color);
+}
+
+
+._13cf1aa56cd732d2-container {
+    /* Categoria (TESTO VIOLA SCURO) */
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: .02em;
+    font-family: var(--font-display);
+    font-weight: 600;
+    flex: 1 1 auto;
+    color: rgb(var(--header-cat-rgb)) !important;
+}
+
+._13cf1aa56cd732d2-container:hover {
+    color: rgb(var(--header-cat-rgb)) !important;
+}
+
+._29444ba32c7fbeab-wrapperCommon {
+    color: rgb(var(--header-cat-rgb)) !important;
+}
+
+.a98f3b020416ad54-searchResultsWrap {
+    background-color: var(--background-secondary);
 }

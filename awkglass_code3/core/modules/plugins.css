@@ -1,0 +1,68 @@
+/* * CORE MODULES: PLUGINS
+ * Supporto BetterDiscord, Vencord e altri addon
+ */
+
+/* === BETTERDISCORD === */
+.bd-switch input:checked+.bd-switch-body {
+    --switch-color: var(--online-color);
+}
+
+.bd-button-filled.bd-button-color-red {
+    background-color: var(--status-danger);
+}
+
+.bd-button-filled.bd-button-color-red:hover {
+    background-color: var(--highlight);
+}
+
+.bd-filled-checkmark {
+    background: var(--online-color);
+}
+
+.bd-empty-updates svg {
+    fill: var(--online-color);
+}
+
+/* === VENCORD === */
+.vc-addon-card {
+    background: var(--background-modifier-accent);
+}
+
+.vc-addon-card:hover {
+    background: var(--background-modifier-hover);
+}
+
+.vc-notification-root {
+    border: 1px solid var(--selected-channel-color);
+    background: rgba(105, 15, 133, 0.9);
+}
+
+.vc-notification-progressbar {
+    background-image: linear-gradient(45deg, var(--highlight), var(--selected-channel-color)) !important;
+    border-radius: 0;
+}
+
+/* Bottone "Leggi tutto" (Read All Notification Button) */
+.vc-ranb-button {
+    border: 1px solid var(--highlight);
+    border-radius: 8px;
+    background-color: var(--highlight);
+    color: white;
+    width: 80%;
+    margin: 5% 10% 10% 10%;
+    padding: 5% 2%;
+    font-size: 10px;
+}
+
+.vc-ranb-button:hover {
+    border: 1px solid var(--highlight);
+    background-color: color-mix(in srgb, var(--highlight), #000 30%);
+}
+
+/* === PLATFORM INDICATORS === */
+.PI-icon_desktop[data-status="online"],
+.PI-icon_mobile[data-status="online"],
+.PI-icon_embedded[data-status="online"],
+.PI-icon_web[data-status="online"] {
+    color: var(--online-color) !important;
+}
