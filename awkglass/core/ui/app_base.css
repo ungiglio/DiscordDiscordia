@@ -1,5 +1,8 @@
-/* * CORE UI: APP BASE */
+/* * UI CORE: APP BASE
+ * Gestione finestre, sfondi e container principali
+ */
 
+/* Sfondo Principale */
 ._960e4207cea8323e-bg {
     background: var(--background-image);
     background-size: cover;
@@ -7,72 +10,12 @@
     background-position: center;
 }
 
-._972a0d22c8afa7f0-link:hover,
-._972a0d22c8afa7f0-interactive:hover {
-    background: var(--button-background);
-    border-radius: 3px;
-    color: rgb(233, 233, 233);
-}
-
-._5e434347c823b592-content {
-    background-color: transparent;
-}
-
-.footer__214dc {
-    background-color: transparent !important;
-    background: none;
-}
-
+/* Controlli Finestra (Minimizza, Ingrandisci, Chiudi) */
 .c38106a3f0c3ca76-winButton {
     background: #00000083;
     color: #fff;
     width: 35px;
     height: 30px;
-}
-
-._9293f6b2fc12398a-clickable {
-    background: #00000083;
-    width: 35px !important;
-    height: 30px !important;
-    border-radius: 10px;
-}
-
-.c99c29809d200a61-clickable {
-    background: #00000083;
-    width: 27px !important;
-    height: 30px !important;
-    border-radius: 10px;
-    justify-content: center;
-}
-
-.edbb22df99c39831-title {
-    background: #00000083;
-    padding: 0 5px;
-    height: 30px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-._9293f6b2fc12398a-clickable:hover,
-.c99c29809d200a61-clickable:hover {
-    background: var(--online-color);
-}
-
-._9293f6b2fc12398a-clickable svg path,
-.c99c29809d200a61-clickable svg path {
-    fill: #fff !important;
-}
-
-._9293f6b2fc12398a-clickable svg,
-.c99c29809d200a61-clickable svg {
-    width: 16.5px !important;
-    height: 16.5px !important;
-}
-
-.c38106a3f0c3ca76-winButtons {
-    gap: 0;
 }
 
 .c38106a3f0c3ca76-winButtonMinMax:hover {
@@ -94,6 +37,11 @@
     display: none;
 }
 
+.c38106a3f0c3ca76-winButtons {
+    gap: 0;
+}
+
+/* Container App e Sidebar Base */
 .platform-win ._5e434347c823b592-sidebar,
 ._133bf5eea8e33a34-container,
 .f75fb00fb7356cbe-chat {
@@ -101,39 +49,21 @@
     margin: 0 20px;
 }
 
-._34c2c51cfce1632e-container,
-._34c2c51cfce1632e-header {
-    background: var(--background-tertiary);
-    border-radius: 10px;
-    margin-left: 10px;
-    backdrop-filter: blur(50px);
+._5e434347c823b592-content {
+    background-color: transparent;
+    margin-bottom: 20px;
 }
 
-.ee23ac2acd215184-divider {
-    height: 0;
+.footer__214dc {
+    background-color: transparent !important;
 }
 
+/* Gestione Wordmark (Logo Discord in alto a sinistra nascosto) */
 ._421edea01cb52e16-wordmarkWindows {
     display: none;
 }
 
-._740174f3d6a2c8fe-stackedBars,
-._5e434347c823b592-sidebar:after {
-    background: none;
-}
-
-:where(.c0bea05627c5dc35-overlay),
-._62dd31d5e86f2841-container {
-    background: var(--background-tertiary);
-}
-
-._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrand,
-._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorPrimary,
-._82f0793afa59e5dc-botTagRegular,
-._6fddf2ee3574a18a-unread {
-    background: var(--button-background-static);
-}
-
+/* Layers e Backdrop Filters */
 ._160d8e55254637e5-layers {
     margin: calc(var(--app-margin) / 2) var(--app-margin) var(--app-margin) var(--app-margin);
     border-radius: var(--app-radius);
@@ -142,25 +72,13 @@
     backdrop-filter: blur(var(--app-blur));
 }
 
-._01ae244280823725-chatTarget:before {
-    content: " ";
-    position: absolute;
-    width: calc(100% + var(--app-margin) * 2);
-    height: calc(100% + var(--app-margin) * 2 + 24px);
-    top: calc((var(--app-margin) + 24px) * -1);
-    left: calc(var(--app-margin) * -1);
-    background-color: var(--popout-color);
-    background-image: var(--app-bg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: inset 0 0 0 100vmax var(--main-content-color);
-    filter: blur(var(--app-blur));
-    z-index: -1;
-    pointer-events: none;
+:where(.c0bea05627c5dc35-overlay),
+._62dd31d5e86f2841-container {
+    background: var(--background-tertiary);
 }
 
+/* Effetti sfocatura su elementi specifici */
+._01ae244280823725-chatTarget:before,
 .e29cd7b93c4f1266-titleContainer:before,
 .c6bf1b7af480dfda-header:before {
     content: " ";
@@ -181,80 +99,34 @@
     pointer-events: none;
 }
 
-._4d7bb356d058f441-wrapper ._4d7bb356d058f441-card {
-    background-color: var(--card-color-select);
-    border-radius: var(--card-radius);
-    backdrop-filter: blur(var(--app-blur));
+/* === ANIMAZIONI & LOGHI === */
+
+/* Animazione rotazione icone (Hover) */
+._20a53846fe2e8513-avatar:hover>svg,
+._2ea32c412048f708-icon:hover,
+._972a0d22c8afa7f0-closeIcon:hover {
+    animation: icon1 2.5s ease-in;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-._421edea01cb52e16-winButton {
-    cursor: pointer;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+@keyframes icon1 {
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
-.lookFilled__3f413.a16aea1526925c2c-select {
-    border: solid transparent;
+/* Tutorial / Logo Home personalizzato */
+._1f388bcaa446c0c8-tutorialContainer ._6e9f8dce4cc18de3-childWrapper {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: var(--custom-logo) !important;
 }
 
-.theme-dark ._37e49614b9f110a9-container,
-.container_fea832,
-.e6b7699ce8339e1c-searchBar,
-.lookFilled__3f413.a16aea1526925c2c-select,
-.f369dba7416c67f0-container,
-.connectContainer_c7f964,
-._133bf5eea8e33a34-container,
-.theme-dark ._99e7cad8d4c55236-scroller,
-.cb9592ad77576717-wrapper.cb9592ad77576717-minimum {
-    background-color: var(--background-secondary);
+._1f388bcaa446c0c8-tutorialContainer ._6e9f8dce4cc18de3-childWrapper:hover {
+    background-image: var(--custom-logo-hover) !important;
 }
 
-._23e6b439306f125a-sidebarRegionScroller,
-._23e6b439306f125a-contentRegionScroller,
-._5ec2fb8b5de26b21-searchBar,
-.ae7890a1b8e75804-searchHeader,
-.a98f3b020416ad54-searchResultsWrap,
-.e6b7699ce8339e1c-privateChannels,
-._133bf5eea8e33a34-nowPlayingColumn,
-._7d20cf18f8a2784c-container,
-.ef3116c2da186559-wrapper {
-    background-color: var(--background-primary);
-}
-
-.theme-dark .sidebarContainer_a3a4ce {
-    background-color: var(--background-secondary);
-}
-
-.f75fb00fb7356cbe-form:before,
-._740174f3d6a2c8fe-themedBackground,
-._80bf8435713f6adb-searchResult,
-.popoverReactionHoverBar_f84418 {
-    background: transparent;
-}
-
-.theme-dark ._9293f6b2fc12398a-children:after,
-.f75fb00fb7356cbe-form::before,
-._16eb0bfd5c5a90d1-option:after {
+._1f388bcaa446c0c8-tutorialContainer ._6e9f8dce4cc18de3-childWrapper img {
     display: none;
-}
-
-._9443936bd3681b09-badge,
-.f369dba7416c67f0-countContainer,
-._5808f3d86030cee1-countContainer {
-    background-color: var(--highlight);
-    border-color: var(--highlight);
-}
-
-.a2c9e80f6531ccc2-pill.a2c9e80f6531ccc2-selected:not(.a2c9e80f6531ccc2-disabled) {
-    border-color: var(--highlight);
-}
-
-.a2c9e80f6531ccc2-pill.a2c9e80f6531ccc2-selected:not(.a2c9e80f6531ccc2-disabled):hover {
-    background-color: var(--background-message-highlight-hover);
-    border-color: var(--highlight);
-}
-
-.c08b38911b1dcc2f-main,
-._5e434347c823b592-page {
-    border-radius: 10px;
-    margin: 0 20px 0 0;
 }

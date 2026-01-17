@@ -1,5 +1,8 @@
-/* * CORE UI: SCROLLBARS */
+/* * UI CORE: SCROLLBARS
+ * Personalizzazione barre di scorrimento
+ */
 
+/* Scrollbar liste generiche */
 ._99f8cc7ad4790ce9-auto.f369dba7416c67f0-list._99f8cc7ad4790ce9-scrollerBase::-webkit-scrollbar {
     width: 5px;
 }
@@ -12,8 +15,8 @@
     background: var(--highlight);
 }
 
+/* Scrollbar lista canali (Nascosta o ridotta) */
 ._629e4c86564a4ee7-scroller::-webkit-scrollbar {
-    /*channel list scrollbar hidden*/
     display: block;
 }
 
@@ -22,6 +25,5 @@
 }
 
 ._36d072eab2b2e737-scroller::-webkit-scrollbar {
-    /*channel scrollbar hidden*/
     width: 12px;
 }
