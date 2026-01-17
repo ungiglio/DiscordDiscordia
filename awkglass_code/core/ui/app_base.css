@@ -130,7 +130,3 @@
 ._1f388bcaa446c0c8-tutorialContainer ._6e9f8dce4cc18de3-childWrapper img {
     display: none;
 }
-
-._5eb9b3cc7c2b1ce8-lottieIconColors :not(defs *)[stroke][stroke-opacity] {
-    stroke: var(--highlight) !important;
-}
