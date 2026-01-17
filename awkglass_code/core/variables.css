@@ -70,6 +70,7 @@
     --background-message-automod: rgba(var(--rgb-highlight), 20%) !important;
     
     /* Pulsanti (Definizioni avanzate) */
+    --interactive-text-default: var(--highlight) !important;
     --button-danger-background: rgba(var(--rgb-close-button), 100%) !important;
     --button-danger-background-hover: rgba(var(--rgb-close-button), 70%) !important;
     --button-danger-background-active: rgba(var(--rgb-close-button), 100%) !important;
