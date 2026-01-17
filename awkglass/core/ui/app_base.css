@@ -211,8 +211,8 @@
 ._23e6b439306f125a-sidebarRegionScroller,
 ._23e6b439306f125a-contentRegionScroller,
 ._5ec2fb8b5de26b21-searchBar,
-.f3b986a284a18c78-searchHeader,
-.a9e7064fdee8e9b0-searchResultsWrap,
+.ae7890a1b8e75804-searchHeader,
+.a98f3b020416ad54-searchResultsWrap,
 .e6b7699ce8339e1c-privateChannels,
 ._133bf5eea8e33a34-nowPlayingColumn,
 ._7d20cf18f8a2784c-container,
@@ -226,14 +226,14 @@
 
 .f75fb00fb7356cbe-form:before,
 ._740174f3d6a2c8fe-themedBackground,
-._02a39cb2980ceaaf-searchResult,
+._80bf8435713f6adb-searchResult,
 .popoverReactionHoverBar_f84418 {
     background: transparent;
 }
 
 .theme-dark ._9293f6b2fc12398a-children:after,
 .f75fb00fb7356cbe-form::before,
-._56fec8e8b8048fe0-option:after {
+._16eb0bfd5c5a90d1-option:after {
     display: none;
 }
 
