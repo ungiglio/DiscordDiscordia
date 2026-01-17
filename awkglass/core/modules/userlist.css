@@ -72,7 +72,3 @@
 .PI-icon_desktop[data-status="online"], .PI-icon_mobile[data-status="online"], .PI-icon_embedded[data-status="online"], .PI-icon_web[data-status="online"] { /* Platform Indicator plugin colors */
     color: var(--online-color) !important;
 }
-
-._91a9d7f7e5248a56-container {
-    color: var(--memberlist-text);
-}

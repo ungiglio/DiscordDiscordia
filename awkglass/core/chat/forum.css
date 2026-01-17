@@ -1,101 +1,78 @@
-/* * CORE CHAT: FORUM & THREADS */
+/* * CORE CHAT: FORUM & THREADS
+ * Stili specifici per canali Forum e Thread laterali
+ */
 
-._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrand {
-    /* forum new post button */
-    background-color: var(--highlight);
-    color: rgb();
-}
+/* === FORUM CARDS === */
 
-._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrand:hover {
-    /* forum new post button hover */
-    background-color: rgb(178, 52, 255);
-}
-
-._08166c4389c22135-pinIcon {
-    /* forum pin */
-    background-color: var(--status-danger);
-}
-
-._23977d5b7cef7361-reaction._23977d5b7cef7361-reactionMe {
-    /* forum reaction color */
-    background-color: rgba(178, 102, 255, 0.3);
-    border-color: var(--highlight);
-}
-
-.f8896c4f6be18f59-reaction.f8896c4f6be18f59-reactionMe {
-    /* forum reaction color */
-    background-color: rgba(178, 102, 255, 0.3);
-    border-color: var(--highlight);
-}
-
+/* Scheda Post Forum */
 .f369dba7416c67f0-mainCard {
-    /*forum posts cards */
-    background: var(--bg-mod-faint);
+    background: var(--bg-mod-faint); /* O var(--background-secondary) */
     border: 1px solid var(--highlight);
     border-radius: var(--radius-md);
 }
 
 .f369dba7416c67f0-mainCard:hover {
-    /*forum posts cards hover */
-    border: 1px solid var(--highlighted-channel-color) !important;
-    background: var(--bg-mod-faint) !important;
+    border: 1px solid var(--selected-channel-color) !important;
+    background: var(--background-tertiary) !important;
 }
 
-.a5700d36f7c29ded-chatHeaderBar {
-    /* thread header bar (ex. blocked thread) */
-    border-radius: 8px;
-    background-color: var(--interactive-muted);
-    box-shadow: var(--elevation-low);
-    border: 1px solid var(--highlight);
+/* Pin Icon nei Forum */
+._08166c4389c22135-pinIcon {
+    background-color: var(--status-danger);
 }
 
-.a5700d36f7c29ded-narrow {
-    /* thread header bar padding (ex. blocked thread) */
-    padding: 5px 16px;
+/* Tag/Etichette nei Forum */
+._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrand {
+    background-color: var(--highlight);
+    color: white;
 }
 
-._9293f6b2fc12398a-themed,
-.theme-dark ._9293f6b2fc12398a-themed {
-    border-radius: 8px 8px 0px 0px;
-    background: var(--background-secondary);
+._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrand:hover {
+    background-color: var(--highlight-darker);
 }
 
-._01ae244280823725-chatLayerWrapper {
-    border-radius: 8px;
-    margin-right: 20px;
-    background: transparent;
+/* Reazioni nei Forum */
+._23977d5b7cef7361-reaction._23977d5b7cef7361-reactionMe,
+.f8896c4f6be18f59-reaction.f8896c4f6be18f59-reactionMe {
+    background-color: rgba(178, 102, 255, 0.3);
+    border-color: var(--highlight);
 }
 
-.f75fb00fb7356cbe-chat.f75fb00fb7356cbe-threadSidebarOpen {
-    border-radius: 8px;
+.f8896c4f6be18f59-reaction.f8896c4f6be18f59-reactionMe .f8896c4f6be18f59-reactionCount {
+    color: var(--highlight);
 }
 
-._01ae244280823725-resizeHandle {
-    cursor: ew-resize;
-    height: 100%;
-    width: var(--chat-resize-handle-width);
-    flex-shrink: 0;
-    border-radius: 8px;
-    margin: 0 5px;
-    background: none;
-}
+/* === THREADS & SIDEBAR === */
 
+/* Sidebar Thread Aperto */
 ._01ae244280823725-container {
     border-radius: 8px;
     background: var(--background-secondary);
 }
 
-._201d5e8a3c09670a-lookOutlined._201d5e8a3c09670a-colorGreen {
-    color: var(--online-color);
-    border-color: var(--online-color);
-}
-
-._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorGreen {
-    color: var(--white);
-    background-color: var(--online-color);
-}
-
-.d9be463a3c35b91e-titleContainer ._0ed4fc708cdbac0d-input {
-    /* fix to forum search bg */
+/* Resize Handle (Barra per ridimensionare) */
+._01ae244280823725-resizeHandle {
+    cursor: ew-resize;
+    width: var(--chat-resize-handle-width);
     background: none;
+    border-radius: 8px;
+    margin: 0 5px;
+}
+
+/* Header Thread (es. Thread archiviati/bloccati) */
+.a5700d36f7c29ded-chatHeaderBar {
+    border-radius: 8px;
+    background-color: var(--interactive-muted);
+    border: 1px solid var(--highlight);
+}
+
+/* Input Area specifica per nuovi post forum */
+.d9be463a3c35b91e-contentContainer ._740174f3d6a2c8fe-channelTextArea,
+.d9be463a3c35b91e-contentContainer ._740174f3d6a2c8fe-channelTextArea:focus-within {
+    background: var(--background-base-low);
+    border: 1px solid var(--background-modifier-selected);
+    border-radius: 8px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    padding: 4px 8px;
 }
