@@ -2,6 +2,11 @@
  * Definizioni statiche e mapping delle variabili utente
  */
 
+:root {
+    --icon-voice-muted: var(--status-danger) !important;
+    --red-new-46: var(--status-danger) !important;
+}
+
 :root,
 .theme-dark,
 .theme-light {
@@ -15,7 +20,7 @@
     /* Colori Base (Conversione da RGB utente a CSS valido) */
     --highlight: rgb(var(--rgb-highlight));
     --highlight-darker: hsl(from var(--highlight) calc(h + 15) s calc(l - 35));
-    
+
     /* Stati Utente */
     --online-color: rgb(var(--rgb-online-color)) !important;
     --afk-color: rgb(var(--rgb-afk-color)) !important;
@@ -23,20 +28,20 @@
     --streaming-color: rgb(var(--rgb-streaming-color)) !important;
 
     /* --- VARIABILI INTERNE --- */
-    
+
     /* Background Layers */
     --background-primary: rgba(24, 24, 24, 0.26) !important;
     --background-secondary: rgba(26, 26, 26, 0.500) !important;
     --background-tertiary: rgba(26, 26, 26, 0.815) !important;
     --background-modifier-hover: rgba(20, 20, 20, 0.500);
     --background-floating: black !important;
-    
+
     /* Elementi UI */
     --button-background: linear-gradient(60deg, var(--highlight), var(--highlight-darker));
     --button-background-static: var(--highlight);
     --box-shadow: 0 0 10px 0px black;
     --custom-spoiler-color: rgb(148, 83, 212);
-    
+
     /* Scrollbars */
     --scrollbar-thin-thumb: var(--highlight) !important;
     --scrollbar-auto-thumb: var(--highlight) !important;
@@ -68,27 +73,24 @@
     --background-message-highlight: rgba(var(--rgb-highlight), 30%) !important;
     --background-message-highlight-hover: rgba(var(--rgb-highlight), 40%) !important;
     --background-message-automod: rgba(var(--rgb-highlight), 20%) !important;
-    
-    /* Pulsanti (Definizioni avanzate) */
-    --icon-voice-muted: var(--highlight) !important;
-    --red-new-46: var(--highlight) !important;
 
+    /* Pulsanti (Definizioni avanzate) */
     --button-danger-background: rgba(var(--rgb-close-button), 100%) !important;
     --button-danger-background-hover: rgba(var(--rgb-close-button), 70%) !important;
     --button-danger-background-active: rgba(var(--rgb-close-button), 100%) !important;
-    
+
     --button-positive-background: rgba(var(--rgb-online-color), 20%) !important;
     --button-positive-background-hover: rgba(var(--rgb-online-color), 70%) !important;
-    
+
     --button-primary-background: rgba(var(--rgb-highlight), 95%) !important;
     --button-primary-background-hover: rgba(var(--rgb-highlight), 70%) !important;
-    
+
     --button-secondary-background: rgba(var(--rgb-highlight), 20%) !important;
     --button-secondary-background-hover: rgba(var(--rgb-highlight), 70%) !important;
 
     /* UI Generica */
     --status-danger-background: var(--status-danger) !important;
-    --status-danger: var(--rgb-close-button) !important; 
+    --status-danger: var(--rgb-close-button) !important;
     --status-warning: var(--afk-color) !important;
     --status-positive: var(--online-color) !important;
     --menu-item-default-active-bg: var(--highlight) !important;
