@@ -1,134 +1,102 @@
-/* CORE: VARIABLES */
+/* * CORE: VARIABILI GLOBALI
+ * Definizioni statiche e mapping delle variabili utente
+ */
+
+:root {
+    --icon-voice-muted: var(--status-danger) !important;
+    --red-new-46: var(--status-danger) !important;
+}
 
 :root,
 .theme-dark,
 .theme-light {
-
-    --file-ver: "#20251219";
+    --file-ver: "#20260117";
 
     /* --- MAPPING VARIABILI UTENTE --- */
+    /* Sfondo */
     --background-image: var(--custom-image-url);
+    /* (Opacità e blur sono gestiti direttamente nei file UI) */
 
-    --darkPurple-background: rgb(46, 0, 58); 
-    
-    /* DEFINIZIONE COLORI SPECIFICI RICHIESTI */
-    --header-cat-rgb: 147, 106, 201;
-    --text-lilac: rgb(175, 145, 230);
-    --text-white: rgb(255, 255, 255);
-
-    /* Variabili Categorie (Usa il nuovo viola scuro) */
-    --cat-custom-color: rgb(var(--header-cat-rgb));
-
-    /* Colori Base */
+    /* Colori Base (Conversione da RGB utente a CSS valido) */
     --highlight: rgb(var(--rgb-highlight));
     --highlight-darker: hsl(from var(--highlight) calc(h + 15) s calc(l - 35));
-    
+
     /* Stati Utente */
     --online-color: rgb(var(--rgb-online-color)) !important;
     --afk-color: rgb(var(--rgb-afk-color)) !important;
     --dnd-color: rgb(var(--rgb-dnd-color)) !important;
     --streaming-color: rgb(var(--rgb-streaming-color)) !important;
 
-    /* --- BACKGROUND LAYERS --- */
+    /* --- VARIABILI INTERNE --- */
+
+    /* Background Layers */
     --background-primary: rgba(24, 24, 24, 0.26) !important;
     --background-secondary: rgba(26, 26, 26, 0.500) !important;
     --background-tertiary: rgba(26, 26, 26, 0.815) !important;
     --background-modifier-hover: rgba(20, 20, 20, 0.500);
-    
-    /* MENU TASTO DESTRO NERI */
-    --background-floating: black !important; 
-    
-    --app-border-frame: rgba(255, 255, 255, 0.1) !important;
-    
-    /* --- ELEMENTI UI --- */
+    --background-floating: black !important;
+
+    /* Elementi UI */
     --button-background: linear-gradient(60deg, var(--highlight), var(--highlight-darker));
     --button-background-static: var(--highlight);
     --box-shadow: 0 0 10px 0px black;
-    --spoiler-hidden-background: var(--custom-spoiler-color) !important;
-    --spoiler-hidden-background-hover: var(--highlight) !important;
-    
-    /* --- SCROLLBARS --- */
+    --custom-spoiler-color: rgb(148, 83, 212);
+
+    /* Scrollbars */
     --scrollbar-thin-thumb: var(--highlight) !important;
     --scrollbar-auto-thumb: var(--highlight) !important;
-    
-    /* --- GESTIONE TESTI --- */
-    --text-normal: rgb(230, 230, 230) !important;
-    --text-muted: rgb(160, 160, 160) !important;
-    --text-header: white !important;
-    
-    --icon-default: rgb(180, 180, 180) !important;
-    
-    --border-subtle: rgba(255, 255, 255, 0.15) !important;
-    --border-strong: rgba(255, 255, 255, 0.4) !important;
+    --scrollbar-auto-scrollbar-color-thumb: var(--highlight) !important;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+    --scrollbar-auto-scrollbar-color-track: transparent;
 
-    /* Mapping Compatibilità */
-    --channels-default: var(--text-channel-normal) !important;
-    --channel-icon: var(--text-channel-normal) !important; 
-    --interactive-normal: var(--icon-default) !important;
-    --interactive-hover: var(--icon-hover) !important;
-    --interactive-muted: rgba(180, 180, 180, 0.5) !important;
+    /* Testi e Link */
+    --text: var(--text-muted) !important;
+    --text-link: var(--highlight) !important;
+    --text-link-low-saturation: rgba(var(--rgb-highlight), 50%) !important;
+    --text-positive: var(--online-color) !important;
+    --text-warning: var(--afk-color) !important;
+    --text-danger: var(--dnd-color) !important;
+    --text-brand: var(--highlight) !important;
+    --channels-default: var(--text) !important;
+    --interactive-muted: rgba(180, 180, 180, 0.493) !important;
 
-    /* --- LOGHI E BRAND --- */
+    /* Loghi e Brand */
     --logo-primary: var(--highlight) !important;
     --control-brand-foreground: var(--highlight) !important;
     --bg-brand: var(--highlight) !important;
     --background-brand: var(--highlight) !important;
 
-    /* --- MESSAGGI --- */
+    /* Messaggi e Menzioni */
     --background-mentioned: rgba(var(--rgb-highlight), 14%) !important;
     --background-mentioned-hover: rgba(var(--rgb-highlight), 20%) !important;
     --background-message-highlight: rgba(var(--rgb-highlight), 30%) !important;
     --background-message-highlight-hover: rgba(var(--rgb-highlight), 40%) !important;
     --background-message-automod: rgba(var(--rgb-highlight), 20%) !important;
-    --background-message-hover: rgba(20, 20, 20, 0.4) !important;
-    --background-surface-high: var(--background-tertiary) !important;
-    --background-surface-higher: var(--background-tertiary) !important;
-    --background-base-low: var(--background-tertiary) !important;
-    --background-base-lower: var(--background-secondary) !important;
-    --card-background-default: rgba(20, 20, 20, 0.4) !important;
 
-    /* --- PULSANTI --- */
+    /* Pulsanti (Definizioni avanzate) */
     --button-danger-background: rgba(var(--rgb-close-button), 100%) !important;
     --button-danger-background-hover: rgba(var(--rgb-close-button), 70%) !important;
     --button-danger-background-active: rgba(var(--rgb-close-button), 100%) !important;
-    --background-feedback-critical: rgba(var(--rgb-close-button), 70%) !important;
 
-    --background-feedback-notification: var(--highlight) !important;
-    
     --button-positive-background: rgba(var(--rgb-online-color), 20%) !important;
     --button-positive-background-hover: rgba(var(--rgb-online-color), 70%) !important;
-    
+
     --button-primary-background: rgba(var(--rgb-highlight), 95%) !important;
     --button-primary-background-hover: rgba(var(--rgb-highlight), 70%) !important;
-    
+
     --button-secondary-background: rgba(var(--rgb-highlight), 20%) !important;
     --button-secondary-background-hover: rgba(var(--rgb-highlight), 70%) !important;
 
-    /* --- UI GENERICA --- */
-    --status-danger-background: rgb(var(--rgb-close-button)) !important;
-    --status-danger: rgb(var(--rgb-close-button)) !important; 
+    /* UI Generica */
+    --status-danger-background: var(--status-danger) !important;
+    --status-danger: var(--rgb-close-button) !important;
     --status-warning: var(--afk-color) !important;
     --status-positive: var(--online-color) !important;
-    --status-positive-background: var(--online-color);
-    
     --menu-item-default-active-bg: var(--highlight) !important;
     --background-channel-selected: rgba(var(--rgb-highlight), 10%) !important;
+    --app-border-frame: rgba(255, 255, 255, 0.1) !important;
 
-    /* --- Search Popout --- */
-    --search-popout-option-user-nickname: var(--highlight) !important;
-    --search-popout-option-user-username: rgba(var(--rgb-highlight), 70%) !important;
-    --search-popout-option-filter-text: rgba(var(--rgb-highlight), 70%) !important;
-    --search-popout-date-picker-border: 1px solid var(--highlight) !important;
-
-    /* --- Variabili di Personalizzazione --- */
-    --memberlist-text: var(--text-muted);
-    --new-msg-divider: var(--cat-custom-color);
-    --text-channel-normal: var(--text-lilac); 
-    --text-channel-hover: var(--text-normal);
-    --icon-hover: var(--text-channel-hover);
-    --highlighted-channel-color: rgb(123, 176, 245);
-    --custom-spoiler-color: rgb(148, 83, 212);
-
-
+    /* Versione */
     --ver: "Lande della Discordia (" var(--current-ver)") " var(--file-ver);
 }
