@@ -1,19 +1,9 @@
-/* * CORE LAYOUT: PAGES & HOME
- * Stili per Home, Negozio e schermate Nitro
- */
+/* * CORE LAYOUT: PAGES */
 
-/* Home / Lista Amici */
 ._0be773cf1443f34f-container {
     background-color: var(--background-base-low);
 }
 
-.theme-dark ._37e49614b9f110a9-container,
-.container_fea832,
-.connectContainer_c7f964 {
-    background-color: var(--background-secondary);
-}
-
-/* Negozio e Nitro */
 .f07d62e29a48ceee-applicationStore,
 ._6db1d32c47b6ad72-shop,
 ._955a392354a35c6e-container,
@@ -23,8 +13,6 @@
     margin: 0 20px;
 }
 
-/* Banner Nitro / Emoji */
-.d829e78297641841-container,
-.d829e78297641841-ctaContainer {
+._58ae6034fc6b31dc-guildRow {
     background-color: var(--darkPurple-background);
 }

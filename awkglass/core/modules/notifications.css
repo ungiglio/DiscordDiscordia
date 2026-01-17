@@ -1,0 +1,16 @@
+._2ea32c412048f708-unread,
+._2ea32c412048f708-wrapper:hover ._2ea32c412048f708-unread {
+    background-color: var(--highlighted-channel-color) !important;
+    border-radius: 1.5px;
+    left: -8px;
+}
+
+._908e20001ad67812-isUnread {
+    border: 1px solid var(--new-msg-divider) !important;
+}
+
+._908e20001ad67812-isUnread ._908e20001ad67812-content {
+    backdrop-filter: blur(100px);
+    background-color: var(--background-secondary);
+    color: var(--new-msg-divider) !important;
+}

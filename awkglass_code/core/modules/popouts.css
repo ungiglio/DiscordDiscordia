@@ -1,0 +1,105 @@
+/* * CORE MODULES: POPOUTS
+ * Menu contestuali, Autocomplete, Emoji Picker e Popups
+ */
+
+/* === MENU CONTESTUALI (Tasto Destro) === */
+.c1e9c47c23f12ca3-menu {
+    border: solid 1px var(--highlight);
+    border-radius: 8px;
+}
+
+.subc1e9c47c23f12ca3-menu {
+    border: solid 1px var(--highlight);
+    border-radius: 8px;
+}
+
+.c1e9c47c23f12ca3-colorDefault:hover {
+    background-color: var(--highlight);
+}
+
+/* Colori Testo Menu */
+:where(.visual-refresh) .c1e9c47c23f12ca3-colorDefault .c1e9c47c23f12ca3-label {
+    color: var(--interactive-normal);
+}
+
+:where(.visual-refresh) .c1e9c47c23f12ca3-colorDefault:hover .c1e9c47c23f12ca3-label {
+    color: white !important;
+}
+
+:where(.visual-refresh) .c1e9c47c23f12ca3-colorDanger {
+    color: var(--status-danger) !important;
+}
+
+/* === RICERCA E AUTOCOMPLETE === */
+._13533e3c5791980f-autocomplete {
+    border-radius: 8px;
+    border: 1px solid var(--highlight);
+    background-color: var(--darkPurple-background);
+}
+
+#popout_5211 {
+    /* channel search input */
+    border-radius: 8px;
+    border: 1px solid var(--highlight);
+}
+
+._55c999adcf6db265-container {
+    border-radius: 8px;
+}
+
+/* === POPOUT MESSAGGI (Pinned, Threads, Inbox) === */
+.e8b59c4b335dd2fc-messagesPopoutWrap {
+    /* Messaggi fissati */
+    border: solid 1px var(--highlight);
+    border-radius: 8px;
+    top: 8px;
+    background: rgba(24, 24, 24, 0.9);
+}
+
+.d98031d9a3e08b09-browser,
+.d9c8822889d1d4a1-container {
+    /* Threads */
+    border: solid 1px var(--highlight);
+    border-radius: 8px;
+    top: 8px;
+}
+
+._957962c2bd49881b-recentMentionsPopout {
+    /* Inbox / Notifiche */
+    border: solid 1px var(--highlight);
+    border-radius: 8px;
+    top: 8px;
+}
+
+/* === EMOJI, STICKER & GIF PICKER === */
+.c0e32c5cffed3d9f-header,
+.aeaaeb2a573807f0-inspector,
+._084343c4f11eaaab-contentWrapper,
+.b9ee0c229bc0b6bb-unicodeShortcut,
+.c0e32c5cffed3d9f-emojiPicker {
+    background: var(--darkPurple-background);
+}
+
+.c656aca9a3db31a9-header,
+.container_a45028 {
+    background-color: rgba(35, 35, 35, 0.596);
+}
+
+.fc7141859aaa98b7-emojiItem.fc7141859aaa98b7-emojiItemSelected,
+._31fc2df9348cd84a-stickerAsset:hover {
+    background-color: var(--background-message-highlight-hover);
+}
+
+._31fc2df9348cd84a-lottieCanvas {
+    border-radius: 6px;
+}
+
+/* Soundboard Picker */
+._09f65b4b8a3f8d26-picker {
+    border: solid 1px var(--highlight);
+    border-radius: 8px;
+    position: fixed;
+    bottom: 73px;
+    left: 328px;
+    background-color: var(--darkPurple-background);
+}
