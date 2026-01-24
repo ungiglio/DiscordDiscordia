@@ -273,27 +273,27 @@
 
 /* === TOOLTIPS (Hover Server/Bottoni) === */
 .tooltip_c072e6,
-.tooltip_c36707, /* Hash alternativi comuni */
+.tooltip_c36707,
 div[class*="tooltip_"] {
-    /* Sfondo trasparente scuro */
     background-color: var(--background-tertiary) !important;
-    backdrop-filter: blur(8px);
-    /* Bordo sottile colorato */
+    backdrop-filter: blur(2px);
+    padding: 4px 6px;
     border: 1px solid var(--highlight);
     border-radius: 5px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-    /* Testo */
     color: var(--text-normal);
 }
 
-/* Freccetta del tooltip (la coloriamo come il bordo o la nascondiamo) */
+/* Freccetta del tooltip */
+:is(.caret--top__5bc6a,.caret--bottom__5bc6a).caret--center__5bc6a,
+:is(.caret--left__5bc6a,.caret--right__5bc6a).caret--center__5bc6a,
 div[class*="tooltipPointer_"] {
-    border-top-color: var(--highlight) !important;
+    display: none !important;
 }
 
 /* Tooltip Contenuto interno */
 .tooltipContent_c36707,
 div[class*="tooltipContent_"] {
-    padding: 8px 12px;
-    font-weight: 600;
+    padding: 4px 6px;
+    font-weight: 200;
 }
