@@ -76,50 +76,50 @@
     fill: var(--online-color);
 }
 
-._8a031a135bfcb9ba-container {
+.container__8a031 {
     /* poll creation */
     border: 1px solid var(--highlight);
     background-color: var(--background-mentioned);
     backdrop-filter: blur(50px);
 }
 
-.f4f0eb773c27d83f-checkboxSelected {
+.checkboxSelected_f4f0eb {
     /* polls checkmarks */
     background-color: var(--highlight);
 }
 
-._4c5209741d147f1b-votePercentageBar {
+.votePercentageBar__4c520 {
     /* polls */
     background-color: var(--background-mentioned-hover);
 }
 
-._4c5209741d147f1b-answerSelectionIcon path[fill-rule=evenodd] {
+.answerSelectionIcon__4c520 path[fill-rule=evenodd] {
     /* polls checkmarks */
     fill: var(--highlight);
 }
 
-.a1443c28bb4b5d23-victorStyles {
+.victorStyles_a1443c {
     /* polls */
     --custom-poll-style-border: var(--highlight);
 }
 
-.defaultTextInputWrapper__7b848 {
+.defaultTextInputWrapper_d274ca {
     /* poll creation responses input area */
     background-color: rgba(30, 2, 46, 0.596);
 }
 
-.defaultTextInputWrapper__7b848 input {
+.defaultTextInputWrapper_d274ca input {
     /* poll creation responses input area */
     background-color: transparent;
 }
 
-.d97f896195d9f57f-addAnswerButton button {
+.addAnswerButton_d97f89 button {
     /* poll creation add response bg */
     background-color: rgba(30, 2, 46, 0.3);
     border: 1px solid var(--input-border);
 }
 
-.d97f896195d9f57f-addAnswerButton:hover button {
+.addAnswerButton_d97f89:hover button {
     /* poll creation add response bg (hover) */
     background-color: rgba(30, 2, 46, 0.9);
     border: 1px solid var(--input-border);

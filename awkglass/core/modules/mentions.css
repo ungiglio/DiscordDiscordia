@@ -5,30 +5,30 @@ original code: https://davart154.github.io/Themes/Snippets/Colored%20Mentions/Co
 */
 
 
-._5126c0cd07f243a0-mentioned[class*="c19a557985eb7793-hasReply"] {
+.mentioned__5126c[class*="c19a557985eb7793-hasReply"] {
   background-color: var(--background-mentioned);
 }
-._5126c0cd07f243a0-mentioned[class*="c19a557985eb7793-hasReply"]:hover {
+.mentioned__5126c[class*="c19a557985eb7793-hasReply"]:hover {
   background-color: var(--background-mentioned-hover) !important;
   z-index: 0;
 }
-._5126c0cd07f243a0-mentioned {
+.mentioned__5126c {
   background: none;
   z-index: 0;
 }
-._5126c0cd07f243a0-message:hover, ._5126c0cd07f243a0-message._5126c0cd07f243a0-selected {
+.message__5126c:hover, .message__5126c.selected__5126c {
   background-color: var(--bg-overlay-1,var(--background-message-hover)) !important;
 }
-.c19a557985eb7793-messageContent, .c19a557985eb7793-compact .c19a557985eb7793-contents {
+.messageContent_c19a55, .compact_c19a55 .contents_c19a55 {
   position: unset !important;
 }
-.mention, ._752971923a1e6683-roleMention {
+.mention, .roleMention__75297 {
   position: unset;
   filter: none;
 }
-.c19a557985eb7793-hasReply._5126c0cd07f243a0-mentioned:not(:has([class*="ention"])):before,
-._5126c0cd07f243a0-mentioned .mention:before,
-._5126c0cd07f243a0-mentioned ._752971923a1e6683-roleMention:before,._5126c0cd07f243a0-mentioned[class*="c19a557985eb7793-hasReply"]:before {
+.hasReply_c19a55.mentioned__5126c:not(:has([class*="ention"])):before,
+.mentioned__5126c .mention:before,
+.mentioned__5126c .roleMention__75297:before,.mentioned__5126c[class*="c19a557985eb7793-hasReply"]:before {
   content: "";
   position: absolute;
   top: 0;
@@ -39,9 +39,9 @@ original code: https://davart154.github.io/Themes/Snippets/Colored%20Mentions/Co
   filter: saturate(var(--saturation-factor,1));
   pointer-events: none;
 }
-.c19a557985eb7793-hasReply._5126c0cd07f243a0-mentioned:not(:has([class*="ention"])):after,
-._5126c0cd07f243a0-mentioned .mention:after,
-._5126c0cd07f243a0-mentioned ._752971923a1e6683-roleMention:after {
+.hasReply_c19a55.mentioned__5126c:not(:has([class*="ention"])):after,
+.mentioned__5126c .mention:after,
+.mentioned__5126c .roleMention__75297:after {
   content: "";
   position: absolute;
   inset: 0;
@@ -50,30 +50,30 @@ original code: https://davart154.github.io/Themes/Snippets/Colored%20Mentions/Co
   filter: saturate(var(--saturation-factor,1));
   pointer-events: none;
 }
-._752971923a1e6683-roleMention[style]:before {
+.roleMention__75297[style]:before {
   background-color: currentColor;
 }
-._752971923a1e6683-roleMention[style]:after {
+.roleMention__75297[style]:after {
   background: currentColor;
   opacity: 0.1;
 }
-._5126c0cd07f243a0-mentioned:before,
-._5126c0cd07f243a0-mentioned:after,
-.c19a557985eb7793-repliedMessage [class*="ention"]:before,
-.c19a557985eb7793-repliedMessage [class*="ention"]:after,
+.mentioned__5126c:before,
+.mentioned__5126c:after,
+.repliedMessage_c19a55 [class*="ention"]:before,
+.repliedMessage_c19a55 [class*="ention"]:after,
 .mention ~ [class*="ention"]:before,
 .mention ~ [class*="ention"]:after,
-._752971923a1e6683-roleMention ~ [class*="ention"]:before,
-._752971923a1e6683-roleMention ~ [class*="ention"]:after,
-._5126c0cd07f243a0-mentioned:before,
-._5126c0cd07f243a0-mentioned:after {
+.roleMention__75297 ~ [class*="ention"]:before,
+.roleMention__75297 ~ [class*="ention"]:after,
+.mentioned__5126c:before,
+.mentioned__5126c:after {
   content: unset;
 }
 
-._5126c0cd07f243a0-ephemeral:hover {
+.ephemeral__5126c:hover {
   background-color: rgba(var(--rgb-highlight), 20%) !important;
 }
 
-._5126c0cd07f243a0-replying:before {
+.replying__5126c:before {
   background: var(--highlight);
 }

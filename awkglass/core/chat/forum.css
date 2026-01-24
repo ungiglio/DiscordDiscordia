@@ -1,47 +1,47 @@
 /* * CORE CHAT: FORUM & THREADS */
 
-._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrand {
+.lookFilled__201d5.colorBrand__201d5 {
     /* forum new post button */
     background-color: var(--highlight);
     color: rgb();
 }
 
-._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrand:hover {
+.lookFilled__201d5.colorBrand__201d5:hover {
     /* forum new post button hover */
     background-color: rgb(178, 52, 255);
 }
 
-._08166c4389c22135-pinIcon {
+.pinIcon__08166 {
     /* forum pin */
     background-color: var(--status-danger);
 }
 
-._23977d5b7cef7361-reaction._23977d5b7cef7361-reactionMe {
+.reaction__23977.reactionMe__23977 {
     /* forum reaction color */
     background-color: rgba(178, 102, 255, 0.3);
     border-color: var(--highlight);
 }
 
-.f8896c4f6be18f59-reaction.f8896c4f6be18f59-reactionMe {
+.reaction_f8896c.reactionMe_f8896c {
     /* forum reaction color */
     background-color: rgba(178, 102, 255, 0.3);
     border-color: var(--highlight);
 }
 
-.f369dba7416c67f0-mainCard {
+.mainCard_f369db {
     /*forum posts cards */
     background: var(--bg-mod-faint);
     border: 1px solid var(--highlight);
     border-radius: var(--radius-md);
 }
 
-.f369dba7416c67f0-mainCard:hover {
+.mainCard_f369db:hover {
     /*forum posts cards hover */
     border: 1px solid var(--highlighted-channel-color) !important;
     background: var(--bg-mod-faint) !important;
 }
 
-.a5700d36f7c29ded-chatHeaderBar {
+.chatHeaderBar_a5700d {
     /* thread header bar (ex. blocked thread) */
     border-radius: 8px;
     background-color: var(--interactive-muted);
@@ -49,28 +49,28 @@
     border: 1px solid var(--highlight);
 }
 
-.a5700d36f7c29ded-narrow {
+.narrow_a5700d {
     /* thread header bar padding (ex. blocked thread) */
     padding: 5px 16px;
 }
 
-._9293f6b2fc12398a-themed,
-.theme-dark ._9293f6b2fc12398a-themed {
+.themed__9293f,
+.theme-dark .themed__9293f {
     border-radius: 8px 8px 0px 0px;
     background: var(--background-secondary);
 }
 
-._01ae244280823725-chatLayerWrapper {
+.chatLayerWrapper__01ae2 {
     border-radius: 8px;
     margin-right: 20px;
     background: transparent;
 }
 
-.f75fb00fb7356cbe-chat.f75fb00fb7356cbe-threadSidebarOpen {
+.chat_f75fb0.threadSidebarOpen_f75fb0 {
     border-radius: 8px;
 }
 
-._01ae244280823725-resizeHandle {
+.resizeHandle__01ae2 {
     cursor: ew-resize;
     height: 100%;
     width: var(--chat-resize-handle-width);
@@ -80,22 +80,22 @@
     background: none;
 }
 
-._01ae244280823725-container {
+.container__01ae2 {
     border-radius: 8px;
     background: var(--background-secondary);
 }
 
-._201d5e8a3c09670a-lookOutlined._201d5e8a3c09670a-colorGreen {
+.lookOutlined__201d5.colorGreen__201d5 {
     color: var(--online-color);
     border-color: var(--online-color);
 }
 
-._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorGreen {
+.lookFilled__201d5.colorGreen__201d5 {
     color: var(--white);
     background-color: var(--online-color);
 }
 
-.d9be463a3c35b91e-titleContainer ._0ed4fc708cdbac0d-input {
+.titleContainer_d9be46 .input__0ed4f {
     /* fix to forum search bg */
     background: none;
 }

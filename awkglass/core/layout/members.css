@@ -1,45 +1,45 @@
 /* * CORE LAYOUT: MEMBERS */
 
-.c6bf1b7af480dfda-header {
+.header_c6bf1b {
     background: var(--background-primary);
     border-radius: 10px;
     position: fixed;
     max-width: 451.4px;
 }
 
-._981c8ddc53ff5825-scroller {
+.scroller__981c8 {
     top: 155px;
     padding-bottom: 155px;
 }
 
-._981c8ddc53ff5825-scroller:has(div[class*="_358591fa30baeebc-warning"]) {
+.scroller__981c8:has(div[class*="_358591fa30baeebc-warning"]) {
     top: 255px;
     padding-bottom: 255px;
 }
 
-._166631599d7f960b-scroller,
-._9a73f1a84c858f76-list {
+.scroller__16663,
+.list__9a73f {
     top: 215px;
     padding-bottom: 215px;
 }
 
-._166631599d7f960b-scroller:has(div[class*="_358591fa30baeebc-warning"]),
-._9a73f1a84c858f76-container:has(._9a73f1a84c858f76-headerContainer .c6bf1b7af480dfda-header div[class*="_358591fa30baeebc-warning"]) ._9a73f1a84c858f76-list {
+.scroller__16663:has(div[class*="_358591fa30baeebc-warning"]),
+.container__9a73f:has(.headerContainer__9a73f .header_c6bf1b div[class*="_358591fa30baeebc-warning"]) .list__9a73f {
     top: 315px;
     padding-bottom: 315px;
 }
 
-._166631599d7f960b-scroller:has(div[class*="_166631599d7f960b-noticeContainer"]) {
+.scroller__16663:has(div[class*="_166631599d7f960b-noticeContainer"]) {
     top: 269px;
     padding-bottom: 269px;
 }
 
-.d80a132dc542c7a2-scroller {
+.scroller_d80a13 {
     top: 175px;
     padding-bottom: 175px;
 }
 
-.d80a132dc542c7a2-scroller:has(div[class*="_358591fa30baeebc-warning"]) {
+.scroller_d80a13:has(div[class*="_358591fa30baeebc-warning"]) {
     top: 275px;
     padding-bottom: 275px;
 }
@@ -50,18 +50,18 @@
     display: none;
 }
 
-.c8ffbb79449f399c-container {
+.container_c8ffbb {
     border-radius: 0px 0px 8px 0px;
     background: var(--background-secondary);
 }
 
-.c8ffbb79449f399c-members {
+.members_c8ffbb {
     background: transparent;
     border-radius: 0px 0px 8px 8px;
 }
 
 /* Titoli Gruppi Membri */
-.c8ffbb79449f399c-membersGroup {
+.membersGroup_c8ffbb {
     color: rgb(var(--header-cat-rgb)) !important;
     font-weight: bold;
     padding-top: 20px;

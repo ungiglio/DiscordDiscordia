@@ -1,4 +1,4 @@
-._5e434347c823b592-panels::after {
+.panels__5e434::after {
     content: var(--ver);
     color: var(--text-default);
     font-size: 11px;
@@ -14,7 +14,7 @@
     pointer-events: calc(var(--show-dev-panel-info-static) * 1);
 }
 
-._5e434347c823b592-panels:hover::after {
+.panels__5e434:hover::after {
     content: var(--ver);
     color: var(--text-default);
     font-size: 11px;

@@ -1,16 +1,16 @@
 /* * CORE LAYOUT: SIDEBAR */
 
-#app-mount ._5e434347c823b592-guilds [class*=pill] span[style*="height: 40"] {
+#app-mount .guilds__5e434 [class*=pill] span[style*="height: 40"] {
     background-color: var(--highlighted-channel-color);
 }
 
-._5e434347c823b592-sidebarList {
+.sidebarList__5e434 {
     border-radius: 10px;
     margin-left: 20px;
     border: none;
 }
 
-._5e434347c823b592-guilds {
+.guilds__5e434 {
     border-radius: 10px;
     margin: 6px;
     margin-left: 0px;
@@ -23,49 +23,49 @@
     padding: 5px;
 }
 
-._6e9f8dce4cc18de3-childWrapperNoHoverBg {
+.childWrapperNoHoverBg__6e9f8 {
     background: var(--background-primary);
 }
 
-._6e9f8dce4cc18de3-childWrapperNoHoverBg>svg {
+.childWrapperNoHoverBg__6e9f8>svg {
     display: none;
 }
 
-#app-mount ._5e434347c823b592-sidebar {
+#app-mount .sidebar__5e434 {
     border-radius: 10px;
 }
 
-.d5f3cd116f175f35-wrapper {
+.wrapper_d5f3cd {
     background-color: var(--darkPurple-background);
 }
 
-._99e7cad8d4c55236-scroller {
+.scroller__99e7c {
     background: none;
     margin: 0;
     padding-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs) + 16px);
 }
 
-._5e434347c823b592-activityPanel:has(button[aria-label*="Apri selettore di adesivi"]) {
+.activityPanel__5e434:has(button[aria-label*="Apri selettore di adesivi"]) {
     display: none;
 }
 
-._23e6b439306f125a-standardSidebarView {
+.standardSidebarView__23e6b {
     background: var(--background-primary);
 }
 
-._133bf5eea8e33a34-tabBody,
-._535437b3d3b11fd1-sidebarScrollable ._535437b3d3b11fd1-scroller,
-._23e6b439306f125a-standardSidebarView,
-._23e6b439306f125a-contentRegionScroller {
+.tabBody__133bf,
+.sidebarScrollable__53543 .scroller__53543,
+.standardSidebarView__23e6b,
+.contentRegionScroller__23e6b {
     background: none;
 }
 
-.d8f25bf4f76423e6-container {
+.container_d8f25b {
     background-color: var(--background-primary);
     color: white;
 }
 
-.d8f25bf4f76423e6-container:hover {
+.container_d8f25b:hover {
     background-color: var(--background-primary);
     color: #d8d5d5;
 }
@@ -74,12 +74,12 @@
     border-radius: 2px;
 }
 
-._6e9f8dce4cc18de3-childWrapper {
+.childWrapper__6e9f8 {
     /* discord logo color */
     color: var(--highlight);
 }
 
-._5e434347c823b592-panels {
+.panels__5e434 {
     /*personal info/status panel*/
     flex: 0 0 auto;
     background: none;
@@ -88,13 +88,13 @@
     margin-bottom: 16px;
 }
 
-._5eb9b3cc7c2b1ce8-lottieIcon {
+.lottieIcon__5eb9b {
     /* personal info/status panel icons color */
     --channel-icon: #B5BAC1;
 }
 
-.theme-dark ._37e49614b9f110a9-container,
-._37e49614b9f110a9-container {
+.theme-dark .container__37e49,
+.container__37e49 {
     /*personal info/status panel section*/
     height: 59px;
     font-size: 14px;
@@ -109,7 +109,7 @@
     background: var(--darkPurple-background);
 }
 
-.e131a99484292a19-container {
+.container_e131a9 {
     /*VC panel*/
     color: var(--header-primary);
     font-size: 14px;
@@ -122,7 +122,7 @@
     margin: 3px 0 3px 0;
 }
 
-._5e434347c823b592-activityPanel {
+.activityPanel__5e434 {
     /*activitypanel*/
     border-bottom: 1px solid var(--background-modifier-accent);
     position: relative;
@@ -132,7 +132,7 @@
     margin-bottom: 3px;
 }
 
-.theme-dark ._5dec784a68542d60-panel {
+.theme-dark .panel__5dec7 {
     /*activitypanel bg*/
     background: var(--darkPurple-background);
 }
@@ -152,12 +152,12 @@
     background: var(--bg-overlay-1, var(--darkPurple-background));
 }
 
-._133bf5eea8e33a34-tabBar ._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend {
+.tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf {
     /* add friend button */
     background-color: var(--status-danger-background);
 }
 
-._5e434347c823b592-panels::after {
+.panels__5e434::after {
     content: var(--ver);
     color: var(--text-default);
     font-size: 11px;
@@ -173,7 +173,7 @@
     pointer-events: calc(var(--show-dev-panel-info-static) * 1);
 }
 
-._5e434347c823b592-panels:hover::after {
+.panels__5e434:hover::after {
     content: var(--ver);
     color: var(--text-default);
     font-size: 11px;
@@ -189,7 +189,7 @@
     pointer-events: calc(var(--show-dev-panel-info-hover) * 1);
 }
 
-.ef3116c2da186559-wrapper {
+.wrapper_ef3116 {
     /* server list wrapper */
     padding-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs) + 1px);
     border-radius: 10px;
@@ -197,34 +197,34 @@
     margin-bottom: 0;
 }
 
-.ef3116c2da186559-scroller {
+.scroller_ef3116 {
     /* server-list spacing */
     padding: var(--space-xs) 0;
 }
 
-._9be63f0b86033228-soundButtonWrapper {
+.soundButtonWrapper__9be63 {
     /* soundbar sounds bg */
     background: var(--online-color);
     filter: brightness(75%);
 }
 
-.f1ceaca61b18918e-colorable.f1ceaca61b18918e-greenGlow,
-.f1ceaca61b18918e-colorable.f1ceaca61b18918e-greenGlow .f1ceaca61b18918e-centerIcon {
+.colorable_f1ceac.greenGlow_f1ceac,
+.colorable_f1ceac.greenGlow_f1ceac .centerIcon_f1ceac {
     /* VC active activity */
     color: var(--online-color);
 }
 
-.f1ceaca61b18918e-colorable.f1ceaca61b18918e-greenGlow {
+.colorable_f1ceac.greenGlow_f1ceac {
     /* VC active activity */
     background: rgba(var(--rgb-online-color), .2);
 }
 
-.f1ceaca61b18918e-colorable.f1ceaca61b18918e-greenGlow:hover {
+.colorable_f1ceac.greenGlow_f1ceac:hover {
     /* VC active activity */
     background: rgba(var(--rgb-online-color), .5);
 }
 
-.b962dc319e969a3f-container {
+.container_b962dc {
     background-color: var(--darkPurple-background) !important;
 }
 
@@ -232,33 +232,33 @@
     background-color: var(--highlight-darker) !important;
 }
 
-._523aa09e59621644-friendRequestsButton div {
+.friendRequestsButton__523aa div {
     /* notification inbox friend request badge background */
     background: none !important;
 }
 
-._8826425bb0684b12-card {
+.card__88264 {
     /* server events list */
     background-color: var(--background-primary);
 }
 
-._8826425bb0684b12-card:hover {
+.card__88264:hover {
     /* server events list hover */
     background-color: var(--background-secondary);
 }
 
-._581051df43c5ebb6-item {
+.item__58105 {
     /* serverlist pills */
     border-radius: 1.5px;
     width: 6.5px;
 }
 
-._290218226e53085c-eventStatusContainer svg path {
+.eventStatusContainer__29021 svg path {
     /* server events list svg color */
     fill: var(--icon-muted);
 }
 
 /* settings menu gradient */
-._409aa1aeee28d5f7-fixedContent:after {
+.fixedContent__409aa:after {
     background: linear-gradient(to bottom, var(--darkPurple-background), transparent);
 }

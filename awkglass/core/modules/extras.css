@@ -3,19 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
 
 /* === 1. ANIMAZIONI ICONE === */
-button._67645e1530f1195d-button._67645e1530f1195d-redGlow,
-span._67645e1530f1195d-button._67645e1530f1195d-redGlow {
+button.button__67645.redGlow__67645,
+span.button__67645.redGlow__67645 {
     background: none;
 }
 
-button._67645e1530f1195d-button._67645e1530f1195d-enabled._67645e1530f1195d-redGlow:hover,
-span._67645e1530f1195d-button._67645e1530f1195d-enabled._67645e1530f1195d-redGlow:hover {
+button.button__67645.enabled__67645.redGlow__67645:hover,
+span.button__67645.enabled__67645.redGlow__67645:hover {
     background-color: var(--button-secondary-background-hover);
 }
 
-._20a53846fe2e8513-avatar:hover>svg,
-._2ea32c412048f708-icon:hover,
-._972a0d22c8afa7f0-closeIcon:hover {
+.avatar__20a53:hover>svg,
+.icon__2ea32:hover,
+.closeIcon__972a0:hover {
     animation: icon1 2.5s ease-in;
     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -26,18 +26,18 @@ span._67645e1530f1195d-button._67645e1530f1195d-enabled._67645e1530f1195d-redGlo
 
 /* === 2. TITLE BAR & FONT === */
 
-._421edea01cb52e16-wordmark {
+.wordmark__421ed {
     /* Applica il font al contenitore */
     color: var(--highlighted-channel-color);
     font-family: "Pirata One", system-ui !important;
 }
 
-._421edea01cb52e16-wordmark svg {
+.wordmark__421ed svg {
     width: calc(55px*var(--show-original-title));
     height: calc(16px*var(--show-original-title));
 }
 
-._421edea01cb52e16-wordmark::after {
+.wordmark__421ed::after {
     /* Applica il font anche al testo generato */
     content: var(--custom-title-text);
     font-family: "Pirata One", system-ui !important;
@@ -49,16 +49,16 @@ span._67645e1530f1195d-button._67645e1530f1195d-enabled._67645e1530f1195d-redGlo
 }
 
 /* === 3. AVATAR & LISTE === */
-.a2f5142ba8328dfd-container {
+.container_a2f514 {
     background: rgba(0, 0, 0, 0.692);
 }
 
-._972a0d22c8afa7f0-avatarWithText & ._20a53846fe2e8513-content {
+.avatarWithText__972a0 & .content__20a53 {
     color: transparent;
 }
 
 /* === 4. PLUGIN & MODULI === */
-._6e2b9359c6f84cfd-colorDefault,
+.colorDefault__6e2b9,
 .colorSuccess__6e2b9 {
     background: var(--highlight-darker);
     --custom-notice-text: white;
@@ -68,20 +68,20 @@ span._67645e1530f1195d-button._67645e1530f1195d-enabled._67645e1530f1195d-redGlo
     margin-left: 8px;
 }
 
-.f75fb00fb7356cbe-guildSidebar {
+.guildSidebar_f75fb0 {
     border-radius: 10px;
     margin: 0 20px 0 0;
 }
 
-.c0bea05627c5dc35-outer {
+.outer_c0bea0 {
     border-radius: 10px !important;
 }
 
-._656be05658eed04d-sidebarContainer {
+.sidebarContainer__656be {
     margin: 0;
 }
 
-._656be05658eed04d-innerContainer {
+.innerContainer__656be {
     border-radius: 10%;
 }
 
@@ -93,98 +93,98 @@ span._67645e1530f1195d-button._67645e1530f1195d-enabled._67645e1530f1195d-redGlo
     backdrop-filter: blur(var(--app-blur));
 }
 
-._5bc7ed9d4097f6b5-circleIconButton {
+.circleIconButton__5bc7e {
     color: var(--highlight);
 }
 
-._5bc7ed9d4097f6b5-circleIconButton:hover {
+.circleIconButton__5bc7e:hover {
     background-color: var(--highlight);
 }
 
 /* === 5. STATI ATTIVITA' === */
-#app-mount ._44b0c28be7879b7b-wrapper rect[fill="#593695"],
-#app-mount ._44b0c28be7879b7b-wrapper rect[mask*=streaming] {
+#app-mount .wrapper__44b0c rect[fill="#593695"],
+#app-mount .wrapper__44b0c rect[mask*=streaming] {
     fill: var(--streaming-color);
 }
 
-#app-mount ._44b0c28be7879b7b-wrapper rect[fill="#45a25a"],
-#app-mount ._44b0c28be7879b7b-wrapper rect[mask*=online] {
+#app-mount .wrapper__44b0c rect[fill="#45a25a"],
+#app-mount .wrapper__44b0c rect[mask*=online] {
     fill: var(--online-color);
 }
 
-#app-mount ._44b0c28be7879b7b-wrapper rect[fill="#ca9654"],
-#app-mount ._44b0c28be7879b7b-wrapper rect[mask*=idle] {
+#app-mount .wrapper__44b0c rect[fill="#ca9654"],
+#app-mount .wrapper__44b0c rect[mask*=idle] {
     fill: var(--afk-color);
 }
 
-#app-mount ._44b0c28be7879b7b-wrapper rect[fill="#d83a42"],
-#app-mount ._44b0c28be7879b7b-wrapper rect[mask*=dnd] {
+#app-mount .wrapper__44b0c rect[fill="#d83a42"],
+#app-mount .wrapper__44b0c rect[mask*=dnd] {
     fill: var(--dnd-color);
 }
 
 /* === 6. DETTAGLI VARI === */
-._82f0793afa59e5dc-botText,
-._82f0793afa59e5dc-botTagVerified {
+.botText__82f07,
+.botTagVerified__82f07 {
     color: 39, 72, 206;
 }
 
-._1f388bcaa446c0c8-tutorialContainer ._6e9f8dce4cc18de3-childWrapper {
+.tutorialContainer__1f388 .childWrapper__6e9f8 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-image: var(--custom-logo) !important;
 }
 
-._1f388bcaa446c0c8-tutorialContainer ._6e9f8dce4cc18de3-childWrapper:hover {
+.tutorialContainer__1f388 .childWrapper__6e9f8:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-image: var(--custom-logo-hover) !important;
 }
 
-._1f388bcaa446c0c8-tutorialContainer ._6e9f8dce4cc18de3-wrapper._6e9f8dce4cc18de3-selected ._6e9f8dce4cc18de3-childWrapper {
+.tutorialContainer__1f388 .wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-image: var(--custom-logo-hover) !important;
 }
 
-._1f388bcaa446c0c8-tutorialContainer ._6e9f8dce4cc18de3-childWrapper img {
+.tutorialContainer__1f388 .childWrapper__6e9f8 img {
     display: none;
 }
 
-.avatarSpeaking__07f91,
-.avatarSpeaking__44b0c,
-._2f4f7eb58b61c328-border._2f4f7eb58b61c328-speaking {
+.avatarSpeaking_d80634,
+.avatarSpeaking_c51b4e,
+.border__2f4f7.speaking__2f4f7 {
     box-shadow: inset 0 0 0 2px var(--online-color), inset 0 0 0 3px var(--background-secondary) !important;
 }
 
-.f8896c4f6be18f59-reaction.f8896c4f6be18f59-reactionMe .f8896c4f6be18f59-reactionCount {
+.reaction_f8896c.reactionMe_f8896c .reactionCount_f8896c {
     color: var(--brand-200);
 }
 
-._23977d5b7cef7361-reactionMe ._23977d5b7cef7361-reactionCount {
+.reactionMe__23977 .reactionCount__23977 {
     color: var(--brand-200) !important;
 }
 
-._3b95d7d910416e54-mention {
+.mention__3b95d {
     border: 1.5px solid var(--status-danger);
     border-radius: 5px;
     box-shadow: none;
 }
 
-._3b95d7d910416e54-mention:active {
+.mention__3b95d:active {
     background: var(--status-danger);
     filter: brightness(80%);
 }
 
-.e2d7b8b5e6e6e751-channelNotice {
+.channelNotice_e2d7b8 {
     background: var(--background-tertiary);
     margin: 5px 5px 0px 5px;
     border-radius: 10px;
 }
 
-.e2d7b8b5e6e6e751-liveIndicator {
+.liveIndicator_e2d7b8 {
     background-color: var(--online-color);
     animation-name: livedot;
     animation-duration: 1.5s;
@@ -197,7 +197,7 @@ span._67645e1530f1195d-button._67645e1530f1195d-enabled._67645e1530f1195d-redGlo
     100% { background-color: var(--online-color); }
 }
 
-._2ea32c412048f708-iconContainerWithGuildIcon ._2894cba534d7d8a0-icon {
+.iconContainerWithGuildIcon__2ea32 .icon__2894c {
     margin-left: 0px;
     margin-top: 0px;
     width: 20px;
@@ -205,11 +205,11 @@ span._67645e1530f1195d-button._67645e1530f1195d-enabled._67645e1530f1195d-redGlo
     background: none !important;
 }
 
-._2ea32c412048f708-iconContainerWithGuildIcon ._2894cba534d7d8a0-icon > path {
+.iconContainerWithGuildIcon__2ea32 .icon__2894c > path {
     display: none;
 }
 
-._2ea32c412048f708-iconContainerWithGuildIcon ._2338f50c3988e5ec-svg {
+.iconContainerWithGuildIcon__2ea32 .svg__2338f {
     position: absolute;
     top: -6px;
     left: -10px;
@@ -219,14 +219,14 @@ span._67645e1530f1195d-button._67645e1530f1195d-enabled._67645e1530f1195d-redGlo
     contain: none;
 }
 
-._2ea32c412048f708-iconContainerWithGuildIcon ._2338f50c3988e5ec-svg foreignObject {
+.iconContainerWithGuildIcon__2ea32 .svg__2338f foreignObject {
     mask: none !important;
     overflow: hidden !important;
     border-radius: var(--radius-sm) 0 0 var(--radius-sm) !important;
     width: calc(28px + var(--space-xxs) + var(--space-xxs)) !important;
 }
 
-._2ea32c412048f708-iconContainerWithGuildIcon ._2338f50c3988e5ec-svg foreignObject ._2894cba534d7d8a0-channelGuildIcon {
+.iconContainerWithGuildIcon__2ea32 .svg__2338f foreignObject .channelGuildIcon__2894c {
     position: absolute;
     top: calc(0px - var(--space-xxs) - var(--space-xxs));
     width: calc(28px + var(--space-xxs) + var(--space-xxs)) !important;

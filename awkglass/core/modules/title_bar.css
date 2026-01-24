@@ -1,4 +1,4 @@
-.edbb22df99c39831-title::after {
+.title_edbb22::after {
     font-family: var(--custom-title-font-family);
     font-size: var(--custom-title-font-size);
     font-weight: 500;
@@ -7,6 +7,6 @@
     color: var(--text-default);
 }
 
-.edbb22df99c39831-title div {
+.title_edbb22 div {
     display: none !important;
 }

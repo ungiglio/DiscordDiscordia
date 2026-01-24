@@ -4,12 +4,12 @@
  *internalcode  AWKGLASS
 */
 
-.c8ffbb79449f399c-member {
+.member_c8ffbb {
     /* userlist */
     background: var(--background-primary);
 }
 
-.c8ffbb79449f399c-member:hover {
+.member_c8ffbb:hover {
     /* userlist hover */
     border-left: 3px solid #80848e;
     border-top: 1px solid var(--app-border-frame);
@@ -18,40 +18,40 @@
 }
 
 /* Online status */
-.c8ffbb79449f399c-member:has(rect[mask="url(#svg-mask-status-online)"]):hover,
-.c8ffbb79449f399c-member:has(rect[mask="url(#svg-mask-status-online-mobile)"]):hover {
+.member_c8ffbb:has(rect[mask="url(#svg-mask-status-online)"]):hover,
+.member_c8ffbb:has(rect[mask="url(#svg-mask-status-online-mobile)"]):hover {
     border-left: 3px solid var(--online-color);
     /* Online color */
 }
 
 /* Do Not Disturb status */
-.c8ffbb79449f399c-member:has(rect[mask="url(#svg-mask-status-dnd)"]):hover,
-.c8ffbb79449f399c-member:has(rect[mask="url(#svg-mask-status-dnd-mobile)"]):hover {
+.member_c8ffbb:has(rect[mask="url(#svg-mask-status-dnd)"]):hover,
+.member_c8ffbb:has(rect[mask="url(#svg-mask-status-dnd-mobile)"]):hover {
     border-left: 3px solid var(--dnd-color);
     /* DND color */
 }
 
 /* Idle/Inactive status */
-.c8ffbb79449f399c-member:has(rect[mask="url(#svg-mask-status-idle)"]):hover,
-.c8ffbb79449f399c-member:has(rect[mask="url(#svg-mask-status-idle-mobile)"]):hover {
+.member_c8ffbb:has(rect[mask="url(#svg-mask-status-idle)"]):hover,
+.member_c8ffbb:has(rect[mask="url(#svg-mask-status-idle-mobile)"]):hover {
     border-left: 3px solid var(--afk-color);
     /* Idle color */
 }
 
 /* Streaming status */
-.c8ffbb79449f399c-member:has(rect[mask="url(#svg-mask-status-streaming)"]):hover {
+.member_c8ffbb:has(rect[mask="url(#svg-mask-status-streaming)"]):hover {
     border-left: 3px solid var(--streaming-color);
     /* Streaming color */
 }
 
 /* Offline status */
-.c8ffbb79449f399c-member:has(rect[mask="url(#svg-mask-status-offline)"]):hover,
-.c8ffbb79449f399c-member:has(rect[mask="url(#svg-mask-status-invisible)"]):hover {
+.member_c8ffbb:has(rect[mask="url(#svg-mask-status-offline)"]):hover,
+.member_c8ffbb:has(rect[mask="url(#svg-mask-status-invisible)"]):hover {
     border-left: 3px solid #80848e;
     /* Offline color */
 }
 
-._91a9d7f7e5248a56-selected {
+.selected__91a9d {
     /* userlist selected */
     background: none;
     border-radius: 3px;
@@ -61,7 +61,7 @@
     border-right: 1px solid var(--app-border-frame);
 }
 
-._91a9d7f7e5248a56-selected ._91a9d7f7e5248a56-childContainer {
+.selected__91a9d .childContainer__91a9d {
     background: none;
 }
 
@@ -73,6 +73,6 @@
     color: var(--online-color) !important;
 }
 
-._91a9d7f7e5248a56-container {
+.container__91a9d {
     color: var(--memberlist-text);
 }

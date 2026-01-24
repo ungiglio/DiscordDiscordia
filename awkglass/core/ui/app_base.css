@@ -1,43 +1,43 @@
 /* * CORE UI: APP BASE */
 
-._960e4207cea8323e-bg {
+.bg_d4b6c5 {
     background: var(--background-image);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-._972a0d22c8afa7f0-link:hover,
-._972a0d22c8afa7f0-interactive:hover {
+.link__972a0:hover,
+.interactive__972a0:hover {
     background: var(--button-background);
     border-radius: 3px;
     color: rgb(233, 233, 233);
 }
 
-._5e434347c823b592-content {
+.content__5e434 {
     background-color: transparent;
 }
 
-.footer__214dc {
+.footer_d71945 {
     background-color: transparent !important;
     background: none;
 }
 
-.c38106a3f0c3ca76-winButton {
+.winButton_c38106 {
     background: #00000083;
     color: #fff;
     width: 35px;
     height: 30px;
 }
 
-._9293f6b2fc12398a-clickable {
+.clickable__9293f {
     background: #00000083;
     width: 35px !important;
     height: 30px !important;
     border-radius: 10px;
 }
 
-.c99c29809d200a61-clickable {
+.clickable_c99c29 {
     background: #00000083;
     width: 27px !important;
     height: 30px !important;
@@ -45,7 +45,7 @@
     justify-content: center;
 }
 
-.edbb22df99c39831-title {
+.title_edbb22 {
     background: #00000083;
     padding: 0 5px;
     height: 30px;
@@ -55,86 +55,86 @@
     justify-content: center;
 }
 
-._9293f6b2fc12398a-clickable:hover,
-.c99c29809d200a61-clickable:hover {
+.clickable__9293f:hover,
+.clickable_c99c29:hover {
     background: var(--online-color);
 }
 
-._9293f6b2fc12398a-clickable svg path,
-.c99c29809d200a61-clickable svg path {
+.clickable__9293f svg path,
+.clickable_c99c29 svg path {
     fill: #fff !important;
 }
 
-._9293f6b2fc12398a-clickable svg,
-.c99c29809d200a61-clickable svg {
+.clickable__9293f svg,
+.clickable_c99c29 svg {
     width: 16.5px !important;
     height: 16.5px !important;
 }
 
-.c38106a3f0c3ca76-winButtons {
+.winButtons_c38106 {
     gap: 0;
 }
 
-.c38106a3f0c3ca76-winButtonMinMax:hover {
+.winButtonMinMax_c38106:hover {
     background: var(--online-color);
 }
 
-.c38106a3f0c3ca76-winButtonMinMax[aria-label*="Riduci"] {
+.winButtonMinMax_c38106[aria-label*="Riduci"] {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 
-.c38106a3f0c3ca76-winButtonClose {
+.winButtonClose_c38106 {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     margin-right: 20px;
 }
 
-.c38106a3f0c3ca76-winButtonsWithDivider:before {
+.winButtonsWithDivider_c38106:before {
     display: none;
 }
 
-.platform-win ._5e434347c823b592-sidebar,
-._133bf5eea8e33a34-container,
-.f75fb00fb7356cbe-chat {
+.platform-win .sidebar__5e434,
+.container__133bf,
+.chat_f75fb0 {
     border-radius: 10px;
     margin: 0 20px;
 }
 
-._34c2c51cfce1632e-container,
-._34c2c51cfce1632e-header {
+.container__34c2c,
+.header__34c2c {
     background: var(--background-tertiary);
     border-radius: 10px;
     margin-left: 10px;
     backdrop-filter: blur(50px);
 }
 
-.ee23ac2acd215184-divider {
+.divider_ee23ac {
     height: 0;
 }
 
-._421edea01cb52e16-wordmarkWindows {
+.wordmarkWindows__421ed {
     display: none;
 }
 
-._740174f3d6a2c8fe-stackedBars,
-._5e434347c823b592-sidebar:after {
+.stackedBars__74017,
+.sidebar__5e434:after {
     background: none;
 }
 
-:where(.c0bea05627c5dc35-overlay),
-._62dd31d5e86f2841-container {
+:where(.overlay_c0bea0),
+.container__62dd3 {
     background: var(--background-tertiary);
 }
 
-._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrand,
-._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorPrimary,
-._82f0793afa59e5dc-botTagRegular,
-._6fddf2ee3574a18a-unread {
+.lookFilled__201d5.colorBrand__201d5,
+.lookFilled__201d5.colorPrimary__201d5,
+.botTagRegular__82f07,
+.unread__6fddf {
     background: var(--button-background-static);
 }
 
-._160d8e55254637e5-layers {
+.layers__160d8 {
     margin: calc(var(--app-margin) / 2) var(--app-margin) var(--app-margin) var(--app-margin);
     border-radius: var(--app-radius);
     overflow: hidden;
@@ -142,7 +142,7 @@
     backdrop-filter: blur(var(--app-blur));
 }
 
-._01ae244280823725-chatTarget:before {
+.chatTarget__01ae2:before {
     content: " ";
     position: absolute;
     width: calc(100% + var(--app-margin) * 2);
@@ -161,8 +161,8 @@
     pointer-events: none;
 }
 
-.e29cd7b93c4f1266-titleContainer:before,
-.c6bf1b7af480dfda-header:before {
+.titleContainer_e29cd7:before,
+.header_c6bf1b:before {
     content: " ";
     position: absolute;
     width: calc(100% + var(--app-margin) * 2);
@@ -181,42 +181,42 @@
     pointer-events: none;
 }
 
-._4d7bb356d058f441-wrapper ._4d7bb356d058f441-card {
+.wrapper__4d7bb .card__4d7bb {
     background-color: var(--card-color-select);
     border-radius: var(--card-radius);
     backdrop-filter: blur(var(--app-blur));
 }
 
-._421edea01cb52e16-winButton {
+.winButton__421ed {
     cursor: pointer;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
-.lookFilled__3f413.a16aea1526925c2c-select {
+.lookFilled_f6639d.select_a16aea {
     border: solid transparent;
 }
 
-.theme-dark ._37e49614b9f110a9-container,
-.container_fea832,
-.e6b7699ce8339e1c-searchBar,
-.lookFilled__3f413.a16aea1526925c2c-select,
-.f369dba7416c67f0-container,
-.connectContainer_c7f964,
-._133bf5eea8e33a34-container,
-.theme-dark ._99e7cad8d4c55236-scroller,
-.cb9592ad77576717-wrapper.cb9592ad77576717-minimum {
+.theme-dark .container__37e49,
+.container_effbe2,
+.searchBar_e6b769,
+.lookFilled_f6639d.select_a16aea,
+.container_f369db,
+.connectContainer_e2a436,
+.container__133bf,
+.theme-dark .scroller__99e7c,
+.wrapper_cb9592.minimum_cb9592 {
     background-color: var(--background-secondary);
 }
 
-._23e6b439306f125a-sidebarRegionScroller,
-._23e6b439306f125a-contentRegionScroller,
-._5ec2fb8b5de26b21-searchBar,
+.sidebarRegionScroller__23e6b,
+.contentRegionScroller__23e6b,
+.searchBar__5ec2f,
 .ae7890a1b8e75804-searchHeader,
 .a98f3b020416ad54-searchResultsWrap,
-.e6b7699ce8339e1c-privateChannels,
-._133bf5eea8e33a34-nowPlayingColumn,
-._7d20cf18f8a2784c-container,
-.ef3116c2da186559-wrapper {
+.privateChannels_e6b769,
+.nowPlayingColumn__133bf,
+.container__7d20c,
+.wrapper_ef3116 {
     background-color: var(--background-primary);
 }
 
@@ -224,37 +224,37 @@
     background-color: var(--background-secondary);
 }
 
-.f75fb00fb7356cbe-form:before,
-._740174f3d6a2c8fe-themedBackground,
+.form_f75fb0:before,
+.themedBackground__74017,
 ._80bf8435713f6adb-searchResult,
-.popoverReactionHoverBar_f84418 {
+.popoverReactionHoverBar_e986d9 {
     background: transparent;
 }
 
-.theme-dark ._9293f6b2fc12398a-children:after,
-.f75fb00fb7356cbe-form::before,
+.theme-dark .children__9293f:after,
+.form_f75fb0::before,
 ._16eb0bfd5c5a90d1-option:after {
     display: none;
 }
 
-._9443936bd3681b09-badge,
-.f369dba7416c67f0-countContainer,
-._5808f3d86030cee1-countContainer {
+.badge__94439,
+.countContainer_f369db,
+.countContainer__5808f {
     background-color: var(--highlight);
     border-color: var(--highlight);
 }
 
-.a2c9e80f6531ccc2-pill.a2c9e80f6531ccc2-selected:not(.a2c9e80f6531ccc2-disabled) {
+.pill_a2c9e8.selected_a2c9e8:not(.disabled_a2c9e8) {
     border-color: var(--highlight);
 }
 
-.a2c9e80f6531ccc2-pill.a2c9e80f6531ccc2-selected:not(.a2c9e80f6531ccc2-disabled):hover {
+.pill_a2c9e8.selected_a2c9e8:not(.disabled_a2c9e8):hover {
     background-color: var(--background-message-highlight-hover);
     border-color: var(--highlight);
 }
 
-.c08b38911b1dcc2f-main,
-._5e434347c823b592-page {
+.main_c08b38,
+.page__5e434 {
     border-radius: 10px;
     margin: 0 20px 0 0;
 }
