@@ -273,7 +273,7 @@
 
 /* === TOOLTIPS (Hover Server/Bottoni) === */
 .tooltip_c072e6,
-.tooltip__01384, /* Hash alternativi comuni */
+.c36707910f687430-tooltip, /* Hash alternativi comuni */
 div[class*="tooltip_"] {
     /* Sfondo trasparente scuro */
     background-color: var(--background-tertiary) !important;
@@ -292,7 +292,7 @@ div[class*="tooltipPointer_"] {
 }
 
 /* Tooltip Contenuto interno */
-.tooltipContent__79a2d,
+.c36707910f687430-tooltipContent,
 div[class*="tooltipContent_"] {
     padding: 8px 12px;
     font-weight: 600;
