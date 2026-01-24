@@ -6,7 +6,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    filter: blur(var(--app-blur));
 }
 
 .link__972a0:hover,
