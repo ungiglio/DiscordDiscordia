@@ -12,7 +12,7 @@
 .theme-dark,
 .theme-light {
 
-    --file-ver: "#20260117";
+    --file-ver: "#20260124";
 
     /* --- MAPPING VARIABILI UTENTE --- */
     --background-image: var(--custom-image-url);
