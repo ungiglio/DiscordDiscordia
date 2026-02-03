@@ -234,3 +234,9 @@ span.button__67645.enabled__67645.redGlow__67645:hover {
     mask-image: linear-gradient(to right, black 0%, transparent 100%);
     border-radius: 0px !important;
 }
+
+div[class*="compactInfo_"]::before {
+    content: var(--ver);
+    color: var(--text-muted);
+    font-size: 12px;
+}

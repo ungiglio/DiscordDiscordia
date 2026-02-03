@@ -191,7 +191,7 @@
 
 .wrapper_ef3116 {
     /* server list wrapper */
-    padding-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs) + 1px);
+    padding-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs) + 15px);
     border-radius: 10px;
     margin-top: 0;
     margin-bottom: 0;

@@ -41,8 +41,9 @@
     background: #00000083;
     width: 27px !important;
     height: 30px !important;
-    border-radius: 10px;
+    border-radius: 10px !important;
     justify-content: center;
+    margin: 0 !important;
 }
 
 .title_edbb22 {
@@ -57,7 +58,7 @@
 
 .clickable__9293f:hover,
 .clickable_c99c29:hover {
-    background: var(--online-color);
+    background: var(--online-color) !important;
 }
 
 .clickable__9293f svg path,
@@ -69,6 +70,11 @@
 .clickable_c99c29 svg {
     width: 16.5px !important;
     height: 16.5px !important;
+}
+
+.leading_c38106,
+.trailing_c38106 {
+    gap: 5px !important;
 }
 
 .winButtons_c38106 {
@@ -257,4 +263,36 @@
 .page__5e434 {
     border-radius: 10px;
     margin: 0 20px 0 0;
+}
+
+div[class*="backForwardButtons_"] div {
+    background: #00000083;
+    width: 35px !important;
+    height: 30px !important;
+    border-radius: 10px !important;
+    padding: 0 !important;
+}
+
+.backForwardButtons__63abb .button__63abb:not(.disabled__63abb):hover {
+    background: var(--online-color);
+    cursor: pointer !important;
+    opacity: 1 !important;
+}
+
+div[class*="backForwardButtons_"] div:hover {
+    background-color: #00000083;
+    cursor: not-allowed;
+}
+
+div[class*="backForwardButtons_"] div svg path {
+    fill: #fff !important;
+}
+
+div[class*="backForwardButtons_"] div svg {
+    width: 16.5px !important;
+    height: 16.5px !important;
+}
+
+.button__85643.smallButton__85643:hover svg {
+    background-color: transparent;
 }
