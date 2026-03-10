@@ -3,12 +3,11 @@
 .lookFilled__201d5.colorBrand__201d5 {
     /* forum new post button */
     background-color: var(--highlight);
-    color: rgb();
 }
 
 .lookFilled__201d5.colorBrand__201d5:hover {
     /* forum new post button hover */
-    background-color: rgb(178, 52, 255);
+    background-color: hsl(from var(--highlight) h s calc(l + 10));
 }
 
 .pinIcon__08166 {
@@ -16,15 +15,10 @@
     background-color: var(--status-danger);
 }
 
-.reaction__23977.reactionMe__23977 {
-    /* forum reaction color */
-    background-color: rgba(178, 102, 255, 0.3);
-    border-color: var(--highlight);
-}
-
+.reaction__23977.reactionMe__23977,
 .reaction_f8896c.reactionMe_f8896c {
     /* forum reaction color */
-    background-color: rgba(178, 102, 255, 0.3);
+    background-color: hsl(from var(--highlight) h s calc(l + 15) / 0.3);
     border-color: var(--highlight);
 }
 
@@ -96,6 +90,6 @@
 }
 
 .titleContainer_d9be46 .input__0ed4f {
-    /* fix to forum search bg */
+    /* forum search bg */
     background: none;
 }

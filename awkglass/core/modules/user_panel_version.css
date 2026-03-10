@@ -3,7 +3,7 @@
     color: var(--text-default);
     font-size: 11px;
     position: absolute;
-    font-family: Consolas;
+    font-family: "Source Code Pro";
     bottom: -21px;
     background: var(--darkPurple-background);
     padding: 5px;
@@ -19,7 +19,7 @@
     color: var(--text-default);
     font-size: 11px;
     position: absolute;
-    font-family: Consolas;
+    font-family: "Pirata One";
     bottom: -21px;
     background: var(--darkPurple-background);
     padding: 5px;
