@@ -37,7 +37,7 @@
     border-radius: 10px;
 }
 
-.clickable_c99c29 {
+.clickable__81391 {
     background: #00000083;
     width: 27px !important;
     height: 30px !important;
@@ -57,17 +57,17 @@
 }
 
 .clickable__9293f:hover,
-.clickable_c99c29:hover {
+.clickable__81391:hover {
     background: var(--online-color) !important;
 }
 
 .clickable__9293f svg path,
-.clickable_c99c29 svg path {
+.clickable__81391 svg path {
     fill: #fff !important;
 }
 
 .clickable__9293f svg,
-.clickable_c99c29 svg {
+.clickable__81391 svg {
     width: 16.5px !important;
     height: 16.5px !important;
 }
