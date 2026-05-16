@@ -15,9 +15,13 @@
     background-color: var(--highlight);
 }
 
+.message__5126c:hover .markup__75297 {
+    color: var(--text-msg-hover) !important;
+}
+
 .wrapper_f7ecac {
     /* message:hover popup */
-    background: var(--darkPurple-background);
+    background: var(--darkPurple-background) !important;
 }
 
 .wrapper_f7ecac:hover {
