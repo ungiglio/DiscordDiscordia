@@ -63,6 +63,7 @@
     --text-normal: rgb(230, 230, 230) !important;
     --text-muted: rgb(160, 160, 160) !important;
     --text-header: white !important;
+    --text-msg-hover: var(--text-normal);
     
     --icon-default: rgb(180, 180, 180) !important;
     
@@ -89,6 +90,7 @@
     --background-message-highlight-hover: rgba(var(--rgb-highlight), 40%) !important;
     --background-message-automod: rgba(var(--rgb-highlight), 20%) !important;
     --background-message-hover: rgba(20, 20, 20, 0.4) !important;
+    --message-background-hover: var(--background-message-hover) !important;
     --background-surface-high: var(--background-tertiary) !important;
     --background-surface-higher: var(--background-tertiary) !important;
     --background-base-low: var(--background-tertiary) !important;
