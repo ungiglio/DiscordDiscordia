@@ -1,7 +1,7 @@
 /**
- * @name Lande della Discordia
+ * @name Lande della Discordia (Halloween Edition)
  * @author ungiglio
- * @version 25.1
+ * @version 26.1-halloween
  * @source https://github.com/ungiglio/DiscordDiscordia/
  * @website https://ungiglio.github.io/DiscordDiscordia/
  * @description Lande della Discordia implements a glass purple and lightblue details on your client!
@@ -23,7 +23,7 @@
 :root {
     /* --- BACKGROUND AND IMAGES --- */
     /* Background Image */
-    --custom-image-url: url('https://ungiglio.github.io/DiscordDiscordia/awkglass/assets/bgImg.jpg');
+    --custom-image-url: url('https://ungiglio.github.io/DiscordDiscordia/awkglass/assets/hwBgImg.jpeg');
 
     /* Image blur (default: 8px) */
     --app-blur: 8px;
@@ -44,9 +44,9 @@
 
 
     /* --- TITLE AND ICONS CUSTOMIZATION --- */
-    --custom-title-text: "Lande della Discordia";                   /* The custom text you want to display */
-    --custom-title-font-size: 14px;                                 /* The size in pixels of the custom title text */
-    --custom-title-font-family: "Pirata One", var(--font-primary);  /* The font family of the custom title */
+    --custom-title-text: "Lande della Discordia (Halloween Edition)";   /* The custom text you want to display */
+    --custom-title-font-size: 14px;                                     /* The size in pixels of the custom title text */
+    --custom-title-font-family: "Pirata One", var(--font-primary);      /* The font family of the custom title */
 
     /* Home/DM Icon (Discord logo left top) */
     --custom-logo: url('https://ungiglio.github.io/DiscordDiscordia/awkglass/assets/LandeDiscordia.png');
@@ -55,5 +55,5 @@
     --show-dev-panel-info-static: 0; /* Set to 1 to show the static version, 0 to hide | (NOTE: for static to work also hover need to be 1) */
     --show-dev-panel-info-hover: 1; /* Set to 1 to show the static or hover version, put 0 to hide */
 
-    --current-ver: "v25.1";
+    --current-ver: "v26.1-halloween";
 }
