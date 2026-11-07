@@ -27,8 +27,12 @@
     background: var(--background-primary);
 }
 
-.childWrapperNoHoverBg_JJ-hgR>svg {
+.childWrapperNoHoverBg_JJ-hgR>svg { /* Discord logo */
     display: none;
+}
+
+.childWrapperNoHoverBg_JJ-hgR>.favoriteIcon_850pDF { /* Favorite icon */
+    display: block;
 }
 
 #app-mount .sidebar_pog62O {
