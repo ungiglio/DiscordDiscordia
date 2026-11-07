@@ -5,30 +5,30 @@ original code: https://davart154.github.io/Themes/Snippets/Colored%20Mentions/Co
 */
 
 
-.mentioned__5126c[class*="c19a557985eb7793-hasReply"] {
+.mentioned_SY_P2T[class*="c19a557985eb7793-hasReply"] {
   background-color: var(--background-mentioned);
 }
-.mentioned__5126c[class*="c19a557985eb7793-hasReply"]:hover {
+.mentioned_SY_P2T[class*="c19a557985eb7793-hasReply"]:hover {
   background-color: var(--background-mentioned-hover) !important;
   z-index: 0;
 }
-.mentioned__5126c {
+.mentioned_SY_P2T {
   background: none;
   z-index: 0;
 }
-.message__5126c:hover, .message__5126c.selected__5126c {
+.message_SY_P2T:hover, .message_SY_P2T.selected_SY_P2T {
   background-color: var(--bg-overlay-1,var(--background-message-hover)) !important;
 }
-.messageContent_c19a55, .compact_c19a55 .contents_c19a55 {
+.messageContent_2i8Bfm, .compact_2i8Bfm .contents_2i8Bfm {
   position: unset !important;
 }
-.mention, .roleMention__75297 {
+.mention, .roleMention_ku1OHH {
   position: unset;
   filter: none;
 }
-.hasReply_c19a55.mentioned__5126c:not(:has([class*="ention"])):before,
-.mentioned__5126c .mention:before,
-.mentioned__5126c .roleMention__75297:before,.mentioned__5126c[class*="c19a557985eb7793-hasReply"]:before {
+.hasReply_2i8Bfm.mentioned_SY_P2T:not(:has([class*="ention"])):before,
+.mentioned_SY_P2T .mention:before,
+.mentioned_SY_P2T .roleMention_ku1OHH:before,.mentioned_SY_P2T[class*="c19a557985eb7793-hasReply"]:before {
   content: "";
   position: absolute;
   top: 0;
@@ -39,9 +39,9 @@ original code: https://davart154.github.io/Themes/Snippets/Colored%20Mentions/Co
   filter: saturate(var(--saturation-factor,1));
   pointer-events: none;
 }
-.hasReply_c19a55.mentioned__5126c:not(:has([class*="ention"])):after,
-.mentioned__5126c .mention:after,
-.mentioned__5126c .roleMention__75297:after {
+.hasReply_2i8Bfm.mentioned_SY_P2T:not(:has([class*="ention"])):after,
+.mentioned_SY_P2T .mention:after,
+.mentioned_SY_P2T .roleMention_ku1OHH:after {
   content: "";
   position: absolute;
   inset: 0;
@@ -50,30 +50,30 @@ original code: https://davart154.github.io/Themes/Snippets/Colored%20Mentions/Co
   filter: saturate(var(--saturation-factor,1));
   pointer-events: none;
 }
-.roleMention__75297[style]:before {
+.roleMention_ku1OHH[style]:before {
   background-color: currentColor;
 }
-.roleMention__75297[style]:after {
+.roleMention_ku1OHH[style]:after {
   background: currentColor;
   opacity: 0.1;
 }
-.mentioned__5126c:before,
-.mentioned__5126c:after,
-.repliedMessage_c19a55 [class*="ention"]:before,
-.repliedMessage_c19a55 [class*="ention"]:after,
+.mentioned_SY_P2T:before,
+.mentioned_SY_P2T:after,
+.repliedMessage_2i8Bfm [class*="ention"]:before,
+.repliedMessage_2i8Bfm [class*="ention"]:after,
 .mention ~ [class*="ention"]:before,
 .mention ~ [class*="ention"]:after,
-.roleMention__75297 ~ [class*="ention"]:before,
-.roleMention__75297 ~ [class*="ention"]:after,
-.mentioned__5126c:before,
-.mentioned__5126c:after {
+.roleMention_ku1OHH ~ [class*="ention"]:before,
+.roleMention_ku1OHH ~ [class*="ention"]:after,
+.mentioned_SY_P2T:before,
+.mentioned_SY_P2T:after {
   content: unset;
 }
 
-.ephemeral__5126c:hover {
+.ephemeral_SY_P2T:hover {
   background-color: rgba(var(--rgb-highlight), 20%) !important;
 }
 
-.replying__5126c:before {
+.replying_SY_P2T:before {
   background: var(--highlight);
 }

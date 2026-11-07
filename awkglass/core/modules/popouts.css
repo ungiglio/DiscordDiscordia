@@ -1,6 +1,6 @@
 /* * CORE MODULES: POPOUTS */
 
-.picker__09f65 {
+.picker_1lN7Eh {
     /*VC soundbar*/
     border: solid 1px var(--highlight);
     border-radius: 8px;
@@ -9,27 +9,27 @@
     left: 328px;
 }
 
-.picker__09f65,
-.picker__09f65.refresh_cd703d,
-.header__0856d {
+.picker_1lN7Eh,
+.picker_1lN7Eh.refresh_cd703d,
+.header_6EKaag {
     /*VC soundbar*/
     background-color: var(--darkPurple-background);
 }
 
-.pictureInPictureVideo_e4cb9a {
+.pictureInPictureVideo_qOjco6 {
     /*mediaplayer PiP*/
     border: solid 1px var(--highlight);
     border-radius: 8px;
 }
 
-.contentWrapper__9c62c,
+.contentWrapper_Z0Mo0M,
 .modalRoot_e5da2b {
     /*VC activities*/
     border: solid 1px var(--highlight);
     border-radius: 8px;
 }
 
-.messagesPopoutWrap_e8b59c {
+.messagesPopoutWrap_6bgemo {
     /*pinned messages tab*/
     border: solid 1px var(--highlight);
     border-radius: 8px;
@@ -37,8 +37,8 @@
     background: rgba(24, 24, 24, 0.9);
 }
 
-.browser_d98031,
-.container_d9c882 {
+.browser_l-3BKx,
+.container_c0tu5x {
     /*thread tab*/
     border: solid 1px var(--highlight);
     border-radius: 8px;
@@ -52,7 +52,7 @@
     top: 8px;
 }
 
-.menu_c1e9c4 {
+.menu_M3qk4j {
     /*every right-click context menu*/
     border: solid 1px var(--highlight);
     border-radius: 8px;
@@ -64,7 +64,7 @@
     border-radius: 8px;
 }
 
-.colorDefault_c1e9c4:hover {
+.colorDefault_M3qk4j:hover {
     /*every right-click context menu hover*/
     background-color: var(--highlight);
 }
@@ -80,39 +80,39 @@
     border-radius: 8px;
 }
 
-.autocomplete__13533 {
+.autocomplete_CAMiwx {
     border-radius: 8px;
     border: 1px solid var(--highlight);
     background-color: var(--darkPurple-background);
 }
 
-.wrapper_b1e4f3 {
+.wrapper_mTknAg {
     background: var(--darkPurple-background);
 }
 
-.clickable__13533[aria-disabled=false]>.base__13533:hover {
+.clickable_CAMiwx[aria-disabled=false]>.base_CAMiwx:hover {
     border-radius: 8px;
 }
 
-.container__3dde2 {
+.container_aQ9i70 {
     background-color: rgb(24, 24, 24);
 }
 
-.popout_a16aea {
+.popout_uFkqU2 {
     background: rgba(26, 26, 26, 0.76);
     backdrop-filter: blur(50px);
 }
 
-.container__9a337.isOpen__9a337 {
+.container_x1LvFB.isOpen_x1LvFB {
     border: 1px solid var(--channel-icon);
 }
 
-.chat_f75fb0 .container__0b563 {
+.chat_z_gUBg .container_xTP3zy {
     /* channels & roles tab */
     background: none !important;
 }
 
-.pageBody__41ed7 {
+.pageBody_fTKmdS {
     /* channels & roles tab */
     margin-top: 10px;
     background: rgba(105, 15, 133, 0.8);
@@ -120,38 +120,38 @@
     border: 1px solid var(--highlighted-channel-color);
 }
 
-.chat_f75fb0 .header__0b563 {
+.chat_z_gUBg .header_xTP3zy {
     /* channels & roles tab */
     background: var(--background-secondary) !important;
     border-radius: 10px;
     border: 1px solid var(--highlighted-channel-color);
 }
 
-.header_c0e32c,
-.inspector_aeaaeb,
-.contentWrapper__08434,
-.unicodeShortcut_b9ee0c {
+.header_-sZhZn,
+.inspector_1bDrGE,
+.contentWrapper_58b0l2,
+.unicodeShortcut_ufks4w {
     /* emoji tab */
     background: var(--darkPurple-background);
 }
 
-.header_c656ac,
+.header_6c9R7U,
 .container_c18ec9 {
     /* emoji tab */
     background-color: rgba(35, 35, 35, 0.596);
 }
 
-.emojiItem_fc7141.emojiItemSelected_fc7141,
+.emojiItem_6OcK5D.emojiItemSelected_6OcK5D,
 .stickerAsset__31fc2:hover {
     /* emoji tab */
     background-color: var(--background-message-highlight-hover);
 }
 
-.emojiPicker_c0e32c {
+.emojiPicker_-sZhZn {
     background: var(--darkPurple-background);
 }
 
-.lottieCanvas__31fc2 {
+.lottieCanvas_1399Om {
     /* emoji tab canvas */
     border-radius: 6px;
 }
@@ -166,69 +166,69 @@
     background-color: var(--darkPurple-background);
 }
 
-.soundButtonInteractiveRefresh__9be63.playing__9be63 {
+.soundButtonInteractiveRefresh__9be63.playing_N99eHz {
     /* soundemoji */
     outline: 1px solid var(--highlight);
 }
 
-.inlineButton__5cc6a {
+.inlineButton_t3sUMN {
     /* soundemoji reply */
     background: var(--darkPurple-background);
 }
 
-.outer_bf1984.interactive_bf1984,
-.outer_bf1984.interactive_bf1984:hover {
+.outer_ERB-Vv.interactive_ERB-Vv,
+.outer_ERB-Vv.interactive_ERB-Vv:hover {
     background-color: var(--background-primary);
 }
 
 /* Right click menu text/hover colors */
-:where(.visual-refresh) .colorDefault_c1e9c4 .label_c1e9c4 {
+:where(.visual-refresh) .colorDefault_M3qk4j .label_M3qk4j {
     color: var(--interactive-normal);
 }
 
-:where(.visual-refresh) .colorDanger_c1e9c4:active:not(.hideInteraction_c1e9c4),
-:where(.visual-refresh) .colorDefault_c1e9c4:hover .label_c1e9c4 {
+:where(.visual-refresh) .colorDanger_M3qk4j:active:not(.hideInteraction_M3qk4j),
+:where(.visual-refresh) .colorDefault_M3qk4j:hover .label_M3qk4j {
     color: white !important;
 }
 
-:where(.visual-refresh) .colorDanger_c1e9c4.focused_c1e9c4:not(.checkboxContainer_c1e9c4):hover path {
+:where(.visual-refresh) .colorDanger_M3qk4j.focused_M3qk4j:not(.checkboxContainer_M3qk4j):hover path {
     fill: white !important;
 }
 
-:where(.visual-refresh) .colorDanger_c1e9c4.focused_c1e9c4:not(.checkboxContainer_c1e9c4) path {
+:where(.visual-refresh) .colorDanger_M3qk4j.focused_M3qk4j:not(.checkboxContainer_M3qk4j) path {
     fill: var(--status-danger) !important;
 }
 
-:where(.visual-refresh) .colorDanger_c1e9c4,
-:where(.visual-refresh) .colorDanger_c1e9c4 .label_c1e9c4 {
+:where(.visual-refresh) .colorDanger_M3qk4j,
+:where(.visual-refresh) .colorDanger_M3qk4j .label_M3qk4j {
     color: var(--status-danger) !important;
 }
 
-.popout_a16aea {
+.popout_uFkqU2 {
     border: solid 1px var(--highlight);
 }
 
-.popout_a16aea .selectedIcon_a16aea {
+.popout_uFkqU2 .selectedIcon_uFkqU2 {
     color: var(--online-color);
 }
 
-.option_a16aea {
+.option_uFkqU2 {
     background: rgba(0, 0, 0, 0);
 }
 
-.option_a16aea[aria-selected=true]:not(.option_a16aea.multi_a16aea) {
+.option_uFkqU2[aria-selected=true]:not(.option_uFkqU2.multi_uFkqU2) {
     background-color: var(--darkPurple-background);
 }
 
-:where(.visual-refresh) .option_a16aea:hover {
+:where(.visual-refresh) .option_uFkqU2:hover {
     background-color: var(--highlight);
 }
 
-.outer_ab8609 {
+.outer_rmCN9_ {
     background: black;
 }
 
-.inner_ab8609 {
+.inner_rmCN9_ {
     background: black;
 }
 
@@ -237,7 +237,7 @@
 }
 
 /* === MENU CONTESTUALI (Tasto Destro) === */
-.menu_c1e9c4 {
+.menu_M3qk4j {
     border: solid 1px var(--highlight);
     border-radius: 8px;
     background-color: black !important; /* Sfondo NERO forzato */
@@ -249,20 +249,20 @@
     background-color: black !important; /* Sfondo NERO anche per i sottomenu */
 }
 
-.colorDefault_c1e9c4:hover {
+.colorDefault_M3qk4j:hover {
     background-color: var(--highlight);
 }
 
 /* Colori Testo Menu */
-:where(.visual-refresh) .colorDefault_c1e9c4 .label_c1e9c4 {
+:where(.visual-refresh) .colorDefault_M3qk4j .label_M3qk4j {
     color: var(--interactive-normal);
 }
 
-:where(.visual-refresh) .colorDefault_c1e9c4:hover .label_c1e9c4 {
+:where(.visual-refresh) .colorDefault_M3qk4j:hover .label_M3qk4j {
     color: white !important;
 }
 
-.picker__09f65 {
+.picker_1lN7Eh {
     border: solid 1px var(--highlight);
     border-radius: 8px;
     position: fixed;
@@ -273,7 +273,7 @@
 
 /* === TOOLTIPS (Hover Server/Bottoni) === */
 .tooltip_c072e6,
-.tooltip_c36707,
+.tooltip_3_v8qp,
 div[class*="tooltip_"] {
     background-color: var(--background-tertiary) !important;
     backdrop-filter: blur(2px);
@@ -285,21 +285,21 @@ div[class*="tooltip_"] {
 }
 
 /* Freccetta del tooltip */
-:is(.caret--top__5bc6a,.caret--bottom__5bc6a).caret--center__5bc6a,
-:is(.caret--left__5bc6a,.caret--right__5bc6a).caret--center__5bc6a,
+:is(.caret--top__0b5f9,.caret--bottom__0b5f9).caret--center__0b5f9,
+:is(.caret--left__0b5f9,.caret--right__0b5f9).caret--center__0b5f9,
 div[class*="tooltipPointer_"] {
     display: none !important;
 }
 
 /* Tooltip Contenuto interno */
-.tooltipContent_c36707,
+.tooltipContent_3_v8qp,
 div[class*="tooltipContent_"] {
     padding: 4px 6px;
     font-weight: 200;
 }
 
 /* Pulsanti */
-.active_a22cb0 {
+.active_F7qvhY {
     background-color: var(--button-background-static) !important;
     border: 1px solid var(--button-background-static) !important;
 }

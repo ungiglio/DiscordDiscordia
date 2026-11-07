@@ -1,15 +1,15 @@
-.unread__2ea32,
-.wrapper__2ea32:hover .unread__2ea32 {
+.unread_TNyK-N,
+.wrapper_TNyK-N:hover .unread_TNyK-N {
     background-color: var(--highlighted-channel-color) !important;
     border-radius: 1.5px;
     left: -8px;
 }
 
-.isUnread__908e2 {
+.isUnread_4TfzT5 {
     border: 1px solid var(--new-msg-divider) !important;
 }
 
-.isUnread__908e2 .content__908e2 {
+.isUnread_4TfzT5 .content_4TfzT5 {
     backdrop-filter: blur(100px);
     background-color: var(--background-secondary);
     color: var(--new-msg-divider) !important;

@@ -76,29 +76,29 @@
     fill: var(--online-color);
 }
 
-.container__8a031 {
+.container_dvN-MP {
     /* poll creation */
     border: 1px solid var(--highlight);
     background-color: var(--background-mentioned);
     backdrop-filter: blur(50px) !important;
 }
 
-.checkboxSelected_f4f0eb {
+.checkboxSelected_SZxRc8 {
     /* polls checkmarks */
     background-color: var(--highlight);
 }
 
-.votePercentageBar__4c520 {
+.votePercentageBar_D4-WfD {
     /* polls */
     background-color: var(--background-mentioned-hover);
 }
 
-.answerSelectionIcon__4c520 path[fill-rule=evenodd] {
+.answerSelectionIcon_D4-WfD path[fill-rule=evenodd] {
     /* polls checkmarks */
     fill: var(--highlight);
 }
 
-.victorStyles_a1443c {
+.victorStyles_JVBjO_ {
     /* polls */
     --custom-poll-style-border: var(--highlight);
 }
@@ -113,13 +113,13 @@
     background-color: transparent;
 }
 
-.addAnswerButton_d97f89 button {
+.addAnswerButton_mCABKp button {
     /* poll creation add response bg */
     background-color: rgba(30, 2, 46, 0.3);
     border: 1px solid var(--input-border);
 }
 
-.addAnswerButton_d97f89:hover button {
+.addAnswerButton_mCABKp:hover button {
     /* poll creation add response bg (hover) */
     background-color: rgba(30, 2, 46, 0.9);
     border: 1px solid var(--input-border);

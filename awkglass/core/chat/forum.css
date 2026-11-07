@@ -1,16 +1,16 @@
 /* * CORE CHAT: FORUM & THREADS */
 
-.lookFilled__201d5.colorBrand__201d5 {
+.lookFilled_9OQtot.colorBrand_9OQtot {
     /* forum new post button */
     background-color: var(--highlight);
 }
 
-.lookFilled__201d5.colorBrand__201d5:hover {
+.lookFilled_9OQtot.colorBrand_9OQtot:hover {
     /* forum new post button hover */
     background-color: hsl(from var(--highlight) h s calc(l + 10));
 }
 
-.pinIcon__08166 {
+.pinIcon_nLtnFF {
     /* forum pin */
     background-color: var(--status-danger);
 }
@@ -22,14 +22,14 @@
     border-color: var(--highlight);
 }
 
-.mainCard_f369db {
+.mainCard_BkGrJJ {
     /*forum posts cards */
     background: var(--bg-mod-faint);
     border: 1px solid var(--highlight);
     border-radius: var(--radius-md);
 }
 
-.mainCard_f369db:hover {
+.mainCard_BkGrJJ:hover {
     /*forum posts cards hover */
     border: 1px solid var(--highlighted-channel-color) !important;
     background: var(--bg-mod-faint) !important;
@@ -48,23 +48,23 @@
     padding: 5px 16px;
 }
 
-.themed__9293f,
-.theme-dark .themed__9293f {
+.themed_ybUK7Z,
+.theme-dark .themed_ybUK7Z {
     border-radius: 8px 8px 0px 0px;
     background: var(--background-secondary);
 }
 
-.chatLayerWrapper__01ae2 {
+.chatLayerWrapper_FrbQJp {
     border-radius: 8px;
     margin-right: 20px;
     background: transparent;
 }
 
-.chat_f75fb0.threadSidebarOpen_f75fb0 {
+.chat_z_gUBg.threadSidebarOpen_z_gUBg {
     border-radius: 8px;
 }
 
-.resizeHandle__01ae2 {
+.resizeHandle_FrbQJp {
     cursor: ew-resize;
     height: 100%;
     width: var(--chat-resize-handle-width);
@@ -74,22 +74,22 @@
     background: none;
 }
 
-.container__01ae2 {
+.container_FrbQJp {
     border-radius: 8px;
     background: var(--background-secondary);
 }
 
-.lookOutlined__201d5.colorGreen__201d5 {
+.lookOutlined_9OQtot.colorGreen_9OQtot {
     color: var(--online-color);
     border-color: var(--online-color);
 }
 
-.lookFilled__201d5.colorGreen__201d5 {
+.lookFilled_9OQtot.colorGreen_9OQtot {
     color: var(--white);
     background-color: var(--online-color);
 }
 
-.titleContainer_d9be46 .input__0ed4f {
+.titleContainer_owUmX8 .input_b-mzk1 {
     /* forum search bg */
     background: none;
 }

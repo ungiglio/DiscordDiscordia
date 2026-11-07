@@ -3,19 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
 
 /* === 1. ANIMAZIONI ICONE === */
-button.button__67645.redGlow__67645,
-span.button__67645.redGlow__67645 {
+button.button_Y-8oZW.redGlow_Y-8oZW,
+span.button_Y-8oZW.redGlow_Y-8oZW {
     background: none;
 }
 
-button.button__67645.enabled__67645.redGlow__67645:hover,
-span.button__67645.enabled__67645.redGlow__67645:hover {
+button.button_Y-8oZW.enabled_Y-8oZW.redGlow_Y-8oZW:hover,
+span.button_Y-8oZW.enabled_Y-8oZW.redGlow_Y-8oZW:hover {
     background-color: var(--button-secondary-background-hover);
 }
 
-.avatar__20a53:hover>svg,
-.icon__2ea32:hover,
-.closeIcon__972a0:hover {
+.avatar_TBNqol:hover>svg,
+.icon_TNyK-N:hover,
+.closeIcon_zln_tS:hover {
     animation: icon1 2.5s ease-in;
     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -49,16 +49,16 @@ span.button__67645.enabled__67645.redGlow__67645:hover {
 }
 
 /* === 3. AVATAR & LISTE === */
-.container_a2f514 {
+.container_oDjP9R {
     background: rgba(0, 0, 0, 0.692);
 }
 
-.avatarWithText__972a0 & .content__20a53 {
+.avatarWithText_zln_tS & .content_TBNqol {
     color: transparent;
 }
 
 /* === 4. PLUGIN & MODULI === */
-.colorDefault__6e2b9,
+.colorDefault_Q02kKo,
 .colorSuccess__6e2b9 {
     background: var(--highlight-darker);
     --custom-notice-text: white;
@@ -68,20 +68,20 @@ span.button__67645.enabled__67645.redGlow__67645:hover {
     margin-left: 8px;
 }
 
-.guildSidebar_f75fb0 {
+.guildSidebar_z_gUBg {
     border-radius: 10px;
     margin: 0 20px 0 0;
 }
 
-.outer_c0bea0 {
+.outer_P1YEjQ {
     border-radius: 10px !important;
 }
 
-.sidebarContainer__656be {
+.sidebarContainer_MLLsfk {
     margin: 0;
 }
 
-.innerContainer__656be {
+.innerContainer_MLLsfk {
     border-radius: 10%;
 }
 
@@ -93,69 +93,69 @@ span.button__67645.enabled__67645.redGlow__67645:hover {
     backdrop-filter: blur(var(--app-blur));
 }
 
-.circleIconButton__5bc7e {
+.circleIconButton_g8YUxD {
     color: var(--highlight);
 }
 
-.circleIconButton__5bc7e:hover {
+.circleIconButton_g8YUxD:hover {
     background-color: var(--highlight);
 }
 
 /* === 5. STATI ATTIVITA' === */
-#app-mount .wrapper__44b0c rect[fill="#593695"],
-#app-mount .wrapper__44b0c rect[mask*=streaming] {
+#app-mount .wrapper_XpIUHy rect[fill="#593695"],
+#app-mount .wrapper_XpIUHy rect[mask*=streaming] {
     fill: var(--streaming-color);
 }
 
-#app-mount .wrapper__44b0c rect[fill="#45a25a"],
-#app-mount .wrapper__44b0c rect[mask*=online] {
+#app-mount .wrapper_XpIUHy rect[fill="#45a25a"],
+#app-mount .wrapper_XpIUHy rect[mask*=online] {
     fill: var(--online-color);
 }
 
-#app-mount .wrapper__44b0c rect[fill="#ca9654"],
-#app-mount .wrapper__44b0c rect[mask*=idle] {
+#app-mount .wrapper_XpIUHy rect[fill="#ca9654"],
+#app-mount .wrapper_XpIUHy rect[mask*=idle] {
     fill: var(--afk-color);
 }
 
-#app-mount .wrapper__44b0c rect[fill="#d83a42"],
-#app-mount .wrapper__44b0c rect[mask*=dnd] {
+#app-mount .wrapper_XpIUHy rect[fill="#d83a42"],
+#app-mount .wrapper_XpIUHy rect[mask*=dnd] {
     fill: var(--dnd-color);
 }
 
 /* === 6. DETTAGLI VARI === */
-.botText__82f07,
-.botTagVerified__82f07 {
+.botText_feVUtO,
+.botTagVerified_feVUtO {
     color: 39, 72, 206;
 }
 
-.tutorialContainer__1f388 .childWrapper__6e9f8 {
+.tutorialContainer_1IyMuq .childWrapper_JJ-hgR {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-image: var(--custom-logo) !important;
 }
 
-.tutorialContainer__1f388 .childWrapper__6e9f8:hover {
+.tutorialContainer_1IyMuq .childWrapper_JJ-hgR:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-image: var(--custom-logo-hover) !important;
 }
 
-.tutorialContainer__1f388 .wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 {
+.tutorialContainer_1IyMuq .wrapper_JJ-hgR.selected_JJ-hgR .childWrapper_JJ-hgR {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-image: var(--custom-logo-hover) !important;
 }
 
-.tutorialContainer__1f388 .childWrapper__6e9f8 img {
+.tutorialContainer_1IyMuq .childWrapper_JJ-hgR img {
     display: none;
 }
 
 .avatarSpeaking_d80634,
 .avatarSpeaking_c51b4e,
-.border__2f4f7.speaking__2f4f7 {
+.border_7NOr2f.speaking__2f4f7 {
     box-shadow: inset 0 0 0 2px var(--online-color), inset 0 0 0 3px var(--background-secondary) !important;
 }
 
@@ -167,18 +167,18 @@ span.button__67645.enabled__67645.redGlow__67645:hover {
     color: var(--brand-200) !important;
 }
 
-.mention__3b95d {
+.mention_oJAkDB {
     border: 1.5px solid var(--status-danger);
     border-radius: 5px;
     box-shadow: none;
 }
 
-.mention__3b95d:active {
+.mention_oJAkDB:active {
     background: var(--status-danger);
     filter: brightness(80%);
 }
 
-.channelNotice_e2d7b8 {
+.channelNotice_hVh8FI {
     background: var(--background-primary);
     margin: 5px 5px 0px 5px;
     border-radius: 10px;
@@ -186,7 +186,7 @@ span.button__67645.enabled__67645.redGlow__67645:hover {
     backdrop-filter: blur(var(--app-blur));
 }
 
-.liveIndicator_e2d7b8 {
+.liveIndicator_hVh8FI {
     background-color: var(--online-color);
     animation-name: livedot;
     animation-duration: 1.5s;
@@ -199,7 +199,7 @@ span.button__67645.enabled__67645.redGlow__67645:hover {
     100% { background-color: var(--online-color); }
 }
 
-.iconContainerWithGuildIcon__2ea32 .icon__2894c {
+.iconContainerWithGuildIcon__2ea32 .icon_NKPsbl {
     margin-left: 0px;
     margin-top: 0px;
     width: 20px;
@@ -207,11 +207,11 @@ span.button__67645.enabled__67645.redGlow__67645:hover {
     background: none !important;
 }
 
-.iconContainerWithGuildIcon__2ea32 .icon__2894c > path {
+.iconContainerWithGuildIcon__2ea32 .icon_NKPsbl > path {
     display: none;
 }
 
-.iconContainerWithGuildIcon__2ea32 .svg__2338f {
+.iconContainerWithGuildIcon__2ea32 .svg_SZ8p4i {
     position: absolute;
     top: -6px;
     left: -10px;
@@ -221,14 +221,14 @@ span.button__67645.enabled__67645.redGlow__67645:hover {
     contain: none;
 }
 
-.iconContainerWithGuildIcon__2ea32 .svg__2338f foreignObject {
+.iconContainerWithGuildIcon__2ea32 .svg_SZ8p4i foreignObject {
     mask: none !important;
     overflow: hidden !important;
     border-radius: var(--radius-sm) 0 0 var(--radius-sm) !important;
     width: calc(28px + var(--space-xxs) + var(--space-xxs)) !important;
 }
 
-.iconContainerWithGuildIcon__2ea32 .svg__2338f foreignObject .channelGuildIcon__2894c {
+.iconContainerWithGuildIcon__2ea32 .svg_SZ8p4i foreignObject .channelGuildIcon_NKPsbl {
     position: absolute;
     top: calc(0px - var(--space-xxs) - var(--space-xxs));
     width: calc(28px + var(--space-xxs) + var(--space-xxs)) !important;

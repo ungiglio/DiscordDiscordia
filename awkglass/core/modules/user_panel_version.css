@@ -1,4 +1,4 @@
-.panels__5e434::after {
+.panels_pog62O::after {
     content: var(--ver);
     color: var(--text-default);
     font-size: 11px;
@@ -14,7 +14,7 @@
     pointer-events: calc(var(--show-dev-panel-info-static) * 1);
 }
 
-.panels__5e434:hover::after {
+.panels_pog62O:hover::after {
     content: var(--ver);
     color: var(--text-default);
     font-size: 11px;

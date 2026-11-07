@@ -26,8 +26,8 @@
     fill: whitesmoke !important;
 }
 
-.input__0ed4f,
-.input__0ed4f {
+.input_b-mzk1,
+.input_b-mzk1 {
     /* settings inputs bg color */
     background-color: hsl(from var(--darkPurple-background) h s l / 0.3);
 }
@@ -42,20 +42,20 @@
     background-color: var(--online-color) !important;
 }
 
-.focusLock__49fc1 {
+.focusLock__KoJTP {
     /* vencord plugin settings/info */
     background: rgba(255, 255, 255, 0);
 }
 
-.large__49fc1,
-.medium__49fc1,
-.small__49fc1,
+.large__KoJTP,
+.medium__KoJTP,
+.small__KoJTP,
 .modal_b545d5,
-.form__918e5,
+.form_NP5Wv5,
 .oauth2ModalWrapper_c2b22e,
 .bd-modal-root,
-.prompt_fe70ca,
-.root__49fc1 {
+.prompt_8Ei6w_,
+.root__KoJTP {
     /* modal theme */
     background: var(--background-mentioned-hover);
     border-radius: 10px;
@@ -63,15 +63,15 @@
     backdrop-filter: blur(50px);
 }
 
-.container_b7f4b4,
-.reactors_b7f4b4 {
+.container_quI2qP,
+.reactors_quI2qP {
     /* reactions modal bg theme */
     background: rgba(105, 15, 133, 0.8);
 }
 
-.header_d0b769,
+.header_JG2DGL,
 .footer_f24a96,
-.footer__49fc1,
+.footer__KoJTP,
 .bd-modal-footer {
     /* modal footer color */
     background-color: transparent;
@@ -97,7 +97,7 @@
     background: url(https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/bluetick.svg) no-repeat;
 }
 
-.container__9a9f9 {
+.container_aTnRjo {
     /* save settings banner */
     background-color: var(--darkPurple-background);
     border: 1px solid var(--highlight);
@@ -109,27 +109,27 @@
     background-color: var(--darkPurple-background);
 }
 
-.icon_c9d15c path {
+.icon_HigqCD path {
     fill: var(--online-color);
 }
 
-.notice__6e2b9 {
+.notice_Q02kKo {
     /* Streamer mode bar */
     border-radius: 10px;
     margin: 5px 20px 5px 10px;
 }
 
-.container_cb32c7 {
+.container_LekV6N {
     /* commands/apps/activities panel */
     background-color: var(--background-tertiary);
 }
 
-.reactionSelected_b7f4b4 {
+.reactionSelected_quI2qP {
     /* reaction selected */
     border: 1px solid var(--border-strong);
 }
 
-.container__9a337.isOpen__9a337 {
+.container_x1LvFB.isOpen_x1LvFB {
     border: 1px solid var(--border-strong);
 }
 
@@ -154,24 +154,24 @@
     background: var(--background-secondary);
 }
 
-.carouselModal_d3a6f0 {
+.carouselModal_7QK1F9 {
     /* images modal */
     border: none !important;
 }
 
-.actionButtons_cc1819,
-.closeButton__6088c .buttonInner_aec7ab {
+.actionButtons_Q2cxvN,
+.closeButton_QGyCSa .buttonInner_zpnerZ {
     /* images modal buttons */
     border: 1px solid var(--highlight);
 }
 
 .actionButton_dda074:hover,
-.buttonInner_aec7ab:hover {
+.buttonInner_zpnerZ:hover {
     /* images modal buttons hover */
     background-color: var(--highlight-darker);
 }
 
-:root:has(.carouselModal_d3a6f0:not([hidden]):not([style*="display: none"])) .winButton_c38106 {
+:root:has(.carouselModal_7QK1F9:not([hidden]):not([style*="display: none"])) .winButton_3zSH5d {
     /* images modal windows buttons restyle */
     border-top: 1px solid var(--highlight);
     border-bottom: 1px solid var(--highlight);
