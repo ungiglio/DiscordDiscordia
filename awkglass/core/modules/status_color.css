@@ -1,0 +1,81 @@
+/* User Panel Status Selector */
+foreignObject[mask="url(#svg-mask-status-online)"] .status_PlwcO5,
+foreignObject[mask="url(#svg-mask-status-online-mobile)"] .status_PlwcO5 {
+    background-color: var(--online-color) !important;
+}
+
+foreignObject[mask="url(#svg-mask-status-dnd)"] .status_PlwcO5,
+foreignObject[mask="url(#svg-mask-status-dnd-mobile)"] .status_PlwcO5 {
+    background-color: var(--dnd-color) !important;
+}
+
+foreignObject[mask="url(#svg-mask-status-idle)"] .status_PlwcO5,
+foreignObject[mask="url(#svg-mask-status-idle-mobile)"] .status_PlwcO5 {
+    background-color: var(--afk-color) !important;
+}
+
+foreignObject[mask="url(#svg-mask-status-streaming)"] .status_PlwcO5 {
+    background-color: var(--streaming-color) !important;
+}
+
+foreignObject[mask="url(#svg-mask-status-offline)"] .status_PlwcO5,
+foreignObject[mask="url(#svg-mask-status-invisible)"] .status_PlwcO5 {
+    background-color: #80848e !important;
+}
+
+/* Userlist status color border */
+/* Online status */
+.member_86es0b:has(rect[mask="url(#svg-mask-status-online)"]):hover,
+.member_86es0b:has(rect[mask="url(#svg-mask-status-online-mobile)"]):hover {
+    border-left: 3px solid var(--online-color);
+    /* Online color */
+}
+
+/* Do Not Disturb status */
+.member_86es0b:has(rect[mask="url(#svg-mask-status-dnd)"]):hover,
+.member_86es0b:has(rect[mask="url(#svg-mask-status-dnd-mobile)"]):hover {
+    border-left: 3px solid var(--dnd-color);
+    /* DND color */
+}
+
+/* Idle/Inactive status */
+.member_86es0b:has(rect[mask="url(#svg-mask-status-idle)"]):hover,
+.member_86es0b:has(rect[mask="url(#svg-mask-status-idle-mobile)"]):hover {
+    border-left: 3px solid var(--afk-color);
+    /* Idle color */
+}
+
+/* Streaming status */
+.member_86es0b:has(rect[mask="url(#svg-mask-status-streaming)"]):hover {
+    border-left: 3px solid var(--streaming-color);
+    /* Streaming color */
+}
+
+/* Offline status */
+.member_86es0b:has(rect[mask="url(#svg-mask-status-offline)"]):hover,
+.member_86es0b:has(rect[mask="url(#svg-mask-status-invisible)"]):hover {
+    border-left: 3px solid #80848e;
+    /* Offline color */
+}
+
+
+/* User Panel Status dot / Userlist Status dot */
+#app-mount .wrapper_XpIUHy rect[fill="#593695"],
+#app-mount .wrapper_XpIUHy rect[mask*=streaming] {
+    fill: var(--streaming-color);
+}
+
+#app-mount .wrapper_XpIUHy rect[fill="#45a25a"],
+#app-mount .wrapper_XpIUHy rect[mask*=online] {
+    fill: var(--online-color);
+}
+
+#app-mount .wrapper_XpIUHy rect[fill="#ca9654"],
+#app-mount .wrapper_XpIUHy rect[mask*=idle] {
+    fill: var(--afk-color);
+}
+
+#app-mount .wrapper_XpIUHy rect[fill="#d83a42"],
+#app-mount .wrapper_XpIUHy rect[mask*=dnd] {
+    fill: var(--dnd-color);
+}
