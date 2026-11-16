@@ -17,39 +17,7 @@
     border-right: 1px solid var(--app-border-frame);
 }
 
-/* Online status */
-.member_86es0b:has(rect[mask="url(#svg-mask-status-online)"]):hover,
-.member_86es0b:has(rect[mask="url(#svg-mask-status-online-mobile)"]):hover {
-    border-left: 3px solid var(--online-color);
-    /* Online color */
-}
-
-/* Do Not Disturb status */
-.member_86es0b:has(rect[mask="url(#svg-mask-status-dnd)"]):hover,
-.member_86es0b:has(rect[mask="url(#svg-mask-status-dnd-mobile)"]):hover {
-    border-left: 3px solid var(--dnd-color);
-    /* DND color */
-}
-
-/* Idle/Inactive status */
-.member_86es0b:has(rect[mask="url(#svg-mask-status-idle)"]):hover,
-.member_86es0b:has(rect[mask="url(#svg-mask-status-idle-mobile)"]):hover {
-    border-left: 3px solid var(--afk-color);
-    /* Idle color */
-}
-
-/* Streaming status */
-.member_86es0b:has(rect[mask="url(#svg-mask-status-streaming)"]):hover {
-    border-left: 3px solid var(--streaming-color);
-    /* Streaming color */
-}
-
-/* Offline status */
-.member_86es0b:has(rect[mask="url(#svg-mask-status-offline)"]):hover,
-.member_86es0b:has(rect[mask="url(#svg-mask-status-invisible)"]):hover {
-    border-left: 3px solid #80848e;
-    /* Offline color */
-}
+/* See status_color.css for status colors border */
 
 .selected_J1Adu_ {
     /* userlist selected */
