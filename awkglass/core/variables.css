@@ -68,6 +68,7 @@
     --text-muted: rgb(160, 160, 160) !important;
     --text-header: white !important;
     --text-msg-hover: var(--text-normal);
+    --text-brand: var(--text-lilac);
     
     --icon-default: rgb(180, 180, 180) !important;
     
