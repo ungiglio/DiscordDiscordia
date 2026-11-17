@@ -6,6 +6,8 @@
     --red-new-50: var(--status-danger) !important;
     --red-new-60: var(--status-danger) !important;
     --red-new-65: var(--status-danger) !important;
+    --brand-360: var(--text-lilac) !important;
+    --brand-500: var(--highlight) !important;
 }
 
 :root,
@@ -55,6 +57,7 @@
     --box-shadow: 0 0 10px 0px black;
     --spoiler-hidden-background: var(--custom-spoiler-color) !important;
     --spoiler-hidden-background-hover: var(--highlight) !important;
+    --custom-input-focus-border-color: var(--highlight) !important;
     
     /* --- SCROLLBARS --- */
     --scrollbar-thin-thumb: var(--highlight) !important;
@@ -80,6 +83,7 @@
 
     --text-feedback-positive : var(--online-color) !important;
     --control-primary-background-default: var(--highlight-darker) !important;
+    --control-primary-background-hover: rgba(var(--rgb-highlight), 70%) !important;
 
     /* --- LOGHI E BRAND --- */
     --logo-primary: var(--highlight) !important;
@@ -111,6 +115,7 @@
     
     --button-positive-background: rgba(var(--rgb-online-color), 20%) !important;
     --button-positive-background-hover: rgba(var(--rgb-online-color), 70%) !important;
+    --control-connected-background-hover: rgba(var(--rgb-online-color), 70%) !important;
     
     --button-primary-background: rgba(var(--rgb-highlight), 95%) !important;
     --button-primary-background-hover: rgba(var(--rgb-highlight), 70%) !important;
