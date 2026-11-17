@@ -118,6 +118,7 @@
     --button-positive-background: rgba(var(--rgb-online-color), 20%) !important;
     --button-positive-background-hover: rgba(var(--rgb-online-color), 70%) !important;
     --control-connected-background-hover: rgba(var(--rgb-online-color), 70%) !important;
+    --control-connected-background-active: rgba(var(--rgb-online-color), 70%) !important;
     
     --button-primary-background: rgba(var(--rgb-highlight), 95%) !important;
     --button-primary-background-hover: rgba(var(--rgb-highlight), 70%) !important;
