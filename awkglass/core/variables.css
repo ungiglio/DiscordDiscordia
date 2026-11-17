@@ -12,7 +12,7 @@
 .theme-dark,
 .theme-light {
 
-    --file-ver: "#20261116";
+    --file-ver: "#20261117";
 
     /* --- MAPPING VARIABILI UTENTE --- */
     --background-image: var(--custom-image-url);
@@ -39,6 +39,7 @@
 
     /* --- BACKGROUND LAYERS --- */
     --background-primary: rgba(24, 24, 24, 0.26) !important;
+    --background-primary-solid: #1C1A1E !important;
     --background-secondary: rgba(26, 26, 26, 0.500) !important;
     --background-tertiary: rgba(26, 26, 26, 0.815) !important;
     --background-modifier-hover: rgba(20, 20, 20, 0.500);
