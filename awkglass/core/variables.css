@@ -57,6 +57,7 @@
     --box-shadow: 0 0 10px 0px black;
     --spoiler-hidden-background: var(--custom-spoiler-color) !important;
     --spoiler-hidden-background-hover: var(--highlight) !important;
+    --custom-input-border-color: var(--highlight) !important;
     --custom-input-focus-border-color: var(--highlight) !important;
     
     /* --- SCROLLBARS --- */
@@ -68,7 +69,7 @@
     --text-muted: rgb(160, 160, 160) !important;
     --text-header: white !important;
     --text-msg-hover: var(--text-normal);
-    --text-brand: var(--text-lilac);
+    --text-brand: var(--text-lilac) !important;
     
     --icon-default: rgb(180, 180, 180) !important;
     
