@@ -84,7 +84,7 @@
 
     --text-feedback-positive : var(--online-color) !important;
     --control-primary-background-default: var(--highlight-darker) !important;
-    --control-primary-background-hover: rgba(var(--rgb-highlight), 70%) !important;
+    --control-primary-background-hover: hsl(from var(--highlight) calc(h + 15) s calc(l - 35) / 70%) !important;
 
     /* --- LOGHI E BRAND --- */
     --logo-primary: var(--highlight) !important;
