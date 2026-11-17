@@ -1,13 +1,12 @@
 /* * CORE LAYOUT: MEMBERS */
 
 .header_tLZg6c {
-    background: var(--background-primary);
+    background: var(--background-primary-solid);
     border-radius: 10px;
-    position: fixed;
-    max-width: 451.4px;
+    min-width: 451.4px;
 }
 
-.scroller_cXmH6r {
+/*.scroller_cXmH6r {
     top: 155px;
     padding-bottom: 155px;
 }
@@ -22,6 +21,7 @@
     top: 215px;
     padding-bottom: 215px;
 }
+*/
 
 .scroller_kyu-6S:has(div[class*="_358591fa30baeebc-warning"]),
 .container_mssHMP:has(.headerContainer_mssHMP .header_tLZg6c div[class*="_358591fa30baeebc-warning"]) .list_mssHMP {
@@ -34,6 +34,7 @@
     padding-bottom: 269px;
 }
 
+/*
 .scroller_xTpzSX {
     top: 175px;
     padding-bottom: 175px;
@@ -43,6 +44,7 @@
     top: 275px;
     padding-bottom: 275px;
 }
+*/
 
 [class*='membersGroup']:has([role=button]),
 [class*='member'] [class*='container']:has([class*='badges']) {
